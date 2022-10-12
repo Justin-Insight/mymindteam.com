@@ -1,0 +1,22 @@
+logo: Mind-Team-Logo-Tag-Long.svg
+footer_logo: Mind-Team-Logo-Tag-Long.svg
+business_name: Mind Team
+phone:
+fax:
+email:
+address:
+  city: "Stevens Point"
+  state: "WI"
+  street: "2417 Post Road Bldg A"
+  zip: "54481"
+social_media:
+  - title: Facebook
+    link: https://facebook.com
+  - title: LinkedIn
+    link: https://linkedin.com
+  - title: YouTube
+    link:
+  - title: Instagram
+    link: https://instagram.com
+  - title: Twitter
+    link:
