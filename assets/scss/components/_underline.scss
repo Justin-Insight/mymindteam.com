@@ -1,0 +1,18 @@
+.underline {
+    background-size: 100% 4px,0 4px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.underline--primary {
+    background-image: linear-gradient($primary-color-alt-2, $primary-color-alt-2);
+}
+
+.underline--secondary {
+    background-image: linear-gradient($secondary-color-alt, $secondary-color-alt);
+}
+
+.underline--accent {
+    background-image: linear-gradient($accent-color-alt, $accent-color-alt);
+}
+

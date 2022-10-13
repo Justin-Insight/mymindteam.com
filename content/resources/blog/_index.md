@@ -4,6 +4,9 @@ seo:
   page_title:
   meta_description:
   featured_image:
+menu:
+  footer_secondary:
+    weight: 2
 hero:
   heading: Blog
   image:

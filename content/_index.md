@@ -5,11 +5,15 @@ seo:
   meta_description:
   featured_image:
 hero:
-  enabled: true
-  heading: Where all animals are welcome and loved.
-  video: /uploads/whistlers-drone-intro.mp4
-  image:
+  heading: Live and learn <span class="underline underline--accent">without limitation</span>.
+  body: Professional online testing, diagnosis and support for children and adults with <strong>autism, ADHD, dyslexia</strong> and various other neurodivergent conditions.
+  # image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
+  image: /uploads/young-girl-on-computer-during-video-call.jpg
   image_alt:
+  button:
+    enabled: true
+    button_url: /get-started/
+    button_text: Get Started Now
 intro:
   enabled: true
   heading: Full-service horse boarding and animal rescue in De Pere, WI

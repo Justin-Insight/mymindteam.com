@@ -4,6 +4,9 @@ seo:
   page_title:
   meta_description:
   featured_image:
+menu:
+  footer_secondary:
+    weight: 4
 hero:
   heading: Payment Options
   image:

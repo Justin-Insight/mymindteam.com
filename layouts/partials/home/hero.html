@@ -1,0 +1,24 @@
+{{ $heroClass := lower .Page.Title }}
+<section aria-labelledby="hero-heading" class="hero {{ anchorize $heroClass }}-hero">
+  <div class="hero__image">
+    <img src="{{ .Params.hero.image }}" alt="{{ .Params.hero.image_alt }}" width="1500" height="600">
+  </div>
+  <div class="block">
+    <div class="wrapper-lg">
+      <div class="hero__content flex flex-column flex-row-m">
+        <div class="w-100 w-50-m"></div>
+        <div class="w-100 w-50-m flex flex-center">
+          <div class="hero__content-inner w-100 border-radius-50 border-primary p-relative bg-white text-center flow">
+            <h1 id="hero-heading" style="max-width: 14ch; margin: 0 auto;">{{ .Params.hero.heading | safeHTML }}</h1>
+            <p class="hero__body fs-300 fw-500" style="max-width: 550px; margin: 1.25rem auto;">{{ .Params.hero.body | safeHTML }}</p>
+            {{ if .Params.hero.button.enabled }}
+              {{ with .Params.hero.button }}
+                <a class="hero__btn p-absolute btn btn-primary" href="{{ .button_url }}">{{ .button_text }}</a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

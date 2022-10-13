@@ -1,6 +1,6 @@
 .site-header {
   width: 100%;
-  position: fixed;
+  position: relative;
   z-index: 9;
   transition: .3s ease-out;
   background-color: $white;
@@ -116,7 +116,7 @@
   }
 }
 
-.nav-list__link, .site-header__mobile-nav a:not(.btn) {
+.nav-list__link, .site-header__mobile-nav a:not(.btn), .footer__nav-link {
   position: relative;
   text-decoration: none;
   font-family: $secondary-font;
@@ -152,52 +152,63 @@
 }
 
 .nav-list__item:nth-of-type(2),
-.nav-list__item:nth-of-type(5) {
+.footer__nav-item:nth-of-type(2),
+.nav-list__item:nth-of-type(5),
+.footer__nav-item:nth-of-type(5) {
   .nav-list__link::after {
+    background: $secondary-color;
+  }
+
+  .footer__nav-link::after {
     background: $secondary-color;
   }
 }
 
-.nav-list__item:nth-of-type(3) {
+.nav-list__item:nth-of-type(3),
+.footer__nav-item:nth-of-type(3) {
   .nav-list__link::after {
+    background: $accent-color-alt;
+  }
+
+  .footer__nav-link::after {
     background: $accent-color-alt;
   }
 }
 
-.collapse {
-  @include breakpoint(md) {
-    animation: collapse 0.5s ease forwards;
-  }
-}
+// .collapse {
+//   @include breakpoint(md) {
+//     animation: collapse 0.5s ease forwards;
+//   }
+// }
 
-// Open nav bar on scroll up
-.expand {
-  @include breakpoint(md) {
-    animation: expand 0.5s ease forwards;
-  }
-}
+// // Open nav bar on scroll up
+// .expand {
+//   @include breakpoint(md) {
+//     animation: expand 0.5s ease forwards;
+//   }
+// }
 
-@keyframes collapse {
-  from {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  to {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-}
+// @keyframes collapse {
+//   from {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+//   to {
+//     opacity: 0;
+//     transform: translateY(-100%);
+//   }
+// }
 
-@keyframes expand {
-  from {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+// @keyframes expand {
+//   from {
+//     opacity: 0;
+//     transform: translateY(-100%);
+//   }
+//   to {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
 
 .nav-open {
   transform: translateX(0);

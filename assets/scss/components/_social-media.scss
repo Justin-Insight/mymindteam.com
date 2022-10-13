@@ -2,33 +2,18 @@
   margin: 0;
   padding: 0;
 
-  li {
+  &__list-item {
     list-style-type: none;
     margin: 0;
-  }
-
-  .facebook-icon {
-    top: -3px;
-  }
-
-  &__icon, 
-  &__icon-inner {
-    border-radius: 50%;
-    display: grid; 
-    place-items: center;
+    padding-right: $ic-100;
   }
 
   &__icon {
-    position: relative;
-    margin: 0 5px;
-    background-color: rgba($accent-color, .5);
-    width: $ic-600;
-    height: $ic-600;
-
     svg {
-      width: $ic-300;
-      height: $ic-300;
+      width: $ic-500;
+      height: $ic-500;
       fill: $black;
+      opacity: .7;
     }
 
     &:hover,
@@ -37,15 +22,5 @@
         opacity: 1;
       }
     }
-  }
-
-  &__icon-inner {
-    background-color: $accent-color;
-    width: $ic-500;
-    height: $ic-500;
-  }
-
-  &__list-item:first-of-type a {
-    padding-left: 0;
   }
 }

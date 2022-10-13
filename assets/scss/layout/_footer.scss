@@ -1,43 +1,49 @@
 .footer {
+  &__contact {
+    flex: 2;
+  }
+
   &__col {
     margin: $ic-300 0;
     flex: 1;
 
     @include breakpoint(md) {
       margin: 0;
-      border-right: 1px solid rgba($primary-color, .25);
     }
   }
 
-  &__col:last-of-type {
-    border-right: none;
-  }
+  &__logo img {
+    position: relative;
+    left: -12px;
+    width: clamp(200px, 22vw, 425px);
 
-  &__logo,
-  .footer__logo img {
-    max-width: 250px;
-  }
-
-  &__bottom-wrapper {
-    border-top: 1px solid rgba($primary-color, .25);
-  }
-
-  a {
-    text-decoration: none;
-
-    &:hover,
-    &:focus {
-      text-decoration: underline;
+    @include breakpoint(md) {
+      left: -30px;
     }
   }
 
-  .footer__contact a {
-    font-size: $ic-100;
+  // &__address, 
+  // &__social {
+  //   margin-left: clamp(20px, 12%, 100px);
+  // }
+
+  &__bottom {
+    background-color: $primary-color;
   }
 
   .copyright {
-    font-size: 14px;
     padding: $ic-100 0;
+    color: $white;
+
+    a {
+      color: $white;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
 
     @include breakpoint(sm) {
       flex-direction: row;
@@ -56,7 +62,8 @@
       }
     }
 
-    &__list-item {
+    &__list-item, 
+    .credits {
       list-style-type: none;
       margin: $ic-100;
 
@@ -71,12 +78,6 @@
 
       @include breakpoint(md)  {
         text-align: left;
-      }
-    }
-
-    @include breakpoint(md)  {
-      .credits {
-        margin-left: auto;
       }
     }
   }

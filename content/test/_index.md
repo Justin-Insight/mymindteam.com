@@ -12,7 +12,7 @@ hero:
 menu:
   main:
     weight: 1
-  footer:
+  footer_primary:
     weight: 1
 intro:
   heading:
