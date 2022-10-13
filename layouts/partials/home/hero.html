@@ -13,7 +13,7 @@
             <p class="hero__body fs-300 fw-500" style="max-width: 550px; margin: 1.25rem auto;">{{ .Params.hero.body | safeHTML }}</p>
             {{ if .Params.hero.button.enabled }}
               {{ with .Params.hero.button }}
-                <a class="hero__btn p-absolute btn btn-primary" href="{{ .button_url }}">{{ .button_text }}</a>
+                <a class="hero__btn p-absolute btn btn--primary btn--centered" href="{{ .button_url }}">{{ .button_text }}</a>
               {{ end }}
             {{ end }}
           </div>
