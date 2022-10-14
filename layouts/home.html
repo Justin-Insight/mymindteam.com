@@ -1,4 +1,4 @@
-{{ define "main" }} 
+{{ define "main" }}
 {{ partial "home/hero" . }}
 {{ if .Params.intro.enabled }}
     {{ with .Params.intro }}
@@ -8,16 +8,16 @@
                     <div class="w-100 w-50-m flow text-center">
                         <!-- 1MB video down to 150KB with imagekit.io transformation -->
                         <video height="300" width="500" loop="loop" muted="true" playsinline="" style="opacity: 1;" autoplay="true" poster="">
-                            <source src="https://ik.imagekit.io/insightcreative/mind-team/{{ .video }}?tr=w-500,q-70" type="video/mp4">
+                            <source src="https://ik.imagekit.io/insightcreative/mind-team/{{ .video }}?tr=w-700,q-70" type="video/mp4">
                         </video>
                         <h2 id="homepage-intro-heading">{{ .heading | safeHTML }}</h2>
                         <p style="max-width: 500px;margin: 1.25rem auto;">{{ .body }}</p>
                     </div>
-                    <div class="w-100 w-50-m flow mt-3 mt-0-m ml-6">
+                    <div class="w-100 w-50-m flow mt-3 mt-0-m ml-6-m">
                         {{ with .our_process }}
                             {{ range .steps }}
-                            <div class="mt-step flex flex-start">
-                                <img src="{{ .icon }}" alt="" class="mt-step__icon mr-4">
+                            <div class="mt-step flex flex-column flex-row-s flex-start">
+                                <img src="{{ .icon }}" alt="" class="mt-step__icon mr-5">
                                 <div class="mt-step__content">
                                     <h3 class="mt-step__heading">{{ .heading | safeHTML }}</h3>
                                     <p class="mt-step__body">{{ .body }}</p>
@@ -31,12 +31,13 @@
         </section>
     {{ end }}
 {{ end }}
-{{ if .Params.our_services.enabled }}
-    {{ with .Params.our_services }}
-    <section aria-labelledby="services-heading" class="block">
+{{ if .Params.our_services_block.enabled }}
+    {{ with .Params.our_services_block }}
+    <section aria-labelledby="services-heading" class="block" style="position:relative;">
+        <!-- <img src="/uploads/preview.jpg" alt="" style="position:absolute;top:0;left:0;opacity:.7;z-index:1000;"> -->
         <div class="wrapper-lg text-center">
             <h2 id="services-heading">{{ .heading | safeHTML }}</h2>
-            <p class="max-width-none">{{ .body }}</p>
+            <p class="fs-300 max-width-none">{{ .body }}</p>
         </div>
         <div class="mt-services wrapper-lg mt-9">
             {{ range .services }}
@@ -44,8 +45,11 @@
                     <img src="/uploads/yellow-block.svg" alt="" class="p-absolute mt-service__block-yellow">
                     <img src="/uploads/blue-block.svg" alt="" class="p-absolute mt-service__block-blue">
                     <img src="/uploads/orange-block.svg" alt="" class="p-absolute mt-service__block-orange">
-                    <h3 class="h4">{{ .heading | safeHTML }}</h3>
-                    <p>{{ .body }}</p>
+                    <h3 class="no-margin">{{ .heading | safeHTML }}</h3>
+                    <div class="mt-service__body mt-8">
+                        <p>{{ .body }}</p>
+                        {{ .benefits | markdownify }}
+                    </div>
                     {{ if .button.enabled }}
                         {{ with .button }}
                             <a href="{{ .button_url }}" class="btn btn--primary p-absolute btn--centered">{{ .button_text }}</a>
@@ -55,6 +59,32 @@
             {{ end }}
         </div>
     </section>
+    {{ end }}
+{{ end }}
+{{ if .Params.page_blocks }}
+    {{ range .Params.page_blocks }}
+        {{ partial "page-block" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.benefits_block.enabled }}
+    {{ with .Params.benefits_block }}
+    <div class="block">
+        <div class="wrapper-lg text-center">
+            <h2>{{ .heading | safeHTML }}</h2>
+            <p class="fs-300 max-width-none">{{ .body }}</p>
+        </div>
+        <div class="wrapper-lg mt-9">
+            <div class="benefit-grid grid-3">
+                {{ range .benefits }}
+                    <div class="benefit border-radius-50 text-center">
+                        <img src="{{ .icon }}" alt="" class="benefit__image">
+                        <h3>{{ .heading }}</h3>
+                        <p>{{ .body }}</p>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
     {{ end }}
 {{ end }}
 {{ end }}

@@ -52,6 +52,10 @@
     }
   }
 
+  .btn {
+    padding: $ic-400 $ic-700;
+  }
+
   &__mobile-nav {
     position: absolute;
     z-index: -1;
@@ -121,6 +125,7 @@
   text-decoration: none;
   font-family: $secondary-font;
   font-size: $ic-300;
+  line-height: 1;
   padding: 4px 0;
   transition: .3s ease-out;
   color: $dark-blue;

@@ -5,6 +5,7 @@
   font-family: $primary-font;
   font-size: $ic-300;
   font-weight: 700;
+  line-height: 1;
   padding: $ic--200 $ic-700;
   text-decoration: none;
   transition: 0.3s ease-out;
@@ -53,7 +54,7 @@
 }
 
 .btn--centered {
-  bottom: -35px;
+  bottom: -25px;
   left: 50%;
   transform: translateX(-50%);
 }

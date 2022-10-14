@@ -1,21 +1,22 @@
-<section aria-labelledby="{{ .heading | urlize | lower }}-heading" class="about-page-block block bg-{{ .background_color }} footprints footprints--{{ .footprints }}">
-    <div class="wrapper-lg flex flex-column-reverse {{ if .text_column_right }}flex-row-m{{ end }}{{ if .text_column_left }}flex-row-reverse-m{{ end }} flex-center-m">
-      <div class="text-block w-100 w-40-m flow mt-3 mt-0-m">
-          <h2>{{ .heading }}</h2>
-          <img src="/uploads/fence-separator.svg" alt="" class="separator--fence" width="300" height="27">
-          <p>{{ .body | markdownify }}</p>
-          {{ if .button.enabled }}
-            {{ with .button }}
-                <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
-            {{ end }}
+<section aria-labelledby="{{ .heading | urlize | lower }}-heading" class="page-block block">
+  <div class="flex flex-column-reverse {{ if .text_column_right }}flex-row-reverse-m{{ end }}{{ if .text_column_left }}flex-row-m{{ end }}">
+    <div class="page-block__content w-100 w-50-m mt-3 mt-0-m">
+      <div class="text-block text-center flow">
+        <h2>{{ .heading | safeHTML }}</h2>
+        <p style="max-width: 500px;margin: 1.25rem auto 0 auto;">{{ .body | markdownify }}</p>
+        {{ if .button.enabled }}
+          {{ with .button }}
+              <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
           {{ end }}
-      </div>
-      <div class="image-block w-100 w-60-m {{ if .text_column_right }}ml-3-m{{ else }}mr-3-m{{ end }} background-image">
-        {{ if .image.enabled }}  
-            {{ with .image }}  
-                <img src="{{ .image_url }}" alt="">
-            {{ end }}
         {{ end }}
       </div>
     </div>
+    <div class="page-block__image w-100 w-50-m {{ if .text_column_right }}mr-3-m{{ else }}ml-3-m{{ end }} background-image">
+      {{ if .image.enabled }}  
+          {{ with .image }}  
+              <img src="{{ .image_url }}" alt="">
+          {{ end }}
+      {{ end }}
+    </div>
+  </div>
 </section>
