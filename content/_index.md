@@ -116,4 +116,33 @@ benefits_block:
     - heading: Integrated
       body: Our multidisciplinary team ensures you’ll never have to worry about relaying information from one provider to another.
       icon: /uploads/blue-block.svg
+pricing_block:
+  enabled: true
+  heading: Pricing
+  body: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+  button:
+    enabled: true
+    button_url: /resources/payment-options/
+    button_text: Payment Options
+faq_block:
+  enabled: true
+  heading: Frequently asked <span class="underline underline--secondary">questions</span>
+  questions:
+    - question: Is there a minimum age requirement?
+      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+    - question: Do you have payment plans?
+      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+    - question: What does neurodivergent mean?
+      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+    - question: Can you use words I’m more comfortable with?
+      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+    - question: Can I still get support without an official diagnosis?
+      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+    - question: How does remote testing and treatment work?
+      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+  subheading: Have a different question?
+  button:
+    enabled: true
+    button_url: /resources/faqs/
+    button_text: View all FAQs
 ---

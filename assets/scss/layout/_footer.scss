@@ -62,13 +62,20 @@
       }
     }
 
-    &__list-item, 
-    .credits {
+    &__list-item {
       list-style-type: none;
       margin: $ic-100;
 
       @include breakpoint(md)  {
         margin: 0;
+        margin-left: $ic--100;
+      }
+    }
+
+    .credits {
+      margin: 0;
+
+      @include breakpoint(md)  {
         margin-left: $ic--100;
       }
     }

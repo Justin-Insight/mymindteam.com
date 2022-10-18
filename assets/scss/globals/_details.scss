@@ -1,10 +1,13 @@
 details {
-    border: 1px solid $light-gray;
-    border-radius: $radius;
-    padding: $ic-100;
+    border: 2px solid $black;
+    border-radius: 25px;
+    background-color: $white;
+    padding: $ic-200;
     cursor: pointer;
+    height: fit-content;
 
-    summary::marker {
-        color: $primary-color;
+    p {
+        font-size: $ic-100;
+        margin-top: $ic-300;
     }
 }

@@ -94,6 +94,14 @@
   &__mobile-nav-inner {
     padding: $mobile-header $ic-300 $ic-300 $ic-300;
   }
+
+  .site-header__mobile-nav a:not(.btn) {
+    padding: $ic-100 0;
+  }
+
+  &__notification {
+    z-index: -2;
+  }
 }
 
 .nav-list {
@@ -120,7 +128,7 @@
   }
 }
 
-.nav-list__link, .site-header__mobile-nav a:not(.btn), .footer__nav-link {
+.nav-list__link, .footer__nav-link {
   position: relative;
   text-decoration: none;
   font-family: $secondary-font;

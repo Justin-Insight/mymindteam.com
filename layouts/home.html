@@ -68,9 +68,9 @@
 {{ end }}
 {{ if .Params.benefits_block.enabled }}
     {{ with .Params.benefits_block }}
-    <div class="block">
+    <section aria-labelledby="benefits-heading" class="block">
         <div class="wrapper-lg text-center">
-            <h2>{{ .heading | safeHTML }}</h2>
+            <h2 id="benefits-heading">{{ .heading | safeHTML }}</h2>
             <p class="fs-300 max-width-none">{{ .body }}</p>
         </div>
         <div class="wrapper-lg mt-9">
@@ -84,7 +84,54 @@
                 {{ end }}
             </div>
         </div>
+    </section>
+    {{ end }}
+{{ end }}
+{{ if .Params.pricing_block.enabled }}
+    {{ with .Params.pricing_block }}
+    <div class="block">
+        <div class="wrapper-md flex flex-column flex-row-m flex-center">
+            <div class="w-100 w-30-m text-center">
+                <h2>{{ .heading }}</h2>
+                {{ if .button.enabled }}
+                    {{ with .button }}
+                        <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                    {{ end }}
+                {{ end }}
+            </div>
+            <div class="w-100 w-70-m mt-3 mt-0-m ml-9-m">
+                <p class="fw-500 fs-300">{{ .body }}</p>
+            </div>
+        </div>
+    </div>
+    {{ end }}   
+{{ end }}
+{{ if .Params.faq_block.enabled }}
+    {{ with .Params.faq_block }}
+    <div class="block bg-gray">
+        <div class="wrapper-lg text-center">
+            <h2>{{ .heading | safeHTML }}</h2>
+        </div>
+        <div class="wrapper-lg">
+            <div class="grid-2 block-sm">
+                {{ range .questions }}
+                <details class="fs-300">
+                    <summary>{{ .question }}</summary>
+                    <p>{{ .answer }}</p>
+                </details>
+                {{ end }}
+            </div>
+            <div class="text-center">
+                <p class="fs-300 max-width-none mb-5">{{ .subheading }}</p>
+                {{ if .button.enabled }}
+                    {{ with .button }}
+                        <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
     </div>
     {{ end }}
 {{ end }}
+{{ partialCached "site-cta" . }}
 {{ end }}

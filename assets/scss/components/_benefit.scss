@@ -1,35 +1,71 @@
 .benefit {
     position: relative;
-    padding: $ic-700 $ic-900;
+    padding: $ic-700 $ic-700;
 
     &__image {
         position: absolute;
         top: -50px;
-        left: 0;
+        left: 35px;
         max-width: 75px;
     }
 }
 
 .benefit:nth-of-type(1) {
     border: 8px solid $accent-color;
+
+    .benefit__image {
+        top: -35px;
+        animation: spin 1s linear 2s;
+    }
 }
 
 .benefit:nth-of-type(2) {
     border: 8px solid $primary-color;
+
+    .benefit__image {
+        top: -40px;
+        left: initial;
+        right: 35px;
+    }
 }
 
 .benefit:nth-of-type(3) {
     border: 8px solid $secondary-color;
+
+    .benefit__image {
+        top: -50px;
+        left: 45px;
+    }
 }
 
 .benefit:nth-of-type(4) {
     border: 8px solid $secondary-color-alt;
+
+    .benefit__image {
+        top: -35px;
+        left: initial;
+        right: 35px;
+        max-width: 60px;
+    }
 }
 
 .benefit:nth-of-type(5) {
     border: 8px solid $accent-color-alt;
+
+    .benefit__image {
+        top: -25px;
+        left: 35px;
+        max-width: 50px;
+    }
 }
 
 .benefit:nth-of-type(6) {
     border: 8px solid $primary-color-alt-2;
+
+    .benefit__image {
+        top: -40px;
+        left: initial;
+        right: 25px;
+        max-width: 65px;
+    }
 }

@@ -1,7 +1,7 @@
 site_cta:
-  heading:
-  body:
+  heading: Ready to transform your life?
+  body: It couldn’t be easier to get started. Fill out our short questionnaire and we’ll handle the rest.
   button:
     enabled: true
-    button_url:
-    button_text:
+    button_url: /get-started/
+    button_text: Get Started Now
