@@ -8,7 +8,7 @@ hero:
   heading: Live and learn <span class="underline underline--accent">without limitation</span>.
   body: Professional online testing, diagnosis and support for children and adults with <strong>autism, ADHD, dyslexia</strong> and various other neurodivergent conditions.
   # image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
-  image: /uploads/young-girl-on-computer-during-video-call.jpg
+  image_url: young-girl-on-computer-during-video-call.jpg
   image_alt:
   button:
     enabled: true
@@ -91,7 +91,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: /uploads/young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
       # image_url: /uploads/two-clinicians-on-video-call-together.jpg
       image_alt:
 benefits_block:

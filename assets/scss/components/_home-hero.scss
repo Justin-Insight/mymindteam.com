@@ -1,0 +1,25 @@
+.home-hero {
+  position: relative;
+  // height: 100vh;
+  // max-height: 600px;
+  // overflow: hidden;
+
+  .hero__image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    height: 100%;
+  }
+
+  &__content-inner {
+    padding: $ic-900 $ic-600;
+  }
+}

@@ -1,12 +1,19 @@
 {{ $heroClass := lower .Page.Title }}
 <section aria-labelledby="hero-heading" class="hero {{ anchorize $heroClass }}-hero">
   {{ partial "hero-image" . }}
-  <div class="flex flex-column flex-row-m">
-    <div class="w-100 w-50-m"></div>
-    <div class="w-100 w-50-m">
-      <div class="hero__content p-relative bg-white text-center flow">
-        <h1 id="hero-heading">{{ .heading }}</h1>
-        <a class="btn btn--primary" href="{{ .button_url }}">{{ .button_text }}</a>
+  <div class="block">
+    <div class="hero__content w-100">
+      <div class="wrapper-md border-radius-50 border-primary p-relative bg-white text-center flow">
+        <div class="hero__small-title h3 fw-700 text-white">{{ .Title }}</div>
+        <div class="block-sm">
+          <h1 id="hero-heading" class="max-width-none">{{ .Params.hero.heading | safeHTML }}</h1>
+          <p class="hero__body fs-300 fw-500" style="max-width: 700px; margin: 1.25rem auto;">{{ .Params.hero.body | safeHTML }}</p>
+          {{ if .Params.hero.button.enabled }}
+            {{ with .Params.hero.button }}
+              <a class="hero__btn p-absolute btn btn--primary btn--centered" href="{{ .button_url }}">{{ .button_text }}</a>
+            {{ end }}
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>

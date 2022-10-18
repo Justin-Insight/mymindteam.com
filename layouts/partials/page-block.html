@@ -14,7 +14,6 @@
     <div class="page-block__image w-100 w-50-m {{ if .text_column_right }}mr-3-m{{ else }}ml-3-m{{ end }} background-image">
       {{ if .image.enabled }}  
           {{ with .image }}  
-              <img src="{{ .image_url }}" alt="">
               {{ partial "responsive-image" . }}
           {{ end }}
       {{ end }}
