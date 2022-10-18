@@ -1,5 +1,5 @@
 <section class="page-block block">
-  <div class="flex flex-column-reverse flex-center {{ if .text_column_right }}flex-row-reverse-m{{ end }}{{ if .text_column_left }}flex-row-m{{ end }}">
+  <div class="flex flex-column-reverse flex-center p-relative {{ if .text_column_right }}flex-row-reverse-m{{ end }}{{ if .text_column_left }}flex-row-m{{ end }}">
     <div class="page-block__content w-100 w-50-m mt-3 mt-0-m">
       <div class="text-block text-center flow">
         <h2>{{ .heading | safeHTML }}</h2>
@@ -15,6 +15,7 @@
       {{ if .image.enabled }}  
           {{ with .image }}  
               <img src="{{ .image_url }}" alt="">
+              {{ partial "responsive-image" . }}
           {{ end }}
       {{ end }}
     </div>

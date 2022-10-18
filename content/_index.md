@@ -91,7 +91,8 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: /uploads/young-girl-on-computer-during-video-call.jpg
+      image_url: /uploads/young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      # image_url: /uploads/two-clinicians-on-video-call-together.jpg
       image_alt:
 benefits_block:
   enabled: true
@@ -129,17 +130,26 @@ faq_block:
   heading: Frequently asked <span class="underline underline--secondary">questions</span>
   questions:
     - question: Is there a minimum age requirement?
-      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+      answer: |-
+        Mind Team services are suited for children four and up to any age.
     - question: Do you have payment plans?
-      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+      answer: |-
+        We do everything in our power to ease the burden of paying out of pocket for Mind Team learning assessments and treatment. View our <a href="/resources/payment-options/">payment options</a> to learn more.
     - question: What does neurodivergent mean?
-      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+      answer: >-
+        A neurodivergent individual is someone whose brain functions differently from typical individuals. This can affect one’s attention span, decision making, problem solving and many other cognitive functions that affect learning and life in general.  
+
+
+        ADHD, autism and dyslexia are all examples of neurodiversity, but it’s important to note not all neurodivergent individuals have a diagnosable learning disorder.
     - question: Can you use words I’m more comfortable with?
-      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+      answer: |-
+        To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
     - question: Can I still get support without an official diagnosis?
-      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+      answer: |-
+        Yes! All learners can benefit from the transformative learning assessment and treatment services at Mind Team, with or without an official diagnosis.
     - question: How does remote testing and treatment work?
-      answer: To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+      answer: |-
+        To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
   subheading: Have a different question?
   button:
     enabled: true

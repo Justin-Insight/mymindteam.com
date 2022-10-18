@@ -2,4 +2,13 @@
     .text-block {
       padding: clamp($ic-300, 5%, $ic-700) $ic-300;
     }
+
+    @include breakpoint(md) {
+      &__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+      }
+    }
 }

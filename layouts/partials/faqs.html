@@ -1,0 +1,24 @@
+<section aria-labelledby="faq-heading" class="block bg-gray">
+    <div class="wrapper-lg text-center">
+        <h2 id="faq-heading">{{ .heading | safeHTML }}</h2>
+    </div>
+    <div class="wrapper-lg">
+        <div class="grid-2 block-sm">
+            {{ range .questions }}
+            <details class="fs-300">
+                <summary>{{ .question }}</summary>
+                <!-- To do: update this from markdownify to something else so we output cleaner HTML where we have multiple paragraphs. Currently this is not consistent -->
+                <p>{{ .answer | markdownify }}</p>
+            </details>
+            {{ end }}
+        </div>
+        <div class="text-center">
+            <p class="fs-300 max-width-none mb-5">{{ .subheading }}</p>
+            {{ if .button.enabled }}
+                {{ with .button }}
+                    <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
