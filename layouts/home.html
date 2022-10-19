@@ -108,8 +108,12 @@
 {{ end }}
 {{ if .Params.faq_block.enabled }}
     {{ with .Params.faq_block }}
-    {{ partial "faqs" . }}
+        {{ partial "mt-faqs" . }}
     {{ end }}
 {{ end }}
-{{ partialCached "site-cta" . }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
 {{ end }}

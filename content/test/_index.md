@@ -1,5 +1,10 @@
 ---
 title: Test
+menu:
+  main:
+    weight: 1
+  footer_primary:
+    weight: 1
 seo:
   page_title: Autism Testing | ADHD Testing | Dyslexia Testing
   meta_description: Test for autism, ADHD, dyslexia and other conditions with Mind Team neurodivergent testing—100% remote, comprehensive and professional.
@@ -14,14 +19,6 @@ hero:
     enabled: false
     button_url: /get-started/
     button_text: Get Started Now
-menu:
-  main:
-    weight: 1
-  footer_primary:
-    weight: 1
-intro:
-  heading:
-  body:
 benefits_block:
   enabled: true
   benefits:
@@ -50,7 +47,7 @@ testing_block:
         enabled: true
         button_url: /test/adults/
         button_text: Adult testing
-testing_process_block:
+process_block:
   enabled: true
   heading: Superior testing, <span class="underline underline--secondary">minus the stress</span>
   body: You’ll love our simple, comprehensive testing process, expertly designed to take the stress out of testing without sacrificing the accuracy of your results.
@@ -102,4 +99,12 @@ faq_block:
     enabled: true
     button_url: /resources/faqs/
     button_text: View all FAQs
+cta_block:
+  enabled: true
+  heading: Get the answers <span class="underline underline--primary">you need</span>.
+  body: It couldn’t be easier to get started. Fill out our short questionnaire and we’ll handle the rest.
+  button:
+    enabled: true
+    button_url: /get-started/
+    button_text: Get Started Now
 ---

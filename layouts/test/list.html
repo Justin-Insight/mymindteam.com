@@ -2,18 +2,7 @@
 {{ partial "hero" . }}
 {{ if .Params.benefits_block.enabled }}
     {{ with .Params.benefits_block }}
-    <div class="block">
-        <div class="wrapper-lg">
-            <div class="grid-4">
-                {{ range .benefits }}
-                <div class="benefit-icon text-center flow">
-                    <img src="/uploads/{{ .icon }}" alt="">
-                    <p class="fs-300 fw-500">{{ .benefit }}</p>
-                </div>
-                {{ end }}
-            </div>
-        </div>
-    </div>
+        {{ partial "benefit-icons" . }}
     {{ end }}
 {{ end }}
 {{ if .Params.testing_block.enabled }}
@@ -42,39 +31,19 @@
     </section>
     {{ end }}
 {{ end }}
-{{ if .Params.testing_process_block.enabled }}
-    {{ with .Params.testing_process_block }}
-    <section aria-labelledby="testing-process-heading" class="block">
-        <div class="wrapper-lg text-center">
-            <h2 id="testing-process-heading">{{ .heading | safeHTML }}</h2>
-            <p class="fs-300 fw-500" style="max-width: 875px; margin: 1.25rem auto;">{{ .body }}</p>
-        </div>
-        <div class="block-sm">
-            <div class="testing-process-grid grid-2 wrapper-lg">
-                {{ range .process }}
-                <div class="mt-step p-relative border-radius-50 text-center flow">
-                    <img src="/uploads/{{ .icon }}" alt="" class="mt-step__icon">
-                    <h3>{{ .heading }}</h3>
-                    <p class="flex flex-justify-center flex-center fs-300 fw-500">{{ partialCached "svg-icons/clock.svg" . }}<span class="ml-1">{{ .time }}</span></p>
-                    <p style="max-width: 575px; margin: 1.25rem auto;">{{ .body }}</p>
-                </div>
-                {{ end }}
-            </div>
-        </div>
-        {{ if .button.enabled }}
-            {{ with .button }}
-                <div class="text-center">
-                    <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
-                </div>
-            {{ end }}
-        {{ end }}
-    </section>
+{{ if .Params.process_block.enabled }}
+    {{ with .Params.process_block }}
+        {{ partial "mt-process" . }}
     {{ end }}
 {{ end }}
 {{ if .Params.faq_block.enabled }}
     {{ with .Params.faq_block }}
-    {{ partial "faqs" . }}
+        {{ partial "mt-faqs" . }}
     {{ end }}
 {{ end }}
-{{ partialCached "site-cta" . }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
 {{ end }}

@@ -1,0 +1,15 @@
+<div class="block">
+    <div class="wrapper-lg">
+        <div class="flex-grid">
+            {{ range .benefits }}
+            <div class="benefit-icon text-center flow">
+                <img src="/uploads/{{ .icon }}" alt="">
+                <h2 class="h3 fs-300 fw-500">{{ .benefit }}</h2>
+                {{ if .body }}
+                    <p>{{ .body }}</p>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>

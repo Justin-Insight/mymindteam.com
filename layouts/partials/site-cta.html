@@ -1,12 +1,14 @@
 {{ $ctaClass := lower .Page.Title }}
-{{ with .Site.Data.global_partials.site_cta }}
 <section class="block cta {{ anchorize $ctaClass }}-cta">
   <div class="wrapper-lg p-relative">
     <div class="cta__content border-accent border-radius-50 block text-center">
-      <h2 class="cta__title">{{ .heading }}</h2>
+      <h2 class="cta__title">{{ .heading | safeHTML }}</h2>
       <p class="fw-500 fs-300 max-width-none">{{ .body }}</p>
-      <a class="btn btn--primary p-absolute btn--centered" href="{{ .button.button_url }}">{{ .button.button_text }}</a>
+      {{ if .button.enabled }}
+          {{ with .button }}
+              <a href="{{ .button_url }}" class="btn btn--primary p-absolute btn--centered">{{ .button_text }}</a>
+          {{ end }}
+      {{ end }}
     </div>
   </div>
 </section>
-{{ end }}

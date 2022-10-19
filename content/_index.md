@@ -155,4 +155,12 @@ faq_block:
     enabled: true
     button_url: /resources/faqs/
     button_text: View all FAQs
+cta_block:
+  enabled: true
+  heading: Ready to transform your life?
+  body: It couldn’t be easier to get started. Fill out our short questionnaire and we’ll handle the rest.
+  button:
+    enabled: true
+    button_url: /get-started/
+    button_text: Get Started Now
 ---

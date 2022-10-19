@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ if .Params.benefits_block.enabled }}
+    {{ with .Params.benefits_block }}
+        {{ partial "benefit-icons" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.process_block.enabled }}
+    {{ with .Params.process_block }}
+        {{ partial "mt-process" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.faq_block.enabled }}
+    {{ with .Params.faq_block }}
+        {{ partial "mt-faqs" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
+{{ end }}
