@@ -61,12 +61,18 @@ child_treatment_options_block:
   enabled: true
   heading: Mind Team treatment options for <span class="underline underline--accent">children</span>
   options:
-    - heading: Educational consult
+    - heading: <span class="underline underline--primary">Educational consult</span>
       body: Set up the school accommodations and learning plans your child needs (determined by a review of their IEP and school data) with advocacy from your Mind Team.
-    - heading: Educational intervention
+    - heading: <span class="underline underline--secondary">Educational intervention</span>
       body: Help your child improve their reading, writing, math or executive functioning skills with a customized online program and ongoing professional support and feedback.
-    - heading: Custom treatment
+    - heading: <span class="underline underline--accent">Custom treatment</span>
       body: Your Mind Team can create a customized treatment plan to help your child utilize their strengths, improve various skills and overcome their challenges.
+  text_column_left: false
+  text_column_right: true
+  image:
+    enabled: true
+    image_url: child-adhd-testing-autism-testing.jpg
+    image_alt:
   button:
     enabled: true
     button_url: /get-started-now/
@@ -75,12 +81,18 @@ adult_treatment_options_block:
   enabled: true
   heading: Mind Team treatment options for <span class="underline underline--accent">adults</span>
   options:
-    - heading: Accommodation advocacy
+    - heading: <span class="underline underline--primary">Accommodation advocacy</span>
       body: Set up the professional and educational accommodations you need to work <em>with</em> your mind at college, work and beyond with advocacy from Mind Team clinicians.
-    - heading: Executive functioning intervention
+    - heading: <span class="underline underline--secondary">Executive functioning intervention</span>
       body: Work remotely with your Mind Team clinician to improve your memory, time management, attention and various other essential executive functioning skills.
-    - heading: Custom treatment
+    - heading: <span class="underline underline--accent">Custom treatment</span>
       body: Your Mind Team can create a completely customized treatment plan to utilize your unique strengths, improve various skills and overcome your challenges.
+  text_column_left: true
+  text_column_right: false
+  image:
+    enabled: true
+    image_url: two-clinicians-on-video-call-together-2-reversed.jpg
+    image_alt:
   button:
     enabled: true
     button_url: /get-started-now/
@@ -102,6 +114,21 @@ benefits_block:
     - heading: Advocative
       body: Your Mind Team will communicate with educators, employers and healthcare professionals to ensure you/your child get the accommodations you need to thrive.
       icon: /uploads/orange-block.svg
+pricing_block:
+  enabled: true
+  heading: Treatment pricing
+  body: Mind Team treatment services must be paid out of pocket to get you the immediate support you deserve. Learn more about our rates and payment options below.
+  pricing_options:
+    - heading: General treatment services
+      subheading: Starting at $X
+      body: Pay for sessions at a predetermined hourly rate based on your unique needs.
+    - heading: Educational interventions
+      subheading: Starting at $X
+      body: Get a package deal on Mind Team educational interventions and pay an hourly treatment service rate for any additional sessions as needed.
+  button:
+    enabled: true
+    button_url: /resources/payment-options/
+    button_text: Payment Options
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">questions</span>

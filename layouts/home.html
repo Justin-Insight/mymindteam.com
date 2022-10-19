@@ -63,7 +63,7 @@
 {{ end }}
 {{ if .Params.page_blocks }}
     {{ range .Params.page_blocks }}
-        {{ partial "page-block" . }}
+        {{ partial "page-block-full-width" . }}
     {{ end }}
 {{ end }}
 {{ if .Params.benefits_block.enabled }}
@@ -73,10 +73,10 @@
 {{ end }}
 {{ if .Params.pricing_block.enabled }}
     {{ with .Params.pricing_block }}
-    <div class="block">
+    <section aria-labelledby="pricing-heading" class="block">
         <div class="wrapper-md flex flex-column flex-row-m flex-center">
             <div class="w-100 w-30-m text-center">
-                <h2>{{ .heading }}</h2>
+                <h2 id="pricing-heading">{{ .heading }}</h2id>
                 {{ if .button.enabled }}
                     {{ with .button }}
                         <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
@@ -87,7 +87,7 @@
                 <p class="fw-500 fs-300">{{ .body }}</p>
             </div>
         </div>
-    </div>
+    </section>
     {{ end }}   
 {{ end }}
 {{ if .Params.faq_block.enabled }}
