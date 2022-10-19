@@ -8,7 +8,7 @@ hero:
   heading: Live and learn <span class="underline underline--accent">without limitation</span>.
   body: Professional online testing, diagnosis and support for children and adults with <strong>autism, ADHD, dyslexia</strong> and various other neurodivergent conditions.
   # image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
-  image: young-girl-on-computer-during-video-call.jpg
+  image_url: young-girl-on-video-call-with-mind-team-clinician.jpg
   image_alt:
   button:
     enabled: true
@@ -157,7 +157,7 @@ faq_block:
     button_text: View all FAQs
 cta_block:
   enabled: true
-  heading: Ready to transform your life?
+  heading: Ready to <span class="underline underline--primary">transform</span> your life?
   body: It couldn’t be easier to get started. Fill out our short questionnaire and we’ll handle the rest.
   button:
     enabled: true

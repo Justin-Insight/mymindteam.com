@@ -1,12 +1,21 @@
 .benefit {
     position: relative;
     padding: $ic-700 $ic-700;
+    flex: 1 1 400px;
 
     &__image {
         position: absolute;
         top: -50px;
         left: 35px;
         max-width: 75px;
+    }
+}
+
+.parent-page-treat .benefit {
+    flex: 1 1 500px;
+
+    @include breakpoint (lg) {
+        flex: 1 1 600px;
     }
 }
 

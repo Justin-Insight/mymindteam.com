@@ -1,13 +1,28 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-{{ if .Params.benefits_block.enabled }}
-    {{ with .Params.benefits_block }}
-        {{ partial "benefit-icons" . }}
+{{ if .Params.goals_block.enabled }}
+    {{ with .Params.goals_block }}
+        {{ partial "goal-icons" . }}
     {{ end }}
 {{ end }}
 {{ if .Params.process_block.enabled }}
     {{ with .Params.process_block }}
         {{ partial "mt-process" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.child_treatment_options_block.enabled }}
+    {{ with .Params.child_treatment_options_block }}
+        {{ partial "mt-treatment-options" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.adult_treatment_options_block.enabled }}
+    {{ with .Params.adult_treatment_options_block }}
+        {{ partial "mt-treatment-options" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.benefits_block.enabled }}
+    {{ with .Params.benefits_block }}
+        {{ partial "mt-benefits" . }}
     {{ end }}
 {{ end }}
 {{ if .Params.faq_block.enabled }}

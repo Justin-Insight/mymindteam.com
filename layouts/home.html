@@ -68,23 +68,7 @@
 {{ end }}
 {{ if .Params.benefits_block.enabled }}
     {{ with .Params.benefits_block }}
-    <section aria-labelledby="benefits-heading" class="block">
-        <div class="wrapper-lg text-center">
-            <h2 id="benefits-heading">{{ .heading | safeHTML }}</h2>
-            <p class="fs-300 max-width-none">{{ .body }}</p>
-        </div>
-        <div class="wrapper-lg mt-9">
-            <div class="benefit-grid grid-3">
-                {{ range .benefits }}
-                    <div class="benefit border-radius-50 text-center">
-                        <img src="{{ .icon }}" alt="" class="benefit__image">
-                        <h3>{{ .heading }}</h3>
-                        <p>{{ .body }}</p>
-                    </div>
-                {{ end }}
-            </div>
-        </div>
-    </section>
+        {{ partial "mt-benefits" . }}
     {{ end }}
 {{ end }}
 {{ if .Params.pricing_block.enabled }}

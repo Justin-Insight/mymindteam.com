@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-{{ if .Params.benefits_block.enabled }}
-    {{ with .Params.benefits_block }}
-        {{ partial "benefit-icons" . }}
+{{ if .Params.goals_block.enabled }}
+    {{ with .Params.goals_block }}
+        {{ partial "goal-icons" . }}
     {{ end }}
 {{ end }}
 {{ if .Params.testing_block.enabled }}

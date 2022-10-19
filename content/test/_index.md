@@ -13,22 +13,22 @@ hero:
   heading: Get the answers <span class="underline underline--accent">you need</span>.
   body: Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and dyscalculia in children and adults.
   # image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
-  image: young-girl-at-desk-during-video-call.jpg
+  image_url: young-girl-at-desk-during-video-call.jpg
   image_alt:
   button:
     enabled: false
     button_url: /get-started/
     button_text: Get Started Now
-benefits_block:
+goals_block:
   enabled: true
-  benefits:
-    - benefit: Identify neural differences.
+  goals:
+    - goal: Identify neural differences.
       icon: testing-icon-identify.svg
-    - benefit: Discover unique strengths.
+    - goal: Discover unique strengths.
       icon: testing-icon-discover.svg
-    - benefit: Diagnose applicable conditions.
+    - goal: Diagnose applicable conditions.
       icon: testing-icon-diagnose.svg
-    - benefit: Tackle limitations.
+    - goal: Tackle limitations.
       icon: testing-icon-tackle-limitations.svg
 testing_block:
   enabled: true
@@ -49,7 +49,7 @@ testing_block:
         button_text: Adult testing
 process_block:
   enabled: true
-  heading: Superior testing, <span class="underline underline--secondary">minus the stress</span>
+  heading: Superior testing, <span class="underline underline--accent">minus the stress</span>
   body: You’ll love our simple, comprehensive testing process, expertly designed to take the stress out of testing without sacrificing the accuracy of your results.
   process:
     - heading: "Step 1: questionnaire"

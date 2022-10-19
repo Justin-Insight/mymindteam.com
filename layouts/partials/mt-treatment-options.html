@@ -1,0 +1,64 @@
+<section aria-labelledby="testing-process-heading" class="block bg-gray">
+    <div class="wrapper-lg text-center">
+        <h2 id="testing-process-heading">{{ .heading | safeHTML }}</h2>
+        <p class="fs-300 fw-500" style="max-width: 875px; margin: 1.25rem auto;">{{ .body }}</p>
+    </div>
+    <div class="block-sm">
+        <div class="flex-grid wrapper-lg">
+            {{ range .options }}
+            <div class="mt-option border-radius-50 bg-white text-center flow">
+                <h3 class="h4">{{ .heading }}</h3>
+                <p style="max-width: 575px; margin: 1.25rem auto;">{{ .body | markdownify }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ if .button.enabled }}
+        {{ with .button }}
+            <div class="text-center">
+                <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+            </div>
+        {{ end }}
+    {{ end }}
+</section>
+<section aria-labelledby="homepage-intro-heading" class="block">
+    <div class="wrapper-lg text-center">
+        <h2 id="testing-process-heading">{{ .heading | safeHTML }}</h2>
+        <p class="fs-300 fw-500" style="max-width: 875px; margin: 1.25rem auto;">{{ .body }}</p>
+    </div>
+    <div class="wrapper-lg">
+        <div class="flex flex-column flex-row-m flex-center">
+            <div class="w-100 w-50-m flow text-center">
+                <img src="/uploads/child-adhd-testing-autism-testing.jpg" alt="" class="border-radius-50">
+            </div>
+            <div class="w-100 w-50-m flow mt-3 mt-0-m ml-6-m">
+                
+                    
+                    <div class="mt-process flex flex-column flex-row-s flex-start">
+                        <div class="mt-process__content">
+                            <h3 class="mt-process__heading"><span class="underline underline--primary">Educational consult</span></h3>
+                            <p class="mt-process__body">Set up the school accommodations and learning plans your child needs (determined by a review of their IEP and school data) with advocacy from your Mind Team.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-process flex flex-column flex-row-s flex-start">
+                        <div class="mt-process__content">
+                            <h3 class="mt-process__heading"><span class="underline underline--secondary">Educational intervention</span></h3>
+                            <p class="mt-process__body">Help your child improve their reading, writing, math or executive functioning skills with a customized online program and ongoing professional support and feedback.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-process flex flex-column flex-row-s flex-start">
+                        <div class="mt-process__content">
+                            <h3 class="mt-process__heading"><span class="underline underline--accent">Custom treatment</span></h3>
+                            <p class="mt-process__body">Your Mind Team can create a customized treatment plan to help your child utilize their strengths, improve various skills and overcome their challenges.</p>
+                        </div>
+                    </div>
+
+                    <a href="/get-started-now/" class="btn btn--primary">Get Started</a>
+                    
+                
+            </div>
+        </div>
+    </div>
+</section>
