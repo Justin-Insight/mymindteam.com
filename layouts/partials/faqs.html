@@ -6,14 +6,14 @@
         <div class="grid-2 block-sm">
             {{ range .questions }}
             <details class="fs-300">
-                <summary>{{ .question }}</summary>
+                <summary class="fw-500">{{ .question }}</summary>
                 <!-- To do: update this from markdownify to something else so we output cleaner HTML where we have multiple paragraphs. Currently this is not consistent -->
                 <p>{{ .answer | markdownify }}</p>
             </details>
             {{ end }}
         </div>
         <div class="text-center">
-            <p class="fs-300 max-width-none mb-5">{{ .subheading }}</p>
+            <p class="fs-300 fw-500 max-width-none mb-5">{{ .subheading }}</p>
             {{ if .button.enabled }}
                 {{ with .button }}
                     <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>

@@ -1,0 +1,19 @@
+.image-card {
+    height: 335px;
+
+    &__inner {
+        width: 100%;
+        padding-inline: $ic-900;
+    }
+}
+
+.image-card.background-image img {
+    position: absolute;
+    height: 100%;
+}
+
+.image-card:nth-of-type(1) {
+    .btn {
+        margin-left: auto;
+    }
+}

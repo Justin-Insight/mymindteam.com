@@ -1,0 +1,12 @@
+.testing-process-grid {
+    gap: $ic-600;
+
+    @include breakpoint(sm) {
+        gap: $ic-300;
+    }
+
+    @include breakpoint(md) {
+        column-gap: $ic-900;
+        row-gap: $ic-600;
+    }
+}

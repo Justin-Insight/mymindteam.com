@@ -16,11 +16,11 @@
                     <div class="w-100 w-50-m flow mt-3 mt-0-m ml-6-m">
                         {{ with .our_process }}
                             {{ range .steps }}
-                            <div class="mt-step flex flex-column flex-row-s flex-start">
-                                <img src="{{ .icon }}" alt="" class="mt-step__icon mr-5">
-                                <div class="mt-step__content">
-                                    <h3 class="mt-step__heading">{{ .heading | safeHTML }}</h3>
-                                    <p class="mt-step__body">{{ .body }}</p>
+                            <div class="mt-process flex flex-column flex-row-s flex-start">
+                                <img src="{{ .icon }}" alt="" class="mt-process__icon mr-5">
+                                <div class="mt-process__content">
+                                    <h3 class="mt-process__heading">{{ .heading | safeHTML }}</h3>
+                                    <p class="mt-process__body">{{ .body }}</p>
                                 </div>
                             </div>
                             {{ end }}

@@ -3,6 +3,7 @@
   // height: 100vh;
   // max-height: 600px;
   // overflow: hidden;
+  margin-bottom: 145px;
 
   &__image {
     position: absolute;
@@ -17,7 +18,7 @@
 
   &__content {
     position: relative;
-    top: 130px;
+    top: 220px;
   }
 
   &__small-title {
@@ -25,9 +26,13 @@
     padding: 0 2rem;
     border-radius: 10px;
     position: absolute;
-    top: -30px;
+    top: -22px;
     left: 50%;
     transform: translateX(-50%);
     background-color: $primary-color-alt-2;
+
+    @include breakpoint(sm) {
+      top: -30px;
+    }
   }
 }
