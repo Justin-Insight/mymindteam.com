@@ -6,8 +6,11 @@ details {
     cursor: pointer;
     height: fit-content;
 
-    p {
+    p, ul {
         font-size: $ic-100;
+    }
+
+    p {
         margin-top: $ic-300;
     }
 }

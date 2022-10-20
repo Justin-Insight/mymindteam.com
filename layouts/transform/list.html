@@ -41,6 +41,16 @@
         </section>
     {{ end }}
 {{ end }}
+{{ if .Params.ongoing_support_block.enabled }}
+    {{ with .Params.ongoing_support_block }}
+        <div class="block">
+            <div class="wrapper text-center">
+                <h2>{{ .heading }}</h2>
+                <p>{{ .body }}</p>
+            </div>
+        </div>
+    {{ end }}
+{{ end }}
 {{ if .Params.cta_block.enabled }}
     {{ with .Params.cta_block }}
         {{ partial "site-cta" . }}

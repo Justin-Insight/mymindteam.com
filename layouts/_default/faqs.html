@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ if .Params.terminology_faq_block.enabled }}
+    {{ with .Params.terminology_faq_block }}
+        {{ partial "mt-faqs" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.testing_faq_block.enabled }}
+    {{ with .Params.testing_faq_block }}
+        {{ partial "mt-faqs" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.treatment_faq_block.enabled }}
+    {{ with .Params.treatment_faq_block }}
+        {{ partial "mt-faqs" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.pricing_faq_block.enabled }}
+    {{ with .Params.pricing_faq_block }}
+        {{ partial "mt-faqs" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.miscellaneous_faq_block.enabled }}
+    {{ with .Params.miscellaneous_faq_block }}
+        {{ partial "mt-faqs" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
+{{ end }}

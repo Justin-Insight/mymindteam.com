@@ -1,0 +1,13 @@
+<section aria-labelledby="hero-heading" class="resources-hero bg-gray">
+  {{ if .Params.hero.image_url }}
+    {{ partial "hero-image" . }}
+  {{ end }}
+  <div class="block">
+    <div class="wrapper-lg">
+      <div class="resources-hero__content w-100 text-center">
+        <h1 id="hero-heading" class="no-margin max-width-none">{{ .Params.hero.heading | safeHTML }}</h1>
+        <p class="resources-hero__body fs-300 fw-500" style="max-width: 550px; margin: 1.25rem auto;">{{ .Params.hero.body | safeHTML }}</p>
+      </div>
+    </div>
+  </div>
+</section>

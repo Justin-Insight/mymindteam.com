@@ -21,6 +21,8 @@ module.exports = {
         'parent-page-team',
         'parent-page-resources',
         'parent-page-get-started',
+        'resources',
+        'get-started',
         'mr-6-m',
       ],
     }),

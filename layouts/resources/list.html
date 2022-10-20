@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ partial "resources/hero" . }}
+{{ if .Params.goals_block.enabled }}
+    {{ with .Params.goals_block }}
+    <div class="block">
+        <div class="wrapper-lg">
+            <div class="flex-grid">
+                {{ range .goals }}
+                <a href="{{ .url }}" class="goal-icon text-center flow">
+                    <img src="/uploads/{{ .icon }}" alt="">
+                    <h2 class="h3 fs-300 fw-500">{{ .goal }}</h2>
+                    {{ if .body }}
+                        <p>{{ .body }}</p>
+                    {{ end }}
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+{{ end }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
+{{ end }}

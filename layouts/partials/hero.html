@@ -1,6 +1,8 @@
 {{ $heroClass := lower .Page.Title }}
-<section aria-labelledby="hero-heading" class="hero {{ anchorize $heroClass }}-hero">
-  {{ partial "hero-image" . }}
+<section aria-labelledby="hero-heading" class="hero {{ anchorize $heroClass }}-hero bg-gray">
+  {{ if .Params.hero.image_url }}
+    {{ partial "hero-image" . }}
+  {{ end }}
   <div class="block">
     <div class="hero__content w-100">
       <div class="wrapper-md">

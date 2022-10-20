@@ -6,3 +6,52 @@
         margin: 0 auto;
     }
 }
+
+.resources {
+  .goal-icon {
+      text-decoration: none;
+      position: relative;
+  
+      h2 {
+          max-width: max-content;
+          margin: $ic-300 auto;
+          position: relative;
+  
+          &::after {
+              background: $primary-color-alt-2;
+              height: 3px;
+              width: 100%;
+              transform: scaleX(0);
+              transform-origin: top right;
+              position: absolute;
+              bottom: -4px;
+              left: 0;
+              content: "";
+              transition: transform 0.4s ease-out;
+          }
+      }
+  
+      @include breakpoint(lg) {
+          &:hover,
+          &:focus {
+      
+            h2::after {
+              transform: scaleX(1);
+              transform-origin: top left;
+            }
+          }
+      }
+  }
+  
+  .goal-icon:nth-of-type(2) {
+    h2::after {
+      background: $secondary-color;
+    }
+  }
+  
+  .goal-icon:nth-of-type(3) {
+    h2::after {
+      background: $accent-color-alt;
+    }
+  }
+}
