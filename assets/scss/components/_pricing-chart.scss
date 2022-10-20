@@ -4,8 +4,6 @@
   column-gap: $ic-300;
   row-gap: $ic-600;
   margin-top: $ic-300;
-
-
 }
 
 .pricing-chart {
@@ -54,5 +52,12 @@
     .pricing-chart:nth-of-type(5) {
       margin-top: -45px;
     }
+  }
+}
+
+.parent-page-adult-testing {
+  .pricing-chart {
+    height: 100%;
+    flex: 1 1 800px;
   }
 }

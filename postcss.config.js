@@ -22,6 +22,7 @@ module.exports = {
         'parent-page-resources',
         'parent-page-get-started',
         'parent-page-child',
+        'parent-page-adult-testing',
         'resources',
         'get-started',
         'mr-6-m',

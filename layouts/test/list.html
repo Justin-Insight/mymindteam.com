@@ -37,7 +37,7 @@
     {{ end }}
 {{ end }}
 <!-- Start blocks specific to our Child Testing page -->
-{{ if eq .Title "Child" }}
+{{ if (or (eq .Title "Child Testing") (eq .Title "Adult Testing")) }}
     {{ if .Params.testing_options_block.enabled }}
         {{ with .Params.testing_options_block }}
             {{ partial "mt-child-testing-options" . }}
