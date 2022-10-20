@@ -1,0 +1,11 @@
+<div class="block">
+  <div class="wrapper text-center flow">
+    <h2>{{ .heading | safeHTML }}</h2>
+    <p class="max-width-none fs-300 fw-500">{{ .body }}</p>
+    {{ if .button.enabled }}
+      {{ with .button }}
+          <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

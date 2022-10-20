@@ -1,0 +1,12 @@
+<div class="pricing-chart border-radius-50 bg-white border-primary text-center">
+  <div class="pricing-chart__header">
+    <h3>{{ .heading }}</h3>
+    <p style="max-width: 36ch; margin: 0 auto;">{{ .subheading }}</p>
+  </div>
+  <div class="pricing-chart__body">
+    {{ .body | markdownify }}
+  </div>
+  <div class="pricing-chart__footer">
+    {{ .price }}
+  </div>
+</div>

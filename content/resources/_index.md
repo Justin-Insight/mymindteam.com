@@ -28,7 +28,7 @@ goals_block:
   goals:
     - goal: Blog
       icon: testing-icon-identify.svg
-      url: /resources/blog/
+      url: /blog/
     - goal: Frequently asked questions
       icon: testing-icon-discover.svg
       url: /resources/faqs/

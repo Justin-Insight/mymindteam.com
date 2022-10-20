@@ -45,7 +45,7 @@ testing_block:
       image_alt:
       button:
         enabled: true
-        button_url: /test/adults/
+        button_url: /test/adult/
         button_text: Adult testing
 process_block:
   enabled: true

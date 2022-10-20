@@ -1,0 +1,20 @@
+<section aria-labelledby="pricing-heading" class="block bg-gray">
+  <div class="wrapper-lg text-center">
+    <h2 id="pricing-heading">{{ .heading | safeHTML }}</h2>
+  </div>
+  <div class="block-sm">
+    <div class="wrapper-lg pricing-grid">
+      {{ range .options }}
+        {{ partial "mt-pricing-chart" . }}
+      {{ end }}
+    </div>
+    <div class="wrapper-lg text-center">
+      <p class="fs-300 fw-500" style="max-width: 875px; margin: 1.25rem auto;">{{ .body }}</p>
+      {{ if .button.enabled }}
+        {{ with .button }}
+          <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

@@ -1,7 +1,7 @@
 <section class="page-block block">
   <div class="flex flex-column-reverse flex-center p-relative {{ if .text_column_right }}flex-row-reverse-m{{ end }}{{ if .text_column_left }}flex-row-m{{ end }}">
     <div class="page-block__content w-100 w-50-m mt-3 mt-0-m">
-      <div class="text-block text-center flow">
+      <div class="block text-center flow">
         <h2>{{ .heading | safeHTML }}</h2>
         <p style="max-width: 500px;margin: 1.25rem auto 0 auto;">{{ .body | markdownify }}</p>
         {{ if .button.enabled }}

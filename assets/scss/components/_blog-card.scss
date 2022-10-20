@@ -1,0 +1,60 @@
+.blog-card {
+  background-color: $white;
+  transition: 0.3s ease-out;
+  height: 100%;
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__cover {
+    max-height: 300px;
+  }
+
+  &__content {
+    padding: $ic-200;
+    border-right: 2px solid $light-gray;
+    border-left: 2px solid $light-gray;
+    border-bottom: 2px solid $light-gray;
+    position: relative;
+    flex: 1;
+
+    p {
+      margin-top: $ic--200;
+    }
+  }
+
+  &__title {
+    color: $dark-blue;
+  }
+
+  &__read-more {
+    font-size: $ic-100;
+
+    svg {
+      width: $ic-200;
+      height: $ic-200;
+      fill: $primary-color;
+      transition: 0.3s ease-out;
+    }
+
+    &:hover,
+    &:focus {
+      
+      svg {
+        fill: $secondary-color;
+        transform: translateX(5px);
+      }
+    }
+  }
+
+  .reading-time {
+    svg {
+      fill: $primary-color;
+      height: $ic--100;
+      width: $ic--100;
+      transition: 0.3s ease-out;
+      margin-right: 8px;
+    }
+  }
+}

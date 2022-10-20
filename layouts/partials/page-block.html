@@ -1,12 +1,15 @@
 <section class="page-block block">
-  <div class="wrapper-lg text-center">
-    <h2 id="testing-process-heading">{{ .heading | safeHTML }}</h2>
-    <p class="fs-300 fw-500" style="max-width: 875px; margin: 1.25rem auto;">{{ .body }}</p>
-  </div>
   <div class="wrapper-lg">
-    <div class="flex flex-column-reverse flex-center p-relative {{ if .text_column_right }}flex-row-reverse-m{{ end }}{{ if .text_column_left }}flex-row-m{{ end }}">
-      <div class="page-block__content w-100 w-50-m mt-3 mt-0-m">
-        <div class="text-block text-center flow">
+    <div class="flex flex-column flex-center {{ if .text_column_right }}flex-row-m{{ end }}{{ if .text_column_left }}flex-row-reverse-m{{ end }}">
+      <div class="border-radius-image w-100 w-50-m">
+        {{ if .image.enabled }}  
+          {{ with .image }}  
+            {{ partial "responsive-image" . }}
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="page-block__content w-100 w-50-m mt-3 mt-0-m {{ if .text_column_right }}ml-6-m{{ else }}mr-6-m{{ end }}">
+        <div class="text-block flow">
           <h2>{{ .heading | safeHTML }}</h2>
           <p style="max-width: 500px;margin: 1.25rem auto 0 auto;">{{ .body | markdownify }}</p>
           {{ if .button.enabled }}
@@ -15,13 +18,6 @@
             {{ end }}
           {{ end }}
         </div>
-      </div>
-      <div class="page-block__image w-100 w-50-m {{ if .text_column_right }}mr-3-m{{ else }}ml-3-m{{ end }} background-image">
-        {{ if .image.enabled }}  
-            {{ with .image }}  
-                {{ partial "responsive-image" . }}
-            {{ end }}
-        {{ end }}
       </div>
     </div>
   </div>

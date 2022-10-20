@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ partial "resources/hero" . }}
+<div class="block">
+    {{ partial "blog/category-filter" . }}
+    <div class="wrapper-lg mt-6">
+        {{ $pages := .Site.RegularPages }}
+        <div class="grid-3">
+            {{ $paginator := .Paginate ( where .Data.Pages "Type" "blog" ) }}
+            {{ range $paginator.Pages }}
+                {{ .Render "blog-card" }}
+            {{ end }}
+        </div>
+    </div>
+    <div class="wrapper-lg">
+        {{ partial "blog/custom-pagination.html" . }}
+    </div>
+</div>
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
+{{ end }}

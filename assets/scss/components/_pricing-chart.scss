@@ -1,0 +1,58 @@
+.pricing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: $ic-300;
+  row-gap: $ic-600;
+  margin-top: $ic-300;
+
+
+}
+
+.pricing-chart {
+  height: 100%;
+  flex: 1 1 400px;
+
+  &__header {
+    padding: $ic-300;
+  }
+
+  &__body {
+    border-top: 8px solid $primary-color-alt-2;
+    border-bottom: 8px solid $primary-color-alt-2;
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin-top: 0;
+        padding: $ic--100 0;
+
+        &::before {
+          background-image: none;
+        } 
+      }
+
+      li:nth-of-type(odd) {
+        background-color: rgba($primary-color-alt-2, .25);
+      }
+    }
+  }
+
+  &__footer {
+    padding: $ic-300;
+  }
+}
+
+@include breakpoint(xl) {
+  .parent-page-child {
+    .pricing-chart:nth-of-type(1),
+    .pricing-chart:nth-of-type(3) {
+      margin-top: 100px;
+    }
+  
+    .pricing-chart:nth-of-type(5) {
+      margin-top: -45px;
+    }
+  }
+}

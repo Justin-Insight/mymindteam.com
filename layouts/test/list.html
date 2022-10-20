@@ -36,6 +36,30 @@
         {{ partial "mt-process" . }}
     {{ end }}
 {{ end }}
+<!-- Start blocks specific to our Child Testing page -->
+{{ if eq .Title "Child" }}
+    {{ if .Params.testing_options_block.enabled }}
+        {{ with .Params.testing_options_block }}
+            {{ partial "mt-child-testing-options" . }}
+        {{ end }}
+    {{ end }}
+    {{ if .Params.page_blocks }}
+        {{ range .Params.page_blocks }}
+            {{ partial "page-block" . }}
+        {{ end }}   
+    {{ end }}
+    {{ if .Params.benefits_block.enabled }}
+        {{ with .Params.benefits_block }}
+            {{ partial "mt-benefits" . }}
+        {{ end }}
+    {{ end }}
+    {{ if .Params.single_column_block.enabled }}
+        {{ with .Params.single_column_block }}
+            {{ partial "single-column-block" . }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+<!-- End blocks specific to our Child Testing page -->
 {{ if .Params.faq_block.enabled }}
     {{ with .Params.faq_block }}
         {{ partial "mt-faqs" . }}
