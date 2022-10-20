@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ if .Params.goals_block.enabled }}
+    {{ with .Params.goals_block }}
+        {{ partial "goal-icons" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.thrive_block.enabled }}
+    {{ with .Params.thrive_block }}
+        <section aria-labelledby="thrive-heading" class="block bg-gray">
+            <div class="wrapper-lg text-center">
+                <h2 id="thrive-heading">{{ .heading }}</h2>
+                <p class="fw-500 fs-300" style="max-width: 900px; margin: 0 auto;">{{ .body }}</p>
+            </div>
+            {{ range .environments }}
+            <div class="block-sm">
+                <div class="wrapper-lg">
+                    <div class="flex flex-column-reverse flex-center {{ if .text_column_right }}flex-row-m{{ end }}{{ if .text_column_left }}flex-row-reverse-m{{ end }}">
+                        <div class="w-100 w-50-m flow text-center border-radius-image">
+                            {{ if .image.enabled }}
+                                {{ with .image }}
+                                    {{ partial "responsive-image" . }}
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                        <div class="w-100 w-50-m flow mt-3 mt-0-m {{ if .text_column_right }}ml-6-m{{ else }}mr-6-m{{ end }}">
+                            <div>
+                                <h3>{{ .heading | safeHTML }}</h3>
+                                <p class="mt-process__body">{{ .body | markdownify }}</p>
+                            </div>
+                            {{ if .button.enabled }}
+                                {{ with .button }}
+                                    <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </section>
+    {{ end }}
+{{ end }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
+{{ end }}
