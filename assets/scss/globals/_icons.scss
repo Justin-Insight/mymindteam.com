@@ -5,9 +5,6 @@
 }
 
 .icon-lg {
-  height: $ic-800;
-  width: $ic-800;
-
   svg {
     width: $ic-600;
     height: auto;
@@ -43,6 +40,34 @@
     fill: $white;
   }
 }
+
+// .icon-cube {
+//   position: relative; 
+
+//   svg {
+//     position: relative; 
+
+//     &::after {
+//       content: ">";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       background-color: $secondary-color;
+//       height: $ic-400;
+//       width: $ic-400;
+//     }
+//   }
+
+//   &::after {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     background-color: $secondary-color;
+//     height: $ic-400;
+//     width: $ic-400;
+//   }
+// }
 
 .fill-primary {
   svg {
