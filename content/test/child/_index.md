@@ -1,5 +1,9 @@
 ---
 title: Child Testing
+url: /test/child-neurodivergent-test/
+menu:
+  main:
+    parent: "Test"
 seo:
   page_title: Child Autism Testing | Child ADHD Testing | Child Dyslexia Testing
   meta_description: Your child can live and learn without limitation. Get the answers you need and test for autism, ADHD and more with Mind Team neurodivergent testing.
@@ -28,14 +32,14 @@ testing_options_block:
   enabled: true
   heading: Mind Team <span class="underline underline--secondary">child</span> testing options
   body: Get started with our brief questionnaire and the experts at Mind Team will help you determine the test that best suits your child’s needs.
-  options: 
+  options:
     - heading: Child autism test
       subheading: "Test your child for autism in a structured interview assessing:"
       body: >-
         - Executive functioning 
-  
+
         - Feedback from friends, relatives and educators
-  
+
         - Emotional/behavioral conditions
 
         - Personal history and medical records
@@ -44,55 +48,55 @@ testing_options_block:
       subheading: "Test your child for ADHD in a diagnostic interview assessing:"
       body: >-
         - Attention
-  
+
         - Executive functioning
-  
+
         - Memory screen
-  
+
         - Emotional/behavioral conditions
-  
+
         - Personal history and medical records
       price: $2,300
     - heading: Targeted subject test
       subheading: "Test your child for dyslexia, dysgraphia or dyscalculia with a school psychologist assessing:"
       body: >-
         - Reading, writing or math achievement
-  
+
         - Cognitive IQ
-  
+
         - Anxiety screen
-  
+
         - Detailed personal and academic history
       price: $1,000
     - heading: Comprehensive subject test
       subheading: "Test your child for dyslexia, dysgraphia and dyscalculia all in one comprehensive test with a school psychologist assessing:"
       body: >-
         - Reading, writing and math achievement
-  
+
         - Cognitive IQ
-  
+
         - Detailed personal and academic history
       price: $2,000
     - heading: Comprehensive battery
       subheading: "Test your child for autism, ADHD, dyslexia, dysgraphia and dyscalculia all in one comprehensive diagnostic interview assessing:"
       body: >-
         - Attention
-  
+
         - Executive functioning
-  
+
         - Broad reading, writing and math achievement
-  
+
         - Cognitive IQ
-  
+
         - Personal, medical and academic history
       price: $3,900
     - heading: Child specialty testing
       subheading: "Mind Team clinicians can administer a variety of specialty tests for your child, including:"
       body: >-
         - Kindergarten readiness
-  
+
         - Accommodation testing for school/university admission exams
-  
+
         - Various other school-related specialty tests
       price: Pricing varies
   button:
@@ -134,11 +138,11 @@ benefits_block:
   benefits:
     - heading: Professional
       body: >-
-        Your child’s test will be conducted by a licensed school psychologist or other Mind Team clinician specializing in one or more of your specific concerns. 
+        Your child’s test will be conducted by a licensed school psychologist or other Mind Team clinician specializing in one or more of your specific concerns.
       icon: /uploads/yellow-block.svg
     - heading: Accurate
       body: >-
-        No matter which test your child needs, we’ll account for and rule out an exhaustive list of conditions to ensure we get the most accurate results and diagnoses. 
+        No matter which test your child needs, we’ll account for and rule out an exhaustive list of conditions to ensure we get the most accurate results and diagnoses.
       icon: /uploads/blue-block.svg
     - heading: Trusted
       body: >-
@@ -146,7 +150,7 @@ benefits_block:
       icon: /uploads/orange-block.svg
     - heading: Simple
       body: >-
-        No need to commute or have your child test in an unfamiliar location with our secure, face-to-face remote testing. 
+        No need to commute or have your child test in an unfamiliar location with our secure, face-to-face remote testing.
       icon: /uploads/orange-block.svg
     - heading: Empowering
       body: Rather than trying to “fix” your child’s mind, we’ll help you learn to work with their unique abilities and differences to conquer their challenges and thrive.
@@ -172,7 +176,7 @@ single_column_block:
 cta_block:
   enabled: true
   heading: Ready to help your child <span class="underline underline--primary">thrive</span>?
-  body: It couldn’t be easier to get started. Fill out our short questionnaire and we’ll take care of the rest. 
+  body: It couldn’t be easier to get started. Fill out our short questionnaire and we’ll take care of the rest.
   button:
     enabled: true
     button_url: /get-started/

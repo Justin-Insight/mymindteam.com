@@ -1,5 +1,9 @@
 ---
 title: Comprehensive
+menu:
+  main:
+    parent: "Child Testing"
+    identifier: "Child Comprehensive Testing"
 seo:
   page_title:
   meta_description:

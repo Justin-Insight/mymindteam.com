@@ -1,6 +1,7 @@
 a, .simple-link {
   color: $primary-color;
   transition: 0.3s ease;
+  display: inline-block;
 
   &:hover,
   &:focus {
@@ -45,3 +46,11 @@ a, .simple-link {
   text-decoration: none;
 }
 
+.transform-x-8 {
+  display: block; 
+  
+  &:hover,
+  &:focus {
+    transform: translateX(8px);
+  }
+}

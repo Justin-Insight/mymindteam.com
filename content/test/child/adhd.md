@@ -1,5 +1,9 @@
 ---
 title: ADHD
+menu:
+  main:
+    parent: "Child Testing"
+    identifier: "Child ADHD Testing"
 seo:
   page_title:
   meta_description:

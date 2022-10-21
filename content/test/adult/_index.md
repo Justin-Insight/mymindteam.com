@@ -1,6 +1,9 @@
 ---
 title: Adult Testing
 url: /test/adult-neurodivergent-test/
+menu:
+  main:
+    parent: "Test"
 seo:
   page_title: Adult Autism Testing | Adult ADHD Testing | Adult Dyslexia Testing
   meta_description: Get the answers you need with Mind Team neurodivergent testing for autism, ADHD, dyslexia, dysgraphia, dyscalculia and other conditions.
@@ -29,14 +32,14 @@ testing_options_block:
   enabled: true
   heading: Mind Team <span class="underline underline--secondary">adult</span> testing options
   body: Get started with our brief questionnaire and the experts at Mind Team will help you determine the test that best suits your child’s needs.
-  options: 
+  options:
     - heading: Adult autism test
       subheading: "Test for autism in a structured interview assessing:"
       body: >-
         - Executive functioning
-  
+
         - Feedback from friends, relatives or coworkers
-  
+
         - Emotional/behavioral conditions
 
         - Personal history and medical records
@@ -49,13 +52,13 @@ testing_options_block:
       subheading: "Test for ADHD in a diagnostic interview assessing:"
       body: >-
         - Attention
-  
+
         - Executive functioning
-  
+
         - Memory screen
-  
+
         - Emotional/behavioral conditions
-  
+
         - Personal history and medical records
       price: $1,600
       button:
@@ -66,13 +69,13 @@ testing_options_block:
       subheading: "Test for autism, ADHD, dyslexia, dysgraphia and dyscalculia all in one comprehensive diagnostic interview assessing:"
       body: >-
         - Attention
-  
+
         - Executive functioning
-  
+
         - Broad reading, writing and math achievement
-  
+
         - Cognitive IQ
-  
+
         - Personal history and medical records
       price: $3,900
       button:
@@ -83,11 +86,11 @@ testing_options_block:
       subheading: "Mind Team clinicians can administer a variety of specialized tests including: "
       body: >-
         - Accommodated college admissions exams (e.g. ACT, MCAT, LSAT) 
-  
+
         - Accommodated professional licensure exams
-  
+
         - IQ testing
-  
+
         - Other specialty testing
       price: Pricing varies.
       button:
@@ -109,7 +112,7 @@ benefits_block:
       icon: /uploads/yellow-block.svg
     - heading: Accurate
       body: >-
-        No matter which test you need, we’ll account for and rule out an exhaustive list of conditions to ensure you get the most accurate results and diagnoses. 
+        No matter which test you need, we’ll account for and rule out an exhaustive list of conditions to ensure you get the most accurate results and diagnoses.
       icon: /uploads/blue-block.svg
     - heading: Stress-free
       body: >-
@@ -163,7 +166,7 @@ faq_block:
 cta_block:
   enabled: true
   heading: Schedule your remote <span class="underline underline--primary">neurodivergent test</span>?
-  body: The process is easy! Get started by filling out our brief questionnaire. 
+  body: The process is easy! Get started by filling out our brief questionnaire.
   button:
     enabled: true
     button_url: /get-started/

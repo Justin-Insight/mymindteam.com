@@ -21,7 +21,7 @@ module.exports = {
         'parent-page-team',
         'parent-page-resources',
         'parent-page-get-started',
-        'parent-page-child',
+        'parent-page-child-testing',
         'parent-page-adult-testing',
         'resources',
         'get-started',

@@ -1,9 +1,24 @@
+.goal-icon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $ic-300;
+  margin-top: $ic-300;
+}
+
 .goal-icon {
-    flex: 1 1 200px;
+    flex: 1 1 125px;
     
     img {
         max-width: 175px;
         margin: 0 auto;
+    }
+
+    .fs-300 {
+      font-size: clamp($ic--100,4vw,$ic-300);
+    }
+
+    @include breakpoint(sm) {
+      flex: 1 1 200px;
     }
 }
 

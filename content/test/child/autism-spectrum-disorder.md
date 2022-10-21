@@ -1,5 +1,9 @@
 ---
 title: Autism Spectrum Disorder
+menu:
+  main:
+    parent: "Child Testing"
+    identifier: "Child Autism Spectrum Disorder Testing"
 seo:
   page_title:
   meta_description:

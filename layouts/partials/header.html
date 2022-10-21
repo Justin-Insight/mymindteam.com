@@ -17,13 +17,41 @@
         <ul class="nav-list flex flex-justify-center flex-center">
           {{ $url := .RelPermalink }}
           {{ range .Site.Menus.main }}
-          {{ $active := eq $url .URL }}
-          {{ $contact := eq "Contact" .Name }}
+            {{ if .HasChildren }}
+                <li class="nav-list__item has-sub-menu">
+                  <a class="nav-list__link fw-700" href="{{ .URL }}" aria-label="{{ .Name }}">
+                    {{ .Name }}
+                    <span class="sub-menu-indicator"></span>
+                  </a>
+                  <div class="nav-list__sub-menu {{ .Name | lower }}-sub-menu sub-menu">
+                    <div class="sub-menu__inner block">
+                      <div class="wrapper-md flex w-100">
+                        <div class="w-70 flow">
+                          <h3 class="h4 text-primary"><a href="{{ .URL }}" aria-label="{{ .Name }}" class="no-decoration">{{ .Name }}</a></h3>
+                          <p class="fs-100 no-margin">Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and dyscalculia in children and adults.</p>
+                          <ul class="border-top-gray">
+                            {{ range .Children }}
+                              {{ template "menu-node" .}}
+                            {{ end }}
+                          </ul>                            
+                        </div>
+                        <div class="w-30 flow ml-6">
+                          <img src="/uploads/two-clinicians-on-video-call-together-2-reversed.jpg" alt="" class="border-radius-50">
+                          <h3 class="h4 text-primary"><a href="/team/" aria-label="Meet Our Team" class="no-decoration">Meet Our Team</a></h3>
+                          <p class="fs-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, porro libero? Iusto facilis incidunt possimus alias dolor optio voluptatibus!</p>
+                          <a href="/team/">Meet our team</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+            {{ else }}
             <li class="nav-list__item">
               <a class="nav-list__link fw-700" href="{{ .URL }}" aria-label="{{ .Name }}">
-                {{ .Name }}
+                  {{ .Name }}
               </a>
             </li>
+            {{ end }}    
           {{ end }}
         </ul>
       </nav>
@@ -59,3 +87,18 @@
     </div>
   </div>
 </header>
+
+{{ define "menu-node" }}
+  <li class="list-style-none">
+    {{ if .HasChildren }}
+      <a href="{{.URL}}" class="fw-500 no-decoration transform-x-8">{{ .Name }}</a>
+      <ul class="sub-menu__child-menu">
+        {{ range .Children }}
+          {{ template "menu-node" .}}
+        {{ end }}
+      </ul>
+    {{else}}
+      <a href="{{.URL}}" class="no-decoration transform-x-8">{{ .Name }}</a>
+    {{end}}
+  </li>
+{{ end }}

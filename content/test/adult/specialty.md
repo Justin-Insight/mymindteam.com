@@ -1,6 +1,9 @@
 ---
 title: Specialty
-
+menu:
+  main:
+    parent: "Adult Testing"
+    identifier: "Adult Specialty Testing"
 seo:
   page_title:
   meta_description:

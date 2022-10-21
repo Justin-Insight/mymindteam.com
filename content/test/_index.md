@@ -39,13 +39,13 @@ testing_block:
       image_alt:
       button:
         enabled: true
-        button_url: /test/child/
+        button_url: /test/child-neurodivergent-test/
         button_text: Child testing
     - image_url: two-clinicians-on-video-call-together-2-reversed.jpg
       image_alt:
       button:
         enabled: true
-        button_url: /test/adult/
+        button_url: /test/adult-neurodivergent-test/
         button_text: Adult testing
 process_block:
   enabled: true

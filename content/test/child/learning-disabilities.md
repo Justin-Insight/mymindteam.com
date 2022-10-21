@@ -1,6 +1,9 @@
 ---
 title: Learning Disabilities
-
+menu:
+  main:
+    parent: "Child Testing"
+    identifier: "Child Learning Disabilities Testing"
 seo:
   page_title:
   meta_description:

@@ -1,5 +1,9 @@
 ---
 title: Comprehensive
+menu:
+  main:
+    parent: "Adult Testing"
+    identifier: "Adult Comprehensive Testing"
 seo:
   page_title:
   meta_description:
