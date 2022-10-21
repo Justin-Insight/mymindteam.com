@@ -26,20 +26,25 @@
                   <div class="nav-list__sub-menu {{ .Name | lower }}-sub-menu sub-menu">
                     <div class="sub-menu__inner block">
                       <div class="wrapper-md flex w-100">
-                        <div class="w-70 flow">
-                          <a href="{{ .URL }}" aria-label="{{ .Name }}" class="no-decoration flex flex-center fill-white icon-md icon-cube"><h3 class="h4 text-primary mr-1">{{ .Name }}</h3>{{ partialCached "svg-icons/arrow-right.svg" . }}</a>
-                          <p class="fs-100 no-margin">Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and dyscalculia in children and adults.</p>
-                          <ul class="border-top-gray">
+                        <div class="sub-menu__navigation flow">
+                          <a href="{{ .URL }}" aria-label="{{ .Name }}" class="sub-menu__heading-link no-decoration flex flex-center fill-white icon-md"><h3 class="h4 text-primary mr-1">{{ .Name }}</h3><span class="icon-cube flex flex-center">{{ partialCached "svg-icons/arrow-right.svg" . }}</span></a>
+                          {{ if eq .Name "Test" }}
+                            <p class="fs-100 no-margin">Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and dyscalculia in children and adults.</p>
+                          {{ else }}
+                            <p class="fs-100 no-margin">Neurodivergent tips, guides, news and resources for children and adults.</p>
+                          {{ end }}
+                          <ul class="sub-menu__menu border-top-gray">
                             {{ range .Children }}
                               {{ template "menu-node" .}}
                             {{ end }}
                           </ul>                            
                         </div>
-                        <div class="w-30 flow ml-6">
-                          <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-group-small.jpg?tr=f-auto,q-80,w-400,h-300" alt="" class="border-radius-50">
-                          <a href="/team/" aria-label="Meet Our Team" class="no-decoration"><h3 class="h4 text-primary">Meet your Mind Team.</h3></a>
-                          <p class="fs-100">View our diverse, multidisciplinary team of licensed psychologists, counselors, interventionists and other expert clinicians specially chosen to help you thrive.</p>
-                          <a href="/team/" class="no-decoration flex flex-center fill-primary icon-sm">Meet our team {{ partialCached "svg-icons/arrow-right.svg" . }}</a>
+                        <div class="sub-menu__sidebar flow ml-6">
+                            <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-group-small.jpg?tr=f-auto,q-80,w-400,h-300" alt="" class="border-radius-50">
+                            <a href="/team/" aria-label="Meet Our Team" class="no-decoration"><h3 class="h4 text-primary">Meet your Mind Team.</h3></a>
+                            <p class="fs-100">View our diverse, multidisciplinary team of licensed psychologists, counselors, interventionists and other expert clinicians specially chosen to help you thrive.</p>
+                            <a href="/team/" class="no-decoration flex flex-center fill-primary icon-sm">Meet our team {{ partialCached "svg-icons/arrow-right.svg" . }}</a>
+                          <!-- To do: Is there a way we can create a feed of recent posts here? -->
                         </div>
                       </div>
                     </div>

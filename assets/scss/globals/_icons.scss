@@ -41,33 +41,24 @@
   }
 }
 
-// .icon-cube {
-//   position: relative; 
+.icon-cube {
+  position: relative; 
+  height: $ic-600;
+  width: $ic-600;
+  transition: .3s ease-out;
 
-//   svg {
-//     position: relative; 
-
-//     &::after {
-//       content: ">";
-//       position: absolute;
-//       top: 0;
-//       left: 0;
-//       background-color: $secondary-color;
-//       height: $ic-400;
-//       width: $ic-400;
-//     }
-//   }
-
-//   &::after {
-//     content: "";
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     background-color: $secondary-color;
-//     height: $ic-400;
-//     width: $ic-400;
-//   }
-// }
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 4px;
+    left: -4px;
+    background-color: $secondary-color;
+    height: $ic-500;
+    width: $ic-500;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  }
+}
 
 .fill-primary {
   svg {

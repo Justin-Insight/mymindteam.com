@@ -6,6 +6,8 @@ seo:
   meta_description: Have questions about Mind Team testing, treatment, pricing or something else? We’ve got the answers you need.
   featured_image:
 menu:
+  main:
+    parent: "Resources"
   footer_secondary:
     weight: 3
 hero:

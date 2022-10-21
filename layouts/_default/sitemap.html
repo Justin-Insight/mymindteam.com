@@ -18,8 +18,12 @@
                 <h2 class="text-primary">Resources</h2>
                 <ul class="sitemap-nav-list no-padding">
                     {{ $pages := .Site.RegularPages }}
-                    {{ $blog := where $pages "Type" "resources" }}
+                    {{ $blog := where $pages "Type" "blog" }}
                     {{ range $blog }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                    <!-- To use to create a recent posts feed -->
+                    {{ range first 5 (where .Site.RegularPages "Type" "blog") }}
                         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                     {{ end }}
                 </ul>

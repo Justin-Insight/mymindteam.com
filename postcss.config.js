@@ -27,6 +27,7 @@ module.exports = {
         'get-started',
         'mr-6-m',
         'list-open',
+        'resources-sub-menu',
       ],
     }),
   ],
