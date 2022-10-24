@@ -103,7 +103,7 @@ testing_options_block:
     button_text: Get Started Now
 benefits_block:
   enabled: true
-  heading: The superior testing you <span class="underline underline--primary">deserves</span>.
+  heading: The superior testing you <span class="underline underline--primary">deserve</span>.
   body: Never settle for subpar, one-size-fits-all testing with Mind Team’s superior remote testing benefits.
   benefits:
     - heading: Professional
@@ -165,7 +165,7 @@ faq_block:
     button_text: View all FAQs
 cta_block:
   enabled: true
-  heading: Schedule your remote <span class="underline underline--primary">neurodivergent test</span>?
+  heading: Schedule your <span class="underline underline--primary">remote</span> neurodivergent test
   body: The process is easy! Get started by filling out our brief questionnaire.
   button:
     enabled: true

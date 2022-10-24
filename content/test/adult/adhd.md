@@ -1,19 +1,175 @@
 ---
 title: ADHD
+url: /test/adult/online-ADHD-test/
 menu:
   main:
     parent: "Adult Testing"
     identifier: "Adult ADHD Testing"
 seo:
-  page_title:
-  meta_description:
-  featured_image:
+  page_title: Adult Online ADHD Testing
+  meta_description: Do you have ADHD? Mind Team online adult ADHD tests are the professional, stress-free way to diagnose (or rule out) ADHD and get the answers you need.
+  featured_image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
 hero:
-  heading: ADHD
-  image:
-    image_url:
-    image_alt:
-intro:
-  heading:
+  heading: <span class="underline underline--accent">Adult</span> ADHD Tests
   body:
+  image_url: young-girl-at-desk-during-video-call.jpg
+  image_alt:
+  button:
+    enabled: false
+    button_url: /get-started/
+    button_text: Get Started Now
+goals_block:
+  enabled: true
+  goals:
+    - goal: Identify your differences.
+      icon: testing-icon-identify.svg
+    - goal: Discover your strengths.
+      icon: testing-icon-discover.svg
+    - goal: Diagnose applicable conditions.
+      icon: testing-icon-diagnose.svg
+    - goal: Tackle your limitations.
+      icon: testing-icon-tackle-limitations.svg
+testing_options_block:
+  enabled: true
+  heading: Mind Team <span class="underline underline--secondary">adult</span> testing options
+  body: Get started with our brief questionnaire and the experts at Mind Team will help you determine the test that best suits your child’s needs.
+  options:
+    - heading: Adult autism test
+      subheading: "Test for autism in a structured interview assessing:"
+      body: >-
+        - Executive functioning
+
+        - Feedback from friends, relatives or coworkers
+
+        - Emotional/behavioral conditions
+
+        - Personal history and medical records
+      price: $2,400
+      button:
+        enabled: false
+        button_url: /get-started/
+        button_text: Get Started Now
+    - heading: Adult ADHD test
+      subheading: "Test for ADHD in a diagnostic interview assessing:"
+      body: >-
+        - Attention
+
+        - Executive functioning
+
+        - Memory screen
+
+        - Emotional/behavioral conditions
+
+        - Personal history and medical records
+      price: $1,600
+      button:
+        enabled: false
+        button_url: /get-started/
+        button_text: Get Started Now
+    - heading: Comprehensive testing
+      subheading: "Test for autism, ADHD, dyslexia, dysgraphia and dyscalculia all in one comprehensive diagnostic interview assessing:"
+      body: >-
+        - Attention
+
+        - Executive functioning
+
+        - Broad reading, writing and math achievement
+
+        - Cognitive IQ
+
+        - Personal history and medical records
+      price: $3,900
+      button:
+        enabled: false
+        button_url: /get-started/
+        button_text: Get Started Now
+    - heading: Specialty testing
+      subheading: "Mind Team clinicians can administer a variety of specialized tests including: "
+      body: >-
+        - Accommodated college admissions exams (e.g. ACT, MCAT, LSAT) 
+
+        - Accommodated professional licensure exams
+
+        - IQ testing
+
+        - Other specialty testing
+      price: Pricing varies.
+      button:
+        enabled: false
+        button_url: /get-started/
+        button_text: Get Started Now
+  button:
+    enabled: true
+    button_url: /get-started/
+    button_text: Get Started Now
+benefits_block:
+  enabled: true
+  heading: The superior testing you <span class="underline underline--primary">deserve</span>.
+  body: Never settle for subpar, one-size-fits-all testing with Mind Team’s superior remote testing benefits.
+  benefits:
+    - heading: Professional
+      body: >-
+        Our licensed clinicians use the highest standards and evidence-based methods, trusted by state assistance programs, educators, employers and doctors.
+      icon: /uploads/yellow-block.svg
+    - heading: Accurate
+      body: >-
+        No matter which test you need, we’ll account for and rule out an exhaustive list of conditions to ensure you get the most accurate results and diagnoses.
+      icon: /uploads/blue-block.svg
+    - heading: Stress-free
+      body: >-
+        No need to commute or test in an unfamiliar location with our secure, face-to-face remote testing.
+      icon: /uploads/orange-block.svg
+    - heading: Empowering
+      body: >-
+        Rather than trying to “fix” your mind, we’ll help you learn to work with your unique abilities and differences to conquer your challenges and thrive.
+      icon: /uploads/orange-block.svg
+    - heading: Integrated
+      body: Get the combined expertise of our entire multidisciplinary team and never worry about relaying your background and test results from one provider to another.
+      icon: /uploads/yellow-block.svg
+single_column_block:
+  enabled: true
+  heading: Pricing for immediate support.
+  body: >-
+    To provide the immediate support you deserve, Mind Team testing services must be paid out of pocket. Visit our payment page to learn more about your options.
+  button:
+    enabled: true
+    button_url: /resources/payment-options/
+    button_text: Payment Options
+  text_column_left: true
+  text_column_right: false
+  image:
+    enabled: true
+    image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+    image_alt:
+faq_block:
+  enabled: true
+  heading: Frequently asked <span class="underline underline--secondary">questions</span>
+  questions:
+    - question: Is Mind Team testing available in my state?
+      answer: |-
+        Mind Team services are available to individuals residing in PSYPACT states. See if you live in a qualifying state using <a href="https://psypact.site-ym.com/page/psypactmap" target="_blank" rel="noopener noreferrer nofollower">this coverage map</a>.
+    - question: What if you don’t offer the test I’m looking for?
+      answer: |-
+        We may still be able to offer testing that addresses your concerns and answers the questions you have about your mind. Simply fill out our [brief questionnaire](/get-started/) to let us know what you’re looking for and we’ll help you find the solution that best suits your needs.
+    - question: Do I have to pay in full upfront?
+      answer: >-
+        No. Mind Team tests can be paid in three installments: $150 to schedule your intake interview, 50% of the remaining balance to schedule your test session, and a final payment of any remaining balance to schedule your post-assessment review.
+    - question: How long does testing take?
+      answer: |-
+        It depends. Our tests typically range from one to five hours in length, depending on the type of test you need, as well as your personal history, input and other factors. 
+
+        Once we’ve identified the best test for your needs, we’ll be able to give you a more accurate time estimate, as well as other important information about your test.
+  subheading: Have a different question?
+  button:
+    enabled: true
+    button_url: /resources/faqs/
+    button_text: View all FAQs
+cta_block:
+  enabled: true
+  heading: Schedule your <span class="underline underline--primary">remote</span> neurodivergent test
+  body: The process is easy! Get started by filling out our brief questionnaire.
+  button:
+    enabled: true
+    button_url: /get-started/
+    button_text: Get Started Now
 ---

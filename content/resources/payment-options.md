@@ -5,8 +5,8 @@ seo:
   meta_description:
   featured_image:
 menu:
-  main:
-    parent: "Resources"
+  resources:
+    weight: 3
   footer_secondary:
     weight: 4
 hero:

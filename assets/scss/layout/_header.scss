@@ -213,14 +213,6 @@
     }
   }
 
-  &__navigation {
-    width: 70%;
-  }
-
-  &__sidebar {
-    width: 30%;
-  }
-
   &__heading-link {
     &:hover, &:focus {
       .icon-cube {
@@ -256,6 +248,18 @@
 
     li:nth-of-type(3n + 3)::before{
       background-image: url("/uploads/yellow-block.svg");
+    }
+  }
+
+  &__sidebar {
+    .grid-3 {
+      gap: $ic-200;
+      padding: 0;
+    }
+
+    .blog-card__content {
+      border: none;
+      padding: $ic-200 0;
     }
   }
 }

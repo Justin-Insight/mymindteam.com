@@ -5,8 +5,8 @@ seo:
   meta_description: Visit the Mind Team blog for neurodivergent guides, tips, news and resources for individuals of all ages in any stage of their learning journey.
   featured_image:
 menu:
-  main:
-    parent: "Resources"
+  resources:
+    weight: 1
   footer_secondary:
     weight: 2
 hero:

@@ -1,0 +1,73 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ if .Params.goals_block.enabled }}
+    {{ with .Params.goals_block }}
+        {{ partial "goal-icons" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.testing_block.enabled }}
+    {{ with .Params.testing_block }}
+    <section aria-labelledby="testing-heading" class="block bg-gray">
+        <div class="wrapper-md text-center mb-7">
+            <h2 id="testing-heading">{{ .heading | safeHTML }}</h2>
+            <p class="fs-300 fw-500" style="max-width: 850px; margin: 1.25rem auto;">{{ .body }}</p>
+        </div>
+        <div class="wrapper-md">
+            <div class="grid-2">
+                {{ range .image_cards }}
+                <div class="image-card flex flex-column flex-justify-center p-relative background-image">
+                    <img src="/uploads/{{ .image_url }}" alt="" class="border-radius-50">
+                    {{ if .button.enabled }}
+                        {{ with .button }}
+                            <div class="image-card__inner flex">
+                                <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    {{ end }}
+{{ end }}
+{{ if .Params.process_block.enabled }}
+    {{ with .Params.process_block }}
+        {{ partial "mt-process" . }}
+    {{ end }}
+{{ end }}
+<!-- Start blocks specific to our Child Testing page -->
+{{ if (or (eq .Title "Child Testing") (eq .Title "Adult Testing")) }}
+    {{ if .Params.testing_options_block.enabled }}
+        {{ with .Params.testing_options_block }}
+            {{ partial "mt-child-testing-options" . }}
+        {{ end }}
+    {{ end }}
+    {{ if .Params.page_blocks }}
+        {{ range .Params.page_blocks }}
+            {{ partial "page-block" . }}
+        {{ end }}   
+    {{ end }}
+    {{ if .Params.benefits_block.enabled }}
+        {{ with .Params.benefits_block }}
+            {{ partial "mt-benefits" . }}
+        {{ end }}
+    {{ end }}
+    {{ if .Params.single_column_block.enabled }}
+        {{ with .Params.single_column_block }}
+            {{ partial "single-column-block" . }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+<!-- End blocks specific to our Child Testing page -->
+{{ if .Params.faq_block.enabled }}
+    {{ with .Params.faq_block }}
+        {{ partial "mt-faqs" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
+{{ end }}
