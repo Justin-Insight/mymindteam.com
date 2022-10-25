@@ -10,7 +10,7 @@ seo:
   meta_description: Test for autism, ADHD, dyslexia and other conditions with Mind Team neurodivergent testing—100% remote, comprehensive and professional.
   featured_image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
 hero:
-  heading: Get the answers <span class="underline underline--accent">you need</span>.
+  heading: Get the answers you <span class="underline underline--accent">need</span>.
   body: Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and dyscalculia in children and adults.
   # image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
   image_url: young-girl-at-desk-during-video-call.jpg

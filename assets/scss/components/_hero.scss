@@ -4,6 +4,7 @@
   // max-height: 600px;
   // overflow: hidden;
   margin-bottom: 145px;
+  min-height: 500px;
 
   &__image {
     position: absolute;
@@ -17,8 +18,8 @@
   }
 
   &__content {
-    position: relative;
-    top: 220px;
+    position: absolute;
+    bottom: -100px;
   }
 
   &__small-title {
@@ -34,5 +35,10 @@
     @include breakpoint(sm) {
       top: -30px;
     }
+  }
+
+  &__body {
+    max-width: 700px; 
+    margin: $ic-200 auto;
   }
 }

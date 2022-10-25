@@ -10,3 +10,35 @@
         row-gap: $ic-600;
     }
 }
+
+.parent-page-child-testing,
+.parent-page-adult-testing {
+    @include breakpoint(lg) {
+        .benefit {
+            flex: 1 1 525px;
+        }
+    }
+}
+
+// @include breakpoint(xl) {
+//     .page-adhd {
+//         .benefit {
+//             flex: 1 1 800px;
+//         }
+//     }
+// }
+
+.page-comprehensive {
+    .hero__heading {
+        max-width: 20ch;
+        margin: 0 auto;
+    }
+
+    .hero__body {
+        max-width: none;
+    }
+
+    .pricing-chart:nth-of-type(1) {
+        margin-top: 0;
+    }
+}

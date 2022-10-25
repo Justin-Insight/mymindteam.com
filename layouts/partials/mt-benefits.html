@@ -9,7 +9,7 @@
                 <div class="benefit border-radius-50 text-center">
                     <img src="{{ .icon }}" alt="" class="benefit__image">
                     <h3>{{ .heading }}</h3>
-                    <p>{{ .body }}</p>
+                    <p class="max-width-none">{{ .body | safeHTML }}</p>
                 </div>
             {{ end }}
         </div>

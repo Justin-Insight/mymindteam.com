@@ -40,7 +40,7 @@
 {{ if (or (eq .Title "Child Testing") (eq .Title "Adult Testing")) }}
     {{ if .Params.testing_options_block.enabled }}
         {{ with .Params.testing_options_block }}
-            {{ partial "mt-child-testing-options" . }}
+            {{ partial "mt-testing-options" . }}
         {{ end }}
     {{ end }}
     {{ if .Params.page_blocks }}
