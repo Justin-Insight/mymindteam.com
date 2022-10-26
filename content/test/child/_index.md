@@ -44,6 +44,10 @@ testing_options_block:
 
         - Personal history and medical records
       price: $3,300
+      button:
+        enabled: true
+        button_url: /test/child/child-autism-test/
+        button_text: Learn More
     - heading: Child ADHD test
       subheading: "Test your child for ADHD in a diagnostic interview assessing:"
       body: >-
@@ -57,6 +61,10 @@ testing_options_block:
 
         - Personal history and medical records
       price: $2,300
+      button:
+        enabled: true
+        button_url: /test/child/child-adhd-test/
+        button_text: Learn More
     - heading: Targeted subject test
       subheading: "Test your child for dyslexia, dysgraphia or dyscalculia with a school psychologist assessing:"
       body: >-
@@ -68,6 +76,10 @@ testing_options_block:
 
         - Detailed personal and academic history
       price: $1,000
+      button:
+        enabled: true
+        button_url: /test/child/targeted-subject-testing-children/
+        button_text: Learn More
     - heading: Comprehensive subject test
       subheading: "Test your child for dyslexia, dysgraphia and dyscalculia all in one comprehensive test with a school psychologist assessing:"
       body: >-
@@ -77,6 +89,10 @@ testing_options_block:
 
         - Detailed personal and academic history
       price: $2,000
+      button:
+        enabled: true
+        button_url: /test/child/comprehensive-child-testing/
+        button_text: Learn More
     - heading: Comprehensive battery
       subheading: "Test your child for autism, ADHD, dyslexia, dysgraphia and dyscalculia all in one comprehensive diagnostic interview assessing:"
       body: >-
@@ -90,6 +106,10 @@ testing_options_block:
 
         - Personal, medical and academic history
       price: $3,900
+      button:
+        enabled: true
+        button_url: /test/child/comprehensive-child-testing/
+        button_text: Learn More
     - heading: Child specialty testing
       subheading: "Mind Team clinicians can administer a variety of specialty tests for your child, including:"
       body: >-
@@ -99,12 +119,16 @@ testing_options_block:
 
         - Various other school-related specialty tests
       price: Pricing varies
+      button:
+        enabled: true
+        button_url: /test/child/remote-specialty-testing-children/
+        button_text: Learn More
   button:
     enabled: true
     button_url: /get-started/
     button_text: Get Started Now
 page_blocks:
-  - heading: Does your child need neurodivergent testing?
+  - heading: Does your child <span class="underline underline--accent">need</span> neurodivergent testing?
     body: >-
       Children of any age can benefit from identifying their unique neural abilities and differences, whether or not they are currently struggling. 
 
@@ -160,7 +184,7 @@ benefits_block:
       icon: /uploads/blue-block.svg
 single_column_block:
   enabled: true
-  heading: Pricing for immediate support.
+  heading: Pricing for <span class="underline underline--secondary">immediate support</span>.
   body: >-
     No child deserves to struggle for months, but that’s what insurance providers typically require when covering educational testing services. To provide the immediate support you and your child deserve, Mind Team testing services must be paid out-of-pocket. Visit our payment page to learn more about your options.
   button:

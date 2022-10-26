@@ -45,9 +45,9 @@ testing_options_block:
         - Personal history and medical records
       price: $2,400
       button:
-        enabled: false
-        button_url: /get-started/
-        button_text: Get Started Now
+        enabled: true
+        button_url: /test/adult/adult-autism-test/
+        button_text: Learn More
     - heading: Adult ADHD test
       subheading: "Test for ADHD in a diagnostic interview assessing:"
       body: >-
@@ -62,9 +62,9 @@ testing_options_block:
         - Personal history and medical records
       price: $1,600
       button:
-        enabled: false
-        button_url: /get-started/
-        button_text: Get Started Now
+        enabled: true
+        button_url: /test/adult/online-adhd-test/
+        button_text: Learn More
     - heading: Comprehensive testing
       subheading: "Test for autism, ADHD, dyslexia, dysgraphia and dyscalculia all in one comprehensive diagnostic interview assessing:"
       body: >-
@@ -79,9 +79,9 @@ testing_options_block:
         - Personal history and medical records
       price: $3,900
       button:
-        enabled: false
-        button_url: /get-started/
-        button_text: Get Started Now
+        enabled: true
+        button_url: /test/adult/comprehensive-adult-testing/
+        button_text: Learn More
     - heading: Specialty testing
       subheading: "Mind Team clinicians can administer a variety of specialized tests including: "
       body: >-
@@ -94,9 +94,9 @@ testing_options_block:
         - Other specialty testing
       price: Pricing varies.
       button:
-        enabled: false
-        button_url: /get-started/
-        button_text: Get Started Now
+        enabled: true
+        button_url: /test/adult/remote-specialty-testing-adults/
+        button_text: Learn More
   button:
     enabled: true
     button_url: /get-started/
@@ -127,7 +127,7 @@ benefits_block:
       icon: /uploads/yellow-block.svg
 single_column_block:
   enabled: true
-  heading: Pricing for immediate support.
+  heading: Pricing for <span class="underline underline--accent">immediate support</span>.
   body: >-
     To provide the immediate support you deserve, Mind Team testing services must be paid out of pocket. Visit our payment page to learn more about your options.
   button:

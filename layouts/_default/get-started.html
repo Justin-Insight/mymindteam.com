@@ -9,73 +9,9 @@
         </div>
     {{ end }}
 {{ end }}
-{{ if .Params.our_services_block.enabled }}
-    {{ with .Params.our_services_block }}
-    <section aria-labelledby="services-heading" class="block" style="position:relative;">
-        <!-- <img src="/uploads/preview.jpg" alt="" style="position:absolute;top:0;left:0;opacity:.7;z-index:1000;"> -->
-        <div class="wrapper-lg text-center">
-            <h2 id="services-heading">{{ .heading | safeHTML }}</h2>
-            <p class="fs-300 max-width-none">{{ .body }}</p>
-        </div>
-        <div class="mt-services wrapper-lg mt-9">
-            {{ range .services }}
-                <div class="mt-service p-relative text-center border-radius-50">
-                    <img src="/uploads/yellow-block.svg" alt="" class="p-absolute mt-service__block-yellow">
-                    <img src="/uploads/blue-block.svg" alt="" class="p-absolute mt-service__block-blue">
-                    <img src="/uploads/orange-block.svg" alt="" class="p-absolute mt-service__block-orange">
-                    <h3 class="no-margin">{{ .heading | safeHTML }}</h3>
-                    <div class="mt-service__body mt-8">
-                        <p>{{ .body }}</p>
-                        {{ .benefits | markdownify }}
-                    </div>
-                    {{ if .button.enabled }}
-                        {{ with .button }}
-                            <a href="{{ .button_url }}" class="btn btn--primary p-absolute btn--centered">{{ .button_text }}</a>
-                        {{ end }}
-                    {{ end }}
-                </div>
-            {{ end }}
-        </div>
-    </section>
-    {{ end }}
-{{ end }}
-{{ if .Params.page_blocks }}
-    {{ range .Params.page_blocks }}
-        {{ partial "page-block-full-width" . }}
-    {{ end }}
-{{ end }}
-{{ if .Params.benefits_block.enabled }}
-    {{ with .Params.benefits_block }}
-        {{ partial "mt-benefits" . }}
-    {{ end }}
-{{ end }}
-{{ if .Params.pricing_block.enabled }}
-    {{ with .Params.pricing_block }}
-    <section aria-labelledby="pricing-heading" class="block">
-        <div class="wrapper-md flex flex-column flex-row-m flex-center">
-            <div class="w-100 w-30-m text-center">
-                <h2 id="pricing-heading">{{ .heading }}</h2id>
-                {{ if .button.enabled }}
-                    {{ with .button }}
-                        <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
-                    {{ end }}
-                {{ end }}
-            </div>
-            <div class="w-100 w-70-m mt-3 mt-0-m ml-9-m">
-                <p class="fw-500 fs-300">{{ .body }}</p>
-            </div>
-        </div>
-    </section>
-    {{ end }}   
-{{ end }}
 {{ if .Params.faq_block.enabled }}
     {{ with .Params.faq_block }}
         {{ partial "mt-faqs" . }}
-    {{ end }}
-{{ end }}
-{{ if .Params.cta_block.enabled }}
-    {{ with .Params.cta_block }}
-        {{ partial "site-cta" . }}
     {{ end }}
 {{ end }}
 {{ end }}

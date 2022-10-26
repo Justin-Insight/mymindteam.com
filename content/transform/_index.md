@@ -35,7 +35,7 @@ goals_block:
       icon: testing-icon-diagnose.svg
 thrive_block: 
   enabled: true
-  heading: Thrive in every environment.
+  heading: Thrive in <span class="underline underline--secondary">every</span> environment.
   body: Overcome challenges in a variety of previously stressful environments with the life-changing outcomes of working with Mind Team.
   environments: 
     - heading: At school

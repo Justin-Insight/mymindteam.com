@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ if .Params.testing_options_block.enabled }}
+    {{ with .Params.testing_options_block }}
+        {{ partial "mt-testing-options" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.pay_as_you_go_block.enabled }}
+    {{ with .Params.pay_as_you_go_block }}
+    <div class="block">
+        <div class="wrapper-lg text-center">
+            <h2>{{ .heading }}</h2>
+            <p class="fs-300 max-width-none">{{ .body }}</p>
+        </div>
+        <div class="wrapper-lg mt-9">
+            <div class="grid-3">
+                {{ range .installments }}
+                <div class="mt-process flex flex-column flex-row-l flex-start">
+                    <img src="{{ .icon }}" alt="" class="mt-process__icon mr-5">
+                    <div class="mt-process__content">
+                        <h3 class="mt-process__heading">{{ .heading | safeHTML }}</h3>
+                        <p class="mt-process__body">{{ .body | safeHTML }}</p>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+{{ end }}
+{{ if .Params.treatment_options_block.enabled }}
+    {{ with .Params.treatment_options_block }}
+        {{ partial "mt-testing-options" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.page_blocks }}
+    {{ range .Params.page_blocks }}
+        {{ partial "page-block" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.faq_block.enabled }}
+    {{ with .Params.faq_block }}
+        {{ partial "mt-faqs" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
+{{ end }}

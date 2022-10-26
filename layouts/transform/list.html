@@ -9,7 +9,7 @@
     {{ with .Params.thrive_block }}
         <section aria-labelledby="thrive-heading" class="block bg-gray">
             <div class="wrapper-lg text-center">
-                <h2 id="thrive-heading">{{ .heading }}</h2>
+                <h2 id="thrive-heading">{{ .heading | safeHTML }}</h2>
                 <p class="fw-500 fs-300" style="max-width: 900px; margin: 0 auto;">{{ .body }}</p>
             </div>
             {{ range .environments }}

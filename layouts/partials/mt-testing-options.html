@@ -3,12 +3,12 @@
     <h2 id="pricing-heading">{{ .heading | safeHTML }}</h2>
   </div>
   <div class="block-sm">
-    <div class="wrapper-lg pricing-grid">
+    <div class="wrapper-lg grid-2">
       {{ range .options }}
         {{ partial "mt-pricing-chart" . }}
       {{ end }}
     </div>
-    <div class="wrapper-lg text-center">
+    <div class="wrapper-lg text-center mt-8">
       <p class="fs-300 fw-500" style="max-width: 875px; margin: 1.25rem auto;">{{ .body }}</p>
       {{ if .button.enabled }}
         {{ with .button }}

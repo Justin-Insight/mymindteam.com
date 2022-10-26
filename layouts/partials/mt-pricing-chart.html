@@ -6,7 +6,10 @@
   <div class="pricing-chart__body">
     {{ .body | markdownify }}
   </div>
-  <div class="pricing-chart__footer">
-    {{ .price }}
+  <div class="pricing-chart__footer p-relative">
+    <p class="mb-1">{{ .price }}</p>
+    {{ if .button.enabled }}
+      <a href="{{ .button.button_url }}" class="p-absolute btn btn--primary btn--centered">{{ .button.button_text }} <span class="visually-hidden">about our {{ .heading }}</span></a>
+    {{ end }}
   </div>
 </div>

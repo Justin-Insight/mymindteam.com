@@ -25,10 +25,6 @@ intro:
     enabled: false
     button_url:
     button_text:
-  image:
-    enabled: false
-    image_url:
-    image_alt:
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">questions</span>

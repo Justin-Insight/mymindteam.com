@@ -1,14 +1,5 @@
-.pricing-grid {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: $ic-300;
-  row-gap: $ic-600;
-  margin-top: $ic-300;
-}
-
 .pricing-chart {
-  height: 100%;
-  flex: 1 1 350px;
+  height: max-content;
 
   &__header {
     padding: $ic-300;
@@ -21,10 +12,12 @@
     ul {
       margin: 0;
       padding: 0;
+      max-width: 100%;
 
       li {
         margin-top: 0;
         padding: $ic--100 0;
+        max-width: 100%;
 
         &::before {
           background-image: none;
@@ -39,10 +32,7 @@
 
   &__footer {
     padding: $ic-300;
-  }
-
-  @media (min-width: 1525px) {
-    flex: 1 1 400px;
+    font-size: $ic-400;
   }
 }
 
@@ -56,12 +46,5 @@
     .pricing-chart:nth-of-type(5) {
       margin-top: -45px;
     }
-  }
-}
-
-.parent-page-adult-testing {
-  .pricing-chart {
-    height: 100%;
-    flex: 1 1 800px;
   }
 }

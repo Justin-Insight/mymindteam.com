@@ -1,8 +1,9 @@
 ---
 title: Payment Options
+layout: payment-options
 seo:
-  page_title:
-  meta_description:
+  page_title: Payment Options
+  meta_description: View Mind Team testing and treatment pricing and convenient online self-pay options and see what’s included in your investment.
   featured_image:
 menu:
   resources:
@@ -10,11 +11,234 @@ menu:
   footer_secondary:
     weight: 4
 hero:
-  heading: Payment Options
-  image:
-    image_url:
-    image_alt:
-intro:
-  heading:
+  heading: Your Mind Team <span class="underline underline--accent">Investment</span>
+  body: View our testing and treatment service pricing with convenient online self-pay options and learn about everything included in your investment.
+  image_url: young-girl-at-desk-during-video-call.jpg
+  image_alt:
+  button:
+    enabled: false
+    button_url: /get-started/
+    button_text: Get Started Now
+testing_options_block:
+  enabled: true
+  heading: Mind Team test pricing
+  body: Get started with our brief questionnaire and the experts at Mind Team will help you determine the test that best suits your child’s needs.
+  options:
+    - heading: Adult autism test
+      subheading: "Test for autism in a structured interview assessing:"
+      body: >-
+        - Executive functioning
+
+        - Feedback from friends, relatives or coworkers
+
+        - Emotional/behavioral conditions
+
+        - Personal history and medical records
+      price: $2,400
+      button:
+        enabled: true
+        button_url: /test/adult/adult-autism-test/
+        button_text: Learn More
+    - heading: Adult ADHD test
+      subheading: "Test for ADHD in a diagnostic interview assessing:"
+      body: >-
+        - Attention
+
+        - Executive functioning
+
+        - Memory screen
+
+        - Emotional/behavioral conditions
+
+        - Personal history and medical records
+      price: $1,600
+      button:
+        enabled: true
+        button_url: /test/adult/online-adhd-test/
+        button_text: Learn More
+    - heading: Comprehensive testing
+      subheading: "Test for autism, ADHD, dyslexia, dysgraphia and dyscalculia all in one comprehensive diagnostic interview assessing:"
+      body: >-
+        - Attention
+
+        - Executive functioning
+
+        - Broad reading, writing and math achievement
+
+        - Cognitive IQ
+
+        - Personal history and medical records
+      price: $3,900
+      button:
+        enabled: true
+        button_url: /test/adult/comprehensive-adult-testing/
+        button_text: Learn More
+    - heading: Specialty testing
+      subheading: "Mind Team clinicians can administer a variety of specialized tests including: "
+      body: >-
+        - Accommodated college admissions exams (e.g. ACT, MCAT, LSAT) 
+
+        - Accommodated professional licensure exams
+
+        - IQ testing
+
+        - Other specialty testing
+      price: Pricing varies.
+      button:
+        enabled: true
+        button_url: /test/adult/remote-specialty-testing-adults/
+        button_text: Learn More
+  button:
+    enabled: true
+    button_url: /get-started/
+    button_text: Get Started Now
+pay_as_you_go_block:
+  enabled: true
+  heading: Pay as you go
+  body: Mind Team testing services can be paid in three simple installments throughout your testing process.
+  installments:
+    - heading: <span class="underline underline--primary">First</span> installment
+      body: Schedule your pre-assessment intake appointment (where we’ll determine which Mind Test is right for you) with an initial <strong>$150 deposit</strong>.
+      icon: /uploads/1-blue-block.svg
+    - heading: <span class="underline underline--secondary">Second</span> installment
+      body: Make your second payment of at least <strong>50% of the remaining balance</strong> to schedule your assessment.
+      icon: /uploads/2-orange-block.svg
+    - heading: <span class="underline underline--accent">Third</span> installment
+      body: <strong>24 hours prior</strong> to your assessment review appointment, final payment of any remaining balance is due.
+      icon: /uploads/3-yellow-block.svg
+treatment_options_block:
+  enabled: true
+  heading: Mind Team treatment pricing
   body:
+  options:
+    - heading: Educational interventions
+      subheading:
+      body: >-
+
+      price: $XX one-time payment
+      button:
+        enabled: false
+        button_url:
+        button_text:
+    - heading: General treatment services
+      subheading:
+      body: >-
+
+      price: $XX per hour
+      button:
+        enabled: false
+        button_url:
+        button_text:
+  button:
+    enabled: false
+    button_url: /get-started/
+    button_text: Get Started Now
+page_blocks:
+  - heading: Self-pay rates for <span class="underline underline--primary">immediate support</span>
+    body: >-
+      To offer the immediate answers, guidance and support you deserve, free from referral requirements and other obstacles, Mind Team does not accept insurance. 
+
+
+      However, we have partnered with <a href="https://reimbursify.com/" target="_blank" rel="noopener noreferrer nofollower">Reimbursify</a> and <a href="https://www.zaya.health/" target="_blank" rel="noopener noreferrer nofollower">Zaya Health</a> to assist you in getting your testing and/or treatment reimbursed (if your provider covers out-of-network testing and treatment), without the typical stress of filing a claim.
+    button:
+      enabled: false
+      button_url:
+      button_text:
+    text_column_left: false
+    text_column_right: true
+    image:
+      enabled: true
+      image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      image_alt:
+    background_color: gray
+  - heading: Accepted payment methods
+    body: >-
+      Electronic payment can be made via our secure, online portal with the following methods: 
+
+      - Credit cards (Visa, MasterCard, American Express and Discover)
+
+      - ACH payments from checking or savings accounts 
+
+      - HSA/FSA accounts
+    button:
+      enabled: false
+      button_url:
+      button_text:
+    text_column_left: true
+    text_column_right: false
+    image:
+      enabled: true
+      image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      image_alt:
+    background_color: white
+faq_block:
+  enabled: true
+  heading: Frequently asked <span class="underline underline--secondary">questions</span>
+  questions:
+    - question: What’s included?
+      answer: |-
+        Our top priority at Mind Team is to provide you with the most professional neurodivergent testing possible, which includes hours of behind-the-scenes work from our multidisciplinary team.
+
+        To ensure you get the most accurate, empowering and helpful support possible, your Mind Team testing investment includes: 
+
+        - Professional intake interview 
+
+        - Direct costs of testing materials and professional evaluators 
+
+        - Testing administration
+
+        - Test scoring
+
+        - Record, background and history review 
+
+        - Interpretation of test findings
+
+        - Collaborative consultation among our multidisciplinary team 
+
+        - Report preparation
+
+        - And professional review
+    - question: Why does treatment pricing vary so much?
+      answer: |-
+        Your Mind Team clinician, as well as your unique treatment plan, is customized to your/your child’s specific mind and needs. 
+
+
+        Some individuals work with interventionists, while others work with school psychologists or clinicians specializing in autism or ADHD treatment. Your hourly treatment rate will depend on the type of clinician that best suits your needs.
+    - question: Do you accept insurance?
+      answer: >-
+        While we do not accept insurance of any kind, many insurance providers offer out-of-network reimbursement for professional testing and/or treatment services. 
+
+
+        If you choose to pursue reimbursement, your Mind Team payment process will remain the same. Once you’ve made your electronic payment via our online portal, you’ll can then file a claim with your insurance provider for full or partial reimbursement, depending on your coverage. 
+
+
+        Or, you can utilize the assistance of <a href="https://reimbursify.com/" target="_blank" rel="noopener noreferrer nofollower">Reimbursify</a> and <a href="https://www.zaya.health/" target="_blank" rel="noopener noreferrer nofollower">Zaya Health</a>, who we’ve partnered with to make the reimbursement process less of a hassle.
+    - question: How do I file a reimbursement claim?
+      answer: |-
+        Filing for reimbursement can be a difficult process, which is why we’ve partnered with <a href="https://reimbursify.com/" target="_blank" rel="noopener noreferrer nofollower">Reimbursify</a> and <a href="https://www.zaya.health/" target="_blank" rel="noopener noreferrer nofollower">Zaya Health</a>. These companies help file your claim quickly and do the hard work for you.
+
+
+        If you plan on filing a reimbursement claim, we highly recommend contacting your insurance provider prior to scheduling your Mind Team service. Some providers require <a href="https://www.priorauthtraining.org/prior-authorization/" target="_blank" rel="noopener noreferrer nofollower">prior authorization</a> to approve reimbursement coverage. 
+
+
+        When contacting your provider, ask if any of the following <a href="https://www.ama-assn.org/practice-management/cpt/cpt-overview-and-code-approval" target="_blank" rel="noopener noreferrer nofollower">CPT codes</a> need prior authorization for qualify or reimbursement: 96130, 96131, 96132, 96133, 96136, 96137, 96112, 96113, 96125.
+    - question: Can I still get support without an official diagnosis?
+      answer: |-
+        Yes! All learners can benefit from the transformative learning assessment and treatment services at Mind Team, with or without an official diagnosis.
+    - question: How does remote testing and treatment work?
+      answer: |-
+        To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
+  subheading: Have a different question?
+  button:
+    enabled: true
+    button_url: /resources/faqs/
+    button_text: View all FAQs
+cta_block:
+  enabled: true
+  heading: <span class="underline underline--primary">Invest</span> in your mind.
+  body: The process is simple! Get started by filling out our brief questionnaire.
+  button:
+    enabled: true
+    button_url: /get-started/
+    button_text: Get Started Now
 ---
