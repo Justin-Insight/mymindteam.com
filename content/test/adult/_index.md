@@ -11,7 +11,7 @@ seo:
 hero:
   heading: Get the answers you <span class="underline underline--accent">need</span>.
   body: Professional adult testing for autism, ADHD, dyslexia and other neurodivergent conditions—100% remote and conducted by licensed clinicians.
-  image_url: mind-team-counselor-during-treatment-session-7.jpg
+  image_url: mind-team-counselor-during-treatment-session-15.jpg
   image_alt:
   button:
     enabled: false

@@ -11,7 +11,7 @@ seo:
 hero:
   heading: Targeted subject tests for <span class="underline underline--accent">children</span>
   body: $1,000
-  image_url: young-girl-during-a-child-adhd-testing-session-6.jpg
+  image_url: young-girl-during-a-child-adhd-testing-session-8.jpg
   image_alt:
   button:
     enabled: false
