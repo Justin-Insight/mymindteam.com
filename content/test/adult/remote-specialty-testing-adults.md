@@ -11,7 +11,7 @@ seo:
 hero:
   heading: Remote <span class="underline underline--accent">specialty</span> testing for adults
   body: Inquire for pricing.
-  image_url: mind-team-clinician-14.jpg
+  image_url: mind-team-clinician-23.jpg
   image_alt:
   button:
     enabled: false
