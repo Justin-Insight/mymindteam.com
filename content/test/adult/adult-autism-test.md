@@ -11,7 +11,8 @@ seo:
 hero:
   heading: Think you might have <span class="underline underline--accent">autism</span>?
   body: Get the professional autism testing and diagnosis you need to work <em>with</em> your mind, all from the comfort of home.
-  image_url: young-girl-at-desk-during-video-call.jpg
+  # image_url: mind-team-clinician-14.jpg
+  image_url: books-on-desk-6.jpg
   image_alt:
   button:
     enabled: false

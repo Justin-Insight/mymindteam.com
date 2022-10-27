@@ -13,7 +13,7 @@ hero:
   heading: Get the answers you <span class="underline underline--accent">need</span>.
   body: Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and dyscalculia in children and adults.
   # image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: young-girl-during-autism-spectrum-disorder-testing-2.jpg
   image_alt:
   button:
     enabled: false

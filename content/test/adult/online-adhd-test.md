@@ -11,7 +11,7 @@ seo:
 hero:
   heading: <span class="underline underline--accent">Adult</span> ADHD Tests
   body: Get the professional ADHD testing and diagnosis you need to work <em>with</em> your mind, all from the comfort of home.
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: mind-team-counselor-during-treatment-session-2.jpg
   image_alt:
   button:
     enabled: false

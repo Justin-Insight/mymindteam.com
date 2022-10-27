@@ -11,7 +11,7 @@ seo:
 hero:
   heading: <span class="underline underline--accent">Adult</span> targeted subject tests
   body: $1,000
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: mind-team-clinicians-looking-at-book-2.jpg
   image_alt:
   button:
     enabled: false

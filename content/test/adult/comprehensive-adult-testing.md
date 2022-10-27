@@ -11,7 +11,7 @@ seo:
 hero:
   heading: All the <span class="underline underline--accent">answers you need</span>; one simple test.
   body: Get a comprehensive understanding of your unique mind with Mind Team comprehensive testing for adults who think they may have autism, ADHD, dyslexia and other neurodivergent conditions.
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: mind-team-counselor-during-treatment-session-2.jpg
   image_alt:
   button:
     enabled: false
