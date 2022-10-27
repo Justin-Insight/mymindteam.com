@@ -11,7 +11,7 @@ seo:
 hero:
   heading: Remote <span class="underline underline--accent">specialty</span> testing for children
   body: Inquire for pricing.
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: young-girl-during-a-child-adhd-testing-session-7.jpg
   image_alt:
   button:
     enabled: false

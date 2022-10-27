@@ -12,7 +12,7 @@ seo:
 hero:
   heading: Get a <span class="underline underline--accent">full understanding</span> of your child’s mind.
   body: If your child is struggling in multiple subject areas or you think they could have more than one condition such as autism, ADHD or dyslexia, Mind Team comprehensive tests for children make it easy to get the answers you need.
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: young-boy-during-one-on-one-remote-counseling-session-5.jpg
   image_alt:
   button:
     enabled: false

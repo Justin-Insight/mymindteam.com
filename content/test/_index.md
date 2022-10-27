@@ -14,6 +14,7 @@ hero:
   body: Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and dyscalculia in children and adults.
   # image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
   image_url: young-girl-during-autism-spectrum-disorder-testing-2.jpg
+  image_url: adhd-testing-on-desk.jpg
   image_alt:
   button:
     enabled: false

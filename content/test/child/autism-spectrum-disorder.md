@@ -12,7 +12,7 @@ seo:
 hero:
   heading: Does your <span class="underline underline--accent">child</span> have autism?
   body: Get the professional answers and support you need to work <em>with</em> your child’s mind, all from the comfort of home.
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: young-girl-during-autism-spectrum-disorder-testing-7.jpg
   image_alt:
   button:
     enabled: false
