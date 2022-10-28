@@ -22,7 +22,7 @@ targeted_subject_testing_block:
   heading: Struggling with reading, writing or math?
   body: Test for dyslexia, dysgraphia, dyscalculia and other conditions that may be getting in the way of your learning and living.
   options:
-    - heading: Test for dyslexia
+    - heading: Test for <span class="underline underline--primary">dyslexia</span>
       subheading: "Dyslexia can cause issues with reading. You may be struggling with dyslexia if you:"
       body: >-
         - Read at a slow pace. 
@@ -40,14 +40,14 @@ targeted_subject_testing_block:
       text_column_right: true
       image:
         enabled: true
-        image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+        image_url: adult-reading-book.jpg
         image_alt:
       button:
         enabled: true
         button_url: /get-started/
         button_text: Schedule a dyslexia test
       background_color: gray
-    - heading: Test for dysgraphia
+    - heading: Test for <span class="underline underline--secondary">dysgraphia</span>
       subheading: "Dysgraphia can cause issues with writing. You may be struggling with dysgraphia if you:"
       body: >-
         - Struggle to write by hand. 
@@ -61,14 +61,14 @@ targeted_subject_testing_block:
       text_column_right: false
       image:
         enabled: true
-        image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+        image_url: writing.jpg
         image_alt:
       button:
         enabled: true
         button_url: /get-started/
         button_text: Schedule a dysgraphia test
       background_color: white
-    - heading: Test for dyscalculia
+    - heading: Test for <span class="underline underline--accent">dyscalculia</span>
       subheading: "Dyscalculia can cause issues with math. You may be struggling with dyscalculia if you:"
       body: >-
         - Have trouble making quick calculations, especially in your head. 
@@ -84,7 +84,7 @@ targeted_subject_testing_block:
       text_column_right: true
       image:
         enabled: true
-        image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+        image_url: calculator.jpg
         image_alt:
       button:
         enabled: true

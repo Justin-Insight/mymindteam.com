@@ -37,7 +37,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      image_url: college-exams.jpg
       image_alt:
 cta_block:
   enabled: true

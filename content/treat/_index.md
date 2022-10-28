@@ -13,8 +13,7 @@ seo:
 hero:
   heading: Every mind can <span class="underline underline--accent">thrive</span>.
   body: With Mind Team professional remote treatment for children and adults struggling with autism, ADHD, dyslexia, dysgraphia, dyscalculia and other learning challenges.
-  # image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: mind-team-clinician-during-one-on-one-remote-counseling-session-2.jpg
   image_alt:
   button:
     enabled: true

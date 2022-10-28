@@ -40,7 +40,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      image_url: child-sitting-alone-at-playground.jpg
       image_alt:
 adhd_testing_block:
   enabled: true

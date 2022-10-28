@@ -22,7 +22,7 @@ targeted_subject_testing_block:
   heading: Is your <span class="underline underline--primary">child</span> struggling with reading, writing or math?
   body: Test for dyslexia, dysgraphia, dyscalculia and other conditions that may be getting in the way of their learning and life.
   options:
-    - heading: Test for dyslexia
+    - heading: Test for <span class="underline underline--primary">dyslexia</span>
       subheading: "Dyslexia can cause issues with reading. Your child may be struggling with dyslexia if they:"
       body: >-
         - Were late to talk or still struggle to communicate verbally. 
@@ -38,14 +38,14 @@ targeted_subject_testing_block:
       text_column_right: true
       image:
         enabled: true
-        image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+        image_url: child-reading.jpg
         image_alt:
       button:
         enabled: true
         button_url: /get-started/
         button_text: Schedule your child’s dyslexia test
       background_color: gray
-    - heading: Test for dysgraphia
+    - heading: Test for <span class="underline underline--secondary">dysgraphia</span>
       subheading: "Dysgraphia can cause issues with writing. Your child may be struggling with dysgraphia if they:"
       body: >-
         - Struggle to form letters, shapes and numbers by hand.
@@ -59,14 +59,14 @@ targeted_subject_testing_block:
       text_column_right: false
       image:
         enabled: true
-        image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+        image_url: two-young-girls-working-on-assignments.jpg
         image_alt:
       button:
         enabled: true
         button_url: /get-started/
         button_text: Schedule your child’s dysgraphia test
       background_color: white
-    - heading: Test for dyscalculia
+    - heading: Test for <span class="underline underline--accent">dyscalculia</span>
       subheading: "Dyscalculia can cause issues with math. You may be struggling with dyscalculia if they:"
       body: >-
         - Struggle to count, especially in their heads.
@@ -80,7 +80,7 @@ targeted_subject_testing_block:
       text_column_right: true
       image:
         enabled: true
-        image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+        image_url: child-doing-math-2.jpg
         image_alt:
       button:
         enabled: true

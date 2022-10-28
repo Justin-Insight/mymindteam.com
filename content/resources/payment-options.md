@@ -13,7 +13,7 @@ menu:
 hero:
   heading: Your Mind Team <span class="underline underline--accent">Investment</span>
   body: View our testing and treatment service pricing with convenient online self-pay options and learn about everything included in your investment.
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: young-girl-during-autism-spectrum-disorder-testing-3.jpg
   image_alt:
   button:
     enabled: false
@@ -148,7 +148,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      image_url: young-girl-on-video-call-with-dr-weiland.jpg
       image_alt:
     background_color: gray
   - heading: Accepted payment methods
@@ -168,7 +168,7 @@ page_blocks:
     text_column_right: false
     image:
       enabled: true
-      image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      image_url: two-clinicians-on-video-call-together-3.jpg
       image_alt:
     background_color: white
 faq_block:

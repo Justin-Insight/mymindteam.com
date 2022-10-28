@@ -45,8 +45,8 @@
     {{ with .Params.ongoing_support_block }}
         <div class="block">
             <div class="wrapper text-center">
-                <h2>{{ .heading }}</h2>
-                <p>{{ .body }}</p>
+                <h2>{{ .heading | safeHTML }}</h2>
+                <p>{{ .body | safeHTML }}</p>
             </div>
         </div>
     {{ end }}
