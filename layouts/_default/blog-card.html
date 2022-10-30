@@ -9,6 +9,12 @@
     </div>
   </a>
   <div class="blog-card__content flow flex flex-column flex-justify-between">
+    <div class="blog-card__category p-absolute">
+      {{ if .Params.Categories }}
+      {{ range $index, $elements := .Params.Categories }}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="categories">{{ if ne $index 0 }}{{ end }}
+          {{ . | title }}</a>{{ end}}
+      {{ end }}
+    </div>
     <div>
       <a href="{{ .Permalink }}" class="blog-card__link">
         <h3 class="blog-card__title h5">{{ .Title }}</h3>

@@ -9,6 +9,7 @@
 
   &__cover {
     max-height: 300px;
+    border-radius: 20px;
 
     img {
       transition: 0.3s ease-out;
@@ -16,11 +17,36 @@
     }
   }
 
+  &__category {
+    top: -42px;
+    left: $ic-100;
+
+    a {
+      background: $secondary-color;
+      border-radius: 50px;
+      color: $white;
+      padding: $ic--100 $ic-200;
+      font-size: $ic-100;
+      line-height: 1;
+      text-decoration: none;
+
+      &:hover, 
+      &:focus {
+        background: $primary-color;
+      }
+    }
+
+    a + a {
+      margin-left: $ic-100;
+    }
+  }
+
   &__content {
-    padding: $ic-200;
-    border-right: 2px solid $light-gray;
-    border-left: 2px solid $light-gray;
-    border-bottom: 2px solid $light-gray;
+    margin-top: $ic-200; 
+    // padding: $ic-200;
+    // border-right: 2px solid $light-gray;
+    // border-left: 2px solid $light-gray;
+    // border-bottom: 2px solid $light-gray;
     position: relative;
     flex: 1;
 
