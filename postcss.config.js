@@ -36,6 +36,8 @@ module.exports = {
         'mr-6-m',
         'list-open',
         'resources-sub-menu',
+        'hr',
+        'blockquote',
       ],
     }),
   ],

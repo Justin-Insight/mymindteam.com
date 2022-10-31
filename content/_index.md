@@ -6,7 +6,7 @@ seo:
   featured_image:
 hero:
   heading: Live and learn <span class="underline underline--accent">without limitation</span>.
-  body: Professional online testing, diagnosis and support for children and adults with <strong>autism, ADHD, dyslexia</strong> and various other neurodivergent conditions.
+  body:
   # image_url: young-girl-on-computer-during-video-call-at-desk.jpg
   image_url: young-girl-on-video-call-with-mind-team-clinician.jpg
   # image_url: young-girl-during-video-call-with-dr-weiland.jpg
@@ -19,7 +19,7 @@ intro:
   enabled: true
   heading: Get the support <span class="underline underline--primary">you deserve</span>.
   body: >-
-    Conducted by licensed clinicians across our multidisciplinary team, Mind Team offers expert guidance and support in three simple steps.
+    Professional, one-on-one remote testing and treatment services for children and adults with <strong>autism, ADHD, dyslexia</strong> and other <strong>neurodivergent conditions</strong>.
   video: mind-team-logo-animation.mp4
   button:
     enabled: false

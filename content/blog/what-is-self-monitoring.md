@@ -1,5 +1,5 @@
 ---
-title: "Why Don’t I Want To Do Anything Anymore"
+title: "What is self monitoring"
 seo:
   page_title:
   meta_description:

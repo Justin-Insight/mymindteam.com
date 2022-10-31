@@ -80,3 +80,9 @@ Sed libero enim sed faucibus turpis in eu mi bibendum. Lectus sit amet est place
    6. List item 6
 5. List item 5
 6. List item 6
+
+---
+
+## Horizontal Rule
+
+---

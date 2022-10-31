@@ -8,7 +8,7 @@
           <div class="flex flex-justify-between">
             <div class="categories-list">
               {{ if .Params.Categories }}
-              {{ range $index, $elements := .Params.Categories }}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="hero--blog__categories">{{ if ne $index 0 }}{{ end }}
+              {{ range $index, $elements := .Params.Categories }}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="categories">{{ if ne $index 0 }}{{ end }}
                   {{ . | title }}</a><span class="text-white">,</span>{{ end}}
               {{ end }}
             </div>

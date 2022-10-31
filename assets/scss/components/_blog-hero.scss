@@ -32,6 +32,10 @@
     .categories-list span:last-of-type {
       display: none;
     }
+
+    &__categories + &__categories {
+      margin-left: $ic-100;
+    }
   
     &__author-image {
         img {

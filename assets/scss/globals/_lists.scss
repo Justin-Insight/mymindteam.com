@@ -19,7 +19,7 @@ ul ol {
 }
 
 .site-main {
-  ul li:not(.share-buttons__list-items) {
+  ul li:not(.share-buttons__list-items, .pricing-chart__body li) {
     position: relative;
     list-style-type: none;
     break-inside: avoid;

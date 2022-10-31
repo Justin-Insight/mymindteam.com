@@ -1,7 +1,7 @@
 {{ $heroClass := lower .Page.Title }}
-<section aria-labelledby="hero-heading" class="{{ anchorize $heroClass }}-hero">
+<section aria-labelledby="hero-heading" class="{{ anchorize $heroClass }}-hero flex flex-column flex-row-m flex-center">
   {{ partial "hero-image" . }}
-  <div class="block-md">
+  <div class="block-md w-100">
     <div class="wrapper-lg">
       <div class="home-hero__content flex flex-column flex-row-m">
         <div class="w-100 w-50-m"></div>

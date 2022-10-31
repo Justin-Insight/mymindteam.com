@@ -4,17 +4,23 @@
     {{ with .Params.intro }}
         <section aria-labelledby="homepage-intro-heading" class="block">
             <div class="wrapper-md">
-                <div class="flex flex-column flex-row-m">
+                <div class="flex flex-column flex-row-m flex-center">
                     <div class="w-100 w-50-m flow text-center">
                         <!-- 1MB video down to 150KB with imagekit.io transformation -->
                         <video height="300" width="500" loop="loop" muted="true" playsinline="" style="opacity: 1;" autoplay="true" poster="">
                             <source src="https://ik.imagekit.io/insightcreative/mind-team/{{ .video }}?tr=w-700,q-70" type="video/mp4">
                         </video>
-                        <h2 id="homepage-intro-heading">{{ .heading | safeHTML }}</h2>
-                        <p style="max-width: 500px;margin: 1.25rem auto;">{{ .body }}</p>
                     </div>
-                    <div class="w-100 w-50-m flow mt-3 mt-0-m ml-6-m">
-                        {{ with .our_process }}
+                    <div class="w-100 w-50-m flow mt-3 mt-0-m ml-6-m text-center">
+                        <h2 id="homepage-intro-heading">{{ .heading | safeHTML }}</h2>
+                        <p style="max-width: 500px;margin: 1.25rem auto;">{{ .body | safeHTML }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="wrapper-lg">
+                    {{ with .our_process }}
+                        <div class="grid-3">
                             {{ range .steps }}
                             <div class="mt-process flex flex-column flex-row-s flex-start">
                                 <img src="{{ .icon }}" alt="" class="mt-process__icon mr-5">
@@ -24,8 +30,8 @@
                                 </div>
                             </div>
                             {{ end }}
-                        {{ end }}
-                    </div>
+                        </div>
+                    {{ end }}
                 </div>
             </div>
         </section>

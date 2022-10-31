@@ -21,21 +21,6 @@
     top: -42px;
     left: $ic-100;
 
-    a {
-      background: $secondary-color;
-      border-radius: 50px;
-      color: $white;
-      padding: $ic--100 $ic-200;
-      font-size: $ic-100;
-      line-height: 1;
-      text-decoration: none;
-
-      &:hover, 
-      &:focus {
-        background: $primary-color;
-      }
-    }
-
     a + a {
       margin-left: $ic-100;
     }
@@ -98,5 +83,21 @@
     .blog-card__title {
       color: $primary-color;
     }
+  }
+}
+
+.categories {
+  background: $secondary-color;
+  border-radius: 50px;
+  color: $white;
+  padding: $ic--100 $ic-200;
+  font-size: $ic-100;
+  line-height: 1;
+  text-decoration: none;
+
+  &:hover, 
+  &:focus {
+    background: $primary-color;
+    color: $white;
   }
 }
