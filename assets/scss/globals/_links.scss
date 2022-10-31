@@ -10,7 +10,7 @@ a, .simple-link {
   }
 }
 
-.site-main a:not(.btn, .goal-icon, .blog-card__link, .categories, .pagination a) {
+.site-main a:not(.btn, .goal-icon, .blog-card__link, .categories, .pagination a, .back, .share-buttons__link, .post-navigation a, .category-list a) {
   color: $primary-color;
   text-decoration: none;
   background-image: linear-gradient($primary-color, $primary-color),linear-gradient(270deg,$accent-color 0%,$accent-color 100%);

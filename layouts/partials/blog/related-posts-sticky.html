@@ -1,0 +1,9 @@
+{{ $related := .Site.RegularPages.RelatedIndices . "categories" | first 3 }}
+{{ with $related }}
+<div class="related-posts--sticky wrapper-lg flow">
+    <h2 class="text-primary">Related articles</h2>
+    {{ range . }}
+        {{ .Render "blog-card-condensed" }}
+    {{ end }}
+</div>
+{{ end }}

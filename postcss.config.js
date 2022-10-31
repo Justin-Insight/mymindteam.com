@@ -32,6 +32,7 @@ module.exports = {
         'parent-page-get-started',
         'parent-page-child-testing',
         'parent-page-adult-testing',
+        'parent-page-blog',
         'mr-6-m',
         'list-open',
         'resources-sub-menu',

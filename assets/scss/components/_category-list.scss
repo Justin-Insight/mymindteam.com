@@ -10,7 +10,7 @@
   transform: scaleY(0);
   transform-origin: top;
   transition: 0.3s ease;
-  padding: $ic-300;
+  padding: $ic-500;
 
   @include breakpoint(md) {
     columns: 2;
@@ -19,11 +19,11 @@
   &__item {
     list-style-type: none;
     padding: 0;
+    line-height: 1;
   }
 
   &__link {
-    color: $white;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     text-decoration: none;
   }
 }

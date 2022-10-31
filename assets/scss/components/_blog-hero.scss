@@ -6,13 +6,13 @@
     }
   
     .back {
-      color: $white;
+      color: $primary-color;
       transition: $transition;
   
       svg {
         height: $ic-100;
         width: $ic-100;
-        fill: $white;
+        fill: $primary-color;
         position: relative;
         top: 1px;
         transition: $transition;
@@ -33,14 +33,26 @@
       display: none;
     }
   
+    &__author-image {
+        img {
+            max-width: 75px;
+            height: auto;
+        }
+    }
+
     .reading-time {
-        color: $white; 
         
         svg {
-        height: $ic-100;
-        width: $ic-100;
-        fill: $white;
-        margin-right: $ic--200;
+            height: $ic-100;
+            width: $ic-100;
+            fill: $black;
+            margin-right: $ic--200;
+        }
+    }
+
+    .post-featured-image {
+        img {
+            height: 400px;
         }
     }
 }
