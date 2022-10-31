@@ -1,0 +1,38 @@
+{{ $heroClass := lower .Page.Title }}
+<div class="hero--blog hero--{{ anchorize $heroClass }} block bg-gray">
+  <div class="wrapper-lg flex flex-column flex-row-m">
+      <div class="w-100 w-50-m flow">
+        <a href="/resources/" class="back no-decoration">{{ partialCached "svg-icons/chevron-left.svg" . }} Back to all resources</a>
+        <h1>{{ .Title | markdownify }}</h1>
+        <div class="flex flex-justify-between">
+          <div class="categories-list">
+            {{ if .Params.Categories }}
+            {{ range $index, $elements := .Params.Categories }}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="categories">{{ if ne $index 0 }}{{ end }}
+                {{ . | title }}</a><span class="text-white">,</span>{{ end}}
+            {{ end }}
+          </div>
+          <span class="reading-time flex flex-center fs-100">{{ partialCached "svg-icons/clock.svg" . }} {{ .ReadingTime }} min read</span>
+        </div>
+        {{ $author := index .Site.Data.authors (.Params.author | default "default") }}
+        {{- if $author -}}
+        <div class="hero--blog__author flex flex-center">
+          {{- if eq $author.name "Mind Team" -}}
+          <img src="/uploads/{{ $author.image }}" class="card__author-image" alt="Photo of {{ $author.name }}" width="50" height="50">
+          {{ else }}
+          <picture>
+            <source sizes="5vw" srcset="https://ik.imagekit.io/insightcreative/mind-team/{{ $author.image }}?tr=f-auto,q-75,w-325,h-250,tr:r-max,fo-face">
+
+            <img src="/uploads/{{ $author.image }}" class="card__author-image" alt="Photo of {{ $author.name }}" width="50" height="50">
+          </picture>
+          {{ end }}
+          <h3 class="card__name h6 no-margin">Written By:<br>{{ $author.name }}</h3>
+        </div>
+        {{ end }}
+      </div>
+      <div class="post-featured-image w-100 w-50-m mt-3 mt-0-m ml-3-m">
+        <div class="cover-image">
+          <img loading="lazy" src="/uploads/{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" width="600" height="500">
+        </div>
+      </div>
+  </div>
+</div>

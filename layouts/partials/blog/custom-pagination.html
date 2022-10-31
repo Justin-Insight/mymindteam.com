@@ -6,8 +6,8 @@
 
 <div class="pagination">
     {{ if .Paginator.HasPrev }}
-    <a class="pagination__previous btn btn-primary" href="{{ .Paginator.Prev.URL }}"
-        role="button">{{ partial "svg-icons/chevron-left.svg" . }}Previous</a>
+    <a class="pagination__previous" href="{{ .Paginator.Prev.URL }}"
+        role="button">{{ partial "svg-icons/chevron-left.svg" . }}</a>
     <a class="pagination__numbers" href="{{ .Paginator.First.URL }}" role="button">1</a>
     {{ end }}
 
@@ -19,20 +19,20 @@
     <span class="pagination__numbers pagination__dots">...</span>
     {{ end }}
 
-    <span class="pagination__numbers pagination__current">{{.Paginator.PageNumber}}</span>
+    <span class="pagination__numbers pagination__current shadow-xl">{{.Paginator.PageNumber}}</span>
 
     {{ if eq $maxPages 2 }}
-    <a class="pagination__numbers" href="{{ .Paginator.Next.URL }}" role="button">{{ add .Paginator.PageNumber 1 }}</a>
+    <a class="pagination__numbers shadow-xl" href="{{ .Paginator.Next.URL }}" role="button">{{ add .Paginator.PageNumber 1 }}</a>
     {{ end }}
 
     {{ if gt $maxPages 2 }}
-    <span class="pagination__numbers pagination__dots">...</span>
+    <span class="pagination__numbers pagination__dots shadow-xl">...</span>
     {{ end -}}
 
     {{ if .Paginator.HasNext -}}
-    <a class="pagination__numbers" href="{{ .Paginator.Last.URL }}" role="button">{{ .Paginator.TotalPages }}</a>
-    <a class="pagination__next btn btn-primary" href="{{ .Paginator.Next.URL }}"
-        role="button">Next{{ partial "svg-icons/chevron-right.svg" . }}</a>
+    <a class="pagination__numbers shadow-xl" href="{{ .Paginator.Last.URL }}" role="button">{{ .Paginator.TotalPages }}</a>
+    <a class="pagination__next shadow-xl" href="{{ .Paginator.Next.URL }}"
+        role="button">{{ partial "svg-icons/chevron-right.svg" . }}</a>
     {{- end }}
 </div>
 {{ end -}}

@@ -4,6 +4,7 @@ seo:
   page_title:
   meta_description:
   featured_image: pets-and-personality.jpg
+author: test-author
 date: 2022-10-15
 categories:
   - Mental Health

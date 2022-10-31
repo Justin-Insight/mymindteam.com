@@ -1,0 +1,46 @@
+.hero--blog {
+    overflow: visible;
+  
+    h1 {
+      font-size: clamp($ic-300, 4vw, $ic-600);
+    }
+  
+    .back {
+      color: $white;
+      transition: $transition;
+  
+      svg {
+        height: $ic-100;
+        width: $ic-100;
+        fill: $white;
+        position: relative;
+        top: 1px;
+        transition: $transition;
+      }
+  
+      &:hover, 
+      &:focus {
+        color: $accent-color;
+  
+        svg {
+          fill: $accent-color;
+          transform: translateX(-6px);
+        }
+      }
+    }
+  
+    .categories-list span:last-of-type {
+      display: none;
+    }
+  
+    .reading-time {
+        color: $white; 
+        
+        svg {
+        height: $ic-100;
+        width: $ic-100;
+        fill: $white;
+        margin-right: $ic--200;
+        }
+    }
+}

@@ -9,14 +9,11 @@
   }
 
   &__current {
-    opacity: 0.7;
+    background-color: $primary-color;
+    color: $white;
   }
 
   &__next {
-    svg {
-      margin-left: $ic--200;
-    }
-
     &:hover,
     &:focus {
       svg {
@@ -26,10 +23,6 @@
   }
 
   &__previous {
-    svg {
-      margin-right: $ic--200;
-    }
-
     &:hover,
     &:focus {
       svg {
@@ -40,38 +33,40 @@
 }
 
 .pagination__next,
-.pagination__previous {
-  display: flex;
-}
-
-.pagination__next,
 .pagination__previous,
 .pagination__numbers {
+  height: $ic-800;
+  width: $ic-800;
+  border-radius: 50px;
   font-size: $ic-100;
   font-weight: 700;
-  padding: $ic-100 $ic-400;
   text-decoration: none;
-  border-radius: $radius;
   transition: $transition;
+  display: flex;
   align-items: center;
+  justify-content: center;
   margin: 0 10px;
-  color: $white;
-  background: $primary-color;
-
-  &:hover,
-  &:focus {
-    background: $secondary-color;
-  }
-
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .15);
+  
   svg {
-    fill: $white;
-    stroke: $white;
+    fill: $primary-color;
     width: $ic-100;
     height: $ic-100;
     transition: $transition;
     position: relative;
     top: -1px;
   }
+
+  &:hover,
+  &:focus {
+    background: $primary-color;
+    color: $white;
+
+    svg {
+      fill: $white;
+    }
+  }
+
 }
 
 .pagination__numbers {

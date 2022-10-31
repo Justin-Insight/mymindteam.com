@@ -19,7 +19,7 @@
       <a href="{{ .Permalink }}" class="blog-card__link">
         <h3 class="blog-card__title h5">{{ .Title }}</h3>
       </a>
-      {{ .Summary }}
+      <p class="fs-100">{{ if .Params.seo.meta_description }}{{ .Params.seo.meta_description | safeHTML | truncate 125 }}{{ else }}{{ .Summary  | safeHTML | truncate 125 }}{{ end }}</p>
     </div>
     <div class="blog-card__footer flex flex-justify-between w-100">
       <a href="{{ .Permalink }}" class="blog-card__link">
