@@ -1,6 +1,8 @@
 .site-header {
   width: 100%;
-  position: relative;
+  position: fixed;
+  top: 0;
+  right: 0;
   z-index: 9;
   transition: .3s ease-out;
   background-color: $white;
@@ -97,11 +99,6 @@
 
   .site-header__mobile-nav a:not(.btn) {
     padding: $ic-100 0;
-  }
-
-  &__notification {
-    display: none;
-    z-index: -2;
   }
 }
 
@@ -286,6 +283,41 @@
 
   .footer__nav-link::after {
     background: $accent-color-alt;
+  }
+}
+
+.nav-collapse {
+  @include breakpoint(md) {
+    animation: collapse 0.5s ease forwards;
+  }
+}
+
+// Open nav bar on scroll up
+.nav-expand {
+  @include breakpoint(md) {
+    animation: expand 0.5s ease forwards;
+  }
+}
+
+@keyframes collapse {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes expand {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

@@ -1,4 +1,9 @@
 {{ $heroClass := lower .Page.Title }}
+<div class="notification-bar p-relative bg-primary pt-1 pb-1">
+  <div class="wrapper-lg">
+    <p class="w-100 fs-300 text-center text-white max-width-none">For adults and children with autism, ADHD and other learning conditions.</p>
+  </div>
+</div>
 <section aria-labelledby="hero-heading" class="{{ anchorize $heroClass }}-hero flex flex-column flex-row-m flex-center">
   {{ partial "hero-image" . }}
   <div class="block-md w-100">

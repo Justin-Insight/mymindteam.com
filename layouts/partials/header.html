@@ -4,7 +4,7 @@
 <header class="site-header">
   <div class="site-header__wrapper wrapper-lg">
     <div class="site-header__logo">
-      <a class="brand-logo" href="{{ site.BaseURL }}">
+      <a class="brand-logo dim" href="{{ site.BaseURL }}">
         {{ if .Site.Data.site_settings.logo }}
           <img src="/uploads/{{ .Site.Data.site_settings.logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
         {{ else }}
@@ -110,11 +110,6 @@
         <span class="hamburger-inner"></span>
       </span>
     </button>
-  </div>
-  <div class="site-header__notification p-relative bg-primary pt-1 pb-1">
-    <div class="wrapper-lg">
-      <p class="w-100 fs-300 text-center text-white max-width-none">For adults and children with autism, ADHD and other learning conditions.</p>
-    </div>
   </div>
 </header>
 

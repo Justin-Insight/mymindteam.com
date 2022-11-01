@@ -24,3 +24,33 @@ hasSubMenu.forEach((link) => {
         subMenuToHide.removeAttribute("style")
     })
 })
+
+let scrollState = 0
+
+var scrollTop = function() {
+  return window.scrollY
+}
+
+var scrollDetect = function(collapse, expand) {
+  var currentScroll = scrollTop()
+  if (currentScroll > scrollState) {
+    collapse()
+  } else {
+    expand()
+  }
+  scrollState = scrollTop()
+}
+
+function collapseNav() {
+  siteHeader.classList.remove("nav-expand")
+  siteHeader.classList.add("nav-collapse")
+}
+
+function expandNav() {
+  siteHeader.classList.remove("nav-collapse")
+  siteHeader.classList.add("nav-expand")
+}
+
+window.addEventListener("scroll", function() {
+  scrollDetect(collapseNav, expandNav)
+})

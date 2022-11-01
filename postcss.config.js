@@ -13,6 +13,8 @@ module.exports = {
       safelist: [
         'is-active',
         'nav-open',
+        'nav-collapse',
+        'nav-expand',
         'page-home',
         'page-resources',
         'page-get-started',
