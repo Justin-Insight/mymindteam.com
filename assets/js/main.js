@@ -12,9 +12,13 @@ const hasSubMenu = document.querySelectorAll(".has-sub-menu")
 const searchButton = document.querySelector('.search__open')
 const closeButton = document.querySelector('.search__close')
 
-searchButton.addEventListener('click', openSearchModal)
+if (document.body.contains(searchButton)) {
+  searchButton.addEventListener('click', openSearchModal)
+}
 
-closeButton.addEventListener('click', closeSearchModal)
+if (document.body.contains(closeButton)) {
+  closeButton.addEventListener('click', closeSearchModal)
+}
 
 hasSubMenu.forEach((link) => {
     link.addEventListener("mouseover", () => {

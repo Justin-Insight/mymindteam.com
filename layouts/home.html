@@ -2,7 +2,7 @@
 {{ partial "home/hero" . }}
 {{ if .Params.intro.enabled }}
     {{ with .Params.intro }}
-        <section aria-labelledby="homepage-intro-heading" class="block">
+        <section aria-labelledby="homepage-intro-heading" class="home-intro block">
             <div class="wrapper-md">
                 <div class="flex flex-column flex-row-m flex-center">
                     <div class="w-100 w-50-m flow text-center">
@@ -22,7 +22,7 @@
                     {{ with .our_process }}
                         <div class="grid-3">
                             {{ range .steps }}
-                            <div class="mt-process flex flex-column flex-row-s flex-start">
+                            <div class="mt-process flex flex-column flex-row-l flex-start">
                                 <img src="{{ .icon }}" alt="" class="mt-process__icon mr-5">
                                 <div class="mt-process__content">
                                     <h3 class="mt-process__heading">{{ .heading | safeHTML }}</h3>
