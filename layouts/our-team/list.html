@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ if .Params.page_blocks }}
+    {{ range .Params.page_blocks }}
+        {{ partial "page-block" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.mind_team.enabled }}
+    {{ with .Params.mind_team }}
+        <section aria-labelledby="our-team-heading" class="block">
+            <div class="wrapper-lg text-center">
+                <h2 id="our-team-heading">{{ .heading | safeHTML }}</h2>
+                <p class="fw-500 fs-300" style="max-width: 900px; margin: 0 auto;">{{ .body | safeHTML }}</p>
+            </div>
+            <div class="wrapper-lg mt-9">
+                <div class="grid-3">
+                    {{ range .staff }}
+                    <div class="staff-card text-center flow">
+                        <div class="staff-card__headshot">
+                            {{ if .headshot }}
+                                <img src="/uploads/{{ .headshot }}" alt="">
+                            {{ else }}
+                                <img src="/uploads/mind-team-placeholder-headshot.jpg" alt="">
+                            {{ end }}
+                        </div>
+                        <div>
+                            <h3 class="h4">{{ .name }}</h3>
+                            <p>{{ .job_title }}</p>
+                        </div>
+                        {{ if .associations }}
+                            <p class="fs-100">{{ .associations }}</p>
+                        {{ end }}
+                        {{ if .zoom_room_url }}
+                        <a href="{{ .zoom_room_url }}" target="_blank" rel="noopener noreferrer nofollower">Clinician Waiting Room</a>
+                        {{ end }}
+                        <!-- <p>{{ .specialty }}</p> -->
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+    {{ end }}
+{{ end }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
+{{ end }}
