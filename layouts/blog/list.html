@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ block "search-modal" . }}{{ partial "search-modal" . }}{{end}}
 {{ partial "resources/hero" . }}
 <div class="block">
     {{ partial "blog/category-filter" . }}

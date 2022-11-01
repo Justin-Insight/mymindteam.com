@@ -3,12 +3,18 @@ console.log('%c Crafted by Insight Creative, Inc. Designed and Developed by Just
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
-import { toggleMobileMenu, toggleMobileDropdowns, filterPosts } from "./partials";
+import { toggleMobileMenu, toggleMobileDropdowns, filterPosts, openSearchModal, closeSearchModal } from "./partials";
 
 gsap.registerPlugin(ScrollTrigger)
 
 const siteHeader = document.querySelector(".site-header")
 const hasSubMenu = document.querySelectorAll(".has-sub-menu")
+const searchButton = document.querySelector('.search__open')
+const closeButton = document.querySelector('.search__close')
+
+searchButton.addEventListener('click', openSearchModal)
+
+closeButton.addEventListener('click', closeSearchModal)
 
 hasSubMenu.forEach((link) => {
     link.addEventListener("mouseover", () => {
