@@ -1,16 +1,18 @@
 ---
 title: Careers
 menu:
+  resources:
+    weight: 1
   footer_secondary:
     weight: 1
 seo:
   page_title: Mind Team Careers
   meta_description: "Mind Team careers: join a multidisciplinary team of passionate licensed clinicians helping children and adults live and learn without limitation."
-  featured_image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
+  featured_image: /uploads/mind-team-in-meeting-3.jpg
 hero:
   heading: Mind Team <span class="underline underline--accent">Careers</span>
   body: Join a passionate, remote team of psychologists, interventionists and licensed clinicians helping neurodivergent individuals live and learn without limitation.
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: mind-team-in-meeting-3.jpg
   image_alt:
   button:
     enabled: true
@@ -73,7 +75,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      image_url: mind-team-group-small.jpg
       image_alt:
     background_color: gray
   - heading: Benefits
@@ -93,7 +95,7 @@ page_blocks:
     text_column_right: false
     image:
       enabled: true
-      image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      image_url: mind-team-clinician-15.jpg
       image_alt:
     background_color: white
 cta_block:
