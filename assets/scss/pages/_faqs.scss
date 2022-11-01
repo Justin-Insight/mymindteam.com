@@ -3,3 +3,16 @@
         background-color: $white;
     }
 }
+
+.faqs-block {
+    .grid-2 {
+
+        @include breakpoint(sm) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+      
+        @include breakpoint(md) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

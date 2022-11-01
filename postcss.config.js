@@ -15,6 +15,7 @@ module.exports = {
         'nav-open',
         'nav-collapse',
         'nav-expand',
+        'has-dropdown-open',
         'page-home',
         'page-resources',
         'page-get-started',

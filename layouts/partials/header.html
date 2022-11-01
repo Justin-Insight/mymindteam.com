@@ -19,7 +19,7 @@
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
                 <li class="nav-list__item has-sub-menu">
-                  <a class="nav-list__link fw-700" href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Name }}</a>
+                  <a class="nav-list__link fs-300 fw-700" href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Name }}</a>
                   <div class="nav-list__sub-menu {{ .Name | lower }}-sub-menu sub-menu">
                     <div class="sub-menu__inner block">
                       <div class="wrapper-md flex w-100">
@@ -48,12 +48,12 @@
                 </li>
             {{ else }}
             <li class="nav-list__item">
-              <a class="nav-list__link fw-700" href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Name }}</a>
+              <a class="nav-list__link fs-300 fw-700" href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Name }}</a>
             </li>
             {{ end }}    
           {{ end }}
           <li class="nav-list__item has-sub-menu">
-            <a class="nav-list__link fw-700" href="/resources/" aria-label="Resources">Resources</a>
+            <a class="nav-list__link fs-300 fw-700" href="/resources/" aria-label="Resources">Resources</a>
             <div class="nav-list__sub-menu resources-sub-menu sub-menu">
               <div class="sub-menu__inner block">
                 <div class="wrapper-md flex w-100">
@@ -73,11 +73,11 @@
                       <h3 class="text-primary h6">Recently Posted</h3>
                       <a href="/blog/" class="fs-100 fw-500 no-decoration">View All</a>
                     </div>
-                    <ul class="grid-3">
+                    <div class="grid-3">
                       {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
                         {{ .Render "blog-card-condensed" }}
                       {{ end }}
-                    </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -91,16 +91,39 @@
     </div>
     <div class="site-header__mobile-nav">
       <div class="site-header__mobile-nav-inner">
-        <ul  class="site-header__mobile-nav-menu">
+        <ul class="site-header__mobile-nav-menu">
           {{ range .Site.Menus.main }}
-          <li>
-            <a href="{{ .URL }}" aria-label="{{ .Name }}" class="nav-list__link fw-700">
-                {{ .Name }}
-            </a>
-          </li>  
+            {{ if .HasChildren }}
+              <li class="nav-list__item nav-item-has-dropdown p-relative">
+                <a class="nav-list__link parent fw-700" href="{{ .URL }}" aria-label="{{ .Name }}" aria-haspopup="true" aria-expanded="false"
+                  title="{{ .Name }}">{{ .Name }}
+                </a>
+                <button class="toggle-mobile-dropdown" aria-label="open mobile dropdown menu"></button>
+                <ul class="nav-list-dropdown">
+                  {{ range .Children }}
+                    {{ template "menu-node-mobile" .}}
+                  {{ end }}
+                </ul>
+              </li>
+              {{ else }}
+              <li class="nav-list__item">
+                <a href="{{ .URL }}" class="nav-list__link fw-700" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
           {{ end }}
+          <li class="nav-list__item nav-item-has-dropdown p-relative">
+            <a href="/resources/" class="nav-list__link parent fw-700" aria-label="{{ .Name }}" title="{{ .Name }}">Resources</a>
+            <button class="toggle-mobile-dropdown" aria-label="open mobile dropdown menu"></button>
+            <ul class="nav-list-dropdown">
+              {{ range .Site.Menus.resources }}
+                <li class="list-style-none">
+                  <a href="{{ .URL }}" class="nav-list__link" aria-label="{{ .Name }}">{{ .Name }}</a>
+                </li>
+              {{ end }}
+            </ul>
+          </li>
           <li>
-            <a class="btn btn--primary" href="/get-started/">Get Started</a>
+            <a class="btn btn--primary w-100 text-center" href="/get-started/">Get Started</a>
           </li>
         </ul>
       </div>
@@ -124,6 +147,21 @@
       </ul>
     {{else}}
       <a href="{{.URL}}" class="no-decoration transform-x-8">{{ .Name }}</a>
+    {{end}}
+  </li>
+{{ end }}
+
+{{ define "menu-node-mobile" }}
+  <li class="nav-list__item">
+    {{ if .HasChildren }}
+    <a class="nav-list__link" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
+      <ul class="nav-list-dropdown">
+        {{ range .Children }}
+          {{ template "menu-node-mobile" .}}
+        {{ end }}
+      </ul>
+    {{else}}
+    <a class="nav-list__link" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
     {{end}}
   </li>
 {{ end }}

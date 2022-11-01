@@ -5,6 +5,10 @@
   // max-height: 600px;
   // overflow: hidden;
 
+  @include breakpoint(md) {
+    height: 100%;
+  }
+
   .hero__image {
     position: absolute;
     height: 100%;
