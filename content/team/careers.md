@@ -75,7 +75,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: mind-team-group-small.jpg
+      image_url: mind-team-group.jpg
       image_alt:
     background_color: gray
   - heading: Benefits
