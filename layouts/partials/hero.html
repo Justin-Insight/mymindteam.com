@@ -9,7 +9,7 @@
         <div class="border-radius-50 border-primary p-relative bg-white text-center">
           <div class="hero__small-title h3 fw-700 text-white">{{ .Title }}</div>
           <div class="block-sm">
-            <div class="wrapper flow">
+            <div class="wrapper">
               <h1 id="hero-heading" class="hero__heading max-width-none">{{ .Params.hero.heading | safeHTML }}</h1>
               <p class="hero__body fs-300 fw-500">{{ .Params.hero.body | safeHTML }}</p>
               {{ if .Params.hero.button.enabled }}

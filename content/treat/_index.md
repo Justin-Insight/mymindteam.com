@@ -18,7 +18,7 @@ hero:
   button:
     enabled: true
     button_url: /get-started/
-    button_text: Get Started Now
+    button_text: Get Started
 goals_block:
   enabled: true
   goals:
@@ -156,5 +156,5 @@ cta_block:
   button:
     enabled: true
     button_url: /get-started/
-    button_text: Get Started Now
+    button_text: Get Started
 ---
