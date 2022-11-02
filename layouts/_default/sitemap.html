@@ -5,7 +5,7 @@
             <div class="w-100 w-30-m">
                 <h2 class="text-primary">Pages</h2>
                 <ul class="sitemap-nav-list no-padding">
-                    {{ $pages := where .Site.Pages "Type" "not in" (slice "resources" "tags" "categories" "thank-you" "sitemap") }}
+                    {{ $pages := where .Site.Pages "Type" "not in" (slice "blog" "tags" "categories" "thank-you" "sitemap") }}
                     {{ range $pages }}
                         <li class="sitemap-nav-list-item">
                             <a class="sitemap-nav-item" class="sitemap-nav-item" href="{{ .RelPermalink }}"

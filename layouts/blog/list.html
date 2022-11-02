@@ -1,5 +1,4 @@
 {{ define "main" }}
-{{ block "search-modal" . }}{{ partial "search-modal" . }}{{end}}
 {{ partial "resources/hero" . }}
 <div class="block">
     {{ partial "blog/category-filter" . }}
@@ -8,7 +7,7 @@
         <div class="grid-3">
             {{ $paginator := .Paginate ( where .Data.Pages "Type" "blog" ) }}
             {{ range $paginator.Pages }}
-                {{ .Render "blog-card" }}
+            {{ .Render "blog-card" }}
             {{ end }}
         </div>
     </div>
@@ -21,4 +20,5 @@
         {{ partial "site-cta" . }}
     {{ end }}
 {{ end }}
+{{ block "search-modal" . }}{{ partial "search-modal" . }}{{end}}
 {{ end }}

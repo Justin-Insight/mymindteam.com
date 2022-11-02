@@ -13,7 +13,7 @@ menu:
 hero:
   heading: Your Mind Team <span class="underline underline--accent">Investment</span>
   body: View our testing and treatment service pricing with convenient online self-pay options and learn about everything included in your investment.
-  image_url: young-girl-during-autism-spectrum-disorder-testing-3.jpg
+  image_url: mind-team-clinician-20.jpg
   image_alt:
   button:
     enabled: false
