@@ -1,15 +1,13 @@
 ---
 title: Home
 seo:
-  page_title:
-  meta_description:
-  featured_image:
+  page_title: Live and Learn Without Limitation
+  meta_description: Mind Team helps neurodivergent individuals thrive with professional, remote testing and treatment for autism, ADHD, dyslexia and other conditions.
+  featured_image: mind-team-generic-social-preview-image.jpg
 hero:
   heading: Live and learn <span class="underline underline--accent">without limitation</span>.
   body:
-  # image_url: young-girl-on-computer-during-video-call-at-desk.jpg
   image_url: young-girl-on-video-call-with-mind-team-clinician.jpg
-  # image_url: young-girl-during-video-call-with-dr-weiland.jpg
   image_alt:
   button:
     enabled: true

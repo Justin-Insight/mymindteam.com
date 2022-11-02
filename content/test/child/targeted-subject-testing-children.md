@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Child Targeted Subject Testing
   meta_description: Is your child struggling with reading, writing or math? Mind Team targeted subject testing gives you the answers you need to work with their mind.
-  featured_image:
+  featured_image: young-girl-during-a-child-adhd-testing-session-8.jpg
 hero:
   heading: Targeted subject tests for <span class="underline underline--accent">children</span>
   body: $1,000

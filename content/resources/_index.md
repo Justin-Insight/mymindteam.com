@@ -1,12 +1,12 @@
 ---
 title: Resources
-seo:
-  page_title:
-  meta_description: View the Mind Team blog, frequently asked questions, payment options and Mind Team outcomes.
-  featured_image:
 menu:
   footer_primary:
     weight: 5
+seo:
+  page_title: Mind Team Resources
+  meta_description: View the Mind Team blog, frequently asked questions, payment options and Mind Team outcomes.
+  featured_image: books-on-desk-2.jpg
 hero:
   heading: Resources for <span class="underline underline--accent">every mind</span>.
   body:

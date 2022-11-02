@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Adult Targeted Subject Testing
   meta_description: Are you struggling with reading, writing or math skills? Mind Team targeted subject testing gives you the answers you need to work with your mind.
-  featured_image:
+  featured_image: mind-team-clinicians-looking-at-book-2.jpg
 hero:
   heading: <span class="underline underline--accent">Adult</span> targeted subject tests
   body: $1,000

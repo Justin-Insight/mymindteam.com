@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Child Autism Testing | Child ADHD Testing | Child Dyslexia Testing
   meta_description: Your child can live and learn without limitation. Get the answers you need and test for autism, ADHD and more with Mind Team neurodivergent testing.
-  featured_image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
+  featured_image: young-girl-at-desk-during-video-call.jpg
 hero:
   heading: Work <span class="underline underline--accent">with</span> your child’s mind.
   body: Get the answers you need to best support your child with Mind Team professional child testing for autism, ADHD, dyslexia and other neurodivergent conditions.

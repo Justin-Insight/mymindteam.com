@@ -8,7 +8,7 @@ menu:
 seo:
   page_title: Mind Team Careers
   meta_description: "Mind Team careers: join a multidisciplinary team of passionate licensed clinicians helping children and adults live and learn without limitation."
-  featured_image: /uploads/mind-team-in-meeting-3.jpg
+  featured_image: mind-team-in-meeting-3.jpg
 hero:
   heading: Mind Team <span class="underline underline--accent">Careers</span>
   body: Join a passionate, remote team of psychologists, interventionists and licensed clinicians helping neurodivergent individuals live and learn without limitation.

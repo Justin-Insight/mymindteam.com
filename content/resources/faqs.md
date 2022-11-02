@@ -1,21 +1,19 @@
 ---
 title: FAQs
 layout: faqs
-seo:
-  page_title:
-  meta_description: Have questions about Mind Team testing, treatment, pricing or something else? We’ve got the answers you need.
-  featured_image:
 menu:
   resources:
     weight: 2
   footer_secondary:
     weight: 3
+seo:
+  page_title: Mind Team FAQs
+  meta_description: Have questions about Mind Team testing, treatment, pricing or something else? We’ve got the answers you need.
+  featured_image: young-girl-on-video-call-with-mind-team-clinician.jpg
 hero:
   heading: Frequently asked <span class="underline underline--accent">questions</span>.
   body: You’ve got questions, we’ve got answers.
-  # image_url: young-girl-on-computer-during-video-call-at-desk.jpg
   image_url: young-girl-on-video-call-with-mind-team-clinician.jpg
-  # image_url: young-girl-during-video-call-with-dr-weiland.jpg
   image_alt:
   button:
     enabled: false

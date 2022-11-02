@@ -8,7 +8,7 @@ menu:
 seo:
   page_title: Child Autism Testing
   meta_description: Does your child have autism? Mind Team remote autism tests for children are the professional, stress-free way to diagnose (or rule out) autism.
-  featured_image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
+  featured_image: young-girl-during-autism-spectrum-disorder-testing-7.jpg
 hero:
   heading: Does your <span class="underline underline--accent">child</span> have autism?
   body: Get the professional answers and support you need to work <em>with</em> your child’s mind, all from the comfort of home.

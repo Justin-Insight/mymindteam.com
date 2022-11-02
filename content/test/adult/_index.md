@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Adult Autism Testing | Adult ADHD Testing | Adult Dyslexia Testing
   meta_description: Get the answers you need with Mind Team neurodivergent testing for autism, ADHD, dyslexia, dysgraphia, dyscalculia and other conditions.
-  featured_image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
+  featured_image: mind-team-counselor-during-treatment-session-15.jpg
 hero:
   heading: Get the answers <span class="underline underline--accent">you need</span>.
   body: Professional adult testing for autism, ADHD, dyslexia and other neurodivergent conditions—100% remote and conducted by licensed clinicians.

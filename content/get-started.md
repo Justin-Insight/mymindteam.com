@@ -4,7 +4,7 @@ layout: get-started
 seo:
   page_title:
   meta_description: Schedule your remote Mind Team neurodivergent test or set up your neurodivergent treatment sessions by filling out our brief questionnaire.
-  featured_image:
+  featured_image: young-girl-on-video-call-with-mind-team-clinician.jpg
 hero:
   heading: Get Started
   body:

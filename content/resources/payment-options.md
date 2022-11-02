@@ -1,15 +1,15 @@
 ---
 title: Payment Options
 layout: payment-options
-seo:
-  page_title: Payment Options
-  meta_description: View Mind Team testing and treatment pricing and convenient online self-pay options and see what’s included in your investment.
-  featured_image:
 menu:
   resources:
     weight: 3
   footer_secondary:
     weight: 4
+seo:
+  page_title: Payment Options
+  meta_description: View Mind Team testing and treatment pricing and convenient online self-pay options and see what’s included in your investment.
+  featured_image: mind-team-clinician-20.jpg
 hero:
   heading: Your Mind Team <span class="underline underline--accent">Investment</span>
   body: View our testing and treatment service pricing with convenient online self-pay options and learn about everything included in your investment.

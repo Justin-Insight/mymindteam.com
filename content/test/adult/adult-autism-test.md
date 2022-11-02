@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Adult Autism Testing
   meta_description: Could you be struggling with undiagnosed autism? Mind Team online adult autism tests are the professional, stress-free way to get answers.
-  featured_image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
+  featured_image: mind-team-counselor-during-treatment-session-11.jpg
 hero:
   heading: Think you might have <span class="underline underline--accent">autism</span>?
   body: Get the professional autism testing and diagnosis you need to work <em>with</em> your mind, all from the comfort of home.

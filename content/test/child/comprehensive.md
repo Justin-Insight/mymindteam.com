@@ -8,7 +8,7 @@ menu:
 seo:
   page_title: Child Autism Testing
   meta_description: "Mind Team comprehensive testing for children: diagnose/rule out autism, ADHD, dyslexia, dysgraphia, dyscalculia and other neurodivergent conditions."
-  featured_image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
+  featured_image: young-boy-during-one-on-one-remote-counseling-session-7.jpg
 hero:
   heading: Get a <span class="underline underline--accent">full understanding</span> of your child’s mind.
   body: If your child is struggling in multiple subject areas or you think they could have more than one condition such as autism, ADHD or dyslexia, Mind Team comprehensive tests for children make it easy to get the answers you need.

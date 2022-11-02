@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://polite-sunrise.cloudvent.net"
 languageCode = "en-us"
 title = "Mind Team"
 enableRobotsTXT = true

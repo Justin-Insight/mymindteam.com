@@ -1,23 +1,17 @@
 ---
 title: Transform
-seo:
-  page_title:
-  meta_description: Transform the way you understand and work with your mind with the life-changing outcomes of Mind Team neurodivergent testing and treatment.
-  featured_image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
-hero:
-  heading: Transform
-  image:
-    image_url:
-    image_alt:
 menu:
   main:
     weight: 3
   footer_primary:
     weight: 3
+seo:
+  page_title: Mind Team Transformations
+  meta_description: Transform the way you understand and work with your mind with the life-changing outcomes of Mind Team neurodivergent testing and treatment.
+  featured_image: young-girl-at-desk-during-video-call.jpg
 hero:
   heading: Mind Team <span class="underline underline--accent">transformations</span>.
   body: What can you expect to gain from Mind Team neurodivergent testing and treatment services?
-  # image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
   image_url: young-girl-at-desk-during-video-call.jpg
   image_alt:
   button:
@@ -33,11 +27,11 @@ goals_block:
       icon: testing-icon-discover.svg
     - goal: your confidence in your ability to live and learn without limitation.
       icon: testing-icon-diagnose.svg
-thrive_block: 
+thrive_block:
   enabled: true
   heading: Thrive in <span class="underline underline--primary">every</span> environment.
   body: Overcome challenges in a variety of previously stressful environments with the life-changing outcomes of working with Mind Team.
-  environments: 
+  environments:
     - heading: At <span class="underline underline--secondary">school</span>
       body: >-
         - Improvement of functional reading, writing and math skills.
@@ -70,14 +64,14 @@ thrive_block:
         image_url: two-people-collaborating-at-work.jpg
         # image_url: /uploads/two-clinicians-on-video-call-together.jpg
         image_alt:
-ongoing_support_block: 
+ongoing_support_block:
   enabled: true
   heading: <span class="underline underline--secondary">Ongoing</span> support
   body: We’re your Mind Team for life. If you ever have additional neurodivergent support needs, you can turn to the team who already knows your mind best and get the integrated, expert guidance you deserve.
 cta_block:
   enabled: true
   heading: <span class="underline underline--primary">Transform</span> your life.
-  body: Ready to overcome challenges and learn how to work <em>with</em> your mind? The process is simple! Get started by filling out our brief questionnaire. 
+  body: Ready to overcome challenges and learn how to work <em>with</em> your mind? The process is simple! Get started by filling out our brief questionnaire.
   button:
     enabled: true
     button_url: /get-started/
