@@ -93,7 +93,7 @@ targeted_subject_testing_block:
       background_color: gray
 benefits_block:
   enabled: true
-  heading: The subject testing you <span class="underline underline--primary">deserve</span>.
+  heading: The subject testing <span class="underline underline--primary">you deserve</span>.
   body:
   benefits:
     - heading: Personalized

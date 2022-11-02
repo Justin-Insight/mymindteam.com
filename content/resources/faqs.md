@@ -142,6 +142,6 @@ cta_block:
   body: We’re here to help.
   button:
     enabled: true
-    button_url: /get-started/
-    button_text: Get Started Now
+    button_url:
+    button_text: Get in touch
 ---

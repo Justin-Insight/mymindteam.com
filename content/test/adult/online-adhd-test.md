@@ -52,7 +52,7 @@ adhd_testing_block:
   body: Conducted by licensed clinicians specializing in ADHD via our secure, remote platform.
 benefits_block:
   enabled: true
-  heading: The ADHD testing you <span class="underline underline--primary">deserve</span>.
+  heading: The ADHD testing <span class="underline underline--primary">you deserve</span>.
   body:
   benefits:
     - heading: Personalized

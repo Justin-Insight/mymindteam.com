@@ -9,7 +9,7 @@ seo:
   meta_description: Get the answers you need with Mind Team neurodivergent testing for autism, ADHD, dyslexia, dysgraphia, dyscalculia and other conditions.
   featured_image: /uploads/young-girl-on-computer-during-video-call-at-desk.jpg
 hero:
-  heading: Get the answers you <span class="underline underline--accent">need</span>.
+  heading: Get the answers <span class="underline underline--accent">you need</span>.
   body: Professional adult testing for autism, ADHD, dyslexia and other neurodivergent conditions—100% remote and conducted by licensed clinicians.
   image_url: mind-team-counselor-during-treatment-session-15.jpg
   image_alt:
@@ -31,7 +31,7 @@ goals_block:
 testing_options_block:
   enabled: true
   heading: Mind Team <span class="underline underline--secondary">adult</span> testing options
-  body: Get started with our brief questionnaire and the experts at Mind Team will help you determine the test that best suits your child’s needs.
+  body:
   options:
     - heading: Adult autism test
       subheading: "Test for autism in a structured interview assessing:"
@@ -103,7 +103,7 @@ testing_options_block:
     button_text: Get Started Now
 benefits_block:
   enabled: true
-  heading: The superior testing you <span class="underline underline--primary">deserve</span>.
+  heading: The superior testing <span class="underline underline--primary">you deserve</span>.
   body: Never settle for subpar, one-size-fits-all testing with Mind Team’s superior remote testing benefits.
   benefits:
     - heading: Professional

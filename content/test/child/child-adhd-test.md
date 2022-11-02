@@ -11,7 +11,6 @@ seo:
 hero:
   heading: Does your <span class="underline underline--accent">child</span> have ADHD?
   body: Get the professional answers and support you need to work <em>with</em> your child’s mind, all from the comfort of home.
-  # image_url: young-girl-during-autism-spectrum-disorder-testing-3.jpg
   image_url: young-girl-during-a-child-adhd-testing-session-8.jpg
   image_alt:
   button:
@@ -91,7 +90,7 @@ faq_block:
     button_text: View all FAQs
 cta_block:
   enabled: true
-  heading: Find out if your <span class="underline underline--primary">child</span> has ADHD.
+  heading: Find out if your child has <span class="underline underline--primary">ADHD</span>.
   body: The process couldn’t be easier! Get started with our brief questionnaire.
   button:
     enabled: true

@@ -91,7 +91,7 @@ faq_block:
     button_text: View all FAQs
 cta_block:
   enabled: true
-  heading: Find out if your <span class="underline underline--primary">child</span> has autism.
+  heading: Find out if your child has <span class="underline underline--primary">autism</span>.
   body: The process couldn’t be easier! Get started with our brief questionnaire.
   button:
     enabled: true

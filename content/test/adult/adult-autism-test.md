@@ -48,7 +48,7 @@ adhd_testing_block:
   body: Conducted by licensed clinicians specializing in autism via our secure, remote platform.
 benefits_block:
   enabled: true
-  heading: The autism testing you <span class="underline underline--primary">deserve</span>.
+  heading: The autism testing <span class="underline underline--primary">you deserve</span>.
   body:
   benefits:
     - heading: Personalized
@@ -93,7 +93,7 @@ faq_block:
     button_text: View all FAQs
 cta_block:
   enabled: true
-  heading: Find out if <span class="underline underline--primary">you</span> have autism.
+  heading: Find out if you have <span class="underline underline--primary">autism</span>.
   body: The process couldn’t be easier! Get started with our brief questionnaire.
   button:
     enabled: true

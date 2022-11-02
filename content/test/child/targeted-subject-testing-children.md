@@ -19,7 +19,7 @@ hero:
     button_text: Get Started Now
 targeted_subject_testing_block:
   enabled: true
-  heading: Is your <span class="underline underline--primary">child</span> struggling with reading, writing or math?
+  heading: Is <span class="underline underline--primary">your child</span> struggling with reading, writing or math?
   body: Test for dyslexia, dysgraphia, dyscalculia and other conditions that may be getting in the way of their learning and life.
   options:
     - heading: Test for <span class="underline underline--primary">dyslexia</span>

@@ -45,7 +45,7 @@ page_blocks:
       image_alt:
 cta_block:
   enabled: true
-  heading: Schedule your <span class="underline underline--primary">child’s</span> specialty test.
+  heading: Schedule your child’s <span class="underline underline--primary">specialty</span> test.
   body: The process is simple! Get started by filling out our brief questionnaire.
   button:
     enabled: true

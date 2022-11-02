@@ -54,7 +54,7 @@ testing_options_block:
         button_text: Get Started Now
 benefits_block:
   enabled: true
-  heading: The comprehensive testing you <span class="underline underline--primary">deserve</span>.
+  heading: The comprehensive testing <span class="underline underline--primary">you deserve</span>.
   body:
   benefits:
     - heading: Personalized
@@ -99,7 +99,7 @@ faq_block:
     button_text: View all FAQs
 cta_block:
   enabled: true
-  heading: Schedule <span class="underline underline--primary">your</span> comprehensive test.
+  heading: Schedule your <span class="underline underline--primary">comprehensive</span> test.
   body: The process is simple! Get started by filling out our brief questionnaire.
   button:
     enabled: true

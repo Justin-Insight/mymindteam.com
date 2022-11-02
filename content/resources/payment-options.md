@@ -177,27 +177,19 @@ faq_block:
   questions:
     - question: What’s included?
       answer: |-
-        Our top priority at Mind Team is to provide you with the most professional neurodivergent testing possible, which includes hours of behind-the-scenes work from our multidisciplinary team.
+        Our top priority at Mind Team is to provide you with the most professional neurodivergent testing possible, which includes hours of behind-the scenes work from our multidisciplinary team.
 
-        To ensure you get the most accurate, empowering and helpful support possible, your Mind Team testing investment includes: 
+        To ensure you get the most accurate, empowering and helpful support possible, your Mind Team testing investment includes:
 
-        - Professional intake interview 
-
-        - Direct costs of testing materials and professional evaluators 
-
+        - Professional intake interview
+        - Direct costs of testing materials and professional evaluators
         - Testing administration
-
         - Test scoring
-
-        - Record, background and history review 
-
+        - Record, background and history review
         - Interpretation of test findings
-
-        - Collaborative consultation among our multidisciplinary team 
-
+        - Collaborative consultation among our multidisciplinary team
         - Report preparation
-
-        - And professional review
+        - Professional review
     - question: Why does treatment pricing vary so much?
       answer: |-
         Your Mind Team clinician, as well as your unique treatment plan, is customized to your/your child’s specific mind and needs. 
@@ -222,12 +214,6 @@ faq_block:
 
 
         When contacting your provider, ask if any of the following <a href="https://www.ama-assn.org/practice-management/cpt/cpt-overview-and-code-approval" target="_blank" rel="noopener noreferrer nofollower">CPT codes</a> need prior authorization for qualify or reimbursement: 96130, 96131, 96132, 96133, 96136, 96137, 96112, 96113, 96125.
-    - question: Can I still get support without an official diagnosis?
-      answer: |-
-        Yes! All learners can benefit from the transformative learning assessment and treatment services at Mind Team, with or without an official diagnosis.
-    - question: How does remote testing and treatment work?
-      answer: |-
-        To get the immediate support you deserve, Mind Team neurodivergent services must be paid out of pocket. With transparent, all-inclusive pricing and no hidden fees, you can trust your investment will cover all the answers and support you need.
   subheading: Have a different question?
   button:
     enabled: true
@@ -240,5 +226,5 @@ cta_block:
   button:
     enabled: true
     button_url: /get-started/
-    button_text: Get Started Now
+    button_text: Get Started
 ---
