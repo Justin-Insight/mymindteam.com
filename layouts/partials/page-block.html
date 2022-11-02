@@ -1,4 +1,4 @@
-<section class="page-block block bg-{{ .background_color }}">
+<section aria-labelledby="{{ .heading | plainify | urlize }}" class="page-block block bg-{{ .background_color }}">
   <div class="wrapper-lg">
     <div class="flex flex-column flex-center {{ if .text_column_right }}flex-row-m{{ end }}{{ if .text_column_left }}flex-row-reverse-m{{ end }}">
       <div class="border-radius-image w-100 w-50-m">
@@ -10,7 +10,7 @@
       </div>
       <div class="page-block__content w-100 w-50-m mt-3 mt-0-m {{ if .text_column_right }}ml-6-m{{ else }}mr-6-m{{ end }}">
         <div class="text-block flow">
-          <h2>{{ .heading | safeHTML }}</h2>
+          <h2 id="{{ .heading | plainify | urlize }}">{{ .heading | safeHTML }}</h2>
           <p style="max-width: 500px;margin: 1.25rem auto 0 auto;">{{ .body | markdownify }}</p>
           {{ if .button.enabled }}
             {{ with .button }}

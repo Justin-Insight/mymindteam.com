@@ -12,10 +12,10 @@
 {{ end }}
 {{ if .Params.adhd_testing_block.enabled }}
     {{ with .Params.adhd_testing_block }}
-        <div class="block bg-gray">
+        <section aria-labelledby="testing-heading" class="block bg-gray">
             <div class="wrapper text-center flow">
                 {{ if .heading }}
-                    <h2 id="intro-heading">{{ .heading | safeHTML }}</h2>
+                    <h2 id="testing-heading">{{ .heading | safeHTML }}</h2>
                 {{ end }} 
                 {{ if .subheading }}
                     <h3 class="fw-500 h5">{{ .subheading | safeHTML }}</h3>
@@ -24,7 +24,7 @@
                     <p>{{ .body | safeHTML }}</p>
                 {{ end }} 
             </div>
-        </div>
+        </section>
     {{ end }}
 {{ end }}
 <!-- Start blocks specific to our Comprehensive page -->
@@ -82,7 +82,7 @@
         {{ partial "mt-benefits" . }}
     {{ end }}
 {{ end }}
-<!-- Start blocks specific to our Child Testing page -->
+<!-- Start blocks specific to our Child Testing and Adult Testing pages -->
 {{ if (or (eq .Title "Child Testing") (eq .Title "Adult Testing")) }}
     {{ if .Params.testing_options_block.enabled }}
         {{ with .Params.testing_options_block }}
@@ -105,7 +105,7 @@
         {{ end }}
     {{ end }}
 {{ end }}
-<!-- End blocks specific to our Child Testing page -->
+<!-- End blocks specific to our Child Testing and Adult Testing pages -->
 {{ if .Params.faq_block.enabled }}
     {{ with .Params.faq_block }}
         {{ partial "mt-faqs" . }}

@@ -1,8 +1,7 @@
-{{ $ctaClass := lower .Page.Title }}
-<section class="block cta {{ anchorize $ctaClass }}-cta">
+<section aria-labelledby="cta-heading" class="block cta">
   <div class="wrapper-lg p-relative">
     <div class="cta__content border-accent border-radius-50 block text-center">
-      <h2 class="cta__title">{{ .heading | safeHTML }}</h2>
+      <h2 id="cta-heading" class="cta__title">{{ .heading | safeHTML }}</h2>
       <p class="fw-500 fs-300" style="max-width: 1000px; margin: 0 auto;">{{ .body | safeHTML }}</p>
       {{ if .button.enabled }}
           {{ with .button }}
