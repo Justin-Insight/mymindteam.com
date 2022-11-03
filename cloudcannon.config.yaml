@@ -1,15 +1,16 @@
 paths:
-  uploads: static/uploads/
-  static: static/uploads/
-  dam_uploads: raw
+  static: static/uploads
+  uploads: static/uploads
 
 _inputs:
   featured_image:
-    type: file
+    type: image
     comment: Set your featured image. Featured images are used as your SEO preview image when shared on social media or when your page is found in organic search results. The featured image is also used as the featured image on blog posts.
-    paths:
-      uploads: static/uploads/[collection]
-      static: uploads
+  
+  heading:
+    type: markdown 
+  body:
+    type: markdown 
   url:
     type: text
     comment: Set a custom URL for your page. ex. /our-team/first-m-last/
