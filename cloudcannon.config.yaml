@@ -12,3 +12,4 @@ _inputs:
 paths:
   uploads: static/uploads/
   static: static/uploads/
+  dam_uploads: [relative_path]
