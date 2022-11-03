@@ -1,7 +1,7 @@
 paths:
   uploads: static/uploads/
   static: static/uploads/
-  dam_uploads: raw/{title}
+  dam_uploads: raw
 
 _inputs:
   featured_image:
