@@ -11,4 +11,4 @@ _inputs:
 
 paths:
   uploads: static/uploads/
-  static: uploads
+  static: static/uploads/
