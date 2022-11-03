@@ -1,3 +1,8 @@
+paths:
+  uploads: static/uploads/
+  static: static/uploads/
+  dam_uploads: raw/{title}
+
 _inputs:
   featured_image:
     type: file
@@ -8,8 +13,3 @@ _inputs:
   url:
     type: text
     comment: Set a custom URL for your page. ex. /our-team/first-m-last/
-
-paths:
-  uploads: static/uploads/
-  static: static/uploads/
-  dam_uploads: raw/{title}
