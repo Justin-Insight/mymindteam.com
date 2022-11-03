@@ -5,10 +5,11 @@ phone:
 fax:
 email:
 address:
-  city: "Stevens Point"
+  city: "Wausau"
   state: "WI"
-  street: "2417 Post Road Bldg A"
-  zip: "54481"
+  street: "630 S 36th Ave"
+  zip: "54401"
+google_maps_url: https://goo.gl/maps/hrfQ1jzCLLgnMY1s8
 social_media:
   - title: Facebook
     link: https://facebook.com

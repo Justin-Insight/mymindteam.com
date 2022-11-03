@@ -1,4 +1,4 @@
-console.log('%c Crafted by Insight Creative, Inc. Designed and Developed by Justin Parsons', 'background: #1d1d1d; color: white; padding: 5px 10px;')
+console.log('%c Crafted by Insight Creative, Inc. Designed by Sam Rowe and Developed by Justin Parsons', 'background: #1d1d1d; color: white; padding: 5px 10px;')
 
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
@@ -64,3 +64,14 @@ function expandNav() {
 window.addEventListener("scroll", function() {
   scrollDetect(collapseNav, expandNav)
 })
+
+// const benefitImage1 = document.querySelectorAll('.benefit:nth-of-type(1) .benefit__image')
+// const benefitImage2 = document.querySelector('.benefit:nth-of-type(2) .benefit__image')
+// const benefitImage3 = document.querySelector('.benefit:nth-of-type(3) .benefit__image')
+// const benefitImage4 = document.querySelector('.benefit:nth-of-type(4) .benefit__image')
+// const benefitImage5 = document.querySelector('.benefit:nth-of-type(5) .benefit__image')
+// const benefitImage6 = document.querySelector('.benefit:nth-of-type(6) .benefit__image')
+
+// var tl = gsap.timeline();
+// tl.to(benefitImage1, {rotation: 60, duration: 3, ease: "linear"})
+// tl.to(benefitImage2, {rotation: -60, duration: 4, ease: "elastic"})

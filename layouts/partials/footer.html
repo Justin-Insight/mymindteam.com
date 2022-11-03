@@ -5,14 +5,14 @@
         <div class="footer__contact">
           <a class="footer__logo" href="{{ site.BaseURL }}">
             {{ if .Site.Data.site_settings.logo }}
-              <img src="/uploads/{{ .Site.Data.site_settings.logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
+              <img src="/uploads/{{ .Site.Data.site_settings.logo }}" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
             {{ else }}
               <h2>{{ site.Title }}</h2>
             {{ end }}
           </a>
           <address class="footer__address">
             <p>
-              <a href="https://g.page/behavioral-health-clinic-wi?share" target="_blank" rel="noreferrer" class="no-decoration">{{ .Site.Data.site_settings.address.street }}
+              <a href="{{ .Site.Data.site_settings.google_maps_url }}" target="_blank" rel="noreferrer" class="no-decoration">{{ .Site.Data.site_settings.address.street }}
               {{ .Site.Data.site_settings.address.city }}, {{ .Site.Data.site_settings.address.state }}</a>
             </p>
           </address>

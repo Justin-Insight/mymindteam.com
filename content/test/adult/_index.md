@@ -109,22 +109,22 @@ benefits_block:
     - heading: Professional
       body: >-
         Our licensed clinicians use the highest standards and evidence-based methods, trusted by state assistance programs, educators, employers and doctors.
-      icon: /uploads/yellow-block.svg
+      icon: yellow-block.svg
     - heading: Accurate
       body: >-
         No matter which test you need, we’ll account for and rule out an exhaustive list of conditions to ensure you get the most accurate results and diagnoses.
-      icon: /uploads/blue-block.svg
+      icon: blue-block.svg
     - heading: Stress-free
       body: >-
         No need to commute or test in an unfamiliar location with our secure, face-to-face remote testing.
-      icon: /uploads/orange-block.svg
+      icon: orange-block.svg
     - heading: Empowering
       body: >-
         Rather than trying to “fix” your mind, we’ll help you learn to work with your unique abilities and differences to conquer your challenges and thrive.
-      icon: /uploads/orange-block.svg
+      icon: orange-block.svg
     - heading: Integrated
       body: Get the combined expertise of our entire multidisciplinary team and never worry about relaying your background and test results from one provider to another.
-      icon: /uploads/yellow-block.svg
+      icon: yellow-block.svg
 single_column_block:
   enabled: true
   heading: Pricing for <span class="underline underline--accent">immediate support</span>.

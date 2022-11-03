@@ -120,6 +120,12 @@ mind_team:
       associations:
       specialty: ADHD Specialist
       zoom_room_url: https://us06web.zoom.us/j/5968300872
+    - name: Amylyn Serano
+      headshot: Amylyn_Serrano.jpg
+      job_title: Psychological Technician
+      associations:
+      specialty:
+      zoom_room_url:
 cta_block:
   enabled: true
   heading: Find <span class="underline underline--primary">your</span> Mind Team clinician today

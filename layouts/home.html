@@ -7,7 +7,7 @@
                 <div class="flex flex-column flex-row-m flex-center">
                     <div class="w-100 w-50-m flow text-center">
                         <!-- 1MB video down to 150KB with imagekit.io transformation -->
-                        <video height="300" width="500" loop="loop" muted playsinline="" style="opacity: 1;" autoplay poster="">
+                        <video height="300" width="500" loop="loop" muted playsinline="" style="opacity: 1;" autoplay poster="/uploads/mind-team-generic-social-preview-image.jpg">
                             <source src="https://ik.imagekit.io/insightcreative/mind-team/{{ .video }}?tr=w-700,q-70" type="video/mp4">
                         </video>
                     </div>
@@ -23,7 +23,7 @@
                         <div class="grid-3">
                             {{ range .steps }}
                             <div class="mt-process flex flex-column flex-row-l flex-start">
-                                <img src="{{ .icon }}" alt="" class="mt-process__icon mr-5">
+                                <img src="/uploads/{{ .icon }}" alt="" class="mt-process__icon mr-5" height="75" width="75">
                                 <div class="mt-process__content">
                                     <h3 class="mt-process__heading">{{ .heading | safeHTML }}</h3>
                                     <p class="mt-process__body">{{ .body }}</p>
@@ -39,7 +39,7 @@
 {{ end }}
 {{ if .Params.our_services_block.enabled }}
     {{ with .Params.our_services_block }}
-    <section aria-labelledby="services-heading" class="block" style="position:relative;">
+    <section aria-labelledby="services-heading" class="block p-relative">
         <div class="wrapper-lg text-center">
             <h2 id="services-heading">{{ .heading | safeHTML }}</h2>
             <p class="fs-300 max-width-none">{{ .body }}</p>

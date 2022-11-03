@@ -51,6 +51,7 @@ module.exports = {
         'pagefind-ui__results',
         'search-open',
         'mark',
+        'reveal',
       ],
     }),
   ],

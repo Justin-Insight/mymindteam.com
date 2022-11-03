@@ -99,13 +99,13 @@ pay_as_you_go_block:
   installments:
     - heading: <span class="underline underline--primary">First</span> installment
       body: Schedule your pre-assessment intake appointment (where we’ll determine which Mind Test is right for you) with an initial <strong>$150 deposit</strong>.
-      icon: /uploads/1-blue-block.svg
+      icon: 1-blue-block.svg
     - heading: <span class="underline underline--secondary">Second</span> installment
       body: Make your second payment of at least <strong>50% of the remaining balance</strong> to schedule your assessment.
-      icon: /uploads/2-orange-block.svg
+      icon: 2-orange-block.svg
     - heading: <span class="underline underline--accent">Third</span> installment
       body: <strong>24 hours prior</strong> to your assessment review appointment, final payment of any remaining balance is due.
-      icon: /uploads/3-yellow-block.svg
+      icon: 3-yellow-block.svg
 treatment_options_block:
   enabled: true
   heading: Mind Team treatment pricing

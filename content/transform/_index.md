@@ -46,7 +46,6 @@ thrive_block:
       image:
         enabled: true
         image_url: children-at-school.jpg
-        # image_url: /uploads/two-clinicians-on-video-call-together.jpg
         image_alt:
     - heading: At <span class="underline underline--accent">work</span>
       body: >-
@@ -62,7 +61,6 @@ thrive_block:
       image:
         enabled: true
         image_url: two-people-collaborating-at-work.jpg
-        # image_url: /uploads/two-clinicians-on-video-call-together.jpg
         image_alt:
 ongoing_support_block:
   enabled: true

@@ -58,19 +58,19 @@ benefits_block:
     - heading: Personalized
       body: >-
         Includes a comprehensive intake interview to tailor your assessment and results to your background and concerns.
-      icon: /uploads/yellow-block.svg
+      icon: yellow-block.svg
     - heading: Accurate
       body: >-
         Conducted with the highest standards and evidence-based methods.
-      icon: /uploads/blue-block.svg
+      icon: blue-block.svg
     - heading: Empowering
       body: >-
         Designed to identify your unique neural strengths and differences and guide you on the best path to work <em>with</em> your mind.
-      icon: /uploads/orange-block.svg
+      icon: orange-block.svg
     - heading: Stress-free
       body: >-
         Schedule and complete your ADHD test online, no referral, wait-time or commute necessary.
-      icon: /uploads/orange-block.svg
+      icon: orange-block.svg
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">adult ADHD</span> testing questions

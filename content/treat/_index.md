@@ -103,16 +103,16 @@ benefits_block:
   benefits:
     - heading: Individualized
       body: No need to settle for one-size-fits-all treatment. Your Mind Team will account for your unique background, history, strengths and challenges to customize your plan.
-      icon: /uploads/yellow-block.svg
+      icon: yellow-block.svg
     - heading: Effective
       body: Conducted using evidence-based methods and practices designed to give you/your child the skills and confidence to thrive long after the final treatment session.
-      icon: /uploads/blue-block.svg
+      icon: blue-block.svg
     - heading: Inclusive
       body: We’re here to support you on your learning journey, whether you have an official condition diagnosis or not.
-      icon: /uploads/orange-block.svg
+      icon: orange-block.svg
     - heading: Advocative
       body: Your Mind Team will communicate with educators, employers and healthcare professionals to ensure you/your child get the accommodations you need to thrive.
-      icon: /uploads/orange-block.svg
+      icon: orange-block.svg
 pricing_block:
   enabled: true
   heading: Treatment pricing

@@ -6,7 +6,7 @@
     <div class="site-header__logo">
       <a class="brand-logo dim" href="{{ site.BaseURL }}">
         {{ if .Site.Data.site_settings.logo }}
-          <img src="/uploads/{{ .Site.Data.site_settings.logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
+          <img src="/uploads/{{ .Site.Data.site_settings.logo }}" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
         {{ else }}
           <h1>{{ site.Title }}</h1>
         {{ end }}
@@ -37,7 +37,7 @@
                           </ul>                            
                         </div>
                         <div class="sub-menu__sidebar w-30 flow ml-6">
-                            <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-group-small.jpg?tr=f-auto,q-80,w-400,h-300" alt="" class="border-radius-50">
+                            <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-group-small.jpg?tr=f-auto,q-80,w-400,h-300" alt="Mind Team group leadership photo" class="border-radius-50" width="360" height="270">
                             <a href="/team/" aria-label="Meet Our Team" class="no-decoration"><h3 class="h4 text-primary">Meet your Mind Team.</h3></a>
                             <p class="fs-100">View our diverse, multidisciplinary team of licensed psychologists, counselors, interventionists and other expert clinicians specially chosen to help you thrive.</p>
                             <a href="/team/" class="no-decoration flex flex-center fill-primary icon-sm">Meet our team {{ partialCached "svg-icons/arrow-right.svg" . }}</a>

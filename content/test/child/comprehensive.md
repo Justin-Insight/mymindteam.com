@@ -61,19 +61,19 @@ benefits_block:
     - heading: Personalized
       body: >-
         Includes a comprehensive intake interview to tailor your child’s assessment and results to their background and challenges.
-      icon: /uploads/yellow-block.svg
+      icon: yellow-block.svg
     - heading: Accurate
       body: >-
         Conducted with the highest standards and evidence-based methods.
-      icon: /uploads/blue-block.svg
+      icon: blue-block.svg
     - heading: Empowering
       body: >-
         Designed to identify your child’s unique neural strengths and differences and guide you on the best path to work <em>with</em> their mind.
-      icon: /uploads/orange-block.svg
+      icon: orange-block.svg
     - heading: Stress-free
       body: >-
         Schedule and complete your child’s comprehensive test from the comfort of home; no referral, wait-time or commute necessary.
-      icon: /uploads/orange-block.svg
+      icon: orange-block.svg
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">questions</span>

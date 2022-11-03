@@ -6,13 +6,12 @@
 
 <div class="pagination">
     {{ if .Paginator.HasPrev }}
-    <a class="pagination__previous" href="{{ .Paginator.Prev.URL }}"
-        role="button">{{ partial "svg-icons/chevron-left.svg" . }}</a>
-    <a class="pagination__numbers" href="{{ .Paginator.First.URL }}" role="button">1</a>
+    <a class="pagination__previous" href="{{ .Paginator.Prev.URL }}">{{ partial "svg-icons/chevron-left.svg" . }}</a>
+    <a class="pagination__numbers" href="{{ .Paginator.First.URL }}">1</a>
     {{ end }}
 
     {{ if eq $minPages 2 }}
-    <a class="pagination__numbers" href="{{ .Paginator.Prev.URL }}" role="button">{{ sub .Paginator.PageNumber 1 }}</a>
+    <a class="pagination__numbers" href="{{ .Paginator.Prev.URL }}">{{ sub .Paginator.PageNumber 1 }}</a>
     {{ end }}
 
     {{ if gt $minPages 2 }}
@@ -22,7 +21,7 @@
     <span class="pagination__numbers pagination__current shadow-xl">{{.Paginator.PageNumber}}</span>
 
     {{ if eq $maxPages 2 }}
-    <a class="pagination__numbers shadow-xl" href="{{ .Paginator.Next.URL }}" role="button">{{ add .Paginator.PageNumber 1 }}</a>
+    <a class="pagination__numbers shadow-xl" href="{{ .Paginator.Next.URL }}">{{ add .Paginator.PageNumber 1 }}</a>
     {{ end }}
 
     {{ if gt $maxPages 2 }}
@@ -30,9 +29,8 @@
     {{ end -}}
 
     {{ if .Paginator.HasNext -}}
-    <a class="pagination__numbers shadow-xl" href="{{ .Paginator.Last.URL }}" role="button">{{ .Paginator.TotalPages }}</a>
-    <a class="pagination__next shadow-xl" href="{{ .Paginator.Next.URL }}"
-        role="button">{{ partial "svg-icons/chevron-right.svg" . }}</a>
+    <a class="pagination__numbers shadow-xl" href="{{ .Paginator.Last.URL }}">{{ .Paginator.TotalPages }}</a>
+    <a class="pagination__next shadow-xl" href="{{ .Paginator.Next.URL }}">{{ partial "svg-icons/chevron-right.svg" . }}</a>
     {{- end }}
 </div>
 {{ end -}}

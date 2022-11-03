@@ -163,25 +163,25 @@ benefits_block:
     - heading: Professional
       body: >-
         Your child’s test will be conducted by a licensed school psychologist or other Mind Team clinician specializing in one or more of your specific concerns.
-      icon: /uploads/yellow-block.svg
+      icon: yellow-block.svg
     - heading: Accurate
       body: >-
         No matter which test your child needs, we’ll account for and rule out an exhaustive list of conditions to ensure we get the most accurate results and diagnoses.
-      icon: /uploads/blue-block.svg
+      icon: blue-block.svg
     - heading: Trusted
       body: >-
         Our professionals use the highest standards and evidence-based methods, trusted by state assistance programs, schools, educators, employers and doctors.
-      icon: /uploads/orange-block.svg
+      icon: orange-block.svg
     - heading: Simple
       body: >-
         No need to commute or have your child test in an unfamiliar location with our secure, face-to-face remote testing.
-      icon: /uploads/orange-block.svg
+      icon: orange-block.svg
     - heading: Empowering
       body: Rather than trying to “fix” your child’s mind, we’ll help you learn to work with their unique abilities and differences to conquer their challenges and thrive.
-      icon: /uploads/yellow-block.svg
+      icon: yellow-block.svg
     - heading: Integrated
       body: Get the combined expertise of our entire multidisciplinary team and never worry about relaying your child’s background and test results from one provider to another.
-      icon: /uploads/blue-block.svg
+      icon: blue-block.svg
 single_column_block:
   enabled: true
   heading: Pricing for <span class="underline underline--secondary">immediate support</span>.

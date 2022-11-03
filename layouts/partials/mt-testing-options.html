@@ -1,6 +1,6 @@
-<section aria-labelledby="pricing-heading" class="mt-testing-options block">
+<section aria-labelledby="{{ .heading | plainify | urlize }}" class="mt-testing-options block">
   <div class="wrapper-lg text-center">
-    <h2 id="pricing-heading">{{ .heading | safeHTML }}</h2>
+    <h2 id="{{ .heading | plainify | urlize }}">{{ .heading | safeHTML }}</h2>
   </div>
   <div class="block-sm">
     <div class="wrapper-lg grid-2">
