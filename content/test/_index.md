@@ -10,8 +10,7 @@ seo:
   meta_description: >-
     Test for autism, ADHD, dyslexia and other conditions with Mind Team
     neurodivergent testing—100% remote, comprehensive and professional.
-  featured_image: >-
-    https://res.cloudinary.com/dzyobbguo/image/upload/v1667504610/jason-hudson-EUF2azfNtm0-unsplash.jpg
+  featured_image: /paul-bulai-8mnbc0aobhq-unsplash.jpg
 hero:
   heading: Get the answers <span class="underline underline--accent">you need</span>.
   body: >-
