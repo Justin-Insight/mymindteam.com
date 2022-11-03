@@ -10,5 +10,5 @@ _inputs:
     comment: Set a custom URL for your page. ex. /our-team/first-m-last/
 
 paths:
-  uploads: static/uploads/[collection]
+  uploads: static/uploads/
   static: uploads
