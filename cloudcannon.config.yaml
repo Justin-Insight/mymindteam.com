@@ -1,6 +1,6 @@
 paths:
-  static: static/uploads
-  uploads: static/uploads
+  static: /static/uploads/
+  uploads: /static/uploads/
 
 _inputs:
   featured_image:
