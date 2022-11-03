@@ -2,7 +2,7 @@ _inputs:
   featured_image:
     type: file
     comment: Set your featured image. Featured images are used as your SEO preview image when shared on social media or when your page is found in organic search results. The featured image is also used as the featured image on blog posts.
-    options:
+    paths:
       uploads: static/uploads/[collection]
       static: uploads
   url:
