@@ -12,4 +12,4 @@ _inputs:
 paths:
   uploads: static/uploads/
   static: static/uploads/
-  dam_uploads: [filename]
+  dam_uploads: {title}
