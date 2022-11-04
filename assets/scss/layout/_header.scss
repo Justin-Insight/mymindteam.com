@@ -43,6 +43,10 @@
 
   &__logo {
     width: clamp(200px, 22vw, 425px);
+
+    img {
+      width: 425px;
+    }
   }
 
   &__nav {

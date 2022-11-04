@@ -16,7 +16,7 @@ hero:
   body: >-
     Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and
     dyscalculia in children and adults.
-  image_url: adhd-testing-on-desk.jpg
+  image_url: /adhd-testing-on-desk.jpg
   image_alt:
   button:
     enabled: false
@@ -64,25 +64,25 @@ process_block:
     take the stress out of testing without sacrificing the accuracy of your
     results.
   process:
-    - heading: 'Step 1: questionnaire'
+    - heading: "Step 1: questionnaire"
       time: 5-10 minutes
       body: >-
         Get started by filling out our brief questionnaire and we’ll help
         identify and schedule the test that best suits your needs.
       icon: 1-blue-block.svg
-    - heading: 'Step 2: diagnostic interview'
+    - heading: "Step 2: diagnostic interview"
       time: 1 hour
       body: >-
         Get comfortable with our secure, virtual appointment portal and review
         your history, background and concerns with your Mind Team clinician.
       icon: 2-orange-block.svg
-    - heading: 'Step 3: online assessment'
+    - heading: "Step 3: online assessment"
       time: 1-5 hours
       body: >-
         Meet remotely with your Mind Team clinician to conduct your virtual
         assessment.
       icon: 3-yellow-block.svg
-    - heading: 'Step 4: post-assessment feedback'
+    - heading: "Step 4: post-assessment feedback"
       time: 1 hour
       body: >-
         Meet remotely with your Mind Team clinician to review your test results

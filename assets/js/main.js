@@ -1,16 +1,16 @@
 console.log('%c Crafted by Insight Creative, Inc. Designed by Sam Rowe and Developed by Justin Parsons', 'background: #1d1d1d; color: white; padding: 5px 10px;')
 
 import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 import { toggleMobileMenu, toggleMobileDropdowns, filterPosts, openSearchModal, closeSearchModal } from "./partials";
-
-gsap.registerPlugin(ScrollTrigger)
 
 const siteHeader = document.querySelector(".site-header")
 const hasSubMenu = document.querySelectorAll(".has-sub-menu")
 const searchButton = document.querySelector('.search__open')
 const closeButton = document.querySelector('.search__close')
+const siteMain = document.querySelector('.site-main')
+
+siteMain.style.marginTop = siteHeader.offsetHeight + 'px'
 
 if (document.body.contains(searchButton)) {
   searchButton.addEventListener('click', openSearchModal)
