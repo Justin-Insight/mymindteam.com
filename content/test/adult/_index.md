@@ -134,12 +134,6 @@ single_column_block:
     enabled: true
     button_url: /resources/payment-options/
     button_text: Payment Options
-  text_column_left: true
-  text_column_right: false
-  image:
-    enabled: true
-    image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
-    image_alt:
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">questions</span>
