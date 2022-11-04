@@ -9,7 +9,7 @@ _inputs:
   hero.image_url:
     type: image
     comment: This is the main image used at the top of every page.
-  hero.image_url:
+  image_url:
     type: image
     comment: This is the main image used at the top of every page.
   heading:
