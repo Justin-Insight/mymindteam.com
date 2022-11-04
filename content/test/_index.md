@@ -37,7 +37,7 @@ testing_block:
   enabled: true
   heading: >-
     Testing for <span class="underline underline--secondary">children and
-    adults</span>
+    adults</span>.
   body: >-
     Choose from the age group options below to learn more about specific Mind
     Team testing options and to get the most accurate pricing information.
@@ -58,7 +58,7 @@ process_block:
   enabled: true
   heading: >-
     Superior testing, <span class="underline underline--accent">minus the
-    stress</span>
+    stress</span>.
   body: >-
     You’ll love our simple, comprehensive testing process, expertly designed to
     take the stress out of testing without sacrificing the accuracy of your

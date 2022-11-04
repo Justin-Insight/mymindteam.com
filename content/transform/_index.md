@@ -21,12 +21,12 @@ hero:
 goals_block:
   enabled: true
   goals:
-    - goal: the way you think about and understand your mind.
-      icon: /testing-icon-identify.svg
-    - goal: your ability to reduce, prepare for and overcome learning challenges.
-      icon: /testing-icon-discover.svg
-    - goal: your confidence in your ability to live and learn without limitation.
-      icon: /testing-icon-diagnose.svg
+    - goal: Understand your mind.
+      icon: /Transform-Understand.svg
+    - goal: Reduce, prepare for and overcome learning challenges.
+      icon: /Transform-Reduce.svg
+    - goal: Live and learn without limitation.
+      icon: /Transform-Confidence.svg
 thrive_block:
   enabled: true
   heading: Thrive in <span class="underline underline--primary">every</span> environment.

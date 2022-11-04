@@ -5,7 +5,7 @@ seo:
   meta_description:
   featured_image: /pets-and-personality.jpg
 author: brian-weiland-psyd
-date: 2022-10-15
+date: 2022-10-15T00:00:00Z
 categories:
   - Mental Health
 ---

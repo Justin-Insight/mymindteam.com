@@ -23,13 +23,13 @@ goals_block:
   goals:
     - goal: Remote
       body: Work and meet with clients via our secure, virtual platform.
-      icon: /testing-icon-identify.svg
+      icon: /Careers-Remote.svg
     - goal: Multidisciplinary
       body: Collaborate with a passionate, diverse <a href="/our-team/">team of clinicians</a>.
-      icon: /testing-icon-discover.svg
+      icon: /Careers-Multidisciplinary.svg
     - goal: Flexible
       body: Full-time and part-time positions available.
-      icon: /testing-icon-diagnose.svg
+      icon: /Careers-Flexible.svg
 helping_minds_thrive_block:
   enabled: true
   heading: Helping all minds <span class="underline underline--accent">thrive</span>

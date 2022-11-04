@@ -4,7 +4,8 @@ seo:
   page_title:
   meta_description:
   featured_image: /relax.jpg
-date: 2022-10-04
+author:
+date: 2022-10-04T00:00:00Z
 categories:
   - Mental Health
 ---

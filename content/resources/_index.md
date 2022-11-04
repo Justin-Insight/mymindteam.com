@@ -20,16 +20,16 @@ goals_block:
   enabled: true
   goals:
     - goal: Blog
-      icon: /testing-icon-identify.svg
+      icon: /Resources-Blog.svg
       url: /blog/
     - goal: Frequently asked questions
-      icon: /testing-icon-discover.svg
+      icon: /Resources-FAQs.svg
       url: /resources/faqs/
     - goal: Payment options
-      icon: /testing-icon-diagnose.svg
+      icon: /Resources-PaymentOpts.svg
       url: /resources/payment-options/
     - goal: Mind Team outcomes
-      icon: /testing-icon-tackle-limitations.svg
+      icon: /Resources-Outcomes.svg
       url: /resources/outcomes/
 cta_block:
   enabled: true

@@ -4,7 +4,8 @@ seo:
   page_title:
   meta_description:
   featured_image: /therapy.jpg
-date: 2022-09-06
+author:
+date: 2022-09-06T00:00:00Z
 categories:
   - Therapy
 ---

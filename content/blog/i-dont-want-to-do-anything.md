@@ -4,7 +4,8 @@ seo:
   page_title:
   meta_description:
   featured_image: /depression.jpg
-date: 2022-01-25
+author:
+date: 2022-01-25T00:00:00Z
 categories:
   - Wellness
 ---

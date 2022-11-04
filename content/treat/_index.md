@@ -24,13 +24,13 @@ goals_block:
   goals:
     - goal: Develop skills
       body: with a licensed interventionist focusing on specific challenge areas such as reading, writing, math and executive functioning.
-      icon: /testing-icon-identify.svg
+      icon: /Treat-DevelopSkills.svg
     - goal: Build confidence
       body: with empowering support focused on utilizing your inherent strengths, rather than trying to “fix” your mind.
-      icon: /testing-icon-discover.svg
+      icon: /Treat-Confidence.svg
     - goal: Get accommodations
       body: with assistance to set up the specific tools and resources you or your child need at school and/or work.
-      icon: /testing-icon-diagnose.svg
+      icon: /Treat-Accommodations.svg
 process_block:
   enabled: true
   heading: Comprehensive treatment, <span class="underline underline--accent">minus the stress</span>

@@ -1,3 +1,9 @@
+collections_config:
+  blog:
+    schemas:
+      default:
+        path: schemas/blog.md
+
 paths:
   static: static/uploads
   uploads: static/uploads

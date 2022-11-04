@@ -65,12 +65,11 @@ our_services_block:
         I’m just getting <span class="underline
         underline--primary">started</span>.
       body: >-
-        We’ll make it easy for you. Fill out our short questionnaire to get
-        started.
+        We’ll make it easy for you. Fill out our short questionnaire to start your journey.
       service_points: |-
-        * Comprehensive neurodivergent tests
-        * Custom treatment plans
-        * Multidisciplinary support
+        * Comprehensive neurodivergent tests.
+        * Custom treatment plans.
+        * Multidisciplinary support.
       button:
         enabled: true
         button_url: /get-started/
@@ -95,8 +94,8 @@ our_services_block:
         neurodivergent support you deserve.
       service_points: |-
         - Find learning styles that work for you. 
-        - Set up the accommodations you need
-        - Say goodbye to limitations
+        - Set up the accommodations you need.
+        - Say goodbye to limitations.
       button:
         enabled: true
         button_url: /treat/

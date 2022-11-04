@@ -4,7 +4,8 @@ seo:
   page_title:
   meta_description:
   featured_image: /breakfast.jpg
-date: 2022-03-24
+author:
+date: 2022-03-24T00:00:00Z
 categories:
   - Self Care
 ---

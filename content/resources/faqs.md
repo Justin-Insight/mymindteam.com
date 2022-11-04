@@ -11,7 +11,7 @@ seo:
   meta_description: Have questions about Mind Team testing, treatment, pricing or something else? We’ve got the answers you need.
   featured_image: /young-girl-on-video-call-with-mind-team-clinician.jpg
 hero:
-  heading: Frequently asked <span class="underline underline--accent">questions</span>.
+  heading: Frequently asked <span class="underline underline--accent">questions</span>
   body: You’ve got questions, we’ve got answers.
   image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg
   image_alt:
@@ -137,9 +137,9 @@ miscellaneous_faq_block:
 cta_block:
   enabled: true
   heading: Still have <span class="underline underline--primary">questions</span>?
-  body: We’re here to help.
+  body: We’re here to help. Fill out our short questionnaire and we'll be in touch.
   button:
     enabled: true
     button_url:
-    button_text: Get in touch
+    button_text: Get in Touch
 ---

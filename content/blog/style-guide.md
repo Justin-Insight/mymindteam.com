@@ -4,7 +4,8 @@ seo:
   page_title:
   meta_description:
   featured_image: /style-guide.jpg
-date: 2022-01-01
+author:
+date: 2022-01-01T00:00:00Z
 categories:
   - Self Care
 ---

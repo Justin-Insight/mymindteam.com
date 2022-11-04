@@ -4,7 +4,8 @@ seo:
   page_title:
   meta_description:
   featured_image: /coffee.jpg
-date: 2022-10-09
+author:
+date: 2022-10-09T00:00:00Z
 categories:
   - Wellness
 ---
