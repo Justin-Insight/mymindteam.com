@@ -47,7 +47,7 @@ _inputs:
     type: markdown
   answer:
     type: markdown
-  our_services_block.services.benefits:
+  service_points:
     type: markdown
   button.button_url:
     type: url

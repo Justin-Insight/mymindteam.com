@@ -45,7 +45,7 @@ our_services_block:
   services:
     - heading: I’m just getting <span class="underline underline--primary">started</span>.
       body: We’ll make it easy for you. Fill out our short questionnaire to get started.
-      benefits: >-
+      service_points: >-
         - Comprehensive neurodivergent tests
 
         - Custom treatment plans 
@@ -57,7 +57,7 @@ our_services_block:
         button_text: Get Started
     - heading: I’m looking for <span class="underline underline--accent">answers</span>.
       body: Our neurodivergent tests provide all the answers you need.
-      benefits: >-
+      service_points: >-
         - Identify your differences.
 
         - Discover your strengths.
@@ -69,7 +69,7 @@ our_services_block:
         button_text: Get Tested
     - heading: I know my challenges and need <span class="underline underline--secondary">support</span>.
       body: Our multidisciplinary team is here to provide the personalized neurodivergent support you deserve.
-      benefits: >-
+      service_points: >-
         - Find learning styles that work for you. 
 
         - Set up the accommodations you need
