@@ -1,8 +1,8 @@
 paths:
-  static: /static/uploads/
-  uploads: /static/uploads/
-  dam_static: ""
-  dam_uploads: assets
+  static: static/uploads
+  uploads: static/uploads
+  dam_static: static/uploads
+  dam_uploads: static/uploads
 
 _inputs:
   featured_image:
