@@ -11,7 +11,7 @@ seo:
   featured_image: /books-on-desk-2.jpg
 hero:
   heading: Resources for <span class="underline underline--accent">every mind</span>.
-  body: <p>Test!</p>
+  body:
   image_url: /books-on-desk-2.jpg
   image_alt:
   button:
