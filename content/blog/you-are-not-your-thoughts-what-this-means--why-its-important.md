@@ -9,12 +9,11 @@ date: 2022-11-03T00:00:00Z
 categories:
   - Happiness
 ---
-
 We’ve been hearing this a lot, “You are what you think”, haven’t we? I sure have\! There have been many instances where I’ve been told to mind my thinking because thoughts can be my actions, but I’m skeptical… Wait, listen to my reasons first\!
 
 This saying, “you are your thoughts” is something that has taken root in our minds over the years, and it has, inadvertently, affected our mental health – whether you believe it or not. Psychologists and experts might insist that “you are your thoughts” is the right way to go, but that might not be the truth. At least not anymore.
 
-Below, let’s explore the origins of “you are your thoughts” and why the saying, “You are&nbsp;_not_&nbsp;your thoughts” should be implemented in your life\! Because, the truth is you are&nbsp;**not**&nbsp;your thoughts, no matter what others might say.
+Below, let’s explore the origins of “you are your thoughts” and why the saying, “You are *not* your thoughts” should be implemented in your life\! Because, the truth is you are **not** your thoughts, no matter what others might say.
 
 ## The Origins Of “You Are Your Thoughts”
 
@@ -36,7 +35,7 @@ They believe that you are **not** your thoughts and that thought is a different 
 
 ## You Are Not Your Thoughts – What Does It Mean?
 
-Now listen\! I agree with this statement. You are not your thoughts might not be a scientific claim, but it is a perspective that many would agree with. Look at your thoughts as you would notice something in a room you just entered. Just like you and the object in the room are two _different_ entities, your thoughts, and you are different too.
+Now listen\! I agree with this statement. You are not your thoughts might not be a scientific claim, but it is a perspective that many would agree with. Look at your thoughts as you would notice something in a room you just entered. Just like you and the object in the room are two *different* entities, your thoughts, and you are different too.
 
 **Thoughts are mere experiences that are a part of you but are not YOU\! Now, let’s take an example;**
 

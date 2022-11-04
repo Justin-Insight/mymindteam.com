@@ -7,11 +7,17 @@ menu:
     weight: 4
 seo:
   page_title: Licensed Psychologists, Counselors and Interventionists
-  meta_description: Meet the multidisciplinary team of psychologists, counselors, interventionists and clinicians specially chosen to help you thrive at Mind Team.
+  meta_description: >-
+    Meet the multidisciplinary team of psychologists, counselors,
+    interventionists and clinicians specially chosen to help you thrive at Mind
+    Team.
   featured_image: /mind-team-in-meeting-3.jpg
 hero:
   heading: Meet <span class="underline underline--accent">your</span> Mind Team.
-  body: View our diverse, multidisciplinary team of licensed psychologists, counselors, interventionists and other expert clinicians specially chosen to help you thrive.
+  body: >-
+    View our diverse, multidisciplinary team of licensed psychologists,
+    counselors, interventionists and other expert clinicians specially chosen to
+    help you thrive.
   image_url: /mind-team-in-meeting-3.jpg
   image_alt:
   button:
@@ -21,17 +27,26 @@ hero:
 page_blocks:
   - heading: Our clinicians …
     body: >-
-      <h3>celebrate <span class="underline underline--primary">all</span> minds.</h3>
+      <h3>celebrate <span class="underline underline--primary">all</span>
+      minds.</h3>
 
-      <p>Our team celebrates neurodiversity and aims to inform, empower and support you to work <em>with</em> your unique mind, rather than trying to “fix” your neural differences.</p>
+      <p>Our team celebrates neurodiversity and aims to inform, empower and
+      support you to work <em>with</em> your unique mind, rather than trying to
+      “fix” your neural differences.</p>
 
-      <h3><span class="underline underline--secondary">collaborate</span> internally.</h3>
+      <h3><span class="underline underline--secondary">collaborate</span>
+      internally.</h3>
 
-      <p>Whether you need Mind Team testing or treatment, you’ll get the expertise of our entire multidisciplinary team working to provide the answers and support you need.</p>
+      <p>Whether you need Mind Team testing or treatment, you’ll get the
+      expertise of our entire multidisciplinary team working to provide the
+      answers and support you need.</p>
 
-      <h3>advocate for <span class="underline underline--accent">your</span> needs.</h3>
+      <h3>advocate for <span class="underline underline--accent">your</span>
+      needs.</h3>
 
-      <p>You’ll never have to navigate intimidating assistance programs or school systems alone with a team who will advocate for your accommodation needs.</p>
+      <p>You’ll never have to navigate intimidating assistance programs or
+      school systems alone with a team who will advocate for your accommodation
+      needs.</p>
     button:
       enabled: false
       button_url:
@@ -44,8 +59,14 @@ page_blocks:
       image_alt:
 mind_team:
   enabled: true
-  heading: Clinicians for <span class="underline underline--secondary">every</span> mind.
-  body: Whether you or your child is struggling with <strong>autism, ADHD, dyslexia</strong> or another <strong>neurodivergent condition</strong>, we have a Mind Team clinician with the background and expertise to help you thrive.
+  heading: >-
+    Clinicians for <span class="underline underline--secondary">every</span>
+    mind.
+  body: >-
+    Whether you or your child is struggling with <strong>autism, ADHD,
+    dyslexia</strong> or another <strong>neurodivergent condition</strong>, we
+    have a Mind Team clinician with the background and expertise to help you
+    thrive.
   staff:
     - name: Heather Meggers-Wright, PhD
       headshot:
@@ -100,7 +121,8 @@ mind_team:
       job_title: Licensed School Psychologist
       associations:
       specialty:
-      zoom_room_url: https://us06web.zoom.us/j/5116701196?pwd=blR0cHZQRlNPbTNFT3ErNzV3bEo0UT09
+      zoom_room_url: >-
+        https://us06web.zoom.us/j/5116701196?pwd=blR0cHZQRlNPbTNFT3ErNzV3bEo0UT09
     - name: Tania Alarcon, MEd, RPm
       headshot:
       job_title: Psychometrician
@@ -127,8 +149,13 @@ mind_team:
       zoom_room_url:
 cta_block:
   enabled: true
-  heading: Find <span class="underline underline--primary">your</span> Mind Team clinician today
-  body: Whether you need professional neurodivergent testing or treatment, our team is here to help. The process is easy! Get started by filling out our brief questionnaire.
+  heading: >-
+    Find <span class="underline underline--primary">your</span> Mind Team
+    clinician today.
+  body: >-
+    Whether you need professional neurodivergent testing or treatment, our team
+    is here to help. The process is easy\! Get started by filling out our brief
+    questionnaire.
   button:
     enabled: true
     button_url: /get-started/

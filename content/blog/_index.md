@@ -7,7 +7,9 @@ menu:
     weight: 2
 seo:
   page_title: Mind Team blog
-  meta_description: Visit the Mind Team blog for neurodivergent guides, tips, news and resources for individuals of all ages in any stage of their learning journey.
+  meta_description: >-
+    Visit the Mind Team blog for neurodivergent guides, tips, news and resources
+    for individuals of all ages in any stage of their learning journey.
   featured_image: /mind-team-generic-social-preview-image.jpg
 hero:
   heading: Mind Team blog
@@ -20,8 +22,10 @@ hero:
     button_text: Get Started Now
 cta_block:
   enabled: true
-  heading: Get <span class="underline underline--primary">started</span>.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  heading: >-
+    Ready to <span class="underline underline--primary">transform</span> your
+    life?
+  body: The process is simple\! Get started by filling out our brief questionnaire.
   button:
     enabled: true
     button_url: /get-started/

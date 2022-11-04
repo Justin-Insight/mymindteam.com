@@ -2,14 +2,18 @@
 title: Specialty
 menu:
   main:
-    parent: "Adult Testing"
-    identifier: "Adult Specialty Testing"
+    parent: Adult Testing
+    identifier: Adult Specialty Testing
 seo:
   page_title: Adult Specialty Testing
-  meta_description: Need accommodations for an upcoming exam, or have a specialty assessment you need to take? Schedule a Mind Team remote specialty test.
+  meta_description: >-
+    Need accommodations for an upcoming exam, or have a specialty assessment you
+    need to take? Schedule a Mind Team remote specialty test.
   featured_image: /mind-team-clinician-23.jpg
 hero:
-  heading: Remote <span class="underline underline--accent">specialty</span> testing for adults
+  heading: >-
+    Remote <span class="underline underline--accent">specialty</span> testing
+    for adults.
   body: Inquire for pricing.
   image_url: /mind-team-clinician-23.jpg
   image_alt:
@@ -18,17 +22,21 @@ hero:
     button_url: /get-started/
     button_text: Get Started Now
 page_blocks:
-  - heading:
+  - heading: >-
+      Mind Team adult <span class="underline underline--accent">specialty</span>
+      testing
     body: >-
-      Need accommodations for an upcoming exam, or have a need not covered in our main test offerings? Our expert clinicians can administer:
+      Need accommodations for an upcoming exam, or have a need not covered in
+      our main test offerings? Our expert clinicians can administer:
 
-      - Accommodated testing for college entrance exams (ACT, MCAT, LSAT, etc.)
 
-      - Accommodated testing for professional licensure exams 
+      * Accommodated testing for college entrance exams (ACT, MCAT, LSAT, etc.)
 
-      - Cognitive IQ test
+      * Accommodated testing for professional licensure exams
 
-      - Other specialty testing
+      * Cognitive IQ test
+
+      * Other specialty testing
     button:
       enabled: false
       button_url:
@@ -41,7 +49,9 @@ page_blocks:
       image_alt:
 cta_block:
   enabled: true
-  heading: Schedule your <span class="underline underline--primary">specialty</span> test.
+  heading: >-
+    Schedule your <span class="underline underline--primary">specialty</span>
+    test.
   body: The process is simple! Get started by filling out our brief questionnaire.
   button:
     enabled: true

@@ -2,14 +2,18 @@
 title: Specialty
 menu:
   main:
-    parent: "Child Testing"
-    identifier: "Child Specialty Testing"
+    parent: Child Testing
+    identifier: Child Specialty Testing
 seo:
   page_title: Child Specialty Testing
-  meta_description: Mind Team specialty tests for children offer accommodation testing and provide professional testing for a variety of specialty school evaluations.
+  meta_description: >-
+    Mind Team specialty tests for children offer accommodation testing and
+    provide professional testing for a variety of specialty school evaluations.
   featured_image: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
 hero:
-  heading: Remote <span class="underline underline--accent">specialty</span> testing for children
+  heading: >-
+    Remote <span class="underline underline--accent">specialty</span> testing
+    for children.
   body: Inquire for pricing.
   image_url: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
   image_alt:
@@ -18,21 +22,25 @@ hero:
     button_url: /get-started/
     button_text: Get Started Now
 page_blocks:
-  - heading:
+  - heading: >-
+      Mind Team child <span class="underline underline-accent">specialty</span>
+      testing
     body: >-
-      Does your child need special testing accommodations, or have a specialty test they need to complete? Our expert clinicians can administer:
+      Does your child need special testing accommodations or have a specialty
+      test they need to complete? Our expert clinicians can administer:
 
-      - Gifted and talented testing
 
-      - Private school entrance exams
+      * Gifted and talented testing
 
-      - Kindergarten readiness test 
+      * Private school entrance exams
 
-      - Cognitive IQ test
+      * Kindergarten readiness test
 
-      - Accommodated testing for college entrance exams (ACT, MCAT, LSAT, etc.)
+      * Cognitive IQ test
 
-      - Other specialty testing
+      * Accommodated testing for college entrance exams (ACT, MCAT, LSAT, etc.)
+
+      * Other specialty testing
     button:
       enabled: false
       button_url:
@@ -45,7 +53,9 @@ page_blocks:
       image_alt:
 cta_block:
   enabled: true
-  heading: Schedule your child’s <span class="underline underline--primary">specialty</span> test.
+  heading: >-
+    Schedule your child’s <span class="underline
+    underline--primary">specialty</span> test.
   body: The process is simple! Get started by filling out our brief questionnaire.
   button:
     enabled: true
