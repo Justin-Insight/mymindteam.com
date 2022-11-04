@@ -11,13 +11,7 @@ seo:
   featured_image: /books-on-desk-2.jpg
 hero:
   heading: Resources for <span class="underline underline--accent">every mind</span>.
-  body: >-
-    T\!est\!
-
-
-    \!\[alt
-    text\](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
-    "Logo Title Text 1")
+  body: <p>Test!</p>
   image_url: /books-on-desk-2.jpg
   image_alt:
   button:
