@@ -3,7 +3,7 @@
         <div class="goal-icon-grid">
             {{ range .goals }}
             <div class="goal-icon text-center flow">
-                <img src="/uploads/{{ .icon }}" alt="">
+                <img src="/uploads{{ .icon }}" alt="">
                 <h2 class="h3 fs-300 fw-500">{{ .goal }}</h2>
                 {{ if .body }}
                     <p>{{ .body | markdownify }}</p>

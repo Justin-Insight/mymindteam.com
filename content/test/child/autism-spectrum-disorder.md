@@ -8,11 +8,11 @@ menu:
 seo:
   page_title: Child Autism Testing
   meta_description: Does your child have autism? Mind Team remote autism tests for children are the professional, stress-free way to diagnose (or rule out) autism.
-  featured_image: young-girl-during-autism-spectrum-disorder-testing-7.jpg
+  featured_image: /young-girl-during-autism-spectrum-disorder-testing-7.jpg
 hero:
   heading: Does your <span class="underline underline--accent">child</span> have autism?
   body: Get the professional answers and support you need to work <em>with</em> your child’s mind, all from the comfort of home.
-  image_url: young-girl-during-autism-spectrum-disorder-testing-7.jpg
+  image_url: /young-girl-during-autism-spectrum-disorder-testing-7.jpg
   image_alt:
   button:
     enabled: false
@@ -40,7 +40,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: child-sitting-alone-at-playground.jpg
+      image_url: /child-sitting-alone-at-playground.jpg
       image_alt:
 adhd_testing_block:
   enabled: true
@@ -55,19 +55,19 @@ benefits_block:
     - heading: Personalized
       body: >-
         Tailored to your child’s unique background, history and challenges.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Accurate
       body: >-
         Conducted by licensed professionals using the highest standards and evidence-based methods.
-      icon: blue-block.svg
+      icon: /blue-block.svg
     - heading: Empowering
       body: >-
         Designed to identify your child’s unique neural strengths and differences to guide them on the best path to work <em>with</em> their mind.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Stress-free
       body: >-
         Complete your child’s autism test from the comfort of your own home, no referral, wait-time or commute necessary.
-      icon: orange-block.svg
+      icon: /orange-block.svg
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">questions</span>

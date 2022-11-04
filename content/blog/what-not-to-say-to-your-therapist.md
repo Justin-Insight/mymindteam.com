@@ -3,7 +3,7 @@ title: "What You Should Never Tell Your Therapist?"
 seo:
   page_title:
   meta_description:
-  featured_image: therapy-2.jpg
+  featured_image: /therapy-2.jpg
 date: 2022-09-22
 categories:
   - Therapy

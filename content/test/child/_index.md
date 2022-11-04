@@ -7,11 +7,11 @@ menu:
 seo:
   page_title: Child Autism Testing | Child ADHD Testing | Child Dyslexia Testing
   meta_description: Your child can live and learn without limitation. Get the answers you need and test for autism, ADHD and more with Mind Team neurodivergent testing.
-  featured_image: young-girl-at-desk-during-video-call.jpg
+  featured_image: /young-girl-at-desk-during-video-call.jpg
 hero:
   heading: Work <span class="underline underline--accent">with</span> your child’s mind.
   body: Get the answers you need to best support your child with Mind Team professional child testing for autism, ADHD, dyslexia and other neurodivergent conditions.
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: /young-girl-at-desk-during-video-call.jpg
   image_alt:
   button:
     enabled: false
@@ -21,13 +21,13 @@ goals_block:
   enabled: true
   goals:
     - goal: Identify your child’s neural differences.
-      icon: testing-icon-identify.svg
+      icon: /testing-icon-identify.svg
     - goal: Discover your child’s unique strengths.
-      icon: testing-icon-discover.svg
+      icon: /testing-icon-discover.svg
     - goal: Diagnose applicable conditions.
-      icon: testing-icon-diagnose.svg
+      icon: /testing-icon-diagnose.svg
     - goal: Tackle limitations together.
-      icon: testing-icon-tackle-limitations.svg
+      icon: /testing-icon-tackle-limitations.svg
 testing_options_block:
   enabled: true
   heading: Mind Team <span class="underline underline--secondary">child</span> testing options
@@ -153,7 +153,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
       image_alt:
 benefits_block:
   enabled: true
@@ -163,25 +163,25 @@ benefits_block:
     - heading: Professional
       body: >-
         Your child’s test will be conducted by a licensed school psychologist or other Mind Team clinician specializing in one or more of your specific concerns.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Accurate
       body: >-
         No matter which test your child needs, we’ll account for and rule out an exhaustive list of conditions to ensure we get the most accurate results and diagnoses.
-      icon: blue-block.svg
+      icon: /blue-block.svg
     - heading: Trusted
       body: >-
         Our professionals use the highest standards and evidence-based methods, trusted by state assistance programs, schools, educators, employers and doctors.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Simple
       body: >-
         No need to commute or have your child test in an unfamiliar location with our secure, face-to-face remote testing.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Empowering
       body: Rather than trying to “fix” your child’s mind, we’ll help you learn to work with their unique abilities and differences to conquer their challenges and thrive.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Integrated
       body: Get the combined expertise of our entire multidisciplinary team and never worry about relaying your child’s background and test results from one provider to another.
-      icon: blue-block.svg
+      icon: /blue-block.svg
 single_column_block:
   enabled: true
   heading: Pricing for <span class="underline underline--secondary">immediate support</span>.
@@ -195,7 +195,7 @@ single_column_block:
   text_column_right: false
   image:
     enabled: true
-    image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+    image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
     image_alt:
 cta_block:
   enabled: true

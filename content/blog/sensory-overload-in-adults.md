@@ -3,7 +3,7 @@ title: "Sensory Overload In Adults: What Causes It And How To Cope With It"
 seo:
   page_title:
   meta_description:
-  featured_image: sensory-overload.jpg
+  featured_image: /sensory-overload.jpg
 date: 2022-10-04
 categories:
   - Mental Health

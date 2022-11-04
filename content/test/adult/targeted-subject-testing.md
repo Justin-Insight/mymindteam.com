@@ -7,11 +7,11 @@ menu:
 seo:
   page_title: Adult Targeted Subject Testing
   meta_description: Are you struggling with reading, writing or math skills? Mind Team targeted subject testing gives you the answers you need to work with your mind.
-  featured_image: mind-team-clinicians-looking-at-book-2.jpg
+  featured_image: /mind-team-clinicians-looking-at-book-2.jpg
 hero:
   heading: <span class="underline underline--accent">Adult</span> targeted subject tests
   body: $1,000
-  image_url: mind-team-clinicians-looking-at-book-2.jpg
+  image_url: /mind-team-clinicians-looking-at-book-2.jpg
   image_alt:
   button:
     enabled: false
@@ -40,7 +40,7 @@ targeted_subject_testing_block:
       text_column_right: true
       image:
         enabled: true
-        image_url: adult-reading-book.jpg
+        image_url: /adult-reading-book.jpg
         image_alt:
       button:
         enabled: true
@@ -61,7 +61,7 @@ targeted_subject_testing_block:
       text_column_right: false
       image:
         enabled: true
-        image_url: writing.jpg
+        image_url: /writing.jpg
         image_alt:
       button:
         enabled: true
@@ -84,7 +84,7 @@ targeted_subject_testing_block:
       text_column_right: true
       image:
         enabled: true
-        image_url: calculator.jpg
+        image_url: /calculator.jpg
         image_alt:
       button:
         enabled: true
@@ -99,19 +99,19 @@ benefits_block:
     - heading: Personalized
       body: >-
         Includes a comprehensive intake interview to tailor your assessment and results to your unique background and concerns.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Accurate
       body: >-
         Conducted with the highest standards and evidence-based methods.
-      icon: blue-block.svg
+      icon: /blue-block.svg
     - heading: Empowering
       body: >-
         Designed to identify your unique neural strengths and differences and guide you on the best path to work <em>with</em> your mind.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Stress-free
       body: >-
         Schedule and complete your targeted subject test online, no referral, wait-time or commute necessary.
-      icon: orange-block.svg
+      icon: /orange-block.svg
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">questions</span>

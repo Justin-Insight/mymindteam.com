@@ -2,9 +2,9 @@
   <a href="{{ .Permalink }}" class="blog-card__link">
     <div class="blog-card__cover cover-image">
       <picture>
-        <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://ik.imagekit.io/insightcreative/mind-team/{{ .Params.seo.featured_image }}?tr=f-auto,q-75,w-325,h-250 400w, https://ik.imagekit.io/insightcreative/mind-team/{{ .Params.seo.featured_image }}?tr=f-auto,q-75,w-600,h-450 600w, https://ik.imagekit.io/insightcreative/mind-team/{{ .Params.seo.featured_image }}?tr=f-auto,q-75,w-800,h-525 800w">
+        <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://ik.imagekit.io/insightcreative/mind-team{{ .Params.seo.featured_image }}?tr=f-auto,q-75,w-325,h-250 400w, https://ik.imagekit.io/insightcreative/mind-team{{ .Params.seo.featured_image }}?tr=f-auto,q-75,w-600,h-450 600w, https://ik.imagekit.io/insightcreative/mind-team{{ .Params.seo.featured_image }}?tr=f-auto,q-75,w-800,h-525 800w">
         
-        <img src="/uploads/{{ .Params.seo.featured_image }}" alt="" width="600" height="450">   
+        <img src="/uploads{{ .Params.seo.featured_image }}" alt="" width="600" height="450">   
       </picture>
     </div>
   </a>

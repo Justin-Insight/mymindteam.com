@@ -7,7 +7,7 @@
         <div class="benefit-grid flex-grid">
             {{ range .benefits }}
                 <div class="benefit border-radius-50 text-center">
-                    <img src="/uploads/{{ .icon }}" alt="" class="benefit__image">
+                    <img src="/uploads{{ .icon }}" alt="" class="benefit__image">
                     <h3>{{ .heading }}</h3>
                     <p class="max-width-none">{{ .body | safeHTML }}</p>
                 </div>

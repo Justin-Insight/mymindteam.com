@@ -16,7 +16,7 @@
             <div class="grid-3">
                 {{ range .installments }}
                 <div class="mt-process flex flex-column flex-row-l flex-start">
-                    <img src="/uploads/{{ .icon }}" alt="" class="mt-process__icon mr-5">
+                    <img src="/uploads{{ .icon }}" alt="" class="mt-process__icon mr-5">
                     <div class="mt-process__content">
                         <h3 class="mt-process__heading">{{ .heading | safeHTML }}</h3>
                         <p class="mt-process__body">{{ .body | safeHTML }}</p>

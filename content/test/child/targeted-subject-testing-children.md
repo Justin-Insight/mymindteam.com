@@ -7,11 +7,11 @@ menu:
 seo:
   page_title: Child Targeted Subject Testing
   meta_description: Is your child struggling with reading, writing or math? Mind Team targeted subject testing gives you the answers you need to work with their mind.
-  featured_image: young-girl-during-a-child-adhd-testing-session-8.jpg
+  featured_image: /young-girl-during-a-child-adhd-testing-session-8.jpg
 hero:
   heading: Targeted subject tests for <span class="underline underline--accent">children</span>
   body: $1,000
-  image_url: young-girl-during-a-child-adhd-testing-session-8.jpg
+  image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
   image_alt:
   button:
     enabled: false
@@ -38,7 +38,7 @@ targeted_subject_testing_block:
       text_column_right: true
       image:
         enabled: true
-        image_url: child-reading.jpg
+        image_url: /child-reading.jpg
         image_alt:
       button:
         enabled: true
@@ -59,7 +59,7 @@ targeted_subject_testing_block:
       text_column_right: false
       image:
         enabled: true
-        image_url: two-young-girls-working-on-assignments.jpg
+        image_url: /two-young-girls-working-on-assignments.jpg
         image_alt:
       button:
         enabled: true
@@ -80,7 +80,7 @@ targeted_subject_testing_block:
       text_column_right: true
       image:
         enabled: true
-        image_url: child-doing-math-2.jpg
+        image_url: /child-doing-math-2.jpg
         image_alt:
       button:
         enabled: true
@@ -95,19 +95,19 @@ benefits_block:
     - heading: Personalized
       body: >-
         Includes a comprehensive intake interview to tailor your child’s assessment and results to their unique background and concerns.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Accurate
       body: >-
         Conducted with the highest standards and evidence-based methods.
-      icon: blue-block.svg
+      icon: /blue-block.svg
     - heading: Empowering
       body: >-
         Designed to identify your child’s unique neural strengths and differences and guide you on the best path to help them work <em>with</em> their minds.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Stress-free
       body: >-
         Schedule and complete your child's targeted subject test online; no referral, wait-time or commute necessary.
-      icon: orange-block.svg
+      icon: /orange-block.svg
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">questions</span>

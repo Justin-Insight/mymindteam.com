@@ -3,7 +3,7 @@ title: "What Does Your Coffee Preference Say About You? Find Out Here!"
 seo:
   page_title:
   meta_description:
-  featured_image: coffee.jpg
+  featured_image: /coffee.jpg
 date: 2022-10-09
 categories:
   - Wellness

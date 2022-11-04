@@ -13,14 +13,14 @@
   <meta property="og:description" content="{{ .Params.seo.meta_description }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="{{ if .Params.seo.featured_image }}{{ site.BaseURL }}/uploads/{{ .Params.seo.featured_image }}{{ end }}">
+  <meta property="og:image" content="{{ if .Params.seo.featured_image }}{{ site.BaseURL }}/uploads{{ .Params.seo.featured_image }}{{ end }}">
 
   <meta property="twitter:card" content="summary">
   <meta property="twitter:url" content="{{ .Permalink }}">
   <meta property="twitter:title" content="{{ .Params.seo.page_title }}">
   <meta property="twitter:description" content="{{ .Params.seo.meta_description }}">
   <meta property="twitter:site" content="@">
-  <meta property="twitter:image" content="{{ if .Params.seo.featured_image }}{{ site.BaseURL }}/uploads/{{ .Params.seo.featured_image }}{{ end }}">
+  <meta property="twitter:image" content="{{ if .Params.seo.featured_image }}{{ site.BaseURL }}/uploads{{ .Params.seo.featured_image }}{{ end }}">
 
   <link rel="canonical" href="{{ site.BaseURL }}{{ .Permalink }}">
 

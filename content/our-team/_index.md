@@ -8,11 +8,11 @@ menu:
 seo:
   page_title: Licensed Psychologists, Counselors and Interventionists
   meta_description: Meet the multidisciplinary team of psychologists, counselors, interventionists and clinicians specially chosen to help you thrive at Mind Team.
-  featured_image: mind-team-in-meeting-3.jpg
+  featured_image: /mind-team-in-meeting-3.jpg
 hero:
   heading: Meet <span class="underline underline--accent">your</span> Mind Team.
   body: View our diverse, multidisciplinary team of licensed psychologists, counselors, interventionists and other expert clinicians specially chosen to help you thrive.
-  image_url: mind-team-in-meeting-3.jpg
+  image_url: /mind-team-in-meeting-3.jpg
   image_alt:
   button:
     enabled: false
@@ -40,8 +40,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      # image_url: mind-team-clinician-3.jpg
-      image_url: mind-team-group.jpg
+      image_url: /mind-team-group.jpg
       image_alt:
 mind_team:
   enabled: true
@@ -55,7 +54,7 @@ mind_team:
       specialty:
       zoom_room_url: https://zoom.us/j/7068769791
     - name: Shannon Schaefer, PhD
-      headshot: Shannon_Schaefer.jpg
+      headshot: /Shannon_Schaefer.jpg
       job_title: Licensed Psychologist
       associations:
       specialty:
@@ -67,7 +66,7 @@ mind_team:
       specialty:
       zoom_room_url: https://zoom.us/j/9839771017
     - name: Stacy Stefaniak Luther, PsyD
-      headshot: Stacy_Luther.jpg
+      headshot: /Stacy_Luther.jpg
       job_title: Licensed Professional Counselor
       associations: Board of Directors Member, Autism Society of Greater Wisconsin
       specialty: Autism Specialist
@@ -79,13 +78,13 @@ mind_team:
       specialty:
       zoom_room_url: https://us06web.zoom.us/j/8387163858
     - name: Shannon Huff, EdS
-      headshot: Shannon_Huff.jpg
+      headshot: /Shannon_Huff.jpg
       job_title: Licensed School Psychologist
       associations:
       specialty:
       zoom_room_url: https://us06web.zoom.us/j/5135413683
     - name: Jessa Voelker, EdS, NCSP
-      headshot: Jessa_Voelker.jpg
+      headshot: /Jessa_Voelker.jpg
       job_title: Licensed School Psychologist
       associations:
       specialty:
@@ -115,13 +114,13 @@ mind_team:
       specialty:
       zoom_room_url: https://us06web.zoom.us/j/5268242757
     - name: Emily Wereley, LPC
-      headshot: Emily_Wereley.jpg
+      headshot: /Emily_Wereley.jpg
       job_title: Licensed Psychometrician
       associations:
       specialty: ADHD Specialist
       zoom_room_url: https://us06web.zoom.us/j/5968300872
     - name: Amylyn Serano
-      headshot: Amylyn_Serrano.jpg
+      headshot: /Amylyn_Serrano.jpg
       job_title: Psychological Technician
       associations:
       specialty:

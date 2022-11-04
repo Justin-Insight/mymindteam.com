@@ -3,11 +3,11 @@ title: Home
 seo:
   page_title: Live and Learn Without Limitation
   meta_description: Mind Team helps neurodivergent individuals thrive with professional, remote testing and treatment for autism, ADHD, dyslexia and other conditions.
-  featured_image: mind-team-generic-social-preview-image.jpg
+  featured_image: /mind-team-generic-social-preview-image.jpg
 hero:
   heading: Live and learn <span class="underline underline--accent">without limitation</span>.
   body:
-  image_url: young-girl-on-video-call-with-mind-team-clinician.jpg
+  image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg
   image_alt:
   button:
     enabled: true
@@ -31,13 +31,13 @@ intro:
     steps:
       - heading: <span class="underline underline--primary">Test</span>
         body: Diagnose or rule out autism, ADHD, dyslexia, anxiety/depression and other conditions and identify key neural differences, strengths and learning styles.
-        icon: 1-blue-block.svg
+        icon: /1-blue-block.svg
       - heading: <span class="underline underline--secondary">Treat</span>
         body: Get a custom treatment plan tailored to your unique strengths, differences and needs with guidance and advocacy from our multidisciplinary team.
-        icon: 2-orange-block.svg
+        icon: /2-orange-block.svg
       - heading: <span class="underline underline--accent">Transform</span>
         body: Say goodbye to your current limitations and go forward with the information, tools and resources you need to thrive.
-        icon: 3-yellow-block.svg
+        icon: /3-yellow-block.svg
 our_services_block:
   enabled: true
   heading: Learning is a <span class="underline underline--secondary">journey</span>.
@@ -90,8 +90,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      # image_url: mind-team-clinician-3.jpg
-      image_url: mind-team-clinician-11-flipped.jpg
+      image_url: /mind-team-clinician-11-flipped.jpg
       image_alt:
 benefits_block:
   enabled: true
@@ -100,22 +99,22 @@ benefits_block:
   benefits:
     - heading: Professional
       body: Services conducted by licensed clinicians specially trained to provide the expert evaluation, guidance and support you deserve.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Accurate
       body: Our tests account for and rule out an exhaustive list of neural differences and conditions to get the most accurate results and diagnoses.
-      icon: blue-block.svg
+      icon: /blue-block.svg
     - heading: Trusted
       body: Our clinicians use the highest standards and evidence-based methods, trusted by state assistance programs, schools, educators, employers and doctors.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Simple
       body: Mind Team remote services are easy to schedule and complete all from the comfort of your own home, no referral necessary.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Empowering
       body: Rather than trying to “fix” your mind, we’ll help you learn to work with your unique abilities and differences and advocate to get you the accommodations you need to conquer your challenges and thrive.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Integrated
       body: Our multidisciplinary team ensures you’ll never have to worry about relaying information from one provider to another.
-      icon: blue-block.svg
+      icon: /blue-block.svg
 pricing_block:
   enabled: true
   heading: Pricing

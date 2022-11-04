@@ -3,7 +3,7 @@ title: "Why Don’t I Want To Do Anything Anymore"
 seo:
   page_title:
   meta_description:
-  featured_image: depression.jpg
+  featured_image: /depression.jpg
 date: 2022-01-25
 categories:
   - Wellness

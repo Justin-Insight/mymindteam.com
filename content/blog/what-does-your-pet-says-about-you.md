@@ -3,7 +3,7 @@ title: "Pets And Personality | What Does Your Pet Says About You"
 seo:
   page_title:
   meta_description:
-  featured_image: pets-and-personality.jpg
+  featured_image: /pets-and-personality.jpg
 author: brian-weiland-psyd
 date: 2022-10-15
 categories:

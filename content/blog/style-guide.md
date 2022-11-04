@@ -3,7 +3,7 @@ title: "Style Guide"
 seo:
   page_title:
   meta_description:
-  featured_image: style-guide.jpg
+  featured_image: /style-guide.jpg
 date: 2022-01-01
 categories:
   - Self Care

@@ -3,7 +3,7 @@ title: "Common Misconceptions About Mental Health"
 seo:
   page_title:
   meta_description:
-  featured_image: misconceptions.jpg
+  featured_image: /misconceptions.jpg
 date: 2022-10-17
 categories:
   - Mental Health

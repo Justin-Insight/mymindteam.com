@@ -7,11 +7,11 @@ menu:
 seo:
   page_title: Adult Autism Testing
   meta_description: Could you be struggling with undiagnosed autism? Mind Team online adult autism tests are the professional, stress-free way to get answers.
-  featured_image: mind-team-counselor-during-treatment-session-11.jpg
+  featured_image: /mind-team-counselor-during-treatment-session-11.jpg
 hero:
   heading: Think you might have <span class="underline underline--accent">autism</span>?
   body: Get the professional autism testing and diagnosis you need to work <em>with</em> your mind, all from the comfort of home.
-  image_url: mind-team-counselor-during-treatment-session-11.jpg
+  image_url: /mind-team-counselor-during-treatment-session-11.jpg
   image_alt:
   button:
     enabled: false
@@ -39,7 +39,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: woman-overwhelmed.jpg
+      image_url: /woman-overwhelmed.jpg
       image_alt:
 adhd_testing_block:
   enabled: true
@@ -54,19 +54,19 @@ benefits_block:
     - heading: Personalized
       body: >-
         Includes a comprehensive intake interview to tailor your autism assessment and results to your unique background and concerns.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Accurate
       body: >-
         Conducted with the highest standards and evidence-based methods.
-      icon: blue-block.svg
+      icon: /blue-block.svg
     - heading: Empowering
       body: >-
         Designed to identify your unique neural strengths and differences and guide you on the best path to work <em>with</em> your mind.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Stress-free
       body: >-
         Schedule and complete your autism test online, no referral, wait-time or commute necessary.
-      icon: orange-block.svg
+      icon: /orange-block.svg
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">autism testing</span> questions

@@ -23,7 +23,7 @@
                         <div class="grid-3">
                             {{ range .steps }}
                             <div class="mt-process flex flex-column flex-row-l flex-start">
-                                <img src="/uploads/{{ .icon }}" alt="" class="mt-process__icon mr-5" height="75" width="75">
+                                <img src="/uploads{{ .icon }}" alt="" class="mt-process__icon mr-5" height="75" width="75">
                                 <div class="mt-process__content">
                                     <h3 class="mt-process__heading">{{ .heading | safeHTML }}</h3>
                                     <p class="mt-process__body">{{ .body }}</p>

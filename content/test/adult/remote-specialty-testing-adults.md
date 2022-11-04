@@ -7,11 +7,11 @@ menu:
 seo:
   page_title: Adult Specialty Testing
   meta_description: Need accommodations for an upcoming exam, or have a specialty assessment you need to take? Schedule a Mind Team remote specialty test.
-  featured_image: mind-team-clinician-23.jpg
+  featured_image: /mind-team-clinician-23.jpg
 hero:
   heading: Remote <span class="underline underline--accent">specialty</span> testing for adults
   body: Inquire for pricing.
-  image_url: mind-team-clinician-23.jpg
+  image_url: /mind-team-clinician-23.jpg
   image_alt:
   button:
     enabled: false
@@ -37,7 +37,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: college-exams.jpg
+      image_url: /college-exams.jpg
       image_alt:
 cta_block:
   enabled: true

@@ -26,13 +26,13 @@ goals_block:
   enabled: true
   goals:
     - goal: Identify neural differences.
-      icon: testing-icon-identify.svg
+      icon: /testing-icon-identify.svg
     - goal: Discover unique strengths.
-      icon: testing-icon-discover.svg
+      icon: /testing-icon-discover.svg
     - goal: Diagnose applicable conditions.
-      icon: testing-icon-diagnose.svg
+      icon: /testing-icon-diagnose.svg
     - goal: Tackle limitations.
-      icon: testing-icon-tackle-limitations.svg
+      icon: /testing-icon-tackle-limitations.svg
 testing_block:
   enabled: true
   heading: >-
@@ -42,13 +42,13 @@ testing_block:
     Choose from the age group options below to learn more about specific Mind
     Team testing options and to get the most accurate pricing information.
   image_cards:
-    - image_url: child-adhd-testing-autism-testing.jpg
+    - image_url: /child-adhd-testing-autism-testing.jpg
       image_alt:
       button:
         enabled: true
         button_url: /test/child-neurodivergent-test/
         button_text: Child testing
-    - image_url: two-clinicians-on-video-call-together-2-reversed.jpg
+    - image_url: /two-clinicians-on-video-call-together-2-reversed.jpg
       image_alt:
       button:
         enabled: true
@@ -69,26 +69,26 @@ process_block:
       body: >-
         Get started by filling out our brief questionnaire and we’ll help
         identify and schedule the test that best suits your needs.
-      icon: 1-blue-block.svg
+      icon: /1-blue-block.svg
     - heading: "Step 2: diagnostic interview"
       time: 1 hour
       body: >-
         Get comfortable with our secure, virtual appointment portal and review
         your history, background and concerns with your Mind Team clinician.
-      icon: 2-orange-block.svg
+      icon: /2-orange-block.svg
     - heading: "Step 3: online assessment"
       time: 1-5 hours
       body: >-
         Meet remotely with your Mind Team clinician to conduct your virtual
         assessment.
-      icon: 3-yellow-block.svg
+      icon: /3-yellow-block.svg
     - heading: "Step 4: post-assessment feedback"
       time: 1 hour
       body: >-
         Meet remotely with your Mind Team clinician to review your test results
         and get recommendations for which steps to take next and how to begin
         treatment.
-      icon: 4-blue-block.svg
+      icon: /4-blue-block.svg
   button:
     enabled: true
     button_url: /get-started-now/

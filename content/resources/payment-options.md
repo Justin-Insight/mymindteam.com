@@ -9,11 +9,11 @@ menu:
 seo:
   page_title: Payment Options
   meta_description: View Mind Team testing and treatment pricing and convenient online self-pay options and see what’s included in your investment.
-  featured_image: mind-team-clinician-20.jpg
+  featured_image: /mind-team-clinician-20.jpg
 hero:
   heading: Your Mind Team <span class="underline underline--accent">Investment</span>
   body: View our testing and treatment service pricing with convenient online self-pay options and learn about everything included in your investment.
-  image_url: mind-team-clinician-20.jpg
+  image_url: /mind-team-clinician-20.jpg
   image_alt:
   button:
     enabled: false
@@ -99,13 +99,13 @@ pay_as_you_go_block:
   installments:
     - heading: <span class="underline underline--primary">First</span> installment
       body: Schedule your pre-assessment intake appointment (where we’ll determine which Mind Test is right for you) with an initial <strong>$150 deposit</strong>.
-      icon: 1-blue-block.svg
+      icon: /1-blue-block.svg
     - heading: <span class="underline underline--secondary">Second</span> installment
       body: Make your second payment of at least <strong>50% of the remaining balance</strong> to schedule your assessment.
-      icon: 2-orange-block.svg
+      icon: /2-orange-block.svg
     - heading: <span class="underline underline--accent">Third</span> installment
       body: <strong>24 hours prior</strong> to your assessment review appointment, final payment of any remaining balance is due.
-      icon: 3-yellow-block.svg
+      icon: /3-yellow-block.svg
 treatment_options_block:
   enabled: true
   heading: Mind Team treatment pricing
@@ -148,7 +148,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: young-girl-on-video-call-with-dr-weiland.jpg
+      image_url: /young-girl-on-video-call-with-dr-weiland.jpg
       image_alt:
     background_color: gray
   - heading: Accepted payment methods
@@ -168,7 +168,7 @@ page_blocks:
     text_column_right: false
     image:
       enabled: true
-      image_url: two-clinicians-on-video-call-together-3.jpg
+      image_url: /two-clinicians-on-video-call-together-3.jpg
       image_alt:
     background_color: white
 faq_block:

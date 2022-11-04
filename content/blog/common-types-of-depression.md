@@ -3,7 +3,7 @@ title: "Types of Depression: The 7 Most Common Depression Disorders"
 seo:
   page_title:
   meta_description:
-  featured_image: relax.jpg
+  featured_image: /relax.jpg
 date: 2022-07-08
 categories:
   - Mental Health

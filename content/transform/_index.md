@@ -8,11 +8,11 @@ menu:
 seo:
   page_title: Mind Team Transformations
   meta_description: Transform the way you understand and work with your mind with the life-changing outcomes of Mind Team neurodivergent testing and treatment.
-  featured_image: young-girl-at-desk-during-video-call.jpg
+  featured_image: /young-girl-at-desk-during-video-call.jpg
 hero:
   heading: Mind Team <span class="underline underline--accent">transformations</span>.
   body: What can you expect to gain from Mind Team neurodivergent testing and treatment services?
-  image_url: young-girl-at-desk-during-video-call.jpg
+  image_url: /young-girl-at-desk-during-video-call.jpg
   image_alt:
   button:
     enabled: false
@@ -22,11 +22,11 @@ goals_block:
   enabled: true
   goals:
     - goal: the way you think about and understand your mind.
-      icon: testing-icon-identify.svg
+      icon: /testing-icon-identify.svg
     - goal: your ability to reduce, prepare for and overcome learning challenges.
-      icon: testing-icon-discover.svg
+      icon: /testing-icon-discover.svg
     - goal: your confidence in your ability to live and learn without limitation.
-      icon: testing-icon-diagnose.svg
+      icon: /testing-icon-diagnose.svg
 thrive_block:
   enabled: true
   heading: Thrive in <span class="underline underline--primary">every</span> environment.
@@ -45,7 +45,7 @@ thrive_block:
       text_column_right: true
       image:
         enabled: true
-        image_url: children-at-school.jpg
+        image_url: /children-at-school.jpg
         image_alt:
     - heading: At <span class="underline underline--accent">work</span>
       body: >-
@@ -60,7 +60,7 @@ thrive_block:
       text_column_right: false
       image:
         enabled: true
-        image_url: two-people-collaborating-at-work.jpg
+        image_url: /two-people-collaborating-at-work.jpg
         image_alt:
 ongoing_support_block:
   enabled: true

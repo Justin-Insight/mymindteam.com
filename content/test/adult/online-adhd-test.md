@@ -7,11 +7,11 @@ menu:
 seo:
   page_title: Adult Online ADHD Testing
   meta_description: Do you have ADHD? Mind Team online adult ADHD tests are the professional, stress-free way to diagnose (or rule out) ADHD and get the answers you need.
-  featured_image: books-on-desk-8.jpg
+  featured_image: /books-on-desk-8.jpg
 hero:
   heading: <span class="underline underline--accent">Adult</span> ADHD Tests
   body: Get the professional ADHD testing and diagnosis you need to work <em>with</em> your mind, all from the comfort of home.
-  image_url: books-on-desk-8.jpg
+  image_url: /books-on-desk-8.jpg
   image_alt:
   button:
     enabled: false
@@ -43,7 +43,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: woman-looking-out-window-at-desk.jpg
+      image_url: /woman-looking-out-window-at-desk.jpg
       image_alt:
 adhd_testing_block:
   enabled: true
@@ -58,19 +58,19 @@ benefits_block:
     - heading: Personalized
       body: >-
         Includes a comprehensive intake interview to tailor your assessment and results to your background and concerns.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Accurate
       body: >-
         Conducted with the highest standards and evidence-based methods.
-      icon: blue-block.svg
+      icon: /blue-block.svg
     - heading: Empowering
       body: >-
         Designed to identify your unique neural strengths and differences and guide you on the best path to work <em>with</em> your mind.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Stress-free
       body: >-
         Schedule and complete your ADHD test online, no referral, wait-time or commute necessary.
-      icon: orange-block.svg
+      icon: /orange-block.svg
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">adult ADHD</span> testing questions

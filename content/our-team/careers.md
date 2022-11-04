@@ -8,11 +8,11 @@ menu:
 seo:
   page_title: Mind Team Careers
   meta_description: "Mind Team careers: join a multidisciplinary team of passionate licensed clinicians helping children and adults live and learn without limitation."
-  featured_image: mind-team-in-meeting-3.jpg
+  featured_image: /mind-team-in-meeting-3.jpg
 hero:
   heading: Mind Team <span class="underline underline--accent">Careers</span>
   body: Join a passionate, remote team of psychologists, interventionists and licensed clinicians helping neurodivergent individuals live and learn without limitation.
-  image_url: mind-team-in-meeting-3.jpg
+  image_url: /mind-team-in-meeting-3.jpg
   image_alt:
   button:
     enabled: true
@@ -23,13 +23,13 @@ goals_block:
   goals:
     - goal: Remote
       body: Work and meet with clients via our secure, virtual platform.
-      icon: testing-icon-identify.svg
+      icon: /testing-icon-identify.svg
     - goal: Multidisciplinary
       body: Collaborate with a passionate, diverse <a href="/our-team/">team of clinicians</a>.
-      icon: testing-icon-discover.svg
+      icon: /testing-icon-discover.svg
     - goal: Flexible
       body: Full-time and part-time positions available.
-      icon: testing-icon-diagnose.svg
+      icon: /testing-icon-diagnose.svg
 helping_minds_thrive_block:
   enabled: true
   heading: Helping all minds <span class="underline underline--accent">thrive</span>
@@ -75,7 +75,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: mind-team-group.jpg
+      image_url: /mind-team-group.jpg
       image_alt:
     background_color: gray
   - heading: Benefits
@@ -95,7 +95,7 @@ page_blocks:
     text_column_right: false
     image:
       enabled: true
-      image_url: mind-team-clinician-15.jpg
+      image_url: /mind-team-clinician-15.jpg
       image_alt:
     background_color: white
 cta_block:

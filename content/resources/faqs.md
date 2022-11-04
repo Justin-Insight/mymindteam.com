@@ -9,11 +9,11 @@ menu:
 seo:
   page_title: Mind Team FAQs
   meta_description: Have questions about Mind Team testing, treatment, pricing or something else? We’ve got the answers you need.
-  featured_image: young-girl-on-video-call-with-mind-team-clinician.jpg
+  featured_image: /young-girl-on-video-call-with-mind-team-clinician.jpg
 hero:
   heading: Frequently asked <span class="underline underline--accent">questions</span>.
   body: You’ve got questions, we’ve got answers.
-  image_url: young-girl-on-video-call-with-mind-team-clinician.jpg
+  image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg
   image_alt:
   button:
     enabled: false

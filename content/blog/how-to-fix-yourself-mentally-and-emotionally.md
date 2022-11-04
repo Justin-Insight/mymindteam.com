@@ -3,7 +3,7 @@ title: "10 Tips To Fix Your Mental And Emotional Self And Keep It In Check"
 seo:
   page_title:
   meta_description:
-  featured_image: relax.jpg
+  featured_image: /relax.jpg
 date: 2022-10-04
 categories:
   - Mental Health

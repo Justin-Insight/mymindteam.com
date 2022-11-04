@@ -8,11 +8,11 @@ menu:
 seo:
   page_title: Child Autism Testing
   meta_description: "Mind Team comprehensive testing for children: diagnose/rule out autism, ADHD, dyslexia, dysgraphia, dyscalculia and other neurodivergent conditions."
-  featured_image: young-boy-during-one-on-one-remote-counseling-session-7.jpg
+  featured_image: /young-boy-during-one-on-one-remote-counseling-session-7.jpg
 hero:
   heading: Get a <span class="underline underline--accent">full understanding</span> of your child’s mind.
   body: If your child is struggling in multiple subject areas or you think they could have more than one condition such as autism, ADHD or dyslexia, Mind Team comprehensive tests for children make it easy to get the answers you need.
-  image_url: young-boy-during-one-on-one-remote-counseling-session-7.jpg
+  image_url: /young-boy-during-one-on-one-remote-counseling-session-7.jpg
   image_alt:
   button:
     enabled: false
@@ -61,19 +61,19 @@ benefits_block:
     - heading: Personalized
       body: >-
         Includes a comprehensive intake interview to tailor your child’s assessment and results to their background and challenges.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Accurate
       body: >-
         Conducted with the highest standards and evidence-based methods.
-      icon: blue-block.svg
+      icon: /blue-block.svg
     - heading: Empowering
       body: >-
         Designed to identify your child’s unique neural strengths and differences and guide you on the best path to work <em>with</em> their mind.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Stress-free
       body: >-
         Schedule and complete your child’s comprehensive test from the comfort of home; no referral, wait-time or commute necessary.
-      icon: orange-block.svg
+      icon: /orange-block.svg
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">questions</span>

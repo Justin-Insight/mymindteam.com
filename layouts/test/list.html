@@ -16,7 +16,7 @@
             <div class="grid-2">
                 {{ range .image_cards }}
                 <div class="image-card flex flex-column flex-justify-center p-relative background-image">
-                    <img src="/uploads/{{ .image_url }}" alt="" class="border-radius-50">
+                    <img src="/uploads{{ .image_url }}" alt="" class="border-radius-50">
                     {{ if .button.enabled }}
                         {{ with .button }}
                             <div class="image-card__inner flex">

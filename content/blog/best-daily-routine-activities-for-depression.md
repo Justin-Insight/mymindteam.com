@@ -3,7 +3,7 @@ title: "10 Best Daily Routine Activities For Depression That You Must Try"
 seo:
   page_title:
   meta_description:
-  featured_image: breakfast.jpg
+  featured_image: /breakfast.jpg
 date: 2022-03-24
 categories:
   - Self Care

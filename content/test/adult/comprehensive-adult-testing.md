@@ -7,11 +7,11 @@ menu:
 seo:
   page_title: Adult Comprehensive Testing
   meta_description: "Mind Team comprehensive adult testing: diagnose or rule out autism, ADHD, dyslexia, dysgraphia, dyscalculia and other neurodivergent conditions."
-  featured_image: mind-team-counselor-during-treatment-session-13.jpg
+  featured_image: /mind-team-counselor-during-treatment-session-13.jpg
 hero:
   heading: All the <span class="underline underline--accent">answers you need</span>; one simple test.
   body: Get a comprehensive understanding of your unique mind with Mind Team comprehensive testing for adults who think they may have autism, ADHD, dyslexia and other neurodivergent conditions.
-  image_url: mind-team-counselor-during-treatment-session-13.jpg
+  image_url: /mind-team-counselor-during-treatment-session-13.jpg
   image_alt:
   button:
     enabled: false
@@ -60,19 +60,19 @@ benefits_block:
     - heading: Personalized
       body: >-
         Includes a comprehensive intake interview to tailor your assessment and results to your background and concerns.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Accurate
       body: >-
         Conducted with the highest standards and evidence-based methods.
-      icon: blue-block.svg
+      icon: /blue-block.svg
     - heading: Empowering
       body: >-
         Designed to identify your unique neural strengths and differences and guide you on the best path to work <em>with</em> your mind.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Stress-free
       body: >-
         Schedule and complete your comprehensive test online; no referral, wait time or commute necessary.
-      icon: orange-block.svg
+      icon: /orange-block.svg
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">questions</span>

@@ -7,11 +7,11 @@ menu:
 seo:
   page_title: Child Specialty Testing
   meta_description: Mind Team specialty tests for children offer accommodation testing and provide professional testing for a variety of specialty school evaluations.
-  featured_image: young-girl-during-autism-spectrum-disorder-testing-10.jpg
+  featured_image: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
 hero:
   heading: Remote <span class="underline underline--accent">specialty</span> testing for children
   body: Inquire for pricing.
-  image_url: young-girl-during-autism-spectrum-disorder-testing-10.jpg
+  image_url: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
   image_alt:
   button:
     enabled: false
@@ -41,7 +41,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: young-girl-specialty-testing.jpg
+      image_url: /young-girl-specialty-testing.jpg
       image_alt:
 cta_block:
   enabled: true

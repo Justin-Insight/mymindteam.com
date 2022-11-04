@@ -7,11 +7,11 @@ menu:
 seo:
   page_title: Adult Autism Testing | Adult ADHD Testing | Adult Dyslexia Testing
   meta_description: Get the answers you need with Mind Team neurodivergent testing for autism, ADHD, dyslexia, dysgraphia, dyscalculia and other conditions.
-  featured_image: mind-team-counselor-during-treatment-session-15.jpg
+  featured_image: /mind-team-counselor-during-treatment-session-15.jpg
 hero:
   heading: Get the answers <span class="underline underline--accent">you need</span>.
   body: Professional adult testing for autism, ADHD, dyslexia and other neurodivergent conditions—100% remote and conducted by licensed clinicians.
-  image_url: mind-team-counselor-during-treatment-session-15.jpg
+  image_url: /mind-team-counselor-during-treatment-session-15.jpg
   image_alt:
   button:
     enabled: false
@@ -21,13 +21,13 @@ goals_block:
   enabled: true
   goals:
     - goal: Identify your differences.
-      icon: testing-icon-identify.svg
+      icon: /testing-icon-identify.svg
     - goal: Discover your strengths.
-      icon: testing-icon-discover.svg
+      icon: /testing-icon-discover.svg
     - goal: Diagnose applicable conditions.
-      icon: testing-icon-diagnose.svg
+      icon: /testing-icon-diagnose.svg
     - goal: Tackle your limitations.
-      icon: testing-icon-tackle-limitations.svg
+      icon: /testing-icon-tackle-limitations.svg
 testing_options_block:
   enabled: true
   heading: Mind Team <span class="underline underline--secondary">adult</span> testing options
@@ -109,22 +109,22 @@ benefits_block:
     - heading: Professional
       body: >-
         Our licensed clinicians use the highest standards and evidence-based methods, trusted by state assistance programs, educators, employers and doctors.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
     - heading: Accurate
       body: >-
         No matter which test you need, we’ll account for and rule out an exhaustive list of conditions to ensure you get the most accurate results and diagnoses.
-      icon: blue-block.svg
+      icon: /blue-block.svg
     - heading: Stress-free
       body: >-
         No need to commute or test in an unfamiliar location with our secure, face-to-face remote testing.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Empowering
       body: >-
         Rather than trying to “fix” your mind, we’ll help you learn to work with your unique abilities and differences to conquer your challenges and thrive.
-      icon: orange-block.svg
+      icon: /orange-block.svg
     - heading: Integrated
       body: Get the combined expertise of our entire multidisciplinary team and never worry about relaying your background and test results from one provider to another.
-      icon: yellow-block.svg
+      icon: /yellow-block.svg
 single_column_block:
   enabled: true
   heading: Pricing for <span class="underline underline--accent">immediate support</span>.
@@ -138,7 +138,7 @@ single_column_block:
   text_column_right: false
   image:
     enabled: true
-    image_url: young-boy-on-video-call-with-mind-team-clinician-2.jpg
+    image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
     image_alt:
 faq_block:
   enabled: true

@@ -3,7 +3,7 @@ title: "13 Useful Tips To Get The Most Out Of Therapy"
 seo:
   page_title:
   meta_description:
-  featured_image: therapy.jpg
+  featured_image: /therapy.jpg
 date: 2022-09-06
 categories:
   - Therapy

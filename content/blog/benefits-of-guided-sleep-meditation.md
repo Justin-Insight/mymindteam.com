@@ -3,7 +3,7 @@ title: "The Hidden Benefits Of Guided Sleep Meditation (With Tips)"
 seo:
   page_title:
   meta_description:
-  featured_image: sleep-meditation.jpg
+  featured_image: /sleep-meditation.jpg
 date: 2022-09-22
 categories:
   - Meditation

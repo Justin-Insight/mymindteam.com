@@ -6,11 +6,11 @@ menu:
 seo:
   page_title: Mind Team Resources
   meta_description: View the Mind Team blog, frequently asked questions, payment options and Mind Team outcomes.
-  featured_image: books-on-desk-2.jpg
+  featured_image: /books-on-desk-2.jpg
 hero:
   heading: Resources for <span class="underline underline--accent">every mind</span>.
   body:
-  image_url: books-on-desk-2.jpg
+  image_url: /books-on-desk-2.jpg
   image_alt:
   button:
     enabled: false
@@ -20,16 +20,16 @@ goals_block:
   enabled: true
   goals:
     - goal: Blog
-      icon: testing-icon-identify.svg
+      icon: /testing-icon-identify.svg
       url: /blog/
     - goal: Frequently asked questions
-      icon: testing-icon-discover.svg
+      icon: /testing-icon-discover.svg
       url: /resources/faqs/
     - goal: Payment options
-      icon: testing-icon-diagnose.svg
+      icon: /testing-icon-diagnose.svg
       url: /resources/payment-options/
     - goal: Mind Team outcomes
-      icon: testing-icon-tackle-limitations.svg
+      icon: /testing-icon-tackle-limitations.svg
       url: /resources/outcomes/
 cta_block:
   enabled: true

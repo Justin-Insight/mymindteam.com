@@ -7,7 +7,7 @@
         <div class="testing-process-grid grid-2 wrapper-lg">
             {{ range .process }}
             <div class="mt-step p-relative border-radius-50 text-center flow">
-                <img src="/uploads/{{ .icon }}" alt="" class="mt-step__icon">
+                <img src="/uploads{{ .icon }}" alt="" class="mt-step__icon">
                 <h3>{{ .heading }}</h3>
                 {{ if .time }}
                     <p class="flex flex-justify-center flex-center fs-300 fw-500">{{ partialCached "svg-icons/clock.svg" . }}<span class="ml-1">{{ .time }}</span></p>

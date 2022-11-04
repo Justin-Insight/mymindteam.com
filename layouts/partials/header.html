@@ -6,7 +6,7 @@
     <div class="site-header__logo">
       <a class="brand-logo dim" href="{{ site.BaseURL }}">
         {{ if .Site.Data.site_settings.logo }}
-          <img src="/uploads/{{ .Site.Data.site_settings.logo }}" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
+          <img src="/uploads{{ .Site.Data.site_settings.logo }}" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
         {{ else }}
           <h1>{{ site.Title }}</h1>
         {{ end }}
