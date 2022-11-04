@@ -84,7 +84,7 @@ page_blocks:
     body: "Our 100% remote tests and treatment services are always conducted by licensed Mind Team clinicians specially chosen to fit your unique needs."
     button:
       enabled: true
-      button_url: /team/
+      button_url: /our-team/
       button_text: Meet Our Team
     text_column_left: false
     text_column_right: true

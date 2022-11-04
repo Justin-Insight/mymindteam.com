@@ -147,7 +147,7 @@ page_blocks:
       - Difficulty relating to and/or interacting with their peers.
     button:
       enabled: false
-      button_url: /team/
+      button_url: /our-team/
       button_text: Meet Our Team
     text_column_left: false
     text_column_right: true
