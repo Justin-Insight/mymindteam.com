@@ -6,9 +6,18 @@ _inputs:
   featured_image:
     type: image
     comment: Set your featured image. Featured images are used as your SEO preview image when shared on social media or when your page is found in organic search results. The featured image is also used as the featured image on blog posts.
+  hero.image_url:
+    type: image
+    comment: This is the main image used at the top of every page.
+  hero.image_url:
+    type: image
+    comment: This is the main image used at the top of every page.
+    options:
+      accepts_mime_types:
+        - image/jpeg
 
   heading:
-    type: html
+    type: text
   body:
     type: markdown
   url:
