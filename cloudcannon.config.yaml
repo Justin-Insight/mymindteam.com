@@ -50,7 +50,7 @@ _inputs:
     type: text
     comment: Please reach out to Insight Creative, Inc. if you need help changing a video.
   body:
-    type: markdown
+    type: html
   answer:
     type: markdown
   service_points:
