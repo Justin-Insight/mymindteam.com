@@ -3,6 +3,8 @@ paths:
   uploads: static/uploads
 
 _inputs:
+  menu:
+    hidden: true
   featured_image:
     type: image
     comment: Set your featured image. Featured images are used as your SEO preview image when shared on social media or when your page is found in organic search results. The featured image is also used as the featured image on blog posts.
@@ -12,13 +14,27 @@ _inputs:
     options:
       accepts_mime_types:
         - image/jpeg
+  hero.button_url:
+    type: url
   image_url:
     type: image
     comment: This is the main image used at the top of every page.
+  hero.image_url:
+    type: image
+    options:
+      accepts_mime_types:
+        - image/jpeg
+        - image/svg+xml
   heading:
     type: text
   body:
     type: markdown
+  answer:
+    type: markdown
+  button.button_url:
+    type: url
+  time: 
+    type: text
   url:
     type: text
     comment: Set a custom URL for your page. ex. /our-team/first-m-last/
