@@ -12,10 +12,6 @@ _inputs:
   hero.image_url:
     type: image
     comment: This is the main image used at the top of every page.
-    options:
-      accepts_mime_types:
-        - image/jpeg
-
   heading:
     type: text
   body:
