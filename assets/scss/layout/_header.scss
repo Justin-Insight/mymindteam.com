@@ -41,11 +41,27 @@
     }
   }
 
-  &__logo {
+  &__logo a {
+    // width: clamp(200px, 22vw, 425px);
+    // max-width: 100%;
+    // height: auto;
+    // max-height: 100%;
+
+    // img {
+    //   width: 425px;
+    //   max-height: 160px;
+    // }
+
+    display: block;
     width: clamp(200px, 22vw, 425px);
+    height: 100px;
+
+    @include breakpoint(xl) {
+      height: 160px;
+    }
 
     img {
-      width: 425px;
+      height: 100%;
     }
   }
 

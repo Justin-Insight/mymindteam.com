@@ -33,6 +33,19 @@ main:focus {
 
 .site-main {
   position: relative;
+  margin-top: $mobile-header;
+
+  @include breakpoint(md) {
+    margin-top: 120px;
+  }
+
+  @include breakpoint(lg) {
+    margin-top: 145px;
+  }
+
+  @include breakpoint(xl) {
+    margin-top: 194px;
+  }
 }
 
 // Style highlight to match our themes colors

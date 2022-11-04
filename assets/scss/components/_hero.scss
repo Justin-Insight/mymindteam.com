@@ -1,6 +1,10 @@
 .home-hero, 
 .hero {
-  min-height: 500px;
+  min-height: 400px;
+
+  @include breakpoint(md) {
+    min-height: 500px;
+  }
 }
 
 .hero {
