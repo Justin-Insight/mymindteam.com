@@ -19,7 +19,7 @@ _inputs:
   image_url:
     type: image
     comment: This is the main image used at the top of every page.
-  hero.image_url:
+  icon:
     type: image
     options:
       accepts_mime_types:
@@ -33,7 +33,7 @@ _inputs:
     type: markdown
   button.button_url:
     type: url
-  time: 
+  time:
     type: text
   url:
     type: text
