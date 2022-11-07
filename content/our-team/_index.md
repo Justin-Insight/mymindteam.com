@@ -63,13 +63,12 @@ mind_team:
     Clinicians for <span class="underline underline--secondary">every</span>
     mind.
   body: >-
-    Whether you or your child is struggling with <strong>autism, ADHD,
-    dyslexia</strong> or another <strong>neurodivergent condition</strong>, we
-    have a Mind Team clinician with the background and expertise to help you
-    thrive.
+    Whether you or your child is struggling with **autism, ADHD, dyslexia** or
+    another **neurodivergent condition**, we have a Mind Team clinician with the
+    background and expertise to help you thrive.
   staff:
     - name: Heather Meggers-Wright, PhD
-      headshot:
+      headshot: /heather-meggers-wright.jpg
       job_title: Licensed Psychologist
       associations:
       specialty:
@@ -81,7 +80,7 @@ mind_team:
       specialty:
       zoom_room_url: https://zoom.us/j/7907739883
     - name: Brian Weiland, PsyD
-      headshot:
+      headshot: /brian-weiland-1.jpg
       job_title: Licensed Psychologist
       associations:
       specialty:
@@ -93,7 +92,7 @@ mind_team:
       specialty: Autism Specialist
       zoom_room_url: https://zoom.us/j/8323767696
     - name: Stephanie Smith Kellen, PhD
-      headshot:
+      headshot: /stephanie-smith-kellen.jpg
       job_title: Postdoctoral Fellow
       associations:
       specialty:
