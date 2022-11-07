@@ -26,6 +26,7 @@ module.exports = {
         'page-payment-options',
         'page-specialty',
         'page-faqs',
+        'page-targeted-subject-testing',
         'home-hero',
         'parent-page-treat',
         'parent-page-test',

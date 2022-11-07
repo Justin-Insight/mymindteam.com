@@ -40,12 +40,11 @@ testing_options_block:
   heading: >-
     Mind Team <span class="underline underline--secondary">child</span> testing
     options
-  body: >-
-    Get started with our brief questionnaire and the experts at Mind Team will
-    help you determine the test that best suits your child’s needs.
+  pre_options_body: >-
+
   options:
     - heading: Child autism test
-      subheading: 'Test your child for autism in a structured interview assessing:'
+      subheading: "Test your child for autism in a structured interview assessing:"
       body: |-
         - Executive functioning 
         - Feedback from friends, relatives and educators
@@ -57,7 +56,7 @@ testing_options_block:
         button_url: /test/child/child-autism-test/
         button_text: Learn More
     - heading: Child ADHD test
-      subheading: 'Test your child for ADHD in a diagnostic interview assessing:'
+      subheading: "Test your child for ADHD in a diagnostic interview assessing:"
       body: |-
         - Attention
         - Executive functioning
@@ -124,6 +123,9 @@ testing_options_block:
         enabled: true
         button_url: /test/child/remote-specialty-testing-children/
         button_text: Learn More
+  post_options_body: >-
+    Get started with our brief questionnaire and the experts at Mind Team will
+    help you determine the test that best suits your child’s needs.
   button:
     enabled: true
     button_url: /get-started/

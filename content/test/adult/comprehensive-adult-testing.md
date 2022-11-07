@@ -29,7 +29,7 @@ testing_options_block:
   heading: >-
     Mind Team <span class="underline underline--secondary">comprehensive</span>
     adult testing options.
-  body:
+  pre_options_body:
   options:
     - heading: Comprehensive psychoeducational
       subheading: >-
@@ -55,10 +55,11 @@ testing_options_block:
         - Full battery ADHD screen
         - Broad reading, writing and math achievement
       price: $3,900
-      button:
-        enabled: false
-        button_url: /get-started/
-        button_text: Get Started Now
+  post_options_body:
+  button:
+    enabled: false
+    button_url: /get-started/
+    button_text: Get Started Now
 benefits_block:
   enabled: true
   heading: >-

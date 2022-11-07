@@ -11,7 +11,7 @@ hero:
   heading: Get Started
   body: >-
     Fill out our brief questionnaire to tell us your needs and we'll handle the
-    rest\!
+    rest!
   image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg
   image_alt:
   button:

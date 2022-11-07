@@ -31,7 +31,7 @@ testing_options_block:
   heading: >-
     Mind Team <span class="underline underline--secondary">comprehensive</span>
     testing options for children.
-  body: >-
+  pre_options_body: >-
     Assess your child’s achievement in reading, writing and math and diagnose or
     rule out common learning disorders that could be affecting their learning
     and functioning.

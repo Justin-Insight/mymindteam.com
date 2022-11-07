@@ -37,10 +37,10 @@ testing_options_block:
   heading: >-
     Mind Team <span class="underline underline--secondary">adult</span> testing
     options
-  body:
+  pre_options_body:
   options:
     - heading: Adult autism test
-      subheading: 'Test for autism in a structured interview assessing:'
+      subheading: "Test for autism in a structured interview assessing:"
       body: |-
         - Executive functioning
         - Feedback from friends, relatives or coworkers
@@ -52,7 +52,7 @@ testing_options_block:
         button_url: /test/adult/adult-autism-test/
         button_text: Learn More
     - heading: Adult ADHD test
-      subheading: 'Test for ADHD in a diagnostic interview assessing:'
+      subheading: "Test for ADHD in a diagnostic interview assessing:"
       body: |-
         - Attention
         - Executive functioning
@@ -82,7 +82,7 @@ testing_options_block:
     - heading: Specialty testing
       subheading: >-
         Mind Team clinicians can administer a variety of specialized tests
-        including: 
+        including:
       body: |-
         - Accommodated college admissions exams (e.g. ACT, MCAT, LSAT) 
         - Accommodated professional licensure exams
@@ -93,6 +93,7 @@ testing_options_block:
         enabled: true
         button_url: /test/adult/remote-specialty-testing-adults/
         button_text: Learn More
+  post_options_body:
   button:
     enabled: true
     button_url: /get-started/
@@ -192,7 +193,7 @@ cta_block:
   heading: >-
     Schedule your <span class="underline underline--primary">remote</span>
     neurodivergent test.
-  body: The process is easy\! Get started by filling out our brief questionnaire.
+  body: The process is easy! Get started by filling out our brief questionnaire.
   button:
     enabled: true
     button_url: /get-started/

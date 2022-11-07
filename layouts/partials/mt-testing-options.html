@@ -1,6 +1,7 @@
 <section aria-labelledby="{{ .heading | plainify | urlize }}" class="mt-testing-options block">
   <div class="wrapper-lg text-center">
     <h2 id="{{ .heading | plainify | urlize }}">{{ .heading | safeHTML }}</h2>
+    <p class="fs-300 fw-500" style="max-width: 905px; margin: 1.25rem auto;">{{ .pre_options_body }}</p>
   </div>
   <div class="block-sm">
     <div class="wrapper-lg grid-2">
@@ -8,8 +9,8 @@
       {{ partial "mt-pricing-chart" . }}
       {{ end }}
     </div>
-    <div class="wrapper-lg text-center mt-8">
-      <p class="fs-300 fw-500" style="max-width: 875px; margin: 1.25rem auto;">{{ .body }}</p>
+    <div class="wrapper-lg text-center mt-9">
+      <p class="fs-300 fw-500" style="max-width: 875px; margin: 1.25rem auto;">{{ .post_options_body }}</p>
       {{ if .button.enabled }}
         {{ with .button }}
           <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>

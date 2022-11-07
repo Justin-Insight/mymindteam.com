@@ -9,11 +9,12 @@ date: 2022-11-03T00:00:00Z
 categories:
   - Happiness
 ---
-We’ve been hearing this a lot, “You are what you think”, haven’t we? I sure have\! There have been many instances where I’ve been told to mind my thinking because thoughts can be my actions, but I’m skeptical… Wait, listen to my reasons first\!
+
+We’ve been hearing this a lot, “You are what you think”, haven’t we? I sure have! There have been many instances where I’ve been told to mind my thinking because thoughts can be my actions, but I’m skeptical… Wait, listen to my reasons first!
 
 This saying, “you are your thoughts” is something that has taken root in our minds over the years, and it has, inadvertently, affected our mental health – whether you believe it or not. Psychologists and experts might insist that “you are your thoughts” is the right way to go, but that might not be the truth. At least not anymore.
 
-Below, let’s explore the origins of “you are your thoughts” and why the saying, “You are *not* your thoughts” should be implemented in your life\! Because, the truth is you are **not** your thoughts, no matter what others might say.
+Below, let’s explore the origins of “you are your thoughts” and why the saying, “You are _not_ your thoughts” should be implemented in your life! Because, the truth is you are **not** your thoughts, no matter what others might say.
 
 ## The Origins Of “You Are Your Thoughts”
 
@@ -35,15 +36,15 @@ They believe that you are **not** your thoughts and that thought is a different 
 
 ## You Are Not Your Thoughts – What Does It Mean?
 
-Now listen\! I agree with this statement. You are not your thoughts might not be a scientific claim, but it is a perspective that many would agree with. Look at your thoughts as you would notice something in a room you just entered. Just like you and the object in the room are two *different* entities, your thoughts, and you are different too.
+Now listen! I agree with this statement. You are not your thoughts might not be a scientific claim, but it is a perspective that many would agree with. Look at your thoughts as you would notice something in a room you just entered. Just like you and the object in the room are two _different_ entities, your thoughts, and you are different too.
 
-**Thoughts are mere experiences that are a part of you but are not YOU\! Now, let’s take an example;**
+**Thoughts are mere experiences that are a part of you but are not YOU! Now, let’s take an example;**
 
 We all experience intrusive thoughts, don’t we? These thoughts can range from mild to disturbing. I mean, I usually get a thought that I should poke my sister until she snaps, but I don’t usually act on my thought. (well, not always).
 
 Thoughts are powerful, but they can’t be that powerful that they define our actions, or better yet, who we are.
 
-As beings who experience thousands of thoughts in a day, tell me; do we act on them always? No\! Think about it. You’re on a lunch date with your friend, and you see a mouth-watering dish on the next table. Tempting while waiting for your food, do you let your thoughts define your action and eat that food? No.
+As beings who experience thousands of thoughts in a day, tell me; do we act on them always? No! Think about it. You’re on a lunch date with your friend, and you see a mouth-watering dish on the next table. Tempting while waiting for your food, do you let your thoughts define your action and eat that food? No.
 
 Strange and intrusive thoughts are common, even if you’re not struggling with OCD or any related condition. We, as humans, tend to overthink, but it’s not always we let our thoughts take over.
 
@@ -59,9 +60,9 @@ Your thoughts can be real when you make them real. The more attention you give a
 
 Wanting to have a tub of ice cream in the middle of an important meeting is a random thought that is meant to last for a second, but when you hold on to that thought, the more you think about it, the craving will become. Get my point?
 
-When you understand that thoughts are not your actions and vice versa or when you are not your thoughts, you’ll subject yourself to a stress-free life\! You’ll know that overthinking random thoughts will not solve anything and can only worsen your worry. The earlier you understand that your thoughts are mere figments your mind creates, the stronger and happier you will be.
+When you understand that thoughts are not your actions and vice versa or when you are not your thoughts, you’ll subject yourself to a stress-free life! You’ll know that overthinking random thoughts will not solve anything and can only worsen your worry. The earlier you understand that your thoughts are mere figments your mind creates, the stronger and happier you will be.
 
-Moreover\! When you accept that you are not your thoughts, you reduce the external stimuli and know how to manage your negative thoughts better.
+Moreover! When you accept that you are not your thoughts, you reduce the external stimuli and know how to manage your negative thoughts better.
 
 ### What Next?
 

@@ -26,12 +26,11 @@ hero:
 testing_options_block:
   enabled: true
   heading: Mind Team test pricing
-  body: >-
-    Get started with our brief questionnaire and the experts at Mind Team will
-    help you determine the test that best suits your child’s needs.
+  pre_options_body: >-
+
   options:
     - heading: Adult autism test
-      subheading: 'Test for autism in a structured interview assessing:'
+      subheading: "Test for autism in a structured interview assessing:"
       body: |-
         - Executive functioning
         - Feedback from friends, relatives or coworkers
@@ -43,7 +42,7 @@ testing_options_block:
         button_url: /test/adult/adult-autism-test/
         button_text: Learn More
     - heading: Adult ADHD test
-      subheading: 'Test for ADHD in a diagnostic interview assessing:'
+      subheading: "Test for ADHD in a diagnostic interview assessing:"
       body: |-
         - Attention
         - Executive functioning
@@ -73,7 +72,7 @@ testing_options_block:
     - heading: Specialty testing
       subheading: >-
         Mind Team clinicians can administer a variety of specialized tests
-        including: 
+        including:
       body: |-
         - Accommodated college admissions exams (e.g. ACT, MCAT, LSAT) 
         - Accommodated professional licensure exams
@@ -84,6 +83,9 @@ testing_options_block:
         enabled: true
         button_url: /test/adult/remote-specialty-testing-adults/
         button_text: Learn More
+  post_options_body: >-
+    Get started with our brief questionnaire and the experts at Mind Team will
+    help you determine the test that best suits your child’s needs.
   button:
     enabled: true
     button_url: /get-started/
@@ -163,7 +165,7 @@ page_blocks:
       enabled: true
       image_url: /young-girl-on-video-call-with-dr-weiland.jpg
       image_alt:
-    background_color: '#808080'
+    background_color: "#808080"
   - heading: Accepted payment methods
     body: >-
       Electronic payment can be made via our secure, online portal with the

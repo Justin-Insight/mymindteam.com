@@ -43,7 +43,7 @@
             <section aria-labelledby="targeted-subjects-heading" class="mt-targeted-subjects block">
                 <div class="wrapper-lg text-center">
                     <h2 id="targeted-subjects-heading">{{ .heading | safeHTML }}</h2>
-                    <p class="" style="max-width: 600px; margin: 1.2rem auto;">{{ .body }}</p>
+                    <p style="max-width: 600px; margin: 1.2rem auto;">{{ .body | safeHTML }}</p>
                 </div>
                 {{ range .options }}
                     <div class="block bg-{{ .background_color }}">
