@@ -9,6 +9,13 @@
         </div>
     {{ end }}
 {{ end }}
+{{ if .Params.get_started_form }}
+    <div class="block">
+        <div class="wrapper">
+            {{ .Params.get_started_form | safeHTML }}
+        </div>
+    </div>
+{{ end }}
 {{ if .Params.faq_block.enabled }}
     {{ with .Params.faq_block }}
         {{ partial "mt-faqs" . }}
