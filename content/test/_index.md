@@ -14,10 +14,9 @@ seo:
 hero:
   heading: >-
     Get the answers <span class="underline underline--accent">you need</span>.
-    Test
   body: >-
     Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and
-    dyscalculia in children and adults. Test
+    dyscalculia in children and adults.
   image_url: /adhd-testing-on-desk.jpg
   image_alt:
   button:
@@ -93,7 +92,7 @@ process_block:
       icon: /4-blue-block.svg
   button:
     enabled: true
-    button_url: /get-started-now/
+    button_url: /get-started/
     button_text: Get Started Now
 faq_block:
   enabled: true

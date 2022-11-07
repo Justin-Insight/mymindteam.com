@@ -98,7 +98,7 @@ our_services_block:
         - Say goodbye to limitations.
       button:
         enabled: true
-        button_url: /treat/
+        button_url: /remote-neurodivergent-treatment/
         button_text: Get Treatment
 page_blocks:
   - heading: >-

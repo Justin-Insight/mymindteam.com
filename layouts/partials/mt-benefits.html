@@ -9,7 +9,7 @@
                 <div class="benefit border-radius-50 text-center">
                     <img src="/uploads{{ .icon }}" alt="" class="benefit__image">
                     <h3>{{ .heading }}</h3>
-                    <p class="max-width-none">{{ .body | safeHTML }}</p>
+                    <p class="max-width-none">{{ .body | markdownify }}</p>
                 </div>
             {{ end }}
         </div>

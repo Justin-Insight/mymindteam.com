@@ -82,7 +82,7 @@ process_block:
       icon: /4-blue-block.svg
   button:
     enabled: true
-    button_url: /get-started-now/
+    button_url: /get-started/
     button_text: Get Started Now
 child_treatment_options_block:
   enabled: true
@@ -115,7 +115,7 @@ child_treatment_options_block:
     image_alt:
   button:
     enabled: true
-    button_url: /get-started-now/
+    button_url: /get-started/
     button_text: Get Started
 adult_treatment_options_block:
   enabled: true
@@ -148,7 +148,7 @@ adult_treatment_options_block:
     image_alt:
   button:
     enabled: true
-    button_url: /get-started-now/
+    button_url: /get-started/
     button_text: Get Started
 benefits_block:
   enabled: true

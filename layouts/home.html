@@ -13,7 +13,7 @@
                     </div>
                     <div class="w-100 w-50-m flow mt-3 mt-0-m ml-6-m text-center">
                         <h2 id="homepage-intro-heading">{{ .heading | safeHTML }}</h2>
-                        <p style="max-width: 500px;margin: 1.25rem auto;">{{ .body | safeHTML }}</p>
+                        <p style="max-width: 500px;margin: 1.25rem auto;">{{ .body | markdownify }}</p>
                     </div>
                 </div>
             </div>

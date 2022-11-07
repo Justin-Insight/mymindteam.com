@@ -21,7 +21,7 @@
                     <h3 class="fw-500 h5">{{ .subheading | safeHTML }}</h3>
                 {{ end }} 
                 {{ if .body }}
-                    <p>{{ .body | safeHTML }}</p>
+                    <p>{{ .body | markdownify }}</p>
                 {{ end }} 
             </div>
         </section>

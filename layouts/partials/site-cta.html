@@ -2,7 +2,7 @@
   <div class="wrapper-lg p-relative">
     <div class="cta__content border-accent border-radius-50 block text-center">
       <h2 id="cta-heading" class="cta__title">{{ .heading | safeHTML }}</h2>
-      <p class="fw-500 fs-300" style="max-width: 1000px; margin: 0 auto;">{{ .body | safeHTML }}</p>
+      <p class="fw-500 fs-300" style="max-width: 1000px; margin: 0 auto;">{{ .body | markdownify }}</p>
       {{ if .button.enabled }}
           {{ with .button }}
               <a href="{{ .button_url }}" class="btn btn--primary p-absolute btn--centered">{{ .button_text }}</a>

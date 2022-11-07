@@ -29,59 +29,33 @@ testing_options_block:
   pre_options_body: >-
 
   options:
-    - heading: Adult autism test
-      subheading: "Test for autism in a structured interview assessing:"
+    - heading: Child Testing
+      subheading:
       body: |-
-        - Executive functioning
-        - Feedback from friends, relatives or coworkers
-        - Emotional/behavioral conditions
-        - Personal history and medical records
-      price: $2,400
+        - ADHD/Executive Function Test <br><strong>$2,300</strong>
+        - Autism Test <br><strong>$3,300</strong>
+        - Psychoeducational Tests <br><strong>$1,000</strong>
+        - Comprehensive Psychoeducational Test <br><strong>$2,000</strong>
+        - Comprehensive Battery <br><strong>$3,900</strong>
+        - Specialty Tests <br><strong>Inquire for pricing</strong>
+      price:
       button:
-        enabled: true
-        button_url: /test/adult/adult-autism-test/
+        enabled: false
+        button_url: /test/adult-neurodivergent-test/
         button_text: Learn More
-    - heading: Adult ADHD test
-      subheading: "Test for ADHD in a diagnostic interview assessing:"
+    - heading: Adult Testing
+      subheading:
       body: |-
-        - Attention
-        - Executive functioning
-        - Memory screen
-        - Emotional/behavioral conditions
-        - Personal history and medical records
-      price: $1,600
+        - ADHD/Executive Function Test <br><strong>$1,600</strong>
+        - Autism Test <br><strong>$2,400</strong>
+        - Psychoeducational Tests <br><strong>$1,000</strong>
+        - Comprehensive Psychoeducational Test <br><strong>$2,000</strong>
+        - Comprehensive Battery <br><strong>$3,900</strong>
+        - Specialty Tests <br><strong>Inquire for pricing</strong>
+      price:
       button:
-        enabled: true
-        button_url: /test/adult/online-adhd-test/
-        button_text: Learn More
-    - heading: Comprehensive testing
-      subheading: >-
-        Test for autism, ADHD, dyslexia, dysgraphia and dyscalculia all in one
-        comprehensive diagnostic interview assessing:
-      body: |-
-        - Attention
-        - Executive functioning
-        - Broad reading, writing and math achievement
-        - Cognitive IQ
-        - Personal history and medical records
-      price: $3,900
-      button:
-        enabled: true
-        button_url: /test/adult/comprehensive-adult-testing/
-        button_text: Learn More
-    - heading: Specialty testing
-      subheading: >-
-        Mind Team clinicians can administer a variety of specialized tests
-        including:
-      body: |-
-        - Accommodated college admissions exams (e.g. ACT, MCAT, LSAT) 
-        - Accommodated professional licensure exams
-        - IQ testing
-        - Other specialty testing
-      price: Pricing varies.
-      button:
-        enabled: true
-        button_url: /test/adult/remote-specialty-testing-adults/
+        enabled: false
+        button_url: /test/child-neurodivergent-test/
         button_text: Learn More
   post_options_body: >-
     Get started with our brief questionnaire and the experts at Mind Team will

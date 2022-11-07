@@ -46,7 +46,7 @@
         <div class="block">
             <div class="wrapper text-center">
                 <h2>{{ .heading | safeHTML }}</h2>
-                <p>{{ .body | safeHTML }}</p>
+                <p>{{ .body | markdownify }}</p>
             </div>
         </div>
     {{ end }}

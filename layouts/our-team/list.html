@@ -10,7 +10,7 @@
         <section aria-labelledby="our-team-heading" class="block">
             <div class="wrapper-lg text-center">
                 <h2 id="our-team-heading">{{ .heading | safeHTML }}</h2>
-                <p class="fw-500 fs-300" style="max-width: 900px; margin: 0 auto;">{{ .body | safeHTML }}</p>
+                <p class="fw-500 fs-300" style="max-width: 900px; margin: 0 auto;">{{ .body | markdownify }}</p>
             </div>
             <div class="wrapper-lg mt-9">
                 <div class="grid-3">

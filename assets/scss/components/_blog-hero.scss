@@ -56,7 +56,11 @@
 
     .post-featured-image {
         img {
-            height: 400px;
+            height: 275px;
+
+            @include breakpoint(md) {
+              height: 400px;
+            }
         }
     }
 }
