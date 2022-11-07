@@ -9,10 +9,6 @@
 
 .hero {
   position: relative;
-  // height: 100vh;
-  // max-height: 600px;
-  // overflow: hidden;
-  margin-bottom: 145px;
   
   &__image {
     position: absolute;
@@ -26,8 +22,11 @@
   }
 
   &__content {
-    position: absolute;
-    bottom: -100px;
+    margin-top: -135px;
+
+    @include breakpoint(md) {
+      margin-top: -175px;
+    }
   }
 
   &__small-title {
@@ -39,6 +38,7 @@
     left: 50%;
     transform: translateX(-50%);
     background-color: $primary-color-alt-2;
+    font-size: clamp($ic-200, 4vw, $ic-500);
 
     @include breakpoint(sm) {
       top: -30px;

@@ -27,6 +27,7 @@ module.exports = {
         'page-specialty',
         'page-faqs',
         'page-targeted-subject-testing',
+        'page-treat',
         'home-hero',
         'parent-page-treat',
         'parent-page-test',

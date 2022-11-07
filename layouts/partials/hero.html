@@ -1,23 +1,23 @@
 {{ $heroClass := lower .Page.Title }}
-<section aria-labelledby="hero-heading" class="hero {{ anchorize $heroClass }}-hero bg-gray">
+<div class="hero {{ anchorize $heroClass }}-hero bg-gray">
   {{ if .Params.hero.image_url }}
     {{ partial "hero-image" . }}
   {{ end }}
+</div>
+<section aria-labelledby="hero-heading" class="hero__content">
   <div class="block">
-    <div class="hero__content w-100">
-      <div class="wrapper-md">
-        <div class="border-radius-50 border-primary p-relative bg-white text-center">
-          <div class="hero__small-title h3 fw-700 text-white">{{ .Title }}</div>
-          <div class="block-sm">
-            <div class="wrapper">
-              <h1 id="hero-heading" class="hero__heading max-width-none no-margin">{{ .Params.hero.heading | safeHTML }}</h1>
-              <p class="hero__body fs-300 fw-500">{{ .Params.hero.body | safeHTML }}</p>
-              {{ if .Params.hero.button.enabled }}
-                {{ with .Params.hero.button }}
-                  <a class="hero__btn p-absolute btn btn--primary btn--centered" href="{{ .button_url }}">{{ .button_text }}</a>
-                {{ end }}
+    <div class="wrapper-md">
+      <div class="border-radius-50 border-primary p-relative bg-white text-center">
+        <div class="hero__small-title fw-700 text-white">{{ .Title }}</div>
+        <div class="block-sm">
+          <div class="wrapper">
+            <h1 id="hero-heading" class="hero__heading max-width-none no-margin">{{ .Params.hero.heading | safeHTML }}</h1>
+            <p class="hero__body fs-300 fw-500">{{ .Params.hero.body | markdownify }}</p>
+            {{ if .Params.hero.button.enabled }}
+              {{ with .Params.hero.button }}
+                <a class="hero__btn p-absolute btn btn--primary btn--centered" href="{{ .button_url }}">{{ .button_text }}</a>
               {{ end }}
-            </div>
+            {{ end }}
           </div>
         </div>
       </div>

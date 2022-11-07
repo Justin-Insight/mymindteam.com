@@ -3,7 +3,7 @@
   z-index: 1;
   display: inline-block;
   font-family: $primary-font;
-  font-size: $ic-300;
+  font-size: clamp($ic--100, 4vw, $ic-300);
   font-weight: 700;
   line-height: 1;
   padding: $ic--200 $ic-700;

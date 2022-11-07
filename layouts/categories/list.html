@@ -20,4 +20,5 @@
         {{ partial "blog/custom-pagination.html" . }}
     </div>
 </div>
+{{ block "search-modal" . }}{{ partial "search-modal" . }}{{end}}
 {{ end }}
