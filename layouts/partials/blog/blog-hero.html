@@ -17,12 +17,12 @@
         </div>
         {{ $author := index .Site.Data.authors (.Params.author | default "default") }}
         {{- if $author -}}
-        <div class="hero--blog__author-image flex flex-center">
+        <div class="hero--blog__author-image flex flex-center mt-3">
           {{- if eq $author.name "Mind Team" -}}
           <img src="/uploads{{ $author.image }}" alt="Photo of {{ $author.name }}" width="50" height="50">
           {{ else }}
           <picture>
-            <source sizes="5vw" srcset="https://ik.imagekit.io/insightcreative/mind-team/{{ $author.image }}?tr=f-auto,q-75,w-100,h-100,tr:r-max,fo-face">
+            <source sizes="5vw" srcset="https://ik.imagekit.io/insightcreative/mind-team/{{ $author.image }}?tr=f-auto,q-80,w-100,h-100,tr:r-max,fo-face">
 
             <img src="/uploads{{ $author.image }}" alt="Photo of {{ $author.name }}" width="50" height="50">
           </picture>

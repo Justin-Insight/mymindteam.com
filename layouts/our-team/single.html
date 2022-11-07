@@ -11,7 +11,7 @@
             <div class="wrapper flow">
                 <h2>{{ .heading | safeHTML }}</h2>
                 {{ .body | markdownify }}
-                <div class="flex">
+                <div class="flex flex-column flex-row-m">
                     {{ if .button.enabled }}
                         {{ with .button }}
                             <div class="text-center">
@@ -21,14 +21,14 @@
                     {{ end }}
                     {{ if .button_2.enabled }}
                         {{ with .button_2 }}
-                            <div class="text-center mt-3 mt-0-m ml-3">
+                            <div class="text-center mt-3 mt-0-m ml-3-m">
                                 <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
                             </div>
                         {{ end }}
                     {{ end }}
                     {{ if .button_3.enabled }}
                         {{ with .button_3 }}
-                            <div class="text-center mt-3 mt-0-m ml-3">
+                            <div class="text-center mt-3 mt-0-m ml-3-m">
                                 <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
                             </div>
                         {{ end }}

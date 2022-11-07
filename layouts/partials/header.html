@@ -21,7 +21,7 @@
                 <li class="nav-list__item has-sub-menu">
                   <a class="nav-list__link fs-300 fw-700" href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Name }}</a>
                   <div class="nav-list__sub-menu {{ .Name | lower }}-sub-menu sub-menu">
-                    <div class="sub-menu__inner block">
+                    <div class="sub-menu__inner block-md">
                       <div class="wrapper-md flex w-100">
                         <div class="sub-menu__navigation w-70 flow">
                           <a href="{{ .URL }}" aria-label="{{ .Name }}" class="sub-menu__heading-link no-decoration flex flex-center fill-white icon-md"><h3 class="h4 text-primary mr-1">{{ .Name }}</h3><span class="icon-cube flex flex-center">{{ partialCached "svg-icons/arrow-right.svg" . }}</span></a>
@@ -37,7 +37,7 @@
                           </ul>                            
                         </div>
                         <div class="sub-menu__sidebar w-30 flow ml-6">
-                            <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-group-small.jpg?tr=f-auto,q-80,w-400,h-300" alt="Mind Team group leadership photo" class="border-radius-50" width="360" height="270">
+                            <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-group-small.jpg?tr=f-auto,q-80,w-400,h-300" alt="Mind Team group leadership photo" class="border-radius-50 team-group-image" width="360" height="270">
                             <a href="/our-team/" aria-label="Meet Our Team" class="no-decoration"><h3 class="h4 text-primary">Meet your Mind Team.</h3></a>
                             <p class="fs-100">View our diverse, multidisciplinary team of licensed psychologists, counselors, interventionists and other expert clinicians specially chosen to help you thrive.</p>
                             <a href="/our-team/" class="no-decoration flex flex-center fill-primary icon-sm">Meet our team {{ partialCached "svg-icons/arrow-right.svg" . }}</a>

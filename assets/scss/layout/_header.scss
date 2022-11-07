@@ -351,6 +351,12 @@
   }
 
   &__sidebar {
+    .team-group-image {
+      height: 200px;
+      object-fit: cover;
+      object-position: top;
+    }
+
     .grid-3 {
       gap: $ic-200;
       padding: 0;

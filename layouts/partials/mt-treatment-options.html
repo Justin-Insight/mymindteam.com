@@ -1,26 +1,3 @@
-<!-- <section aria-labelledby="testing-process-heading" class="block bg-gray">
-    <div class="wrapper-lg text-center">
-        <h2 id="testing-process-heading">{{ .heading | safeHTML }}</h2>
-        <p class="fs-300 fw-500" style="max-width: 875px; margin: 1.25rem auto;">{{ .body }}</p>
-    </div>
-    <div class="block-sm">
-        <div class="flex-grid wrapper-lg">
-            {{ range .options }}
-            <div class="mt-option border-radius-50 bg-white text-center flow">
-                <h3 class="h4">{{ .heading }}</h3>
-                <p style="max-width: 575px; margin: 1.25rem auto;">{{ .body | markdownify }}</p>
-            </div>
-            {{ end }}
-        </div>
-    </div>
-    {{ if .button.enabled }}
-        {{ with .button }}
-            <div class="text-center">
-                <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
-            </div>
-        {{ end }}
-    {{ end }}
-</section> -->
 <section class="block bg-gray">
     <div class="wrapper-lg text-center">
         <h2>{{ .heading | safeHTML }}</h2>
@@ -28,14 +5,14 @@
     </div>
     <div class="wrapper-lg">
         <div class="flex flex-column-reverse flex-center {{ if .text_column_right }}flex-row-m{{ end }}{{ if .text_column_left }}flex-row-reverse-m{{ end }}">
-            <div class="w-100 w-50-m flow text-center border-radius-image">
+            <div class="w-100 w-50-m flow text-center border-radius-image mt-3 mt-0-m">
                 {{ if .image.enabled }}
                     {{ with .image }}
                         {{ partial "responsive-image" . }}
                     {{ end }}
                 {{ end }}
             </div>
-            <div class="w-100 w-50-m flow mt-3 mt-0-m {{ if .text_column_right }}ml-6-m{{ else }}mr-6-m{{ end }}">
+            <div class="w-100 w-50-m flow {{ if .text_column_right }}ml-6-m{{ else }}mr-6-m{{ end }}">
                 {{ range .options }}
                     <div>
                         <h3>{{ .heading | safeHTML }}</h3>

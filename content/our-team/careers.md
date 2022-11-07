@@ -10,7 +10,7 @@ seo:
   meta_description: >-
     Mind Team careers: join a multidisciplinary team of passionate licensed
     clinicians helping children and adults live and learn without limitation.
-  featured_image: /mind-team-in-meeting-3.jpg
+  featured_image: /mind-team-in-conference-room-2.jpg
 hero:
   heading: Mind Team <span class="underline underline--accent">Careers</span>
   body: >-

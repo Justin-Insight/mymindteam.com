@@ -11,14 +11,14 @@ seo:
     Meet the multidisciplinary team of psychologists, counselors,
     interventionists and clinicians specially chosen to help you thrive at Mind
     Team.
-  featured_image: /mind-team-in-meeting-3.jpg
+  featured_image: /mind-team-in-conference-room-2.jpg
 hero:
   heading: Meet <span class="underline underline--accent">your</span> Mind Team.
   body: >-
     View our diverse, multidisciplinary team of licensed psychologists,
     counselors, interventionists and other expert clinicians specially chosen to
     help you thrive.
-  image_url: /mind-team-in-meeting-3.jpg
+  image_url: /mind-team-in-conference-room-2.jpg
   image_alt:
   button:
     enabled: false

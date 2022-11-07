@@ -34,6 +34,7 @@
 
   &__wrapper {
     height: 100%;
+    width: 100%;
   }
 }
 
@@ -60,10 +61,10 @@
   }
 }
 
-#search {
-  width: 2000px;
-  max-width: 100%;
-}
+// #search {
+//   width: 2000px;
+//   max-width: 100%;
+// }
 
 .pagefind-ui__message,
 .pagefind-ui__results {
