@@ -29,7 +29,7 @@ targeted_subject_testing_block:
   body: |-
     $1,000
 
-    <br>Conducted by licensed school psychologists.
+    Conducted by licensed school psychologists.
   options:
     - heading: Test for <span class="underline underline--primary">dyslexia</span>.
       subheading: >-
@@ -56,7 +56,7 @@ targeted_subject_testing_block:
         enabled: true
         button_url: /get-started/
         button_text: Schedule Your Child's Dyslexia Test
-      background_color: '#808080'
+      background_color: "#808080"
     - heading: Test for <span class="underline underline--secondary">dysgraphia</span>.
       subheading: >-
         Dysgraphia can cause issues with writing. Your child may be struggling
@@ -80,7 +80,7 @@ targeted_subject_testing_block:
         enabled: true
         button_url: /get-started/
         button_text: Schedule Your Child's Dysgraphia Test
-      background_color: '#ffffff'
+      background_color: "#ffffff"
     - heading: Test for <span class="underline underline--accent">dyscalculia</span>.
       subheading: >-
         Dyscalculia can cause issues with math. You may be struggling with
@@ -100,7 +100,7 @@ targeted_subject_testing_block:
         enabled: true
         button_url: /get-started/
         button_text: Schedule Your Child's Dyscalculia Test
-      background_color: '#808080'
+      background_color: "#808080"
 benefits_block:
   enabled: true
   heading: >-

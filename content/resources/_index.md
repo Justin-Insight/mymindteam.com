@@ -30,9 +30,9 @@ goals_block:
     - goal: Payment options
       icon: /Resources-PaymentOpts.svg
       url: /resources/payment-options/
-    - goal: Mind Team outcomes
-      icon: /Resources-Outcomes.svg
-      url: /resources/outcomes/
+    # - goal: Mind Team outcomes
+    #   icon: /Resources-Outcomes.svg
+    #   url: /resources/outcomes/
 cta_block:
   enabled: true
   heading: Get <span class="underline underline--primary">started</span>.

@@ -1,7 +1,7 @@
 <section aria-labelledby="{{ .heading | plainify | urlize }}" class="block">
   <div class="wrapper text-center flow">
     <h2 id="{{ .heading | plainify | urlize }}">{{ .heading | safeHTML }}</h2>
-    <p class="max-width-none fs-300 fw-500">{{ .body }}</p>
+    <p class="max-width-none fs-300 fw-500">{{ .body | markdownify }}</p>
     {{ if .button.enabled }}
       {{ with .button }}
           <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>

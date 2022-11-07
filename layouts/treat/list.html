@@ -25,11 +25,6 @@
         {{ partial "page-block" . }}
     {{ end }}
 {{ end }}
-{{ if .Params.benefits_block.enabled }}
-    {{ with .Params.benefits_block }}
-        {{ partial "mt-benefits" . }}
-    {{ end }}
-{{ end }}
 {{ if .Params.pricing_block.enabled }}
     {{ with .Params.pricing_block }}
     <section aria-labelledby="pricing-heading" class="block">
@@ -58,6 +53,11 @@
             {{ end }}
         </div>
     </section>
+    {{ end }}
+{{ end }}
+{{ if .Params.benefits_block.enabled }}
+    {{ with .Params.benefits_block }}
+        {{ partial "mt-benefits" . }}
     {{ end }}
 {{ end }}
 {{ if .Params.faq_block.enabled }}

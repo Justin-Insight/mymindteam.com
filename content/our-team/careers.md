@@ -17,7 +17,7 @@ hero:
     Join a passionate, remote team of psychologists, interventionists and
     licensed clinicians helping neurodivergent individuals live and learn
     without limitation.
-  image_url: /mind-team-in-meeting-3.jpg
+  image_url: /mind-team-in-conference-room.jpg
   image_alt:
   button:
     enabled: true
