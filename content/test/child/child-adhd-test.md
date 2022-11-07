@@ -60,6 +60,10 @@ adhd_testing_block:
   body: >-
     Conducted by licensed clinicians specializing in ADHD via our secure, remote
     platform.
+  button:
+    enabled: true
+    button_url: /get-started/
+    button_text: Schedule Your Remote ADHD Test
 benefits_block:
   enabled: true
   heading: >-
