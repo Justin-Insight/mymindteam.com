@@ -87,7 +87,7 @@ pay_as_you_go_block:
         final payment of any remaining balance is due.
       icon: /3-yellow-block.svg
 treatment_options_block:
-  enabled: true
+  enabled: false
   heading: Mind Team treatment pricing
   body:
   options:

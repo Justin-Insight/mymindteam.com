@@ -28,14 +28,13 @@
 {{ if .Params.pricing_block.enabled }}
     {{ with .Params.pricing_block }}
     <section aria-labelledby="pricing-heading" class="block">
-        <div class="wrapper-md text-center">
-            <h2 id="pricing-heading">{{ .heading }}</h2>
-            <p class="fw-500 fs-300" style="max-width: 900px; margin: 0 auto;">{{ .body }}</p>
-        </div>
-        <div class="wrapper-md">
+        <div class="wrapper-md flow">
+            <h2 id="pricing-heading" class="text-center max-width-none">{{ .heading }}</h2>
+            <p class="fw-500 fs-300 text-center" style="max-width: 900px; margin: 1.2rem auto;">{{ .body }}</p>
+            {{ if .pricing_options.enabled }}
             <div class="block-sm">
                 <div class="grid-2 mt-3">
-                    {{ range .pricing_options }}
+                    {{ range .options }}
                     <div class="flow">
                         <h3 class="h4">{{ .heading }}</h3>
                         <p class="fs-300 fw-500">{{ .subheading }}</p>
@@ -44,6 +43,7 @@
                     {{ end }}
                 </div>
             </div>
+            {{ end }}
             {{ if .button.enabled }}
                 {{ with .button }}
                     <div class="text-center">

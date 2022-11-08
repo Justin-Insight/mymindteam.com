@@ -183,22 +183,23 @@ benefits_block:
 pricing_block:
   enabled: true
   heading: Treatment pricing
-  body:
+  body: >-
+    Treatment pricing varies depending on your unique needs, Mind team clinician and more. Please get started by filling out our questionnaire and we'll get you an accurate quote.
   pricing_options:
-    - heading: General treatment services
-      subheading: Starting at $X
-      body: >-
-        Pay for sessions at a predetermined hourly rate based on your unique
-        needs.
-    - heading: Educational interventions
-      subheading: Starting at $X
-      body: >-
-        Get a package deal on Mind Team educational interventions and pay an
-        hourly treatment service rate for any additional sessions as needed.
+    enabled: false
+    options:
+      - heading: General treatment services
+        subheading: Starting at $X
+        body: >-
+          Pay for sessions at a predetermined hourly rate based on your unique needs.
+      - heading: Educational interventions
+        subheading: Starting at $X
+        body: >-
+          Get a package deal on Mind Team educational interventions and pay an hourly treatment service rate for any additional sessions as needed.
   button:
     enabled: true
-    button_url: /resources/payment-options/
-    button_text: Payment Options
+    button_url: /get-started/
+    button_text: Get Started
 faq_block:
   enabled: true
   heading: >-

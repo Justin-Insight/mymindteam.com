@@ -27,7 +27,7 @@ intro:
     button_url:
     button_text:
 get_started_form: |-
-  <script type="text/javascript" src="https://hipaa.jotform.com/jsform/220528061932047"></script>
+  <iframe loading="lazy" src="https://forms.monday.com/forms/embed/be48a0dd579b984a1f64bedb7cb3dbd8?r=use1" width="840" height="1000" class="aspect-ratio" style="border: 0;"></iframe>
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">questions</span>
