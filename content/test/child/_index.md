@@ -5,10 +5,10 @@ menu:
   main:
     parent: Test
 seo:
-  page_title: Child Autism Testing | Child ADHD Testing | Child Dyslexia Testing
-  meta_description: >-
-    Your child can live and learn without limitation. Get the answers you need
-    and test for autism, ADHD and more with Mind Team neurodivergent testing.
+  page_title: Mind Team Child Tests - Understand Their Unique Mind
+  meta_description: >
+    If your child is struggling, get the answers you need to work with their
+    mind with Mind Team professional tests for autism, ADHD, dyslexia and more. 
   featured_image: /young-girl-at-desk-during-video-call.jpg
 hero:
   heading: >-
@@ -40,11 +40,10 @@ testing_options_block:
   heading: >-
     Mind Team <span class="underline underline--secondary">child</span> testing
     options
-  pre_options_body: >-
-
+  pre_options_body:
   options:
     - heading: Child autism test
-      subheading: "Test your child for autism in a structured interview assessing:"
+      subheading: 'Test your child for autism in a structured interview assessing:'
       body: |-
         - Executive functioning 
         - Feedback from friends, relatives and educators
@@ -56,7 +55,7 @@ testing_options_block:
         button_url: /test/child/child-autism-test/
         button_text: Learn More
     - heading: Child ADHD test
-      subheading: "Test your child for ADHD in a diagnostic interview assessing:"
+      subheading: 'Test your child for ADHD in a diagnostic interview assessing:'
       body: |-
         - Attention
         - Executive functioning

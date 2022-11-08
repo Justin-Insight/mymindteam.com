@@ -5,10 +5,10 @@ menu:
     parent: Child Testing
     identifier: Child Specialty Testing
 seo:
-  page_title: Child Specialty Testing
+  page_title: 'Specialty Testing for Children - Mind Team '
   meta_description: >-
-    Mind Team specialty tests for children offer accommodation testing and
-    provide professional testing for a variety of specialty school evaluations.
+    Get the accommodated testing or professional proctoring your child needs for
+    a variety of exams and specialty school evaluations.
   featured_image: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
 hero:
   heading: >-

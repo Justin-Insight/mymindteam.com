@@ -5,10 +5,10 @@ menu:
     parent: Adult Testing
     identifier: Adult ADHD Testing
 seo:
-  page_title: Adult Online ADHD Testing
+  page_title: Adult ADHD Test - Get Answers with Mind Team
   meta_description: >-
-    Do you have ADHD? Mind Team online adult ADHD tests are the professional,
-    stress-free way to diagnose (or rule out) ADHD and get the answers you need.
+    Do you have ADHD? Test for ADHD and executive function disorder with a
+    professional, remote assessment.
   featured_image: /books-on-desk-8.jpg
 hero:
   heading: <span class="underline underline--accent">Adult</span> ADHD Tests

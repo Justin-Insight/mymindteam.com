@@ -8,9 +8,8 @@ menu:
 seo:
   page_title: Licensed Psychologists, Counselors and Interventionists
   meta_description: >-
-    Meet the multidisciplinary team of psychologists, counselors,
-    interventionists and clinicians specially chosen to help you thrive at Mind
-    Team.
+    Meet the multidisciplinary team of licensed Mind Team clinicians specially
+    chosen to help you thrive with ADHD, autism and other conditions.
   featured_image: /mind-team-in-conference-room-2.jpg
 hero:
   heading: Meet <span class="underline underline--accent">your</span> Mind Team.

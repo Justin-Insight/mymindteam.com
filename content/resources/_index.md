@@ -4,7 +4,7 @@ menu:
   footer_primary:
     weight: 5
 seo:
-  page_title: Mind Team Resources
+  page_title: 'Resources - Mind Team '
   meta_description: >-
     View the Mind Team blog, frequently asked questions, payment options and
     Mind Team outcomes.
@@ -30,9 +30,6 @@ goals_block:
     - goal: Payment options
       icon: /Resources-PaymentOpts.svg
       url: /resources/payment-options/
-    # - goal: Mind Team outcomes
-    #   icon: /Resources-Outcomes.svg
-    #   url: /resources/outcomes/
 cta_block:
   enabled: true
   heading: Get <span class="underline underline--primary">started</span>.

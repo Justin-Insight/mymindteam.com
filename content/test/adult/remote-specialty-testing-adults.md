@@ -1,5 +1,5 @@
 ---
-title: Specialty
+title: Mind Team Adult Specialty Tests
 menu:
   main:
     parent: Adult Testing

@@ -5,10 +5,11 @@ menu:
     parent: Adult Testing
     identifier: Adult Targeted Subject Testing
 seo:
-  page_title: Adult Targeted Subject Testing
-  meta_description: >-
-    Are you struggling with reading, writing or math skills? Mind Team targeted
-    subject testing gives you the answers you need to work with your mind.
+  page_title: 'Targeted Subject Tests for Adults - Mind Team '
+  meta_description: >
+    Struggling with reading, writing or math? Test for dyslexia, dysgraphia or
+    dyscalculia and get the answers you need with Mind Team targeted subject
+    testing. 
   featured_image: /mind-team-clinicians-looking-at-book-2.jpg
 hero:
   heading: >-

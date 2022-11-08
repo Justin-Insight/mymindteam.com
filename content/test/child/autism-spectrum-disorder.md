@@ -6,10 +6,10 @@ menu:
     parent: Child Testing
     identifier: Child Autism Testing
 seo:
-  page_title: Child Autism Testing
+  page_title: 'Child Autism Test - Get the Answers You Need with Mind Team '
   meta_description: >-
-    Does your child have autism? Mind Team remote autism tests for children are
-    the professional, stress-free way to diagnose (or rule out) autism.
+    Does your child have autism? Schedule their professional, remote autism test
+    with Mind Team to get the answers you need to help them thrive. 
   featured_image: /young-girl-during-autism-spectrum-disorder-testing-7.jpg
 hero:
   heading: >-

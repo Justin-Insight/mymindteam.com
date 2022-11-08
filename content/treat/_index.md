@@ -7,10 +7,10 @@ menu:
   footer_primary:
     weight: 2
 seo:
-  page_title: Autism Treatment | ADHD Treatment | Dyslexia Treatment
+  page_title: Mind Team Treatment - Get the Support You Need to Thrive
   meta_description: >-
-    Mind Team remote neurodivergent treatment helps all children and adults
-    learn, live and thrive with autism, ADHD, dyslexia and other conditions.
+    Get the tools, guidance and neurodivergent support you or your child needs
+    to work with your mind to live and learn without limitation. 
   featured_image: /mind-team-clinician-during-one-on-one-remote-counseling-session-2.jpg
 hero:
   heading: Every mind can <span class="underline underline--accent">thrive</span>.

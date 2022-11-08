@@ -5,10 +5,11 @@ menu:
   main:
     parent: Test
 seo:
-  page_title: Adult Autism Testing | Adult ADHD Testing | Adult Dyslexia Testing
+  page_title: Mind Team Adult Tests - Get the Answers You Need
   meta_description: >-
-    Get the answers you need with Mind Team neurodivergent testing for autism,
-    ADHD, dyslexia, dysgraphia, dyscalculia and other conditions.
+    Test for autism, ADHD, dyslexia, dysgraphia, dyscalculia and other
+    neurodivergent conditions from the comfort of home with Mind Team adult
+    testing.
   featured_image: /mind-team-counselor-during-treatment-session-15.jpg
 hero:
   heading: Get the answers <span class="underline underline--accent">you need</span>.
@@ -40,7 +41,7 @@ testing_options_block:
   pre_options_body:
   options:
     - heading: Adult autism test
-      subheading: "Test for autism in a structured interview assessing:"
+      subheading: 'Test for autism in a structured interview assessing:'
       body: |-
         - Executive functioning
         - Feedback from friends, relatives or coworkers
@@ -52,7 +53,7 @@ testing_options_block:
         button_url: /test/adult/adult-autism-test/
         button_text: Learn More
     - heading: Adult ADHD test
-      subheading: "Test for ADHD in a diagnostic interview assessing:"
+      subheading: 'Test for ADHD in a diagnostic interview assessing:'
       body: |-
         - Attention
         - Executive functioning

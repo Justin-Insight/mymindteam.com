@@ -6,7 +6,7 @@ menu:
   footer_primary:
     weight: 3
 seo:
-  page_title: Mind Team Transformations
+  page_title: Mind Team Transformations - Work With Your Mind
   meta_description: >-
     Transform the way you understand and work with your mind with the
     life-changing outcomes of Mind Team neurodivergent testing and treatment.

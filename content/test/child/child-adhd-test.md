@@ -5,10 +5,10 @@ menu:
     parent: Child Testing
     identifier: Child ADHD Testing
 seo:
-  page_title: Child Online ADHD Testing
-  meta_description: >-
-    Does your child have ADHD? Mind Team online child ADHD tests are the
-    professional, stress-free way to diagnose (or rule out) ADHD.
+  page_title: 'Child ADHD Test - Get the Answers You Need with Mind Team  '
+  meta_description: >
+    Does your child have ADHD? Schedule their professional, remote ADHD test
+    with Mind Team to get the answers you need to help them thrive. 
   featured_image: /young-girl-during-a-child-adhd-testing-session-8.jpg
 hero:
   heading: Does your child have <span class="underline underline--accent">ADHD</span>?
