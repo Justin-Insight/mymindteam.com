@@ -4,6 +4,7 @@ seo:
   page_title:
   meta_description:
   featured_image: /depression.jpg
+draft: true
 author:
 date: 2022-01-25T00:00:00Z
 categories:

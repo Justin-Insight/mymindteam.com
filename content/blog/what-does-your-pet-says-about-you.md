@@ -4,6 +4,7 @@ seo:
   page_title:
   meta_description:
   featured_image: /pets-and-personality.jpg
+draft: true
 author: brian-weiland-psyd
 date: 2022-10-15T00:00:00Z
 categories:

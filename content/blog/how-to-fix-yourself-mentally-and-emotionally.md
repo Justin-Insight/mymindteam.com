@@ -4,6 +4,7 @@ seo:
   page_title:
   meta_description:
   featured_image: /relax.jpg
+draft: true
 author:
 date: 2022-10-04T00:00:00Z
 categories:

@@ -7,7 +7,7 @@ menu:
   footer_secondary:
     weight: 4
 seo:
-  page_title: 'Payment Options - Mind Team '
+  page_title: "Payment Options - Mind Team "
   meta_description: >-
     View Mind Team testing and treatment pricing and convenient online self-pay
     options and see what’s included in your investment.
@@ -138,7 +138,7 @@ page_blocks:
       enabled: true
       image_url: /young-girl-on-video-call-with-dr-weiland.jpg
       image_alt:
-    background_color: '#808080'
+    background_color: "#808080"
   - heading: Accepted payment methods
     body: >-
       Electronic payment can be made via our secure, online portal with the

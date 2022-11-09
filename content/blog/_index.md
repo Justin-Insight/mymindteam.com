@@ -6,7 +6,7 @@ menu:
   footer_secondary:
     weight: 2
 seo:
-  page_title: 'Blog - Mind Team '
+  page_title: "Blog - Mind Team "
   meta_description: >-
     Visit the Mind Team blog for neurodivergent guides, tips, news and resources
     for individuals of all ages in any stage of their learning journey.

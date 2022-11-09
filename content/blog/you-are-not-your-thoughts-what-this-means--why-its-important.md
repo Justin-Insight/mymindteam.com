@@ -4,6 +4,7 @@ seo:
   page_title: ‘You Are Not Your Thoughts’ What This Means & Why It’s Important
   meta_description:
   featured_image: /woman-thinking.jpg
+draft: true
 author:
 date: 2022-11-03T00:00:00Z
 categories:

@@ -6,7 +6,7 @@ menu:
   footer_secondary:
     weight: 1
 seo:
-  page_title: 'Remote Careers - Mind Team '
+  page_title: "Remote Careers - Mind Team "
   meta_description: >-
     Mind Team careers: join a multidisciplinary team of passionate licensed
     clinicians helping children and adults live and learn without limitation.
