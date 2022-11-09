@@ -5,7 +5,7 @@ seo:
   meta_description:
   featured_image: /sleep-meditation.jpg
 draft: true
-author:
+author: Heather Meggers-Wright, PhD
 date: 2022-09-22T00:00:00Z
 categories:
   - Meditation

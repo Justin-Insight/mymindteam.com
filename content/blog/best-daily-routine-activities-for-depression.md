@@ -5,7 +5,7 @@ seo:
   meta_description:
   featured_image: /breakfast.jpg
 draft: true
-author:
+author: Brian Weiland, PsyD
 date: 2022-03-24T00:00:00Z
 categories:
   - Self Care

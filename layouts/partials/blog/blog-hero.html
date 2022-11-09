@@ -15,7 +15,7 @@
             <span class="reading-time flex flex-center fs-100">{{ partialCached "svg-icons/clock.svg" . }} {{ .ReadingTime }} min read</span>
           </div>
         </div>
-        {{ $author := index .Site.Data.authors (.Params.author | default "default") }}
+        {{ $author := index .Site.Data.authors (.Params.author | urlize | default "default") }}
         {{- if $author -}}
         <div class="hero--blog__author-image flex flex-center mt-3">
           {{- if eq $author.name "Mind Team" -}}

@@ -66,3 +66,8 @@ _inputs:
     type: url
   hero.button_url:
     type: url
+  author:
+    type: select
+    options:
+      values: collections.authors
+      value_key: title
