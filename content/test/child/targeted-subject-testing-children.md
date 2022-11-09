@@ -8,7 +8,7 @@ seo:
   page_title: Targeted Subject Tests for Children - Mind Team
   meta_description: >-
     Is your child struggling with reading, writing or math? Test for dyslexia,
-    dysgraphia and/or dyscalculia with a licensed school psychologist. 
+    dysgraphia and/or dyscalculia with a licensed school psychologist.
   featured_image: /young-girl-during-a-child-adhd-testing-session-8.jpg
 hero:
   heading: >-
@@ -56,7 +56,7 @@ targeted_subject_testing_block:
         enabled: true
         button_url: /get-started/
         button_text: Schedule Your Child's Dyslexia Test
-      background_color: '#808080'
+      background_color: gray
     - heading: Test for <span class="underline underline--secondary">dysgraphia</span>.
       subheading: >-
         Dysgraphia can cause issues with writing. Your child may be struggling
@@ -80,7 +80,7 @@ targeted_subject_testing_block:
         enabled: true
         button_url: /get-started/
         button_text: Schedule Your Child's Dysgraphia Test
-      background_color: '#ffffff'
+      background_color: white
     - heading: Test for <span class="underline underline--accent">dyscalculia</span>.
       subheading: >-
         Dyscalculia can cause issues with math. You may be struggling with
@@ -100,7 +100,7 @@ targeted_subject_testing_block:
         enabled: true
         button_url: /get-started/
         button_text: Schedule Your Child's Dyscalculia Test
-      background_color: '#808080'
+      background_color: gray
 benefits_block:
   enabled: true
   heading: >-

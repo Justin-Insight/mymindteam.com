@@ -7,7 +7,9 @@ seo:
   featured_image: /young-girl-on-video-call-with-mind-team-clinician.jpg
 hero:
   heading: Get Started
-  body:
+  body: >-
+    Fill out our brief questionnaire to tell us your needs and we'll handle the
+    rest!
   image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg
   image_alt:
   button:

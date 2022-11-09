@@ -138,7 +138,7 @@ page_blocks:
       enabled: true
       image_url: /young-girl-on-video-call-with-dr-weiland.jpg
       image_alt:
-    background_color: "#808080"
+    background_color: gray
   - heading: Accepted payment methods
     body: >-
       Electronic payment can be made via our secure, online portal with the

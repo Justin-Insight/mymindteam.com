@@ -50,8 +50,12 @@ _inputs:
     type: text
     comment: Please reach out to Insight Creative, Inc. if you need help changing a video.
   background_color:
-    type: text
-    comment: Choose between "white" or "gray" as a background colors
+    type: select
+    comment: Choose between "white" or "gray" as a background color
+    options:
+      values:
+        - white
+        - gray
   body:
     type: markdown
   answer:
