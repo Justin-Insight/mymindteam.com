@@ -23,7 +23,7 @@ body {
 }
 
 :focus {
-  outline: 2px dashed get-color("primary");
+  outline: 2px dashed $primary-color;
   outline-offset: 0.25rem;
 }
 

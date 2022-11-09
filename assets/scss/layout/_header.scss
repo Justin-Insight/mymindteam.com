@@ -42,16 +42,6 @@
   }
 
   &__logo a {
-    // width: clamp(200px, 22vw, 425px);
-    // max-width: 100%;
-    // height: auto;
-    // max-height: 100%;
-
-    // img {
-    //   width: 425px;
-    //   max-height: 160px;
-    // }
-
     display: block;
     width: clamp(200px, 22vw, 425px);
     height: 100px;
@@ -90,8 +80,6 @@
   background-color: $white;
 
   ul {
-    // padding: $ic-200;
-    // margin: 0;
 
     li {
       list-style-type: none;
@@ -276,9 +264,6 @@
 }
 
 .sub-menu {
-  /* Hidden by default */
-  // opacity: 0;
-  // visibility: hidden;
   pointer-events: auto;
   transition:  $transition;
   transition-delay: 0.1s;
@@ -286,16 +271,10 @@
   // height: 100vh;
   overflow: hidden;
   z-index: -1;
-  // transform: translateY(-25px);
-
-  /* Absolute position */
   left: 0px;
   position: absolute;
   top: 100%;
-
-  /* Take full width */
   width: 100%;
-
   background-color: $white;
   box-shadow: 0px 20px 30px rgba($black, 0.15);
 

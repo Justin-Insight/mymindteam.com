@@ -13,8 +13,6 @@ const searchButton = document.querySelector('.search__open')
 const closeButton = document.querySelector('.search__close')
 const siteMain = document.querySelector('.site-main')
 
-console.log(siteHeader.getBoundingClientRect().height)
-
 siteMain.style.marginTop = siteHeader.getBoundingClientRect().height + 'px'
 
 if (document.body.contains(searchButton)) {

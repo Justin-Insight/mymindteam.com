@@ -1,9 +1,6 @@
 .home-hero {
   position: relative;
   height: 70vh;
-  // height: 100vh;
-  // max-height: 600px;
-  // overflow: hidden;
 
   @include breakpoint(md) {
     height: 100%;
