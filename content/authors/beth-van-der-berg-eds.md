@@ -1,12 +1,7 @@
 ---
-title:
-draft: true
-url:
+title: Beth van der Berg, EdS
 seo:
   page_title:
   meta_description:
   featured_image:
-date: 2006-01-02
-author:
-categories:
 ---

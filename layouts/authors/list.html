@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="block bg-gray">
+    <div class="wrapper-lg text-center">
+        <h1 class="max-width-none no-margin">{{ .Title }}</h1>
+        <p style="margin: 1.2rem auto;">{{ .Params.seo.meta_description }}</p>
+    </div>
+</div>
+<div class="block">
+    {{ partial "blog/category-filter" . }}
+    <div class="wrapper-lg mt-6">
+        {{ $pages := .Site.RegularPages }}
+        <div class="grid-3">
+            {{ $paginator := .Paginate ( where .Data.Pages "Type" "blog" ) }}
+            {{ range $paginator.Pages }}
+                {{ .Render "blog-card" }}
+            {{ end }}
+        </div>
+    </div>
+    <div class="wrapper-lg">
+        {{ partial "blog/custom-pagination.html" . }}
+    </div>
+</div>
+{{ block "search-modal" . }}{{ partial "search-modal" . }}{{end}}
+{{ end }}

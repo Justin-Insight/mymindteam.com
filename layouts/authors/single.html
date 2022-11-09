@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="block bg-gray">
+    <div class="wrapper-lg text-center">
+        <h1 class="max-width-none no-margin">Posts by {{ .Title }}</h1>
+        <p style="margin: 1.2rem auto;">{{ .Params.seo.meta_description }}</p>
+    </div>
+</div>
+<div class="block">
+    {{ partial "blog/category-filter" . }}
+    <div class="wrapper-lg mt-6">
+        {{ $pages := .Site.RegularPages }}
+        <div class="grid-3">
+            {{ $pages := .Site.RegularPages }}
+            {{ $posts := where $pages "Type" "blog" }}
+            {{ $author_collection := where $posts ".Params.author" (.Title) }}
+            {{ if $author_collection }}
+                {{ range $author_collection }}
+                    {{ .Render "blog-card" }}
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ block "search-modal" . }}{{ partial "search-modal" . }}{{end}}
+{{ end }}

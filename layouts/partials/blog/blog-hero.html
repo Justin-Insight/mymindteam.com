@@ -18,7 +18,7 @@
         {{ $author := index .Site.Data.authors (.Params.author | urlize | default "default") }}
         {{- if $author -}}
         <div class="hero--blog__author-image flex flex-center mt-3">
-          {{- if eq $author.name "Mind Team" -}}
+          {{- if eq $author.image "/mind-team-logo-mark.svg" -}}
           <img src="/uploads{{ $author.image }}" alt="Photo of {{ $author.name }}" width="50" height="50">
           {{ else }}
           <picture>
@@ -27,7 +27,7 @@
             <img src="/uploads{{ $author.image }}" alt="Photo of {{ $author.name }}" width="50" height="50">
           </picture>
           {{ end }}
-          <h3 class="fs-100 fw-400 ml-1 no-margin">Written By:<br>{{ $author.name }}</h3>
+          <h3 class="fs-100 fw-400 ml-1 no-margin">Written By:<br><a href="/authors/{{ $author.name | urlize }}/">{{ $author.name }}</a></h3>
         </div>
         {{ end }}
       </div>
