@@ -6,10 +6,10 @@ menu:
     parent: Child Testing
     identifier: Child Autism Testing
 seo:
-  page_title: 'Child Autism Test - Get the Answers You Need with Mind Team '
+  page_title: "Child Autism Test - Get the Answers You Need with Mind Team "
   meta_description: >-
     Does your child have autism? Schedule their professional, remote autism test
-    with Mind Team to get the answers you need to help them thrive. 
+    with Mind Team to get the answers you need to help them thrive.
   featured_image: /young-girl-during-autism-spectrum-disorder-testing-7.jpg
 hero:
   heading: >-
@@ -54,6 +54,7 @@ page_blocks:
       enabled: true
       image_url: /child-sitting-alone-at-playground.jpg
       image_alt:
+    background_color: white
 adhd_testing_block:
   enabled: true
   heading: >-

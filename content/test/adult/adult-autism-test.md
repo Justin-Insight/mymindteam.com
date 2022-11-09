@@ -5,7 +5,7 @@ menu:
     parent: Adult Testing
     identifier: Adult Autism Testing
 seo:
-  page_title: 'Adult Autism Test - Get Answers with Mind Team '
+  page_title: "Adult Autism Test - Get Answers with Mind Team "
   meta_description: >-
     Could you be struggling with undiagnosed autism? Mind Team online adult
     autism tests are the professional, stress-free way to get answers.
@@ -51,6 +51,7 @@ page_blocks:
       enabled: true
       image_url: /woman-overwhelmed.jpg
       image_alt:
+    background_color: white
 adhd_testing_block:
   enabled: true
   heading: >-

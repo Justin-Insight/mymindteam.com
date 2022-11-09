@@ -8,7 +8,7 @@ seo:
   page_title: Mind Team Child Tests - Understand Their Unique Mind
   meta_description: >
     If your child is struggling, get the answers you need to work with their
-    mind with Mind Team professional tests for autism, ADHD, dyslexia and more. 
+    mind with Mind Team professional tests for autism, ADHD, dyslexia and more.
   featured_image: /young-girl-at-desk-during-video-call.jpg
 hero:
   heading: >-
@@ -43,7 +43,7 @@ testing_options_block:
   pre_options_body:
   options:
     - heading: Child autism test
-      subheading: 'Test your child for autism in a structured interview assessing:'
+      subheading: "Test your child for autism in a structured interview assessing:"
       body: |-
         - Executive functioning 
         - Feedback from friends, relatives and educators
@@ -55,7 +55,7 @@ testing_options_block:
         button_url: /test/child/child-autism-test/
         button_text: Learn More
     - heading: Child ADHD test
-      subheading: 'Test your child for ADHD in a diagnostic interview assessing:'
+      subheading: "Test your child for ADHD in a diagnostic interview assessing:"
       body: |-
         - Attention
         - Executive functioning
@@ -162,6 +162,7 @@ page_blocks:
       enabled: true
       image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
       image_alt:
+    background_color: white
 benefits_block:
   enabled: true
   heading: >-

@@ -51,6 +51,7 @@ page_blocks:
       enabled: true
       image_url: /woman-looking-out-window-at-desk.jpg
       image_alt:
+    background_color: white
 adhd_testing_block:
   enabled: true
   heading: >-

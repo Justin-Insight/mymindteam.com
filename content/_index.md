@@ -118,6 +118,7 @@ page_blocks:
       enabled: true
       image_url: /mind-team-clinician-11-flipped.jpg
       image_alt:
+    background_color: white
 benefits_block:
   enabled: true
   heading: >-

@@ -47,6 +47,7 @@ page_blocks:
       enabled: true
       image_url: /college-exams.jpg
       image_alt:
+    background_color: white
 cta_block:
   enabled: true
   heading: >-

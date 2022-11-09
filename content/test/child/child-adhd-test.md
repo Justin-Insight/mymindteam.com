@@ -5,10 +5,10 @@ menu:
     parent: Child Testing
     identifier: Child ADHD Testing
 seo:
-  page_title: 'Child ADHD Test - Get the Answers You Need with Mind Team  '
+  page_title: "Child ADHD Test - Get the Answers You Need with Mind Team  "
   meta_description: >
     Does your child have ADHD? Schedule their professional, remote ADHD test
-    with Mind Team to get the answers you need to help them thrive. 
+    with Mind Team to get the answers you need to help them thrive.
   featured_image: /young-girl-during-a-child-adhd-testing-session-8.jpg
 hero:
   heading: Does your child have <span class="underline underline--accent">ADHD</span>?
@@ -51,6 +51,7 @@ page_blocks:
       enabled: true
       image_url: /child-daydreaming-2.jpeg
       image_alt:
+    background_color: white
 adhd_testing_block:
   enabled: true
   heading: >-

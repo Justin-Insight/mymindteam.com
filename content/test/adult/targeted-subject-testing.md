@@ -5,11 +5,11 @@ menu:
     parent: Adult Testing
     identifier: Adult Targeted Subject Testing
 seo:
-  page_title: 'Targeted Subject Tests for Adults - Mind Team '
+  page_title: "Targeted Subject Tests for Adults - Mind Team "
   meta_description: >
     Struggling with reading, writing or math? Test for dyslexia, dysgraphia or
     dyscalculia and get the answers you need with Mind Team targeted subject
-    testing. 
+    testing.
   featured_image: /mind-team-clinicians-looking-at-book-2.jpg
 hero:
   heading: >-
@@ -50,7 +50,7 @@ targeted_subject_testing_block:
         enabled: true
         button_url: /get-started/
         button_text: Schedule a Dyslexia Test
-      background_color: '#808080'
+      background_color: gray
     - heading: Test for <span class="underline underline--secondary">dysgraphia</span>.
       subheading: >-
         Dysgraphia can cause issues with writing. You may be struggling with
@@ -70,7 +70,7 @@ targeted_subject_testing_block:
         enabled: true
         button_url: /get-started/
         button_text: Schedule a Dysgraphia Test
-      background_color: '#ffffff'
+      background_color: white
     - heading: Test for <span class="underline underline--accent">dyscalculia</span>.
       subheading: >-
         Dyscalculia can cause issues with math. You may be struggling with
@@ -96,7 +96,7 @@ targeted_subject_testing_block:
         enabled: true
         button_url: /get-started/
         button_text: Schedule a Dyscalculia Test
-      background_color: '#808080'
+      background_color: gray
 benefits_block:
   enabled: true
   heading: >-

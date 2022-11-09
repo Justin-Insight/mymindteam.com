@@ -5,7 +5,7 @@ menu:
     parent: Child Testing
     identifier: Child Specialty Testing
 seo:
-  page_title: 'Specialty Testing for Children - Mind Team '
+  page_title: "Specialty Testing for Children - Mind Team "
   meta_description: >-
     Get the accommodated testing or professional proctoring your child needs for
     a variety of exams and specialty school evaluations.
@@ -51,6 +51,7 @@ page_blocks:
       enabled: true
       image_url: /young-girl-specialty-testing.jpg
       image_alt:
+    background_color: white
 cta_block:
   enabled: true
   heading: >-

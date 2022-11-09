@@ -56,6 +56,7 @@ page_blocks:
       enabled: true
       image_url: /mind-team-group.jpg
       image_alt:
+    background_color: white
 mind_team:
   enabled: true
   heading: >-
