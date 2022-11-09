@@ -4,6 +4,9 @@ collections_config:
       default:
         path: schemas/blog.md
 
+data_config:
+  authors: true
+
 paths:
   static: static/uploads
   uploads: static/uploads
