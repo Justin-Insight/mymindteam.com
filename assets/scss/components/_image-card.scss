@@ -5,6 +5,11 @@
         width: 100%;
         padding-inline: $ic-900;
     }
+
+    .btn {
+        position: relative;
+        z-index: 1;
+    }
 }
 
 .image-card.background-image img {
