@@ -157,7 +157,7 @@ page_blocks:
     text_column_right: false
     image:
       enabled: true
-      image_url: /two-clinicians-on-video-call-together-3.jpg
+      image_url: /mind-team-clinician-15.jpg
       image_alt:
     background_color: white
 faq_block:

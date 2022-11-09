@@ -107,7 +107,7 @@ page_blocks:
     text_column_right: false
     image:
       enabled: true
-      image_url: /mind-team-clinician-15.jpg
+      image_url: /mind-team-group-laughing-together.jpg
       image_alt:
     background_color: white
 cta_block:

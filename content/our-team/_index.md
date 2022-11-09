@@ -10,14 +10,14 @@ seo:
   meta_description: >-
     Meet the multidisciplinary team of licensed Mind Team clinicians specially
     chosen to help you thrive with ADHD, autism and other conditions.
-  featured_image: /mind-team-clinicians-looking-at-book-2.jpg
+  featured_image: /mind-team-group-in-conference-room.jpg
 hero:
   heading: Meet <span class="underline underline--accent">your</span> Mind Team.
   body: >-
     View our diverse, multidisciplinary team of licensed psychologists,
     counselors, interventionists and other expert clinicians specially chosen to
     help you thrive.
-  image_url: /mind-team-clinicians-looking-at-book-2.jpg
+  image_url: /mind-team-group-in-conference-room.jpg
   image_alt:
   button:
     enabled: false
