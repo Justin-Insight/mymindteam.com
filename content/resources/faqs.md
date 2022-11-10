@@ -7,7 +7,7 @@ menu:
   footer_secondary:
     weight: 3
 seo:
-  page_title: "FAQs - Mind Team "
+  page_title: FAQs
   meta_description: >-
     Have questions about Mind Team testing, treatment, pricing or something
     else? We’ve got the answers you need.

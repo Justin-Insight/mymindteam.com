@@ -5,7 +5,7 @@ menu:
     parent: Child Testing
     identifier: Child Specialty Testing
 seo:
-  page_title: "Specialty Testing for Children - Mind Team "
+  page_title: 'Remote Specialty Testing for Children '
   meta_description: >-
     Get the accommodated testing or professional proctoring your child needs for
     a variety of exams and specialty school evaluations.

@@ -5,7 +5,7 @@ menu:
     parent: Adult Testing
     identifier: Adult Comprehensive Testing
 seo:
-  page_title: Mind Team Comprehensive Tests - Get All the Answers You Need
+  page_title: Comprehensive Tests for Adults- Get All the Answers You Need
   meta_description: >-
     Diagnose or rule out autism, ADHD, dyslexia, dysgraphia, dyscalculia and
     other neurodivergent conditions with a comprehensive remote test. 

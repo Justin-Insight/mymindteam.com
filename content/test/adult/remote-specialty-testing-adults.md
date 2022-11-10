@@ -5,7 +5,7 @@ menu:
     parent: Adult Testing
     identifier: Adult Specialty Testing
 seo:
-  page_title: Mind Team Adult Specialty Tests
+  page_title: Remote Adult Specialty Tests
   meta_description: >-
     Need accommodations for an upcoming exam, or have a specialty assessment you
     need to take? Schedule a Mind Team remote specialty test.

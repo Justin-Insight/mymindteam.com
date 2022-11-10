@@ -5,7 +5,7 @@ menu:
     parent: Adult Testing
     identifier: Adult ADHD Testing
 seo:
-  page_title: Adult ADHD Test - Get Answers with Mind Team
+  page_title: Remote ADHD Test for Adults - Get Answers
   meta_description: >-
     Do you have ADHD? Test for ADHD and executive function disorder with a
     professional, remote assessment.
@@ -13,8 +13,8 @@ seo:
 hero:
   heading: <span class="underline underline--accent">Adult</span> ADHD Tests
   body: >-
-    Get the professional ADHD testing and diagnosis you need to work
-    <em>with</em> your mind, all from the comfort of home.
+    Get the professional ADHD testing and diagnosis you need to work *with* your
+    mind, all from the comfort of home.
   image_url: /books-on-desk-8.jpg
   image_alt:
   button:

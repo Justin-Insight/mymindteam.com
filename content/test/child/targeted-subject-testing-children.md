@@ -5,7 +5,7 @@ menu:
     parent: Child Testing
     identifier: Child Targeted Subject Testing
 seo:
-  page_title: Targeted Subject Tests for Children - Mind Team
+  page_title: Remote Targeted Subject Tests for Children
   meta_description: >-
     Is your child struggling with reading, writing or math? Test for dyslexia,
     dysgraphia and/or dyscalculia with a licensed school psychologist.

@@ -4,7 +4,7 @@ menu:
   footer_primary:
     weight: 5
 seo:
-  page_title: 'Resources - Mind Team '
+  page_title: 'Resources '
   meta_description: >-
     View the Mind Team blog, frequently asked questions, payment options and
     Mind Team outcomes.

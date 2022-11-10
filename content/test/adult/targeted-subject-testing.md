@@ -5,7 +5,7 @@ menu:
     parent: Adult Testing
     identifier: Adult Targeted Subject Testing
 seo:
-  page_title: "Targeted Subject Tests for Adults - Mind Team "
+  page_title: Remote Targeted Subject Tests for Adults
   meta_description: >
     Struggling with reading, writing or math? Test for dyslexia, dysgraphia or
     dyscalculia and get the answers you need with Mind Team targeted subject

@@ -6,7 +6,7 @@ menu:
   footer_primary:
     weight: 1
 seo:
-  page_title: 'Mind Team - Professional Tests - Get the Answers You Need '
+  page_title: 'Professional Remote Tests - Get the Answers You Need '
   meta_description: >-
     Test for autism, ADHD, dyslexia and other conditions with Mind Team
     neurodivergent testing—100% remote, comprehensive and professional.

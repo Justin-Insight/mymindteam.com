@@ -7,7 +7,7 @@ menu:
   footer_secondary:
     weight: 4
 seo:
-  page_title: "Payment Options - Mind Team "
+  page_title: Payment Options
   meta_description: >-
     View Mind Team testing and treatment pricing and convenient online self-pay
     options and see what’s included in your investment.
