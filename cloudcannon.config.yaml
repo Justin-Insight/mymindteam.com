@@ -1,11 +1,16 @@
 collection_groups:
+  - heading: Pages
+    collections:
+      - pages
+      - authors
+      - test
+      - treat
+      - transform
+      - our team
   - heading: Blogging
     collections:
       - blog
       - drafts
-  - heading: Other
-    collections:
-      - pages
 
 collections_config:
   pages:
