@@ -3,6 +3,9 @@ collections_config:
     schemas:
       default:
         path: schemas/blog.md
+    documentation:
+      url: https://client-training.insightcreative.info/
+      text: Read the documentation here.
 
 data_config:
   authors: true
