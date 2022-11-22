@@ -1,12 +1,11 @@
 collection_groups:
   - heading: Blogging
     collections:
-      - posts
+      - blog
       - drafts
   - heading: Other
     collections:
       - pages
-      - staff
 
 collections_config:
   pages:
