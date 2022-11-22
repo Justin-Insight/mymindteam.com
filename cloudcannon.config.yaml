@@ -1,21 +1,6 @@
-collection_groups:
-  - heading: Pages
-    collections:
-      - pages
-      - authors
-      - test
-      - treat
-      - transform
-      - our team
-  - heading: Blogging
-    collections:
-      - blog
-      - drafts
-
 collections_config:
   pages:
     _enabled_editors:
-      - data
       - visual
   blog:
     schemas:
