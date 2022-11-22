@@ -1,11 +1,25 @@
+collection_groups:
+  - heading: Blogging
+    collections:
+      - posts
+      - drafts
+  - heading: Other
+    collections:
+      - pages
+      - staff
+
 collections_config:
+  pages:
+    _enabled_editors:
+      - data
+      - visual
   blog:
     schemas:
       default:
         path: schemas/blog.md
     documentation:
-      url: https://client-training.insightcreative.info/
-      text: Read the documentation here.
+      url: https://client-training.insightcreative.info/my-mind-team/#adding-new-blog-posts
+      text: Read the documentation.
 
 data_config:
   authors: true
@@ -45,6 +59,10 @@ _inputs:
       accepts_mime_types:
         - image/jpeg
         - image/svg+xml
+  logo:
+    type: image
+  footer_logo:
+    type: image
   heading:
     type: text
   time:
