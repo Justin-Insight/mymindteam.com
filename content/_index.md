@@ -165,10 +165,8 @@ pricing_block:
   enabled: true
   heading: Pricing
   body: >-
-    To get the immediate support you deserve, Mind Team neurodivergent services
-    must be paid out of pocket. With transparent, all-inclusive pricing and no
-    hidden fees, you can trust your investment will cover all the answers and
-    support you need.
+    With transparent, all-inclusive pricing and no hidden fees, you can trust
+    your Mind Team investment will cover all the answers and support you need.
   button:
     enabled: true
     button_url: /resources/payment-options/

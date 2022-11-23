@@ -7,13 +7,13 @@ menu:
   footer_secondary:
     weight: 4
 seo:
-  page_title: Payment Options
+  page_title: Payment options
   meta_description: >-
     View Mind Team testing and treatment pricing and convenient online self-pay
     options and see what’s included in your investment.
   featured_image: /mind-team-clinician-20.jpg
 hero:
-  heading: Your Mind Team <span class="underline underline--accent">Investment</span>
+  heading: Your Mind Team <span class="underline underline--accent">investment</span>
   body: >-
     View our testing and treatment service pricing with convenient online
     self-pay options and learn about everything included in your investment.
@@ -28,29 +28,29 @@ testing_options_block:
   heading: Mind Team test pricing
   pre_options_body:
   options:
-    - heading: Child Testing
+    - heading: Child tests
       subheading:
       body: |-
-        - ADHD/Executive Function Test <br><strong>$2,300</strong>
-        - Autism Test <br><strong>$3,300</strong>
-        - Psychoeducational Tests <br><strong>$1,000</strong>
-        - Comprehensive Psychoeducational Test <br><strong>$2,000</strong>
-        - Comprehensive Battery <br><strong>$3,900</strong>
-        - Specialty Tests <br><strong>Inquire for pricing</strong>
+        * ADHD/executive function test<br>**$2,300**
+        * Autism test<br>**$3,300**
+        * Psychoeducational test<br>**$1,000**
+        * Comprehensive psychoeducational test<br>**$2,000**
+        * Comprehensive neuropsychological test<br>**$3,900**
+        * Specialty test<br>**Inquire for pricing**
       price:
       button:
         enabled: false
         button_url: /test/adult-neurodivergent-test/
         button_text: Learn More
-    - heading: Adult Testing
+    - heading: Adult tests
       subheading:
       body: |-
-        - ADHD/Executive Function Test <br><strong>$1,600</strong>
-        - Autism Test <br><strong>$2,400</strong>
-        - Psychoeducational Tests <br><strong>$1,000</strong>
-        - Comprehensive Psychoeducational Test <br><strong>$2,000</strong>
-        - Comprehensive Battery <br><strong>$3,900</strong>
-        - Specialty Tests <br><strong>Inquire for pricing</strong>
+        * ADHD/executive function test<br>**$1,600**
+        * Autism test<br>**$2,400**
+        * Psychoeducational tests<br>**$1,000**
+        * Comprehensive psychoeducational test<br>**$2,000**
+        * Comprehensive neuropsychological test&nbsp;<br>**$3,900**
+        * Specialty tests<br>**Inquire for pricing**
       price:
       button:
         enabled: false
@@ -72,9 +72,8 @@ pay_as_you_go_block:
   installments:
     - heading: <span class="underline underline--primary">First</span> installment
       body: >-
-        Schedule your pre-assessment intake appointment (where we’ll determine
-        which Mind Test is right for you) with an initial <strong>$150
-        deposit</strong>.
+        Schedule your intake appointment to determine which Mind Test is right
+        for you or your child with an initial **$150 deposit**.
       icon: /1-blue-block.svg
     - heading: <span class="underline underline--secondary">Second</span> installment
       body: >-
@@ -83,8 +82,8 @@ pay_as_you_go_block:
       icon: /2-orange-block.svg
     - heading: <span class="underline underline--accent">Third</span> installment
       body: >-
-        <strong>24 hours prior</strong> to your assessment review appointment,
-        final payment of any remaining balance is due.
+        Make your final payment **24 hours prior** to your final review
+        appointment.&nbsp;
       icon: /3-yellow-block.svg
 treatment_options_block:
   enabled: false

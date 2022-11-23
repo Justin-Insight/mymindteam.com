@@ -44,15 +44,15 @@ testing_options_block:
         enabled: false
         button_url: /get-started/
         button_text: Get Started Now
-    - heading: Comprehensive battery
+    - heading: 'Comprehensive neuropsychological '
       subheading: >-
         When you need it all—broad subject area testing, learning disorder
         screening and more.
       body: |-
-        - Detailed history questionnaire
-        - Full battery autism screen
-        - Full battery ADHD screen
-        - Broad reading, writing and math achievement
+        * Detailed history questionnaire
+        * Full battery autism screen
+        * Full battery ADHD screen
+        * Broad reading, writing and math achievement
       price: $3,900
   post_options_body:
   button:
