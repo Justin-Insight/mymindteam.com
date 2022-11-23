@@ -25,26 +25,29 @@ hero:
 page_blocks:
   - heading: Our clinicians …
     body: >-
-      <h3>celebrate <span class="underline underline--primary">all</span>
-      minds.</h3>
+      ### celebrate <span class="underline underline--primary">all</span> minds.
 
-      <p>Our team celebrates neurodiversity and aims to inform, empower and
-      support you to work <em>with</em> your unique mind, rather than trying to
-      “fix” your neural differences.</p>
 
-      <h3><span class="underline underline--secondary">collaborate</span>
-      internally.</h3>
+      Our team celebrates neurodiversity and aims to inform, empower and support
+      you to work *with* your unique mind, rather than trying to “fix” your
+      neural differences.
 
-      <p>Whether you need Mind Team testing or treatment, you’ll get the
-      expertise of our entire multidisciplinary team working to provide the
-      answers and support you need.</p>
 
-      <h3>advocate for <span class="underline underline--accent">your</span>
-      needs.</h3>
+      ### <span class="underline underline--secondary">collaborate</span>
+      internally.
 
-      <p>You’ll never have to navigate intimidating assistance programs or
-      school systems alone with a team who will advocate for your accommodation
-      needs.</p>
+
+      Whether you need Mind Team testing or treatment, you’ll get the expertise
+      of our entire multidisciplinary team working to provide the answers and
+      support you need.
+
+
+      ### advocate for <span class="underline underline--accent">your</span>
+      needs.
+
+
+      You’ll never have to navigate intimidating assistance programs or school
+      systems alone with a team who will advocate for your accommodation needs.
     button:
       enabled: false
       button_url:
@@ -139,7 +142,7 @@ mind_team:
       associations:
       specialty: ADHD Specialist
       zoom_room_url: https://us06web.zoom.us/j/5968300872
-    - name: Amylyn Serano
+    - name: Amylyn Serrano
       headshot: /Amylyn_Serrano.jpg
       job_title: Psychological Technician
       associations:
