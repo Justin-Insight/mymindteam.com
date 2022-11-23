@@ -14,9 +14,8 @@ seo:
 hero:
   heading: Meet <span class="underline underline--accent">your</span> Mind Team.
   body: >-
-    View our diverse, multidisciplinary team of licensed psychologists,
-    counselors, interventionists and other expert clinicians specially chosen to
-    help you thrive.
+    Our diverse team of licensed psychologists, counselors, interventionists and
+    expert clinicians are specially chosen to help you thrive.
   image_url: /mind-team-group-in-conference-room.jpg
   image_alt:
   button:
@@ -153,8 +152,8 @@ cta_block:
     clinician today.
   body: >-
     Whether you need professional neurodivergent testing or treatment, our team
-    is here to help. The process is easy! Get started by filling out our brief
-    questionnaire.
+    is here to help. Complete our short questionnaire and we'll handle the
+    rest\!
   button:
     enabled: true
     button_url: /get-started/
