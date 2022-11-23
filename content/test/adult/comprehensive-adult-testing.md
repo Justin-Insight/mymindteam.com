@@ -12,12 +12,11 @@ seo:
   featured_image: /mind-team-counselor-during-treatment-session-13.jpg
 hero:
   heading: >-
-    All the <span class="underline underline--accent">answers you need</span>
-    ...
+    Get <span class="underline underline--accent">all</span> the answers you
+    need.
   body: >-
-    Get a full understanding of your mind and test for various conditions
-    including autism, ADHD, dyslexia and more, all in one comprehensive
-    assessment.
+    Test for various conditions including autism, ADHD, dyslexia and more, all
+    in one comprehensive assessment.
   image_url: /mind-team-counselor-during-treatment-session-13.jpg
   image_alt:
   button:
@@ -28,7 +27,7 @@ testing_options_block:
   enabled: true
   heading: >-
     Mind Team <span class="underline underline--secondary">comprehensive</span>
-    adult testing options.
+    adult testing options
   pre_options_body:
   options:
     - heading: Comprehensive psychoeducational
@@ -129,7 +128,7 @@ cta_block:
   heading: >-
     Schedule your <span class="underline
     underline--primary">comprehensive</span> test.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

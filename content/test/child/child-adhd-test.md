@@ -5,7 +5,7 @@ menu:
     parent: Child Testing
     identifier: Child ADHD Testing
 seo:
-  page_title: "Child ADHD Test - Get the Answers You Need with Mind Team  "
+  page_title: 'Child ADHD Test - Get the Answers You Need with Mind Team  '
   meta_description: >
     Does your child have ADHD? Schedule their professional, remote ADHD test
     with Mind Team to get the answers you need to help them thrive.
@@ -22,9 +22,7 @@ hero:
     button_url: /get-started/
     button_text: Get Started Now
 page_blocks:
-  - heading: >-
-      Signs of <span class="underline underline--accent">ADHD</span> in
-      children.
+  - heading: Signs of <span class="underline underline--accent">ADHD</span> in children
     body: >-
       Your child may be struggling with ADHD and could benefit from a diagnosis
       if they:
@@ -56,7 +54,7 @@ adhd_testing_block:
   enabled: true
   heading: >-
     Mind Team child <span class="underline underline--accent">ADHD</span>
-    testing.
+    testing
   subheading: $2,300
   body: >-
     Conducted by licensed clinicians specializing in ADHD via our secure, remote
@@ -64,7 +62,7 @@ adhd_testing_block:
   button:
     enabled: true
     button_url: /get-started/
-    button_text: Schedule Your Remote ADHD Test
+    button_text: Schedule Your Child's ADHD Test
 benefits_block:
   enabled: true
   heading: >-
@@ -127,7 +125,10 @@ cta_block:
   heading: >-
     Find out if your child has <span class="underline
     underline--primary">ADHD</span>.
-  body: The process couldn’t be easier! Get started with our brief questionnaire.
+  body: |-
+    Complete our brief questionnaire and we'll handle the rest\!&nbsp;
+
+    &nbsp;
   button:
     enabled: true
     button_url: /get-started/

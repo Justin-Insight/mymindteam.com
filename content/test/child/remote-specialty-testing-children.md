@@ -57,7 +57,7 @@ cta_block:
   heading: >-
     Schedule your child’s <span class="underline
     underline--primary">specialty</span> test.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

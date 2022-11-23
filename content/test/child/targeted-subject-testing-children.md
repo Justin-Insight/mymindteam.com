@@ -15,8 +15,8 @@ hero:
     Is your child <span class="underline underline--accent">struggling</span>
     with reading, writing or math?
   body: >-
-    Test for dyslexia, dysgraphia, dyscalculia and other conditions that may be
-    getting in the way of their learning and life.
+    Test for dyslexia, dysgraphia or dyscalculia&nbsp; with a targeted
+    psychoeducational assessment.&nbsp;
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
   image_alt:
   button:
@@ -173,7 +173,7 @@ cta_block:
   heading: >-
     <span class="underline underline--primary">Assess</span> your child’s
     reading, writing or math skills.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

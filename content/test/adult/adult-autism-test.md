@@ -133,7 +133,7 @@ cta_block:
   heading: >-
     Find out if you have <span class="underline
     underline--primary">autism</span>.
-  body: The process couldn’t be easier! Get started with our brief questionnaire.
+  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

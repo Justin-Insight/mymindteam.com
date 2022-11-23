@@ -6,7 +6,7 @@ menu:
     parent: Child Testing
     identifier: Child Autism Testing
 seo:
-  page_title: "Child Autism Test - Get the Answers You Need with Mind Team "
+  page_title: 'Child Autism Test - Get the Answers You Need with Mind Team '
   meta_description: >-
     Does your child have autism? Schedule their professional, remote autism test
     with Mind Team to get the answers you need to help them thrive.
@@ -27,7 +27,7 @@ hero:
 page_blocks:
   - heading: >-
       Signs of <span class="underline underline--accent">autism</span> in
-      children.
+      children
     body: >-
       Your child may be struggling with autism and could benefit from a
       diagnosis if they:
@@ -59,7 +59,7 @@ adhd_testing_block:
   enabled: true
   heading: >-
     Mind Team <span class="underline underline--accent">autism testing</span>
-    for children.
+    for children
   subheading: $2,300
   body: >-
     Conducted by licensed clinicians specializing in autism via our secure,
@@ -130,7 +130,7 @@ cta_block:
   heading: >-
     Find out if your child has <span class="underline
     underline--primary">autism</span>.
-  body: The process couldn’t be easier! Get started with our brief questionnaire.
+  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

@@ -140,9 +140,7 @@ faq_block:
 cta_block:
   enabled: true
   heading: Find out if you have <span class="underline underline--primary">ADHD</span>.
-  body: >-
-    The process couldn’t be easier! Fill out our brief questionnaire to get
-    started.
+  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

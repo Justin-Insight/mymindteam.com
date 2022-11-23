@@ -30,7 +30,7 @@ testing_options_block:
   enabled: true
   heading: >-
     Mind Team <span class="underline underline--secondary">comprehensive</span>
-    testing options for children.
+    testing options for children
   pre_options_body: >-
     Assess your child’s achievement in reading, writing and math and diagnose or
     rule out common learning disorders that could be affecting their learning
@@ -67,8 +67,8 @@ testing_options_block:
 benefits_block:
   enabled: true
   heading: >-
-    The comprehensive testing <span class="underline underline--primary">you
-    deserve</span>.
+    The comprehensive testing your child <span class="underline
+    underline--primary">deserves</span>.
   body:
   benefits:
     - heading: Personalized
@@ -133,7 +133,7 @@ cta_block:
   heading: >-
     Schedule your child’s <span class="underline
     underline--primary">comprehensive</span> test.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

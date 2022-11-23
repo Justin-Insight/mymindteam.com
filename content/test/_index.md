@@ -67,13 +67,13 @@ process_block:
     - heading: 'Step 1: questionnaire'
       time: 5-10 minutes
       body: >-
-        Get started by filling out our brief questionnaire and we’ll help
-        identify and schedule the test that best suits your needs.
+        Tell us your needs and we’ll help identify and schedule the right test
+        for you.
       icon: /1-blue-block.svg
     - heading: 'Step 2: diagnostic interview'
       time: 1 hour
       body: >-
-        Get comfortable with our secure, virtual appointment portal and review
+        Get comfortable with our secure, virtual appointment portal to review
         your history, background and concerns with your Mind Team clinician.
       icon: /2-orange-block.svg
     - heading: 'Step 3: online assessment'
@@ -85,9 +85,8 @@ process_block:
     - heading: 'Step 4: post-assessment feedback'
       time: 1 hour
       body: >-
-        Meet remotely with your Mind Team clinician to review your test results
-        and get recommendations for which steps to take next and how to begin
-        treatment.
+        Meet for a final review of your test results and get recommendations for
+        which steps to take next.
       icon: /4-blue-block.svg
   button:
     enabled: true

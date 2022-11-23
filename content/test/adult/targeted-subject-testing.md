@@ -16,8 +16,8 @@ hero:
     <span class="underline underline--accent">Struggling</span> with reading,
     writing or math?
   body: >-
-    Test for dyslexia, dysgraphia, dyscalculia and other conditions that may be
-    getting in the way of your learning and living.
+    Test for dyxlexia, dysgraphia or dyscalculia with a targeted
+    psychoeducational assessment.
   image_url: /mind-team-clinicians-looking-at-book-2.jpg
   image_alt:
   button:
@@ -165,7 +165,7 @@ cta_block:
   heading: >-
     <span class="underline underline--primary">Assess</span> your reading,
     writing or math skills.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

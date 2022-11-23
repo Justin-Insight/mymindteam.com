@@ -13,7 +13,7 @@ seo:
 hero:
   heading: >-
     Remote <span class="underline underline--accent">specialty</span> testing
-    for adults.
+    for adults
   body: Inquire for pricing.
   image_url: /mind-team-clinician-23.jpg
   image_alt:
@@ -53,7 +53,7 @@ cta_block:
   heading: >-
     Schedule your <span class="underline underline--primary">specialty</span>
     test.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

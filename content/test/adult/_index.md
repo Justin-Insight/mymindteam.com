@@ -133,9 +133,8 @@ benefits_block:
       icon: /orange-block.svg
     - heading: Integrated
       body: >-
-        Get the combined expertise of our entire multidisciplinary team and
-        never worry about relaying your background and test results from one
-        provider to another.
+        Get the combined expertise of our entire team and never worry about
+        relaying your background and test results from one provider to another.
       icon: /yellow-block.svg
 single_column_block:
   enabled: true
@@ -194,7 +193,7 @@ cta_block:
   heading: >-
     Schedule your <span class="underline underline--primary">remote</span>
     neurodivergent test.
-  body: The process is easy! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

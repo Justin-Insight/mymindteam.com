@@ -81,29 +81,29 @@ testing_options_block:
         enabled: true
         button_url: /test/child/targeted-subject-testing-children/
         button_text: Learn More
-    - heading: Comprehensive subject test
+    - heading: Comprehensive psychoeducational
       subheading: >-
         Test your child for dyslexia, dysgraphia and dyscalculia all in one
         comprehensive test with a school psychologist assessing:
       body: |-
-        - Reading, writing and math achievement
-        - Cognitive IQ
-        - Detailed personal and academic history
+        * Reading, writing and math achievement
+        * Cognitive IQ
+        * Detailed personal and academic history
       price: $2,000
       button:
         enabled: true
         button_url: /test/child/comprehensive-child-testing/
         button_text: Learn More
-    - heading: Comprehensive battery
+    - heading: 'Comprehensive neuropsychological '
       subheading: >-
         Test your child for autism, ADHD, dyslexia, dysgraphia and dyscalculia
         all in one comprehensive diagnostic interview assessing:
       body: |-
-        - Attention
-        - Executive functioning
-        - Broad reading, writing and math achievement
-        - Cognitive IQ
-        - Personal, medical and academic history
+        * Attention
+        * Executive functioning
+        * Broad reading, writing and math achievement
+        * Cognitive IQ
+        * Personal, medical and academic history
       price: $3,900
       button:
         enabled: true
@@ -227,9 +227,7 @@ cta_block:
   heading: >-
     Ready to help your child <span class="underline
     underline--primary">thrive</span>?
-  body: >-
-    It couldn’t be easier to get started. Fill out our short questionnaire and
-    we’ll take care of the rest.
+  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/
