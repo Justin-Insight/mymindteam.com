@@ -28,17 +28,20 @@ page_blocks:
       if they:
 
 
-      * Fidget frequently and have a hard time sitting still.
+      * Often fidget when remaining seated is expected.&nbsp;
 
       * Have trouble concentrating on speakers or tasks for long periods of
       time.
 
       * Interrupt conversations often and have trouble waiting their turn.
 
-      * Act impulsively, especially when upset.
+      * Act impulsively.
 
       * Frequently lose important items, forget their school assignments and
       more.
+
+      * Experience strong emotions when expected to engage in tasks that require
+      sustained effort (i.e. homework).
     button:
       enabled: false
       button_url:

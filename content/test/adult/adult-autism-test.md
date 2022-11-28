@@ -29,18 +29,20 @@ page_blocks:
       You may be struggling with autism and could benefit from a diagnosis if
       you:
 
-      - Get overwhelmed/frustrated while in loud, bright or crowded
-      environments. 
 
-      - Often get so hyper-focused on projects of interest that you lose track
-      of time. 
+      * Often get so hyper-focused on projects of interest that you lose track
+      of time.
 
-      - Struggle to relate to and/or make small talk with coworkers and peers. 
+      * Have difficulty self regulating while experiencing discomfort due to
+      strong sounds, smells, textures and more.&nbsp;
 
-      - Tend to feel uncomfortable or distracted while making eye contact. 
-
-      - Often rehearse conversations well in advance to avoid saying the “wrong”
+      * Often rehearse conversations well in advance to avoid saying the “wrong”
       thing.
+
+      * &nbsp;Experience difficulties and differences in understanding and
+      engaging in social behavior.&nbsp;
+
+      * Often feel like you’re wearing a mask or acting when around others.
     button:
       enabled: false
       button_url:

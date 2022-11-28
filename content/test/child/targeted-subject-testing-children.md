@@ -61,15 +61,15 @@ targeted_subject_testing_block:
       subheading: >-
         Dysgraphia can cause issues with writing. Your child may be struggling
         with dysgraphia if they:
-      body: >-
-        * Struggle to form letters, shapes and numbers by hand.
-
-        * Find it difficult to color within the lines.
-
-        * Have a hard time holding pencils and writing utensils correctly.
-
-        * Struggle with fine motor skills (i.e. tying shoes or buttoning
-        shirts).
+      body: |-
+        * Make frequent spelling errors.
+        * Have trouble taking notes and listening to information simultaneously.
+        * Strongly dislike writing and/or drawing.
+        * Experience problems with grammar.
+        * Struggle to write down thoughts and ideas in a logical sequence.&nbsp;
+        * &nbsp;Often lose energy or interest as soon as they start writing.
+        * Often say words out loud while writing.
+        * Leave words unfinished or omit them when writing sentences.
       text_column_left: true
       text_column_right: false
       image:

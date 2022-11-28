@@ -56,10 +56,14 @@ targeted_subject_testing_block:
         Dysgraphia can cause issues with writing. You may be struggling with
         dysgraphia if you:
       body: |-
-        * Struggle to write by hand.
         * Make frequent spelling errors.
         * Have trouble taking notes and listening to information simultaneously.
-        * Find fine-motor activities difficult (i.e. buttoning a shirt).
+        * Strongly dislike writing and/or drawing.
+        * Experience problems with grammar.
+        * Struggle to write down thoughts and ideas in a logical sequence.&nbsp;
+        * &nbsp;Often lose energy or interest as soon as you start writing.
+        * Often say words out loud while writing.
+        * Leave words unfinished or omit them when writing sentences.
       text_column_left: true
       text_column_right: false
       image:

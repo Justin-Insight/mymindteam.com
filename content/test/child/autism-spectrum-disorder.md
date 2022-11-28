@@ -33,17 +33,17 @@ page_blocks:
       diagnosis if they:
 
 
-      * Tend to get very upset by tastes, smells, sounds and textures they don’t
-      like.
+      * Experience difficulties adapting to and adjusting to changes.&nbsp;
+
+      * Exhibit rigid thinking and behavioral patterns.&nbsp;
 
       * Struggle to relate to and interact with other children their age.
 
-      * Avoid making/keeping eye contact.
+      * Exhibit repetitive movements when experiencing strong emotions or high
+      sensory experiences.
 
-      * Frequently repeat motions like hand flapping and rocking back and forth.
-
-      * Break down, lash out and/or have trouble controlling their actions when
-      upset.
+      * Have difficulties with regulation when experiencing distress related to
+      strong sounds, scents and textures.&nbsp;
     button:
       enabled: false
       button_url:
