@@ -122,13 +122,13 @@ faq_block:
     - question: What if you can’t diagnose me?
       answer: >-
         It’s completely possible (and normal) to be neurodivergent without
-        meeting the full symptomatic requirements for an official condition
-        diagnosis. 
+        meeting &nbsp;the DSM-5 requirements for a medical diagnosis.
 
 
         Ruling conditions out is still a vital step in the process and will help
         us get the information we need to successfully transition into the
-        treatment phase.
+        treatment phase. Treatment options can be effective in helping people
+        with our without a narrowly-defined diagnosis.
   subheading: Have a different question?
   button:
     enabled: true
