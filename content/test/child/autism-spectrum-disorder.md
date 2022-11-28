@@ -60,7 +60,7 @@ adhd_testing_block:
   heading: >-
     Mind Team <span class="underline underline--accent">autism testing</span>
     for children
-  subheading: $2,300
+  subheading: $3,300
   body: >-
     Conducted by licensed clinicians specializing in autism via our secure,
     remote platform.

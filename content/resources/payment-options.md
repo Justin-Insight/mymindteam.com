@@ -33,7 +33,7 @@ testing_options_block:
       body: |-
         * ADHD/executive function test<br>**$2,300**
         * Autism test<br>**$3,300**
-        * Psychoeducational test<br>**$1,000**
+        * Targeted subject test (psychoeducational)&nbsp;<br>**$1,000**
         * Comprehensive psychoeducational test<br>**$2,000**
         * Comprehensive neuropsychological test<br>**$3,900**
         * Specialty test<br>**Inquire for pricing**
@@ -47,7 +47,7 @@ testing_options_block:
       body: |-
         * ADHD/executive function test<br>**$1,600**
         * Autism test<br>**$2,400**
-        * Psychoeducational tests<br>**$1,000**
+        * Targeted subject test (psychoeducational)&nbsp;<br>**$1,000**
         * Comprehensive psychoeducational test<br>**$2,000**
         * Comprehensive neuropsychological test&nbsp;<br>**$3,900**
         * Specialty tests<br>**Inquire for pricing**
