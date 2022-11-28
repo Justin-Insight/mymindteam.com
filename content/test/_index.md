@@ -73,8 +73,8 @@ process_block:
     - heading: 'Step 2: diagnostic interview'
       time: 1 hour
       body: >-
-        Get comfortable with our secure, virtual appointment portal to review
-        your history, background and concerns with your Mind Team clinician.
+        Get comfortable with our virtual appointment portal to review your
+        history, background and concerns with your Mind Team clinician.
       icon: /2-orange-block.svg
     - heading: 'Step 3: online assessment'
       time: 1-5 hours
