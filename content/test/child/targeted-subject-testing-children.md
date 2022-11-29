@@ -26,10 +26,14 @@ hero:
 targeted_subject_testing_block:
   enabled: true
   heading: Mind Team child targeted subject tests
-  body: |-
+  body: >-
     $1,000
 
-    Conducted by licensed school psychologists.
+
+    The pricing above covers testing in one targeted subject area (reading,
+    writing or math). To test for all three areas in one assessment, view our
+    [comprehensive
+    options](https://www.mymindteam.com/test/child/comprehensive-child-testing/).
   options:
     - heading: Test for <span class="underline underline--primary">dyslexia</span>.
       subheading: >-

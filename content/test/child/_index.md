@@ -213,11 +213,14 @@ single_column_block:
     Pricing for <span class="underline underline--secondary">immediate
     support</span>.
   body: >-
-    No child deserves to struggle for months, but that’s what insurance
-    providers typically require when covering educational testing services. To
-    provide the immediate support you and your child deserve, Mind Team testing
-    services must be paid out-of-pocket. Visit our payment page to learn more
-    about your options.
+    No child deserves to struggle for months, caught between limited school
+    resources, insurance barriers or other redtape. Mind Team offers assessment
+    and treatment on-demand through self-pay options.
+
+
+    For individuals with out-of-network neuropsychological and psychological
+    testing benefits, we partner with companies who help you recoup your costs
+    from your insurance.
   button:
     enabled: true
     button_url: /resources/payment-options/
