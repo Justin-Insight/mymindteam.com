@@ -11,10 +11,8 @@ seo:
     professional, remote assessment.
   featured_image: /books-on-desk-8.jpg
 hero:
-  heading: <span class="underline underline--accent">Adult</span> ADHD Tests
-  body: >-
-    Get the professional ADHD testing and diagnosis you need to work *with* your
-    mind, all from the comfort of home.
+  heading: <span class="underline underline--accent">Adult</span> ADHD tests
+  body: Get the answers you need with a comprehensive ADHD assessment.&nbsp;
   image_url: /books-on-desk-8.jpg
   image_alt:
   button:

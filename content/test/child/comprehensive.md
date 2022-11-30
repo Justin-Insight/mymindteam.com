@@ -67,7 +67,7 @@ testing_options_block:
 benefits_block:
   enabled: true
   heading: >-
-    The comprehensive testing your child <span class="underline
+    The comprehensive assessment your child <span class="underline
     underline--primary">deserves</span>.
   body:
   benefits:

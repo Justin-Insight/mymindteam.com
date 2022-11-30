@@ -15,9 +15,7 @@ hero:
   heading: >-
     Does your child have <span class="underline
     underline--accent">autism</span>?
-  body: >-
-    Get the professional answers and support you need to work *with* your
-    child’s mind, all from the comfort of home.
+  body: Get the answers you need with a comprehensive autism assessment.&nbsp;
   image_url: /young-girl-during-autism-spectrum-disorder-testing-7.jpg
   image_alt:
   button:
@@ -58,7 +56,7 @@ page_blocks:
 adhd_testing_block:
   enabled: true
   heading: >-
-    Mind Team <span class="underline underline--accent">autism testing</span>
+    Mind Team <span class="underline underline--accent">autism assessment</span>
     for children
   subheading: $3,300
   body: >-
@@ -71,7 +69,7 @@ adhd_testing_block:
 benefits_block:
   enabled: true
   heading: >-
-    The autism testing your child <span class="underline
+    The autism assessment your child <span class="underline
     underline--primary">deserves</span>.
   body:
   benefits:
@@ -100,12 +98,12 @@ faq_block:
     Frequently asked <span class="underline
     underline--secondary">questions</span>
   questions:
-    - question: Who will conduct my child’s autism test?
+    - question: Who will conduct my child’s autism assessment?
       answer: >-
         You will be matched with the licensed Mind Team clinician who best fits
         your child’s unique needs, like those on our team specializing in
         autism.
-    - question: How long will my child’s autism test take?
+    - question: How long will my child’s autism assessment take?
       answer: >-
         It depends. Mind Team remote child autism tests vary in length, as they
         are tailored to your child’s needs, challenges and more. We’ll prepare

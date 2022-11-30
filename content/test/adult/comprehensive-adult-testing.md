@@ -62,7 +62,7 @@ testing_options_block:
 benefits_block:
   enabled: true
   heading: >-
-    The comprehensive testing <span class="underline underline--primary">you
+    The comprehensive assessment <span class="underline underline--primary">you
     deserve</span>.
   body:
   benefits:
@@ -92,7 +92,7 @@ faq_block:
     Frequently asked <span class="underline
     underline--secondary">questions</span>
   questions:
-    - question: Who will conduct my comprehensive test?
+    - question: Who will conduct my comprehensive assessment?
       answer: >-
         You will be matched with the licensed Mind Team clinician who best fits
         your needs, according to the information you provide in your intake

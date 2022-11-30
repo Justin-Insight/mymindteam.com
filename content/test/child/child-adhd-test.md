@@ -12,9 +12,7 @@ seo:
   featured_image: /young-girl-during-a-child-adhd-testing-session-8.jpg
 hero:
   heading: Does your child have <span class="underline underline--accent">ADHD</span>?
-  body: >-
-    Get the professional answers and support you need to work *with* your
-    child’s mind, all from the comfort of home.
+  body: Get the answers you need with a comprehensive ADHD assessment.&nbsp;
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
   image_alt:
   button:
@@ -69,7 +67,7 @@ adhd_testing_block:
 benefits_block:
   enabled: true
   heading: >-
-    The ADHD testing your child <span class="underline
+    The ADHD assessment your child <span class="underline
     underline--primary">deserves</span>.
   body:
   benefits:

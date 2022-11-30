@@ -14,9 +14,7 @@ hero:
   heading: >-
     Think you might have <span class="underline
     underline--accent">autism</span>?
-  body: >-
-    Get the professional autism testing and diagnosis you need to work
-    <em>with</em> your mind, all from the comfort of home.
+  body: Get the answers you need with a comprehensive autism assessment.&nbsp;
   image_url: /mind-team-counselor-during-treatment-session-11.jpg
   image_alt:
   button:
@@ -70,7 +68,7 @@ adhd_testing_block:
 benefits_block:
   enabled: true
   heading: >-
-    The autism testing <span class="underline underline--primary">you
+    The autism assessment <span class="underline underline--primary">you
     deserve</span>.
   body:
   benefits:
@@ -100,7 +98,7 @@ faq_block:
     Frequently asked <span class="underline underline--secondary">adult autism
     testing</span> questions
   questions:
-    - question: Who will conduct my autism test?
+    - question: Who will conduct my autism assessment?
       answer: >-
         You’ll be matched with the licensed Mind Team clinician who best fits
         your needs, like those on [our team](/our-team/) specializing in autism.
