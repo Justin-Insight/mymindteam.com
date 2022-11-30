@@ -15,9 +15,9 @@ seo:
 hero:
   heading: Every mind can <span class="underline underline--accent">thrive</span>.
   body: >-
-    With Mind Team professional remote treatment for children and adults
-    struggling with autism, ADHD, dyslexia, dysgraphia, dyscalculia and other
-    learning challenges.
+    Mind Team provides individualized and evidence-based treatment for dyslexia,
+    dyscalculia and executive functioning concerns commonly experienced with
+    autism and ADHD.
   image_url: /mind-team-clinician-during-one-on-one-remote-counseling-session-2.jpg
   image_alt:
   button:
@@ -184,18 +184,22 @@ pricing_block:
   enabled: true
   heading: Treatment pricing
   body: >-
-    Treatment pricing varies depending on your unique needs, Mind team clinician and more. Please get started by filling out our questionnaire and we'll get you an accurate quote.
+    Treatment pricing varies depending on your unique needs, Mind team clinician
+    and more. Please get started by filling out our questionnaire and we'll get
+    you an accurate quote.
   pricing_options:
     enabled: false
     options:
       - heading: General treatment services
         subheading: Starting at $X
         body: >-
-          Pay for sessions at a predetermined hourly rate based on your unique needs.
+          Pay for sessions at a predetermined hourly rate based on your unique
+          needs.
       - heading: Educational interventions
         subheading: Starting at $X
         body: >-
-          Get a package deal on Mind Team educational interventions and pay an hourly treatment service rate for any additional sessions as needed.
+          Get a package deal on Mind Team educational interventions and pay an
+          hourly treatment service rate for any additional sessions as needed.
   button:
     enabled: true
     button_url: /get-started/

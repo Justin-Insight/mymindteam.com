@@ -14,10 +14,7 @@ hero:
   heading: >-
     Work <span class="underline underline--accent">with</span> your child’s
     mind.
-  body: >-
-    Get the answers you need to best support your child with Mind Team
-    professional testing for autism, ADHD, dyslexia and other neurodivergent
-    conditions.
+  body: Test for autism, ADHD, dyslexia and other neurodivergent conditions.
   image_url: /young-girl-at-desk-during-video-call.jpg
   image_alt:
   button:
