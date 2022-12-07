@@ -15,7 +15,7 @@ hero:
     Is your child <span class="underline underline--accent">struggling</span>
     with reading, writing or math?
   body: >-
-    Test for dyslexia, dysgraphia or dyscalculia&nbsp; with a targeted
+    Test for dyslexia, dysgraphia or dyscalculia with a targeted
     psychoeducational assessment.&nbsp;
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
   image_alt:
@@ -71,7 +71,7 @@ targeted_subject_testing_block:
         * Strongly dislike writing and/or drawing.
         * Experience problems with grammar.
         * Struggle to write down thoughts and ideas in a logical sequence.&nbsp;
-        * &nbsp;Often lose energy or interest as soon as they start writing.
+        * Often lose energy or interest as soon as they start writing.
         * Often say words out loud while writing.
         * Leave words unfinished or omit them when writing sentences.
       text_column_left: true
@@ -87,8 +87,8 @@ targeted_subject_testing_block:
       background_color: white
     - heading: Test for <span class="underline underline--accent">dyscalculia</span>.
       subheading: >-
-        Dyscalculia can cause issues with math. You may be struggling with
-        dyscalculia if they:
+        Dyscalculia can cause issues with math. Your child may be struggling
+        with dyscalculia if they:
       body: |-
         * Struggle to count, especially in their heads.
         * Confuse common mathematical symbols (i.e. +,-, x).
@@ -108,7 +108,7 @@ targeted_subject_testing_block:
 benefits_block:
   enabled: true
   heading: >-
-    The subject testing your child <span class="underline
+    The targeted subject testing your child <span class="underline
     underline--primary">deserves</span>.
   body:
   benefits:

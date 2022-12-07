@@ -31,14 +31,14 @@ page_blocks:
       * Often get so hyper-focused on projects of interest that you lose track
       of time.
 
-      * Have difficulty self regulating while experiencing discomfort due to
+      * Have difficulty self-regulating while experiencing discomfort due to
       strong sounds, smells, textures and more.&nbsp;
 
       * Often rehearse conversations well in advance to avoid saying the “wrong”
       thing.
 
-      * &nbsp;Experience difficulties and differences in understanding and
-      engaging in social behavior.&nbsp;
+      * Experience difficulties and differences in understanding and engaging in
+      social behavior.&nbsp;
 
       * Often feel like you’re wearing a mask or acting when around others.
     button:

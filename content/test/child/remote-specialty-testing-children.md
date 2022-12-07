@@ -5,7 +5,7 @@ menu:
     parent: Child Testing
     identifier: Child Specialty Testing
 seo:
-  page_title: 'Remote Specialty Testing for Children '
+  page_title: Child Specialty Testing
   meta_description: >-
     Get the accommodated testing or professional proctoring your child needs for
     a variety of exams and specialty school evaluations.
@@ -13,7 +13,7 @@ seo:
 hero:
   heading: >-
     Remote <span class="underline underline--accent">specialty</span> testing
-    for children.
+    for children
   body: Inquire for pricing.
   image_url: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
   image_alt:

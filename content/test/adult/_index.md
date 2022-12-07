@@ -128,7 +128,7 @@ benefits_block:
     - heading: Empowering
       body: >-
         Rather than trying to “fix” your mind, we’ll help you learn to work with
-        your unique abilities and differences to conquer your challenges and
+        your unique abilities and differences to overcome your challenges and
         thrive.
       icon: /orange-block.svg
     - heading: Integrated

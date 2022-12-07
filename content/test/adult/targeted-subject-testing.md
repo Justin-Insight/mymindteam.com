@@ -39,7 +39,7 @@ targeted_subject_testing_block:
         * Get anxiety reading aloud in front of others.
         * Have difficulty with spelling.
         * Sometimes confuse left and right.
-        * Mix up similar looking words (i.e. bat and bot).
+        * Mix up similar-looking words (i.e. bat and bot).
       text_column_left: false
       text_column_right: true
       image:
@@ -61,7 +61,7 @@ targeted_subject_testing_block:
         * Strongly dislike writing and/or drawing.
         * Experience problems with grammar.
         * Struggle to write down thoughts and ideas in a logical sequence.&nbsp;
-        * &nbsp;Often lose energy or interest as soon as you start writing.
+        * Often lose energy or interest as soon as you start writing.
         * Often say words out loud while writing.
         * Leave words unfinished or omit them when writing sentences.
       text_column_left: true
