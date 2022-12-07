@@ -155,8 +155,8 @@ cta_block:
     clinician today.
   body: >-
     Whether you need professional neurodivergent testing or treatment, our team
-    is here to help. Complete our short questionnaire and we'll handle the
-    rest\!
+    is here to help. Complete our brief questionnaire, and we'll handle the
+    rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

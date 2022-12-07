@@ -85,8 +85,8 @@ cta_block:
   enabled: true
   heading: <span class="underline underline--primary">Transform</span> your life.
   body: >-
-    Ready to overcome challenges and learn how to work <em>with</em> your mind?
-    The process is simple! Get started by filling out our brief questionnaire.
+    Ready to overcome challenges and learn how to work *with* your mind?
+    Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

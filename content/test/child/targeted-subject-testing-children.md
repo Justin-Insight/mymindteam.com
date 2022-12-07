@@ -177,7 +177,7 @@ cta_block:
   heading: >-
     <span class="underline underline--primary">Assess</span> your child’s
     reading, writing or math skills.
-  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
+  body: Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

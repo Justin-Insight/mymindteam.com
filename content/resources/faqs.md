@@ -242,7 +242,7 @@ miscellaneous_faq_block:
 cta_block:
   enabled: true
   heading: Still have <span class="underline underline--primary">questions</span>?
-  body: We’re here to help. Fill out our short questionnaire and we'll be in touch.
+  body: We’re here to help.&nbsp;
   button:
     enabled: true
     button_url:

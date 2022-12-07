@@ -227,7 +227,7 @@ cta_block:
   heading: >-
     Ready to help your child <span class="underline
     underline--primary">thrive</span>?
-  body: Complete our brief questionnaire and we'll handle the rest\!&nbsp;
+  body: Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/

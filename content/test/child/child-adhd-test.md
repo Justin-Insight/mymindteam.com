@@ -127,7 +127,7 @@ cta_block:
     Find out if your child has <span class="underline
     underline--primary">ADHD</span>.
   body: |-
-    Complete our brief questionnaire and we'll handle the rest\!&nbsp;
+    Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
 
     &nbsp;
   button:

@@ -242,7 +242,7 @@ cta_block:
   heading: >-
     Get the treatment <span class="underline underline--primary">you
     deserve</span>.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
   button:
     enabled: true
     button_url: /get-started/
