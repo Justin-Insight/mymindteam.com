@@ -7,7 +7,7 @@ menu:
   footer_primary:
     weight: 2
 seo:
-  page_title: Mind Team Treatment - Get the Support You Need to Thrive
+  page_title: 'Treat - Professional Interventions and Learning Support '
   meta_description: >-
     Get the tools, guidance and neurodivergent support you or your child needs
     to work with your mind to live and learn without limitation. 

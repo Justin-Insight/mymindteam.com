@@ -5,7 +5,7 @@ menu:
   main:
     parent: Test
 seo:
-  page_title: Remote Adult Tests - Get the Answers You Need
+  page_title: Remote Testing for Adults | ADHD Test | Autism Test
   meta_description: >-
     Test for autism, ADHD, dyslexia, dysgraphia, dyscalculia and other
     neurodivergent conditions from the comfort of home with Mind Team adult

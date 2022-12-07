@@ -5,7 +5,7 @@ menu:
   main:
     parent: Test
 seo:
-  page_title: Remote Child Tests - Understand Their Unique Mind
+  page_title: Testing for Children | ADHD Test | Autism Test
   meta_description: >
     If your child is struggling, get the answers you need to work with their
     mind with Mind Team professional tests for autism, ADHD, dyslexia and more.
