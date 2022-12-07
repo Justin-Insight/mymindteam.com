@@ -128,10 +128,10 @@ benefits_block:
         differences and guide you on the best path to help them work
         <em>with</em> their minds.
       icon: /orange-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
         Schedule and complete your child's targeted subject test online—no
-        referral, wait-time or commute necessary.
+        referral, wait time or commute necessary.
       icon: /orange-block.svg
 faq_block:
   enabled: true

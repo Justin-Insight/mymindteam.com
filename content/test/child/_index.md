@@ -211,12 +211,12 @@ single_column_block:
     support</span>.
   body: >-
     No child deserves to struggle for months, caught between limited school
-    resources, insurance barriers or other redtape. Mind Team offers assessment
-    and treatment on-demand through self-pay options.
+    resources, insurance barriers or other red tape. Mind Team offers assessment
+    and treatment on demand through self-pay options.
 
 
     For individuals with out-of-network neuropsychological and psychological
-    testing benefits, we partner with companies who help you recoup your costs
+    testing benefits, we partner with companies that help you recoup your costs
     from your insurance.
   button:
     enabled: true

@@ -123,10 +123,10 @@ benefits_block:
         Designed to identify your unique neural strengths and differences and
         guide you on the best path to work <em>with</em> your mind.
       icon: /orange-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
         Schedule and complete your targeted subject test online, no referral,
-        wait-time or commute necessary.
+        wait time or commute necessary.
       icon: /orange-block.svg
 faq_block:
   enabled: true

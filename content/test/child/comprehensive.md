@@ -85,10 +85,10 @@ benefits_block:
         differences and guide you on the best path to work <em>with</em> their
         mind.
       icon: /orange-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
         Schedule and complete your child’s comprehensive test from the comfort
-        of home; no referral, wait-time or commute necessary.
+        of home; no referral, wait time or commute necessary.
       icon: /orange-block.svg
 faq_block:
   enabled: true

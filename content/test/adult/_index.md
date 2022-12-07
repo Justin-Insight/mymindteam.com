@@ -120,7 +120,7 @@ benefits_block:
         exhaustive list of conditions to ensure you get the most accurate
         results and diagnoses.
       icon: /blue-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
         No need to commute or test in an unfamiliar location with our secure,
         face-to-face remote testing.
