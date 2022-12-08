@@ -27,7 +27,7 @@ targeted_subject_testing_block:
   enabled: true
   heading: Mind Team child targeted subject tests
   body: >-
-    $1,000
+    ### $1,000
 
 
     The pricing above covers testing in one targeted subject area (reading,
