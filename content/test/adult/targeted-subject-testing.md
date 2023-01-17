@@ -136,7 +136,7 @@ faq_block:
   questions:
     - question: Who will conduct my targeted subject test?
       answer: >-
-        You’ll be matched with the licensed Mind Team clinician who best fits
+        You’ll be matched with the licensed [Mind Team clinician](/our-team/) who best fits
         your needs based on your intake interview.
     - question: How long does adult targeted subject testing take?
       answer: >-

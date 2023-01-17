@@ -94,7 +94,7 @@ faq_block:
   questions:
     - question: Who will conduct my comprehensive assessment?
       answer: >-
-        You will be matched with the licensed Mind Team clinician who best fits
+        You will be matched with the licensed [Mind Team clinician](/our-team/) who best fits
         your needs, according to the information you provide in your intake
         interview.
     - question: How long does comprehensive adult testing take?

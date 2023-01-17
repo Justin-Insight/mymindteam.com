@@ -2,3 +2,18 @@
 .parent-page-blog .site-wrap {
   overflow-x: initial;
 }
+
+.parent-page-blog .post-content {
+  h1,
+  h2, 
+  h3, 
+  h4,
+  h5, 
+  h6 {
+    max-width: 36ch;
+  }
+
+  img {
+    max-width: 900px;
+  }
+}

@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ if .Params.goals_block.enabled }}
+    {{ with .Params.goals_block }}
+        {{ partial "goal-icons" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.helping_minds_thrive_block.enabled }}
+    {{ with .Params.helping_minds_thrive_block }}
+        <div class="block bg-gray">
+            <div class="wrapper flow">
+                <h2>{{ .heading | safeHTML }}</h2>
+                {{ .body | markdownify }}
+                <div class="flex flex-column flex-row-m">
+                    {{ if .button.enabled }}
+                        {{ with .button }}
+                            <div class="text-center">
+                                <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                    {{ if .button_2.enabled }}
+                        {{ with .button_2 }}
+                            <div class="text-center mt-3 mt-0-m ml-3-m">
+                                <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                    {{ if .button_3.enabled }}
+                        {{ with .button_3 }}
+                            <div class="text-center mt-3 mt-0-m ml-3-m">
+                                <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    {{ end }}
+{{ end }}
+{{ if .Params.single_column_block.enabled }}
+    {{ with .Params.single_column_block }}
+        {{ partial "single-column-block" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.page_blocks }}
+    {{ range .Params.page_blocks }}
+        {{ partial "page-block" . }}
+    {{ end }}
+{{ end }}
+{{ end }}

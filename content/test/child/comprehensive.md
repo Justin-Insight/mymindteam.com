@@ -98,7 +98,7 @@ faq_block:
   questions:
     - question: Who will conduct my child’s comprehensive test?
       answer: >-
-        You and your child will be matched with the licensed Mind Team clinician
+        You and your child will be matched with the licensed [Mind Team clinician](/our-team/)
         who best fits their needs, according to the information you provide
         during intake.
     - question: How long does comprehensive child testing take?

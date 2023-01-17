@@ -6,40 +6,38 @@
     {{ end }}
 {{ end }}
 {{ if .Params.mind_team.enabled }}
-    {{ with .Params.mind_team }}
-        <section aria-labelledby="our-team-heading" class="block">
-            <div class="wrapper-lg text-center">
-                <h2 id="our-team-heading">{{ .heading | safeHTML }}</h2>
-                <p class="fw-500 fs-300" style="max-width: 900px; margin: 0 auto;">{{ .body | markdownify }}</p>
-            </div>
-            <div class="wrapper-lg mt-9">
-                <div class="grid-3">
-                    {{ range .staff }}
+    <section aria-labelledby="our-team-heading" class="block">
+        <div class="wrapper-lg text-center">
+            {{ with .Params.mind_team }}
+            <h2 id="our-team-heading">{{ .heading | safeHTML }}</h2>
+            <p class="fw-500 fs-300" style="max-width: 900px; margin: 0 auto;">{{ .body | markdownify }}</p>
+            {{ end }}
+        </div>
+        <div class="wrapper-lg mt-9">
+            <div class="grid-3">
+                {{ range .Pages }}
                     <div class="staff-card text-center flow">
                         <div class="staff-card__headshot">
-                            {{ if .headshot }}
-                                <img src="https://ik.imagekit.io/insightcreative/mind-team/{{ .headshot }}?tr=f-auto,q-80" alt="">
-                            {{ else }}
-                                <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-placeholder-headshot.jpg?tr=f-auto,q-80" alt="">
-                            {{ end }}
+                            <a href="{{ .Permalink }}">
+                                {{ if .Params.headshot }}
+                                    <img src="https://ik.imagekit.io/insightcreative/mind-team/{{ .Params.headshot }}?tr=f-auto,q-80" alt="">
+                                {{ else }}
+                                    <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-placeholder-headshot.jpg?tr=f-auto,q-80" alt="">
+                                {{ end }}
+                            </a>
                         </div>
-                        <div>
-                            <h3 class="h4">{{ .name }}</h3>
-                            <p>{{ .job_title }}</p>
+                        <div class="staff-card__body">
+                            <a href="{{ .Permalink }}"><h3 class="h4">{{ .Title }}</h3></a>
+                            <p>{{ .Params.job_title }}</p>
                         </div>
-                        {{ if .associations }}
-                            <p class="fs-100">{{ .associations }}</p>
+                        {{ if .Params.zoom_room_url }}
+                        <a href="{{ .Params.zoom_room_url }}" target="_blank" rel="noopener noreferrer nofollower">Clinician Waiting Room</a>
                         {{ end }}
-                        {{ if .zoom_room_url }}
-                        <a href="{{ .zoom_room_url }}" target="_blank" rel="noopener noreferrer nofollower">Clinician Waiting Room</a>
-                        {{ end }}
-                        <!-- <p>{{ .specialty }}</p> -->
                     </div>
-                    {{ end }}
-                </div>
+                {{ end }}
             </div>
-        </section>
-    {{ end }}
+        </div>
+    </section>
 {{ end }}
 {{ if .Params.cta_block.enabled }}
     {{ with .Params.cta_block }}

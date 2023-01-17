@@ -12,8 +12,9 @@
           </a>
           <address class="footer__address">
             <p>
-              <a href="{{ .Site.Data.site_settings.google_maps_url }}" target="_blank" rel="noreferrer" class="no-decoration">{{ .Site.Data.site_settings.address.street }}
-              {{ .Site.Data.site_settings.address.city }}, {{ .Site.Data.site_settings.address.state }}</a>
+              <a href="{{ .Site.Data.site_settings.google_maps_url }}" target="_blank" rel="nofollow noopener noreferrer" class="no-decoration">{{ .Site.Data.site_settings.address.street }}
+              {{ .Site.Data.site_settings.address.city }}, {{ .Site.Data.site_settings.address.state }}</a><br>
+              <a href="tel:{{ .Site.Data.site_settings.phone }}" class="no-decoration">{{ .Site.Data.site_settings.phone }}</a>
             </p>
           </address>
           <div class="footer__social mt-10">

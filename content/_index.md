@@ -116,7 +116,7 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: /mind-team-clinician-11-flipped.jpg
+      image_url: /young-girl-on-video-call-with-dr-weiland.jpg
       image_alt:
     background_color: white
 benefits_block:

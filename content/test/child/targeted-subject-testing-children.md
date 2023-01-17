@@ -141,7 +141,7 @@ faq_block:
   questions:
     - question: Who will conduct my child’s targeted subject test?
       answer: >-
-        Your child will be matched with the licensed school psychologist who
+        Your child will be matched with the [licensed school psychologist](/our-team/) who
         best fits their unique needs, based on your intake interview.
     - question: How long will my child’s targeted subject test take?
       answer: >-

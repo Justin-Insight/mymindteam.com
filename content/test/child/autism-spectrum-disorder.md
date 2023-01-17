@@ -101,7 +101,7 @@ faq_block:
     - question: Who will conduct my child’s autism assessment?
       answer: >-
         You will be matched with the licensed Mind Team clinician who best fits
-        your child’s unique needs, like those on our team specializing in
+        your child’s unique needs, like those on [our team](/our-team/) specializing in
         autism.
     - question: How long will my child’s autism assessment take?
       answer: >-
