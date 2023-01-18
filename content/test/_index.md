@@ -118,7 +118,7 @@ faq_block:
         Mind Team tests can re-confirm or contest diagnosis for a variety of
         conditions. If you are confident in your diagnosis and simply need
         guidance and support, Mind Team [treatment
-        services](/remote-neurodivergent-treatment/) are here to help.
+        services](/treat/) are here to help.
     - question: What if you can’t diagnose me?
       answer: >-
         It’s completely possible (and normal) to be neurodivergent without

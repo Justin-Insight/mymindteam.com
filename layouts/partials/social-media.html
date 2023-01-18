@@ -14,6 +14,8 @@
                     {{ partial "svg-icons/twitter.svg" . }}
                     {{ else if eq .title "Instagram"}}
                     {{ partial "svg-icons/instagram.svg" . }}
+                    {{ else if eq .title "TikTok"}}
+                    {{ partial "svg-icons/tiktok.svg" . }}
                     {{ end }}
                     <span class="visually-hidden">{{ .title }}</span>
                 </div>

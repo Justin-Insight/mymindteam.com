@@ -349,6 +349,12 @@
   }
 }
 
+.nav-list__item:nth-of-type(2) {
+  .sub-menu__menu {
+    columns: 1;
+  }
+}
+
 .nav-list__item:nth-of-type(2),
 .footer__nav-item:nth-of-type(2),
 .nav-list__item:nth-of-type(5),

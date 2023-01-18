@@ -1,0 +1,155 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ if .Params.intro.enabled }}
+    {{ with .Params.intro }}
+        {{ partial "intro" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.what_are_executive_functions_block.enabled }}
+    {{ with .Params.what_are_executive_functions_block }}
+    <section aria-labelledby="testing-heading" class="block">
+        <div class="wrapper flow">
+            {{ if .heading }}
+                <h2 id="testing-heading">{{ .heading | safeHTML }}</h2>
+            {{ end }} 
+            {{ if .subheading }}
+                <h3 class="fw-500 h5">{{ .subheading | safeHTML }}</h3>
+            {{ end }} 
+            {{ if .body }}
+                <p>{{ .body | markdownify }}</p>
+            {{ end }} 
+            {{ if .button.enabled }}
+                {{ with .button }}
+                    <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+{{ end }}
+{{ if .Params.page_blocks }}
+    {{ range .Params.page_blocks }}
+        {{ partial "page-block" . }}
+    {{ end }}   
+{{ end }}
+{{ if .Params.benefits_block.enabled }}
+    {{ with .Params.benefits_block }}
+        {{ partial "mt-benefits" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.testing_options_block.enabled }}
+    {{ with .Params.testing_options_block }}
+        {{ partial "mt-testing-options" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.single_column_block.enabled }}
+    {{ with .Params.single_column_block }}
+        {{ partial "single-column-block" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.stand_alone_services_block.enabled }}
+    {{ with .Params.stand_alone_services_block }}
+        {{ partial "page-block" . }}
+    {{ end }}
+{{ end }}
+
+
+
+{{ if .Params.adhd_testing_block.enabled }}
+    {{ with .Params.adhd_testing_block }}
+        <section aria-labelledby="testing-heading" class="block bg-gray">
+            <div class="wrapper text-center flow">
+                {{ if .heading }}
+                    <h2 id="testing-heading">{{ .heading | safeHTML }}</h2>
+                {{ end }} 
+                {{ if .subheading }}
+                    <h3 class="fw-500 h5">{{ .subheading | safeHTML }}</h3>
+                {{ end }} 
+                {{ if .body }}
+                    <p>{{ .body | markdownify }}</p>
+                {{ end }} 
+                {{ if .button.enabled }}
+                    {{ with .button }}
+                        <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </section>
+    {{ end }}
+{{ end }}
+<!-- Start blocks specific to our Targeted Subject Testing page -->
+{{ if eq .Title "Targeted Subject Testing" }}
+    {{ if .Params.targeted_subject_testing_block.enabled }}
+        {{ with .Params.targeted_subject_testing_block }}
+            <section aria-labelledby="targeted-subjects-heading" class="mt-targeted-subjects">
+                <div class="wrapper-lg text-center">
+                    <h2 id="targeted-subjects-heading">{{ .heading | safeHTML }}</h2>
+                    <div class="flow" style="max-width: 600px; margin: 1.2rem auto;">{{ .body | markdownify }}</div>
+                </div>
+                {{ range .options }}
+                    <div class="block bg-{{ .background_color }}">
+                        <div class="wrapper-lg">
+                            <div class="flex flex-column flex-center {{ if .text_column_right }}flex-row-m{{ end }}{{ if .text_column_left }}flex-row-reverse-m{{ end }}">
+                                <div class="border-radius-image w-100 w-50-m">
+                                {{ if .image.enabled }}  
+                                    {{ with .image }}  
+                                    {{ partial "responsive-image" . }}
+                                    {{ end }}
+                                {{ end }}
+                                </div>
+                                <div class="page-block__content w-100 w-50-m mt-3 mt-0-m {{ if .text_column_right }}ml-6-m{{ else }}mr-6-m{{ end }}">
+                                <div class="text-block flow">
+                                    <h3>{{ .heading | safeHTML }}</h3>
+                                    <p class="fw-500">{{ .subheading | safeHTML }}</p>
+                                    <p style="max-width: 500px;margin: 1.2rem auto 0 auto;">{{ .body | markdownify }}</p>
+                                    {{ if .button.enabled }}
+                                    {{ with .button }}
+                                        <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                                    {{ end }}
+                                    {{ end }}
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
+            </section>
+        {{ end }}
+    {{ end }}
+{{ end }}
+<!-- End blocks specific to our Targeted Subject Testing page -->
+<!-- Start blocks specific to our Child Testing and Adult Testing pages -->
+{{ if (or (eq .Title "Child Testing") (eq .Title "Adult Testing")) }}
+    {{ if .Params.testing_options_block.enabled }}
+        {{ with .Params.testing_options_block }}
+            {{ partial "mt-testing-options" . }}
+        {{ end }}
+    {{ end }}
+    {{ if .Params.page_blocks }}
+        {{ range .Params.page_blocks }}
+            {{ partial "page-block" . }}
+        {{ end }}   
+    {{ end }}
+    {{ if .Params.benefits_block.enabled }}
+        {{ with .Params.benefits_block }}
+            {{ partial "mt-benefits" . }}
+        {{ end }}
+    {{ end }}
+    {{ if .Params.single_column_block.enabled }}
+        {{ with .Params.single_column_block }}
+            {{ partial "single-column-block" . }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+<!-- End blocks specific to our Child Testing and Adult Testing pages -->
+{{ if .Params.faq_block.enabled }}
+    {{ with .Params.faq_block }}
+        {{ partial "mt-faqs" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
+{{ end }}

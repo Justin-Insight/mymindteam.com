@@ -117,7 +117,7 @@ faq_block:
 
         If you are confident in your diagnosis and simply need guidance and
         support, Mind Team [treatment
-        services](/remote-neurodivergent-treatment/) are here to help.
+        services](/treat/) are here to help.
     - question: What if you can’t diagnose me with ADHD?
       answer: >-
         It’s completely possible (and normal) to struggle with attention,

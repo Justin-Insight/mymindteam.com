@@ -1,6 +1,5 @@
 ---
 title: Treat
-url: /remote-neurodivergent-treatment/
 menu:
   main:
     weight: 2
@@ -29,164 +28,66 @@ goals_block:
   goals:
     - goal: Develop skills
       body: >-
-        with a licensed interventionist focusing on specific challenge areas
-        such as reading, writing, math and executive functioning.
+        With a licensed interventionist focusing on specific challenge areas such as reading, math and executive functioning.
       icon: /Treat-DevelopSkills.svg
     - goal: Build confidence
       body: >-
-        with empowering support focused on utilizing your inherent strengths,
-        rather than trying to “fix” your mind.
+        With empowering support focused on utilizing your inherent strengths, rather than trying to “fix” your mind.
       icon: /Treat-Confidence.svg
     - goal: Get accommodations
       body: >-
-        with assistance to set up the specific tools and resources you or your
-        child need at school and/or work.
+        With assistance to set up the specific tools and resources you or your child need at school and/or work.
       icon: /Treat-Accommodations.svg
-process_block:
+our_services_block:
   enabled: true
-  heading: >-
-    Comprehensive treatment, <span class="underline underline--accent">minus the
-    stress</span>.
+  heading: Mind Team <span class="underline underline--secondary">treatment</span> services
   body: >-
-    You’ll love our comprehensive treatment process, designed to provide the
-    expert guidance and support you deserve, all from the comfort of your own
-    home.
-  process:
-    - heading: 'Step one: initial consult'
-      time:
-      body: >-
-        Meet remotely with a licensed Mind Team clinician to review you/your
-        child’s history and challenges and determine the best treatment plan
-        going forward.
-      icon: /1-blue-block.svg
-    - heading: 'Step two: tailored treatment'
-      time:
-      body: >-
-        Use our secure, remote platform to meet with your clinician and get
-        expert individual instruction, skill practice, accommodation advocacy
-        and everything in between.
-      icon: /2-orange-block.svg
-    - heading: 'Step three: ongoing support'
-      time:
-      body: >-
-        Have access to your Mind Team clinician throughout the entire treatment
-        process, whether you need technical support, progress updates or other
-        assistance.
-      icon: /3-yellow-block.svg
-    - heading: 'Step four: final consult'
-      time:
-      body: >-
-        Meet for a final consultation to review you/your child’s progress and
-        get expert recommendations on next steps to continue improving skills
-        and tackling challenges for years to come.
-      icon: /4-blue-block.svg
-  button:
-    enabled: true
-    button_url: /get-started/
-    button_text: Get Started Now
-child_treatment_options_block:
-  enabled: true
-  heading: >-
-    Mind Team treatment options for <span class="underline
-    underline--accent">children</span>
-  options:
-    - heading: <span class="underline underline--primary">Educational consult</span>
-      body: >-
-        Set up the school accommodations and learning plans your child needs
-        (determined by a review of their IEP and school data) with advocacy from
-        your Mind Team.
+
+  services:
     - heading: >-
-        <span class="underline underline--secondary">Educational
-        intervention</span>
+        Instructional interventions
       body: >-
-        Help your child improve their reading, writing, math or executive
-        functioning skills with a customized online program and ongoing
-        professional support and feedback.
-    - heading: <span class="underline underline--accent">Custom treatment</span>
-      body: >-
-        Your Mind Team can create a customized treatment plan to help your child
-        utilize their strengths, improve various skills and overcome their
-        challenges.
-  text_column_left: false
-  text_column_right: true
-  image:
-    enabled: true
-    image_url: /child-adhd-testing-autism-testing.jpg
-    image_alt:
-  button:
-    enabled: true
-    button_url: /get-started/
-    button_text: Get Started
-adult_treatment_options_block:
-  enabled: true
-  heading: >-
-    Mind Team treatment options for <span class="underline
-    underline--accent">adults</span>
-  options:
-    - heading: <span class="underline underline--primary">Accommodation advocacy</span>
-      body: >-
-        Set up the professional and educational accommodations you need to work
-        <em>with</em> your mind at college, work and beyond with advocacy from
-        Mind Team clinicians.
+        Get hands-on instruction and guidance to build skills and overcome challenges in **reading**, **math** or **executive functioning**.
+      service_points: |-
+
+      button:
+        enabled: true
+        button_url: /treat/interventions/
+        button_text: Learn More
     - heading: >-
-        <span class="underline underline--secondary">Executive functioning
-        intervention</span>
+        Educational consults
+      body: Get professional assistance communicating your child’s needs with their school and educators with the help of Mind Team clinicians, who will identify and advocate for your child’s accommodation needs.
+      service_points: |-
+
+      button:
+        enabled: true
+        button_url: /get-started/
+        button_text: Get Started
+    - heading: >-
+        Adult accommodation advocacy
       body: >-
-        Work remotely with your Mind Team clinician to improve your memory, time
-        management, attention and various other essential executive functioning
-        skills.
-    - heading: <span class="underline underline--accent">Custom treatment</span>
+        Get professional assistance and advocacy from Mind Team clinicians to set up the professional and educational accommodations you need at work or university.
+      service_points: |-
+
+      button:
+        enabled: true
+        button_url: /get-started/
+        button_text: Get Started
+    - heading: >-
+        Custom treatment plans
       body: >-
-        Your Mind Team can create a completely customized treatment plan to
-        utilize your unique strengths, improve various skills and overcome your
-        challenges.
-  text_column_left: true
-  text_column_right: false
-  image:
-    enabled: true
-    image_url: /two-clinicians-on-video-call-together-2-reversed.jpg
-    image_alt:
-  button:
-    enabled: true
-    button_url: /get-started/
-    button_text: Get Started
-benefits_block:
-  enabled: true
-  heading: >-
-    <span class="underline underline--primary">Every mind</span> deserves
-    treatment this good.
-  body:
-  benefits:
-    - heading: Individualized
-      body: >-
-        No need to settle for one-size-fits-all treatment. Your Mind Team will
-        account for your unique background, history, strengths and challenges to
-        customize your plan.
-      icon: /yellow-block.svg
-    - heading: Effective
-      body: >-
-        Conducted using evidence-based methods and practices designed to give
-        you/your child the skills and confidence to thrive long after the final
-        treatment session.
-      icon: /blue-block.svg
-    - heading: Inclusive
-      body: >-
-        We’re here to support you on your learning journey, whether you have an
-        official condition diagnosis or not.
-      icon: /orange-block.svg
-    - heading: Advocative
-      body: >-
-        Your Mind Team will communicate with educators, employers and healthcare
-        professionals to ensure you/your child get the accommodations you need
-        to thrive.
-      icon: /orange-block.svg
+        Work with your Mind Team to create a completely customized treatment plan for you or your child to improve various skills and overcome challenges.
+      service_points: |-
+
+      button:
+        enabled: true
+        button_url: /get-started/
+        button_text: Get Started
 pricing_block:
   enabled: true
   heading: Treatment pricing
   body: >-
-    Treatment pricing varies depending on your unique needs, Mind team clinician
-    and more. Please get started by filling out our questionnaire and we'll get
-    you an accurate quote.
+    Treatment pricing varies depending on your unique needs. View our [intervention pages](/treat/interventions/) for individual intervention package pricing. For all other treatment services, get started by filling out our brief questionnaire and we will provide you with an accurate quote.
   pricing_options:
     enabled: false
     options:
@@ -204,6 +105,30 @@ pricing_block:
     enabled: true
     button_url: /get-started/
     button_text: Get Started
+benefits_block:
+  enabled: true
+  heading: >-
+    <span class="underline underline--primary">Every mind</span> deserves treatment
+    this good.
+  body: >-
+
+  benefits:
+    - heading: Individualized
+      body: >-
+        Your tailored treatment plan will account for your unique background, history, strengths and challenges.
+      icon: /yellow-block.svg
+    - heading: Effective
+      body: >-
+        Conducted using evidence-based methods and practices designed to give you/your child the skills and confidence to thrive long after the final treatment session.
+      icon: /blue-block.svg
+    - heading: Inclusive
+      body: >-
+        We’re here to support you on your learning journey, whether you have an official condition diagnosis or not.
+      icon: /orange-block.svg
+    - heading: Advocative
+      body: >-
+        Your Mind Team will communicate with educators, employers and healthcare professionals to ensure you/your child get the accommodations you need to thrive.
+      icon: /orange-block.svg
 faq_block:
   enabled: true
   heading: >-
@@ -212,26 +137,16 @@ faq_block:
   questions:
     - question: Who will I be working with?
       answer: >-
-        Your Mind Team clinician will be chosen specifically for your needs from
-        our multidisciplinary team of interventionists, school psychologists and
-        more.
+        Your Mind Team clinician will be chosen specifically for your needs from our multidisciplinary team of interventionists, school psychologists and more.
     - question: How long does treatment take?
       answer: >-
-        It depends. Treatment is a very different experience for every learner,
-        and timing can vary. We’ll work with you to create a custom treatment
-        timeline based on your needs.
+        Treatment is a very different experience for every learner, and timing can vary. We’ll work with you to create a custom treatment timeline based on your needs.
     - question: Do I need a referral to get treatment?
       answer: >-
-        No. Because treatment services are paid out of pocket, we do not require
-        referrals or official condition diagnoses to schedule Mind Team
-        treatment services.
+        No. Because treatment services are paid out of pocket, we do not require referrals or official condition diagnoses to schedule Mind Team treatment services.
     - question: Do I need to do Mind Team testing before I get treatment?
       answer: >-
-        Ideally, your journey with Mind Team will begin with one of our
-        professional assessments to diagnose applicable conditions and identify
-        other key information that will be extremely beneficial to the treatment
-        process. However, it is not a requirement to get a Mind Team test before
-        starting treatment.
+        Ideally, your journey with Mind Team will begin with one of our professional assessments to diagnose applicable conditions and identify other key information that will be extremely beneficial to the treatment process. However, it is not a requirement to get a Mind Team test before starting treatment.
   subheading: Have a different question?
   button:
     enabled: true
@@ -242,7 +157,7 @@ cta_block:
   heading: >-
     Get the treatment <span class="underline underline--primary">you
     deserve</span>.
-  body: Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

@@ -59,7 +59,7 @@
 
       @include breakpoint(md)  {
         margin: 0;
-        margin-left: $ic--100;
+        margin-left: 5px;
       }
     }
 
@@ -67,7 +67,7 @@
       margin: 0;
 
       @include breakpoint(md)  {
-        margin-left: $ic--100;
+        margin-left: 5px;
       }
     }
 

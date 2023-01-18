@@ -1,63 +1,112 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-{{ if .Params.goals_block.enabled }}
-    {{ with .Params.goals_block }}
-        {{ partial "goal-icons" . }}
+<!-- Start of blocks used only on the Treat page -->
+{{ if eq .Title "Treat" }}
+    {{ if .Params.goals_block.enabled }}
+        {{ with .Params.goals_block }}
+            {{ partial "goal-icons" . }}
+        {{ end }}
     {{ end }}
-{{ end }}
-{{ if .Params.process_block.enabled }}
-    {{ with .Params.process_block }}
-        {{ partial "mt-process" . }}
-    {{ end }}
-{{ end }}
-{{ if .Params.child_treatment_options_block.enabled }}
-    {{ with .Params.child_treatment_options_block }}
-        {{ partial "mt-treatment-options" . }}
-    {{ end }}
-{{ end }}
-{{ if .Params.adult_treatment_options_block.enabled }}
-    {{ with .Params.adult_treatment_options_block }}
-        {{ partial "mt-treatment-options" . }}
-    {{ end }}
-{{ end }}
-{{ if .Params.page_blocks }}
-    {{ range .Params.page_blocks }}
-        {{ partial "page-block" . }}
-    {{ end }}
-{{ end }}
-{{ if .Params.pricing_block.enabled }}
-    {{ with .Params.pricing_block }}
-    <section aria-labelledby="pricing-heading" class="block">
-        <div class="wrapper-md flow">
-            <h2 id="pricing-heading" class="text-center max-width-none">{{ .heading }}</h2>
-            <p class="fw-500 fs-300 text-center" style="max-width: 900px; margin: 1.2rem auto;">{{ .body }}</p>
-            {{ if .pricing_options.enabled }}
-            <div class="block-sm">
-                <div class="grid-2 mt-3">
-                    {{ range .options }}
-                    <div class="flow">
-                        <h3 class="h4">{{ .heading }}</h3>
-                        <p class="fs-300 fw-500">{{ .subheading }}</p>
-                        <p>{{ .body }}</p>
-                    </div>
-                    {{ end }}
-                </div>
+    {{ if .Params.our_services_block.enabled }}
+        {{ with .Params.our_services_block }}
+        <section aria-labelledby="services-heading" class="block p-relative">
+            <div class="wrapper-lg text-center">
+                <h2 id="services-heading">{{ .heading | safeHTML }}</h2>
+                <p class="fs-300 max-width-none">{{ .body }}</p>
             </div>
-            {{ end }}
-            {{ if .button.enabled }}
-                {{ with .button }}
-                    <div class="text-center">
-                        <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+            <div class="mt-services wrapper-lg mt-9">
+                {{ range .services }}
+                    <div class="mt-service p-relative text-center border-radius-50">
+                        <img src="/uploads/yellow-block.svg" alt="" class="p-absolute mt-service__block-yellow">
+                        <img src="/uploads/blue-block.svg" alt="" class="p-absolute mt-service__block-blue">
+                        <img src="/uploads/orange-block.svg" alt="" class="p-absolute mt-service__block-orange">
+                        <h3 class="no-margin">{{ .heading | safeHTML }}</h3>
+                        <div class="mt-service__body">
+                            <p>{{ .body | markdownify }}</p>
+                            {{ .service_points | markdownify }}
+                        </div>
+                        {{ if .button.enabled }}
+                            {{ with .button }}
+                                <a href="{{ .button_url }}" class="btn btn--primary p-absolute btn--centered">{{ .button_text }}</a>
+                            {{ end }}
+                        {{ end }}
                     </div>
                 {{ end }}
-            {{ end }}
-        </div>
-    </section>
+            </div>
+        </section>
+        {{ end }}
+    {{ end }}
+    {{ if .Params.pricing_block.enabled }}
+        {{ with .Params.pricing_block }}
+        <section aria-labelledby="pricing-heading" class="block">
+            <div class="wrapper-md flow">
+                <h2 id="pricing-heading" class="text-center max-width-none">{{ .heading }}</h2>
+                <p class="fw-500 fs-300 text-center" style="max-width: 900px; margin: 1.2rem auto;">{{ .body | markdownify }}</p>
+                {{ if .pricing_options.enabled }}
+                <div class="block-sm">
+                    <div class="grid-2 mt-3">
+                        {{ range .options }}
+                        <div class="flow">
+                            <h3 class="h4">{{ .heading }}</h3>
+                            <p class="fs-300 fw-500">{{ .subheading }}</p>
+                            <p>{{ .body | markdownify }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+                {{ if .button.enabled }}
+                    {{ with .button }}
+                        <div class="text-center">
+                            <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+                        </div>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </section>
+        {{ end }}
     {{ end }}
 {{ end }}
+<!-- End of blocks used only on the Treat page -->
 {{ if .Params.benefits_block.enabled }}
     {{ with .Params.benefits_block }}
         {{ partial "mt-benefits" . }}
+    {{ end }}
+{{ end }}
+<!-- Start of blocks used only on the Interventions page -->
+{{ if eq .Title "Interventions" }}
+    {{ if .Params.our_services_block.enabled }}
+        <section aria-labelledby="services-heading" class="block p-relative">
+            <div class="wrapper-lg text-center">
+                <h2 id="services-heading">{{ .Params.our_services_block.heading | safeHTML }}</h2>
+                <p class="fs-300 max-width-none">{{ .Params.our_services_block.body }}</p>
+            </div>
+            <div class="mt-services wrapper-lg mt-9">
+                {{ range .Pages }}
+                    <div class="mt-service p-relative text-center border-radius-50">
+                        <img src="/uploads/yellow-block.svg" alt="" class="p-absolute mt-service__block-yellow">
+                        <img src="/uploads/blue-block.svg" alt="" class="p-absolute mt-service__block-blue">
+                        <img src="/uploads/orange-block.svg" alt="" class="p-absolute mt-service__block-orange">
+                        <h3 class="h5 no-margin">{{ .Title }}</h3>
+                        <div class="mt-service__body mb-8">
+                            <p>{{ .Params.short_description }}</p>
+                        </div>
+                        <a href="{{ .Permalink}}" class="btn btn--primary p-absolute btn--centered">Learn More</a>
+                    </div>
+                {{ end }}
+            </div>
+        </section>
+    {{ end }}
+    {{ if .Params.custom_interventions_block.enabled }}
+        {{ with .Params.custom_interventions_block }}
+            {{ partial "page-block" . }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+<!-- End of blocks used only on the Interventions page -->
+{{ if .Params.single_column_block.enabled }}
+    {{ with .Params.single_column_block }}
+        {{ partial "single-column-block" . }}
     {{ end }}
 {{ end }}
 {{ if .Params.faq_block.enabled }}

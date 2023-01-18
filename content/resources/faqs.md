@@ -254,6 +254,6 @@ cta_block:
   body: We’re here to help.&nbsp;
   button:
     enabled: true
-    button_url:
-    button_text: Get in Touch
+    button_url: /contact/
+    button_text: Contact Us
 ---

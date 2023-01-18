@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+<div class="block">
+  <div class="wrapper">
+    <div class="contact-form">
+      <div class="contact-form__wrapper">
+        <h2 id="contact-heading" class="h4">Contact Mind Team</h2>
+        {{ partialCached "forms/contact-form" . }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

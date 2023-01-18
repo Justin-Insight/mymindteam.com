@@ -56,7 +56,7 @@ helping_minds_thrive_block:
     button_text: Testing Services
   button_2:
     enabled: true
-    button_url: /remote-neurodivergent-treatment/
+    button_url: /treat/
     button_text: Treatment Services
   button_3:
     enabled: true

@@ -1,0 +1,42 @@
+.page-interventions {
+    .mt-service:nth-of-type(3) h3 {
+        max-width: none;
+    }
+
+    .mt-service__body {
+        min-height: 0;
+    }
+}
+
+.page-interventions,
+.page-treat {
+    .mt-service {
+        &:hover, 
+        &:focus {
+            p {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.page-reading-intervention .intro .text-center {
+    text-align: left;
+}
+
+.page-treat .mt-services {
+    gap: $ic-900;
+}
+
+.page-treat .mt-service {
+    flex: 0 1 650px;
+
+    &__body {
+        min-height: 125px;
+    }
+
+    p {
+        max-width: none;
+        margin-top: $ic-300;
+    }
+}

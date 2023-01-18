@@ -113,3 +113,17 @@
     stroke: $white;
   }
 }
+
+.icon--arrow {
+  svg {
+    transition: $transition;
+  }
+
+  &:hover,
+  &:focus {
+    svg {
+      transform: translateX(8px);
+      fill: $accent-color;
+    }
+  } 
+}
