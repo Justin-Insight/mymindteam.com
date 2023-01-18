@@ -1,14 +1,9 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-{{ if .Params.intro.enabled }}
-    {{ with .Params.intro }}
-        {{ partial "intro" . }}
-    {{ end }}
-{{ end }}
-{{ if .Params.what_are_executive_functions_block.enabled }}
-    {{ with .Params.what_are_executive_functions_block }}
+{{ if .Params.interventions_intro_block.enabled }}
+    {{ with .Params.interventions_intro_block }}
     <section aria-labelledby="testing-heading" class="block">
-        <div class="wrapper flow">
+        <div class="wrapper-md flow">
             {{ if .heading }}
                 <h2 id="testing-heading">{{ .heading | safeHTML }}</h2>
             {{ end }} 

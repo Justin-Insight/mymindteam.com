@@ -10,8 +10,9 @@
 
   &__icon {
     svg {
-      width: $ic-500;
-      height: $ic-500;
+      display: block;
+      width: 24px;
+      height: 24px;
       fill: $black;
       opacity: .7;
     }
@@ -23,4 +24,9 @@
       }
     }
   }
+}
+
+.tiktok-icon svg {
+  width: 22px;
+  height: 22px;
 }

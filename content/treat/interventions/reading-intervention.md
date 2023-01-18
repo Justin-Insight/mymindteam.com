@@ -8,19 +8,19 @@ seo:
   page_title: Reading Intervention
   meta_description: >-
     Does your child have dyslexia and/or struggle with reading and spelling? Mind Team remote reading interventions build reading skills with hands-on learning.
-  featured_image: /mind-team-counselor-during-treatment-session-15.jpg
+  featured_image: /mind-team-clinician-during-one-on-one-remote-counseling-session-2.jpg
 short_description: For students grades K-12.
 hero:
   heading: <span class="underline underline--accent">Overcome</span> challenges in reading.
   body: >-
     Mind Team reading interventions help students build **reading** and **spelling** skills through one-on-one **phonics instruction** and hands-on learning.
-  image_url: /mind-team-counselor-during-treatment-session-15.jpg
+  image_url: /mind-team-clinician-during-one-on-one-remote-counseling-session-2.jpg
   image_alt:
   button:
     enabled: false
     button_url: /get-started/
     button_text: Get Started Now
-intro: 
+interventions_intro_block: 
   enabled: true
   heading: >-
     Build a <span class="underline
@@ -52,7 +52,7 @@ benefits_block:
 testing_options_block:
   enabled: true
   heading: >-
-    Reading intervention packages
+    <span class="underline underline--secondary">Reading</span> intervention packages
   pre_options_body:
   options:
     - heading: Standard Plan
@@ -101,7 +101,7 @@ single_column_block:
 stand_alone_services_block: 
   enabled: true
   heading: >-
-    Stand-alone support services
+    <span class="underline underline--primary">Stand-alone</span> support services
   body: >-
     Customize your child’s reading support with additional services that can stand alone or be added on to one of the reading intervention packages above, including:
 

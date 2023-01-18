@@ -20,7 +20,7 @@ hero:
     enabled: false
     button_url: /get-started/
     button_text: Get Started Now
-what_are_executive_functions_block:
+interventions_intro_block:
     enabled: true
     heading: >-
         What are executive functions?
@@ -102,8 +102,7 @@ benefits_block:
 testing_options_block:
   enabled: true
   heading: >-
-    Mind Team <span class="underline underline--secondary">adult</span> testing
-    options
+    <span class="underline underline--secondary">Executive function</span> intervention packages for students
   pre_options_body:
   options:
     - heading: Standard Plan

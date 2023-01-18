@@ -8,19 +8,19 @@ seo:
   page_title: Math Intervention
   meta_description: >-
     Does your child have dyscalculia and/or struggle with math? Mind Team remote math interventions build math skills with hands-on learning.
-  featured_image: /mind-team-counselor-during-treatment-session-15.jpg
+  featured_image: /young-girl-working-on-math-assignment.jpg
 short_description: For students grades K-12.
 hero:
   heading: <span class="underline underline--accent">Overcome</span> challenges in math.
   body: >-
     Mind Team math interventions help students build **math** and **spelling** skills through one-on-one **phonics instruction** and hands-on learning.
-  image_url: /mind-team-counselor-during-treatment-session-15.jpg
+  image_url: /young-girl-working-on-math-assignment.jpg
   image_alt:
   button:
     enabled: false
     button_url: /get-started/
     button_text: Get Started Now
-intro: 
+interventions_intro_block: 
   enabled: true
   heading: >-
     Build a <span class="underline
@@ -49,7 +49,7 @@ benefits_block:
 testing_options_block:
   enabled: true
   heading: >-
-    Math intervention packages
+    <span class="underline underline--secondary">Math</span> intervention packages
   pre_options_body:
   options:
     - heading: Standard Plan
@@ -98,7 +98,7 @@ single_column_block:
 stand_alone_services_block: 
   enabled: true
   heading: >-
-    Stand-alone support services
+    <span class="underline underline--primary">Stand-alone</span> support services
   body: >-
     Customize your child’s math support with additional services that can stand alone or be added on to one of the math intervention packages above, including:
 
@@ -127,7 +127,7 @@ stand_alone_services_block:
   text_column_right: false
   image:
     enabled: true
-    image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
+    image_url: /young-girl-working-on-homework.jpg
     image_alt:
   background_color: white
 faq_block:

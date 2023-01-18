@@ -20,10 +20,6 @@
     }
 }
 
-.page-reading-intervention .intro .text-center {
-    text-align: left;
-}
-
 .page-treat .mt-services {
     gap: $ic-900;
 }
@@ -38,5 +34,12 @@
     p {
         max-width: none;
         margin-top: $ic-300;
+    }
+}
+
+.page-executive-function-intervention {
+    .hero__heading {
+        max-width: 20ch;
+        margin: 0 auto;
     }
 }
