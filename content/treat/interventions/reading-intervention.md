@@ -130,7 +130,7 @@ stand_alone_services_block:
   text_column_right: false
   image:
     enabled: true
-    image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
+    image_url: /young-boy-reading-book-at-table.jpg
     image_alt:
   background_color: white
 faq_block:

@@ -8,13 +8,13 @@ seo:
   page_title: Executive Function Intervention
   meta_description: >-
     Learn and build strategies for goal setting, organization, memory, self-regulation and other executive functions.
-  featured_image: /mind-team-counselor-during-treatment-session-15.jpg
+  featured_image: /young-boy-reading.jpg
 short_description: For students and adults.
 hero:
   heading: <span class="underline underline--accent">Overcome</span> executive function challenges.
   body: >-
     Mind Team executive function interventions help children and adults develop executive function skills that work with their unique mind and learning style.
-  image_url: /mind-team-counselor-during-treatment-session-15.jpg
+  image_url: /young-boy-studying.jpg
   image_alt:
   button:
     enabled: false
@@ -77,7 +77,7 @@ page_blocks:
     text_column_right: false
     image:
       enabled: true
-      image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
+      image_url: /young-girl-writing-down-goals.jpg
       image_alt:
     background_color: gray
 benefits_block:
@@ -184,7 +184,7 @@ stand_alone_services_block:
   text_column_right: false
   image:
     enabled: true
-    image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
+    image_url: /young-girl-working-on-computer.jpg
     image_alt:
   background_color: white
 faq_block:
