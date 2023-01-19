@@ -79,7 +79,7 @@ terminology_faq_block:
 
         Individuals with executive dysfunction may have trouble with
         organization, time management, memory, self-regulation and other
-        executive functions.&nbsp;
+        executive functions.
 testing_faq_block:
   enabled: true
   heading: Testing FAQs
@@ -251,7 +251,7 @@ miscellaneous_faq_block:
 cta_block:
   enabled: true
   heading: Still have <span class="underline underline--primary">questions</span>?
-  body: We’re here to help.&nbsp;
+  body: We’re here to help.
   button:
     enabled: true
     button_url: /contact/

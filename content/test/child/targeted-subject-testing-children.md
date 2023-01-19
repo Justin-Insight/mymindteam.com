@@ -16,7 +16,7 @@ hero:
     with reading, writing or math?
   body: >-
     Test for dyslexia, dysgraphia or dyscalculia with a targeted
-    psychoeducational assessment.&nbsp;
+    psychoeducational assessment.
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
   image_alt:
   button:
@@ -70,7 +70,7 @@ targeted_subject_testing_block:
         * Have trouble taking notes and listening to information simultaneously.
         * Strongly dislike writing and/or drawing.
         * Experience problems with grammar.
-        * Struggle to write down thoughts and ideas in a logical sequence.&nbsp;
+        * Struggle to write down thoughts and ideas in a logical sequence.
         * Often lose energy or interest as soon as they start writing.
         * Often say words out loud while writing.
         * Leave words unfinished or omit them when writing sentences.
@@ -177,7 +177,7 @@ cta_block:
   heading: >-
     <span class="underline underline--primary">Assess</span> your child’s
     reading, writing or math skills.
-  body: Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

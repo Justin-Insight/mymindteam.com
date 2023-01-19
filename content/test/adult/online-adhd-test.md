@@ -12,7 +12,7 @@ seo:
   featured_image: /books-on-desk-8.jpg
 hero:
   heading: <span class="underline underline--accent">Adult</span> ADHD tests
-  body: Get the answers you need with a comprehensive ADHD assessment.&nbsp;
+  body: Get the answers you need with a comprehensive ADHD assessment.
   image_url: /books-on-desk-8.jpg
   image_alt:
   button:
@@ -138,7 +138,7 @@ faq_block:
 cta_block:
   enabled: true
   heading: Find out if you have <span class="underline underline--primary">ADHD</span>.
-  body: Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

@@ -7,16 +7,12 @@ seo:
   featured_image: 
   featured_image_alt: 
 headshot: /Stephanie-Smith-Kellen-New.jpg
-job_title: Postdoctoral Fellow
+job_title: Post-Doctoral Psychology Fellow
 zoom_room_url: https://us06web.zoom.us/j/8387163858
 weight: 5
 draft: false
 ---
 
-Dr. Meggers-Wright, PhD, is a licensed clinical psychologist and one of the founders of Behavioral Health Clinic. She holds a PhD from the University of Missouri.
+Stephanie Smith Kellen, PhD, BCBA earned her master’s degree in Clinical Psychology from Minnesota State University in Mankato, and her doctoral degree in School Psychology from Oklahoma State University. She has 3 years of experience during her graduate training in the public school system before joining Mind Team. She is currently practicing under the supervision of a licensed psychologist as she works to obtain her license. 
 
-Dr. Meggers-Wright is dedicated to providing evidence-based treatments that are supported by science as being effective in producing measurable change. She takes a goal-focused approach that includes working together with her clients to define their goals, determine struggles getting in the way, and create achievable steps to meet those goals.
-
-Dr. Meggers-Wright also specializes in providing high-quality care to busy professionals who have increased privacy concerns due to their occupation or community involvement. She offers online counseling using a HIPAA-secure video platform to maximize convenience and confidentiality if office visits create a barrier for treatment. Video-based counseling is covered by many insurers, and she accepts self-pay for those whose insurance coverage is behind the times.
-
-Dr. Meggers-Wright can provide online counseling to residents of the states indicated in blue on this map.
+I've snorkeled between two tectonic plates in Iceland, ran a marathon, caught a 135 lb halibut in Alaska, and I love rock music!

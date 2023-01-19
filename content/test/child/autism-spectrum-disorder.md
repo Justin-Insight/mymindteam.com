@@ -15,7 +15,7 @@ hero:
   heading: >-
     Does your child have <span class="underline
     underline--accent">autism</span>?
-  body: Get the answers you need with a comprehensive autism assessment.&nbsp;
+  body: Get the answers you need with a comprehensive autism assessment.
   image_url: /young-girl-during-autism-spectrum-disorder-testing-7.jpg
   image_alt:
   button:
@@ -31,9 +31,9 @@ page_blocks:
       diagnosis if they:
 
 
-      * Experience difficulties adapting to and adjusting to changes.&nbsp;
+      * Experience difficulties adapting to and adjusting to changes.
 
-      * Exhibit rigid thinking and behavioral patterns.&nbsp;
+      * Exhibit rigid thinking and behavioral patterns.
 
       * Struggle to relate to and interact with other children their age.
 
@@ -41,7 +41,7 @@ page_blocks:
       sensory experiences.
 
       * Have difficulties with regulation when experiencing distress related to
-      strong sounds, scents and textures.&nbsp;
+      strong sounds, scents and textures.
     button:
       enabled: false
       button_url:
@@ -128,7 +128,7 @@ cta_block:
   heading: >-
     Find out if your child has <span class="underline
     underline--primary">autism</span>.
-  body: Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

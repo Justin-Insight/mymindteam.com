@@ -21,8 +21,8 @@ hero:
   image_url: /mind-team-clinicians-looking-at-book-2.jpg
   image_alt:
   button:
-    enabled: false
-    button_url:
+    enabled: true
+    button_url: /apply-now/
     button_text: Apply Now
 goals_block:
   enabled: true
@@ -101,8 +101,8 @@ page_blocks:
       - 100% remote work with a virtual team and virtual client appointments. 
       - Retirement benefits and healthcare stipend for full-time employees.
     button:
-      enabled: false
-      button_url:
+      enabled: true
+      button_url: /apply-now/
       button_text: Apply Now
     text_column_left: true
     text_column_right: false
@@ -111,14 +111,4 @@ page_blocks:
       image_url: /mind-team-group-laughing-together.jpg
       image_alt:
     background_color: white
-cta_block:
-  enabled: true
-  heading: Get the answers <span class="underline underline--primary">you need</span>.
-  body: >-
-    It couldn’t be easier to get started. Fill out our short questionnaire and
-    we’ll handle the rest.
-  button:
-    enabled: true
-    button_url: /get-started/
-    button_text: Get Started Now
 ---

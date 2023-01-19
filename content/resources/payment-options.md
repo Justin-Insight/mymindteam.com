@@ -33,7 +33,7 @@ testing_options_block:
       body: |-
         * ADHD/executive function test<br>**$2,300**
         * Autism test<br>**$3,300**
-        * Targeted subject test (psychoeducational)&nbsp;<br>**$1,000**
+        * Targeted subject test (psychoeducational)<br>**$1,000**
         * Comprehensive psychoeducational test<br>**$2,000**
         * Comprehensive neuropsychological test<br>**$3,900**
         * Specialty test<br>**Inquire for pricing**
@@ -47,9 +47,9 @@ testing_options_block:
       body: |-
         * ADHD/executive function test<br>**$1,600**
         * Autism test<br>**$2,400**
-        * Targeted subject test (psychoeducational)&nbsp;<br>**$1,000**
+        * Targeted subject test (psychoeducational)<br>**$1,000**
         * Comprehensive psychoeducational test<br>**$2,000**
-        * Comprehensive neuropsychological test&nbsp;<br>**$3,900**
+        * Comprehensive neuropsychological test<br>**$3,900**
         * Specialty tests<br>**Inquire for pricing**
       price:
       button:
@@ -83,7 +83,7 @@ pay_as_you_go_block:
     - heading: <span class="underline underline--accent">Third</span> installment
       body: >-
         Make your final payment **24 hours prior** to your final review
-        appointment.&nbsp;
+        appointment.
       icon: /3-yellow-block.svg
 treatment_options_block:
   enabled: false
@@ -253,7 +253,7 @@ faq_block:
 cta_block:
   enabled: true
   heading: <span class="underline underline--primary">Invest</span> in your mind.
-  body: Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

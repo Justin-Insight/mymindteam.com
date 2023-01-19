@@ -33,7 +33,7 @@ goals_block:
 cta_block:
   enabled: true
   heading: Get <span class="underline underline--primary">started</span>.
-  body: Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

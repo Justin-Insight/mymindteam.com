@@ -36,13 +36,6 @@
 }
 
 @include breakpoint(lg) {
-    .page-adult-testing,
-    .page-child-testing {
-        .grid-2 {
-            gap: $ic-1000;
-        }
-    }
-
     .page-child-testing {
         .grid-2 {
             grid-template-columns: repeat(3, 1fr);

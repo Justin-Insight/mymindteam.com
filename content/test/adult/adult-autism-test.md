@@ -14,7 +14,7 @@ hero:
   heading: >-
     Think you might have <span class="underline
     underline--accent">autism</span>?
-  body: Get the answers you need with a comprehensive autism assessment.&nbsp;
+  body: Get the answers you need with a comprehensive autism assessment.
   image_url: /mind-team-counselor-during-treatment-session-11.jpg
   image_alt:
   button:
@@ -32,13 +32,13 @@ page_blocks:
       of time.
 
       * Have difficulty self-regulating while experiencing discomfort due to
-      strong sounds, smells, textures and more.&nbsp;
+      strong sounds, smells, textures and more.
 
       * Often rehearse conversations well in advance to avoid saying the “wrong”
       thing.
 
       * Experience difficulties and differences in understanding and engaging in
-      social behavior.&nbsp;
+      social behavior.
 
       * Often feel like you’re wearing a mask or acting when around others.
     button:
@@ -133,7 +133,7 @@ cta_block:
   heading: >-
     Find out if you have <span class="underline
     underline--primary">autism</span>.
-  body: Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

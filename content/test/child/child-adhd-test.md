@@ -12,7 +12,7 @@ seo:
   featured_image: /young-girl-during-a-child-adhd-testing-session-8.jpg
 hero:
   heading: Does your child have <span class="underline underline--accent">ADHD</span>?
-  body: Get the answers you need with a comprehensive ADHD assessment.&nbsp;
+  body: Get the answers you need with a comprehensive ADHD assessment.
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
   image_alt:
   button:
@@ -26,7 +26,7 @@ page_blocks:
       if they:
 
 
-      * Often fidget when remaining seated is expected.&nbsp;
+      * Often fidget when remaining seated is expected.
 
       * Have trouble concentrating on speakers or tasks for long periods of
       time.
@@ -127,9 +127,7 @@ cta_block:
     Find out if your child has <span class="underline
     underline--primary">ADHD</span>.
   body: |-
-    Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
-
-    &nbsp;
+    Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

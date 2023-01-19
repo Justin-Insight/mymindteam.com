@@ -32,6 +32,7 @@ module.exports = {
         'page-reading-intervention',
         'page-math-intervention',
         'page-executive-function-intervention',
+        'page-apply-now',
         'home-hero',
         'parent-page-treat',
         'parent-page-test',

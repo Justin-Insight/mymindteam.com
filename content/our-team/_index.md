@@ -76,7 +76,7 @@ cta_block:
   body: >-
     Whether you need professional neurodivergent testing or treatment, our team
     is here to help. Complete our brief questionnaire, and we'll handle the
-    rest\!&nbsp;
+    rest!
   button:
     enabled: true
     button_url: /get-started/

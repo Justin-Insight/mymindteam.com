@@ -137,7 +137,7 @@ faq_block:
 cta_block:
   enabled: true
   heading: Get the answers <span class="underline underline--primary">you need</span>.
-  body: Complete our brief questionnaire, and we'll handle the rest\!&nbsp;
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/
