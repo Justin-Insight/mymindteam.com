@@ -116,7 +116,7 @@ stand_alone_services_block:
     
     * Executive function informational session access per event 
     
-    * Monthly executive functioning support group
+    * Monthly executive functioning parent support group
     
     * Study Skills executive functioning lessons
     
