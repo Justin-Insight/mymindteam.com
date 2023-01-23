@@ -1,10 +1,11 @@
 ---
-title: Autism Spectrum Disorder
+title: Autism spectrum disorder
 url: /test/child/child-autism-test/
 menu:
   main:
     parent: Child Testing
     identifier: Child Autism Testing
+    name: Autism Spectrum Disorder
 seo:
   page_title: 'Child Autism Test - Get the Answers You Need with Mind Team '
   meta_description: >-

@@ -1,9 +1,10 @@
 ---
-title: Targeted Subject Testing
+title: Targeted subject testing
 menu:
   main:
     parent: Child Testing
     identifier: Child Targeted Subject Testing
+    name: Targeted Subject Testing
 seo:
   page_title: Remote Targeted Subject Tests for Children
   meta_description: >-

@@ -66,12 +66,12 @@ custom_interventions_block:
     button:
         enabled: true
         button_url: /contact/
-        button_text: Contact For Pricing
+        button_text: Contact for Pricing
     text_column_left: true
     text_column_right: false
     image:
         enabled: true
-        image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
+        image_url: /woman-during-remote-counseling-session.jpg
         image_alt:
     background_color: white
 single_column_block:

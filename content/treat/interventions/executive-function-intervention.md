@@ -1,8 +1,10 @@
 ---
-title: Executive Function Intervention
+title: Executive function intervention
 menu:
   main:
     parent: Interventions
+    identifier: Executive Function Intervention
+    name: Executive Function Intervention
 weight: 3
 seo:
   page_title: Executive Function Intervention
@@ -174,12 +176,10 @@ stand_alone_services_block:
     * Study Skills executive functioning lessons
     
     * Body doubling services to keep yourself or your child on task
-    
-    * Software access only (for academic interventions)
   button:
     enabled: true
     button_url: /contact/
-    button_text: Contact For Pricing
+    button_text: Contact for Pricing
   text_column_left: true
   text_column_right: false
   image:

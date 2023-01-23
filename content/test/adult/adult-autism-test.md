@@ -1,9 +1,10 @@
 ---
-title: Autism Spectrum Disorder
+title: Autism spectrum disorder
 menu:
   main:
     parent: Adult Testing
     identifier: Adult Autism Testing
+    name: Autism Spectrum Disorder
 seo:
   page_title: 'Adult Autism Test - Get the Answers You Need '
   meta_description: >-

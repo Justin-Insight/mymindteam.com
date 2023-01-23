@@ -45,7 +45,7 @@ our_services_block:
 
   services:
     - heading: >-
-        Instructional interventions
+        Academic interventions
       body: >-
         Get hands-on instruction and guidance to build skills and overcome challenges in **reading**, **math** or **executive functioning**.
       service_points: |-
@@ -125,9 +125,9 @@ benefits_block:
       body: >-
         We’re here to support you on your learning journey, whether you have an official condition diagnosis or not.
       icon: /orange-block.svg
-    - heading: Advocative
+    - heading: Supportive
       body: >-
-        Your Mind Team will communicate with educators, employers and healthcare professionals to ensure you/your child get the accommodations you need to thrive.
+        We'll help you identify and advocate for the services you or your child need to thrive at school and/or work.
       icon: /orange-block.svg
 faq_block:
   enabled: true

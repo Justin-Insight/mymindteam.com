@@ -1,8 +1,9 @@
 ---
-title: Reading Intervention
+title: Reading intervention
 menu:
   main:
     parent: Interventions
+    name: Reading Intervention
 weight: 1
 seo:
   page_title: Reading Intervention
@@ -60,7 +61,7 @@ testing_options_block:
       body: |-
         * Initial consultation with a school psychologist 
         
-        * Online access to individualized, research-based program
+        * Online access to individualized, research-based intervention program
         
         * Weekly progress reports via email
         
@@ -76,7 +77,7 @@ testing_options_block:
       subheading: >-
 
       body: |-
-        * Includes **all** Standard Plan features, plus: 
+        * Includes all Standard Plan features, plus: 
         
         * Weekly 45-60-minute intervention sessions with a school psychologist 
         
@@ -119,13 +120,13 @@ stand_alone_services_block:
     
     * Study Skills executive functioning lessons
     
-    * Body doubling services to keep yourself or your child on task
+    * Body doubling services to keep your child on task
     
-    * Software access only (for academic interventions)
+    * Software access only
   button:
     enabled: true
     button_url: /contact/
-    button_text: Contact For Pricing
+    button_text: Contact for Pricing
   text_column_left: true
   text_column_right: false
   image:
