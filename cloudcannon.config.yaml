@@ -25,7 +25,7 @@ _inputs:
     options:
       accepts_mime_types:
         - image/jpeg
-  hero.mobile_image_url: :
+  hero.mobile_image_url:
     type: image
     comment: This is an optional mobile version of the main image used at the top of every page.
     options:
