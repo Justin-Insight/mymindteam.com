@@ -18,6 +18,7 @@ hero:
     dyscalculia in children and adults.
   image_url: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

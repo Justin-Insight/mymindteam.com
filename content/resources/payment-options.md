@@ -19,6 +19,7 @@ hero:
     self-pay options and learn about everything included in your investment.
   image_url: /mind-team-clinician-20.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

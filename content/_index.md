@@ -11,8 +11,9 @@ hero:
     Live and learn <span class="underline underline--accent">without
     limitation</span>.
   body:
-  image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg
+  image_url: /young-girl-during-remote-mind-team-session.jpg
   image_alt:
+  mobile_image_url: /young-girl-during-remote-mind-team-session-cropped.jpg
   button:
     enabled: true
     button_url: /get-started/

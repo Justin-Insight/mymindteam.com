@@ -17,6 +17,7 @@ hero:
   body: Inquire for pricing.
   image_url: /mind-team-clinician-23.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

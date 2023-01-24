@@ -17,6 +17,7 @@ hero:
     Mind Team math interventions help students build **math** and **spelling** skills through one-on-one **phonics instruction** and hands-on learning.
   image_url: /young-girl-working-on-math-assignment.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

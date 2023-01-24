@@ -18,6 +18,7 @@ hero:
     expert clinicians are specially chosen to help you thrive.
   image_url: /mind-team-group-in-conference-room.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url:

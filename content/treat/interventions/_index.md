@@ -14,6 +14,7 @@ hero:
     Overcome learning disabilities and challenges in **reading, math** or **executive function** with Mind Team interventions and treatment services for students and adults.
   image_url: /mind-team-counselor-during-treatment-session-15.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

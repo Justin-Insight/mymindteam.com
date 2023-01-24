@@ -21,6 +21,7 @@ hero:
     psychoeducational assessment.
   image_url: /mind-team-clinicians-looking-at-book-2.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

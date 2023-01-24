@@ -14,6 +14,7 @@ hero:
   body:
   image_url: /books-on-desk-2.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

@@ -17,6 +17,7 @@ hero:
   body: You’ve got questions, we’ve got answers.
   image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

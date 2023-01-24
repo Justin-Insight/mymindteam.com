@@ -18,6 +18,7 @@ hero:
   body: Get the answers you need with a comprehensive autism assessment.
   image_url: /mind-team-counselor-during-treatment-session-11.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

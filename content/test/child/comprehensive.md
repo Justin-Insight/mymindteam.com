@@ -22,6 +22,7 @@ hero:
     need.
   image_url: /young-boy-during-one-on-one-remote-counseling-session-7.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

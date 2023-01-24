@@ -20,6 +20,7 @@ hero:
     without limitation.
   image_url: /mind-team-clinicians-looking-at-book-2.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: true
     button_url: /apply-now/

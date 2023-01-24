@@ -20,6 +20,7 @@ hero:
     psychoeducational assessment.
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

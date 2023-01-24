@@ -16,6 +16,7 @@ hero:
   body: Neurodivergent tips, guides, news and resources for children and adults.
   image_url:
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

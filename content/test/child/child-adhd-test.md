@@ -15,6 +15,7 @@ hero:
   body: Get the answers you need with a comprehensive ADHD assessment.
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

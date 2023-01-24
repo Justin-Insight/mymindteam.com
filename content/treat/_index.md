@@ -19,6 +19,7 @@ hero:
     autism and ADHD.
   image_url: /mind-team-clinician-during-one-on-one-remote-counseling-session-2.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: true
     button_url: /get-started/

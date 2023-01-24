@@ -19,6 +19,7 @@ hero:
   body: Get the answers you need with a comprehensive autism assessment.
   image_url: /young-girl-during-autism-spectrum-disorder-testing-7.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

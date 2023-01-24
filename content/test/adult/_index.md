@@ -18,6 +18,7 @@ hero:
     neurodivergent conditions—100% remote and conducted by licensed clinicians.
   image_url: /mind-team-counselor-during-treatment-session-15.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

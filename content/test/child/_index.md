@@ -17,6 +17,7 @@ hero:
   body: Test for autism, ADHD, dyslexia and other neurodivergent conditions.
   image_url: /young-girl-at-desk-during-video-call.jpg
   image_alt:
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
