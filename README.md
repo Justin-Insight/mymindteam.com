@@ -82,11 +82,11 @@ Images can be found in static/uploads and will be optimized and transformed by I
 We do our best to follow the WCAG2AA standard, and one of the ways we check that we're following the right rules is through automated tools, like [pa11y](https://github.com/pa11y/pa11y/). For more info on the rules being tested checkout the [pa11y wiki](https://github.com/pa11y/pa11y/wiki/HTML-CodeSniffer-Rules).
 
 ### Running Tests
-To run a web accessibility test on digital.gov do the following:
+To run a web accessibility test do the following:
 
 * Install and run the site locally following the Install and Run instructions above. Site must be running locally to perform the scan.
 * If this is your first time running pa11y, then you'll need to run npm install to make sure pa11ly is installed.
-* In a separate terminal window, run npm run test:pa11y to initiate the accessibility checker.
+* In a separate terminal window, run pa11y-ci to initiate the accessibility checker.
 
 ## Deploy to Netlify
 
