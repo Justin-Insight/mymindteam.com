@@ -16,7 +16,7 @@ hero:
     for children
   body: Inquire for pricing.
   image_url: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
-  image_alt:
+  image_alt: Young girl arranging red and white blocks on desk during specialty testing assessment
   mobile_image_url: 
   button:
     enabled: false
@@ -51,7 +51,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /young-girl-specialty-testing.jpg
-      image_alt:
+      image_alt: Young girl at desk while taking a Mind Team specialty testing assessment
     background_color: white
 cta_block:
   enabled: true

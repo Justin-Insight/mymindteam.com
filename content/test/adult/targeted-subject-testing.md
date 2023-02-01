@@ -20,7 +20,7 @@ hero:
     Test for dyxlexia, dysgraphia or dyscalculia with a targeted
     psychoeducational assessment.
   image_url: /mind-team-clinicians-looking-at-book-2.jpg
-  image_alt:
+  image_alt: Two Mind Team clinicians looking at a book together
   mobile_image_url: 
   button:
     enabled: false
@@ -47,7 +47,7 @@ targeted_subject_testing_block:
       image:
         enabled: true
         image_url: /adult-reading-book.jpg
-        image_alt:
+        image_alt: Adult woman in sweater reading book while drinking coffee
       button:
         enabled: true
         button_url: /get-started/
@@ -71,7 +71,7 @@ targeted_subject_testing_block:
       image:
         enabled: true
         image_url: /writing.jpg
-        image_alt:
+        image_alt: Man at computer writing on paper
       button:
         enabled: true
         button_url: /get-started/
@@ -97,7 +97,7 @@ targeted_subject_testing_block:
       image:
         enabled: true
         image_url: /calculator.jpg
-        image_alt:
+        image_alt: A person entering numbers into a calculator
       button:
         enabled: true
         button_url: /get-started/

@@ -18,7 +18,7 @@ hero:
     Test for various conditions including autism, ADHD, dyslexia and more, all
     in one comprehensive assessment.
   image_url: /mind-team-counselor-during-treatment-session-13.jpg
-  image_alt:
+  image_alt: Two Mind Team counselors on video call together
   mobile_image_url: 
   button:
     enabled: false

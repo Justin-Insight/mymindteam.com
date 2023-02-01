@@ -14,7 +14,7 @@ hero:
   heading: <span class="underline underline--accent">Adult</span> ADHD tests
   body: Get the answers you need with a comprehensive ADHD assessment.
   image_url: /books-on-desk-8.jpg
-  image_alt:
+  image_alt: ADHD and autism books stacked on a desk
   mobile_image_url: 
   button:
     enabled: false
@@ -49,7 +49,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /woman-looking-out-window-at-desk.jpg
-      image_alt:
+      image_alt: Distracted woman looking out office window
     background_color: white
 adhd_testing_block:
   enabled: true

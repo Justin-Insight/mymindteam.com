@@ -21,7 +21,7 @@ hero:
     Team comprehensive tests for children make it easy to get the answers you
     need.
   image_url: /young-boy-during-one-on-one-remote-counseling-session-7.jpg
-  image_alt:
+  image_alt: Young boy sitting on couch while on a remote Mind Team assessment
   mobile_image_url: 
   button:
     enabled: false

@@ -13,7 +13,7 @@ hero:
   body: >-
     Overcome learning disabilities and challenges in **reading, math** or **executive function** with Mind Team interventions and treatment services for students and adults.
   image_url: /mind-team-counselor-during-treatment-session-15.jpg
-  image_alt:
+  image_alt: Mind Team counselor sitting in chair during remote intervention sessions
   mobile_image_url: 
   button:
     enabled: false
@@ -73,7 +73,7 @@ custom_interventions_block:
     image:
         enabled: true
         image_url: /woman-during-remote-counseling-session.jpg
-        image_alt:
+        image_alt: Woman taking notes during remote counseling session
     background_color: white
 single_column_block:
   enabled: true

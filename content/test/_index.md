@@ -17,7 +17,7 @@ hero:
     Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and
     dyscalculia in children and adults.
   image_url: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
-  image_alt:
+  image_alt: Young girl playing with red and white blocks during remote testing session
   mobile_image_url: 
   button:
     enabled: false
@@ -44,13 +44,13 @@ testing_block:
     Team testing options and to get the most accurate pricing information.
   image_cards:
     - image_url: /child-adhd-testing-autism-testing.jpg
-      image_alt:
+      image_alt: Young girl playing with red and white blocks during remote testing session with Heather Meggers-Wright
       button:
         enabled: true
         button_url: /test/child-neurodivergent-test/
         button_text: Child testing
     - image_url: /two-clinicians-on-video-call-together-2-reversed.jpg
-      image_alt:
+      image_alt: Two mind team clinician on a video call together
       button:
         enabled: true
         button_url: /test/adult-neurodivergent-test/

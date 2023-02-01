@@ -12,7 +12,7 @@ hero:
     limitation</span>.
   body:
   image_url: /young-girl-during-remote-mind-team-session.jpg
-  image_alt:
+  image_alt: Young girl during remote support session with Heather Meggers-Wright
   mobile_image_url:
   button:
     enabled: true
@@ -118,7 +118,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /young-girl-on-video-call-with-dr-weiland.jpg
-      image_alt:
+      image_alt: Young girl on a video call with Dr. Weiland receiving one-on-one remote support
     background_color: white
 benefits_block:
   enabled: true

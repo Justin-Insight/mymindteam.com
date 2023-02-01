@@ -16,7 +16,7 @@ hero:
   heading: Frequently asked <span class="underline underline--accent">questions</span>
   body: You’ve got questions, we’ve got answers.
   image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg
-  image_alt:
+  image_alt: Young girl on a video call with Mind Team clinician
   mobile_image_url: 
   button:
     enabled: false

@@ -19,7 +19,7 @@ hero:
     licensed clinicians helping neurodivergent individuals live and learn
     without limitation.
   image_url: /mind-team-clinicians-looking-at-book-2.jpg
-  image_alt:
+  image_alt: Two Mind Team counselors looking at book together
   mobile_image_url: 
   button:
     enabled: true
@@ -93,7 +93,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /mind-team-group.jpg
-      image_alt:
+      image_alt: The Mind Team leadership team
     background_color: gray
   - heading: Benefits
     body: |-
@@ -110,6 +110,6 @@ page_blocks:
     image:
       enabled: true
       image_url: /mind-team-group-laughing-together.jpg
-      image_alt:
+      image_alt: The Mind Team group laughing together during meeting in conference room
     background_color: white
 ---

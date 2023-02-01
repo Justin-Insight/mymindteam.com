@@ -47,9 +47,6 @@
         {{ partial "page-block" . }}
     {{ end }}
 {{ end }}
-
-
-
 {{ if .Params.adhd_testing_block.enabled }}
     {{ with .Params.adhd_testing_block }}
         <section aria-labelledby="testing-heading" class="block bg-gray">
@@ -73,7 +70,7 @@
     {{ end }}
 {{ end }}
 <!-- Start blocks specific to our Targeted Subject Testing page -->
-{{ if eq .Title "Targeted Subject Testing" }}
+{{ if eq .Title "Targeted subject testing" }}
     {{ if .Params.targeted_subject_testing_block.enabled }}
         {{ with .Params.targeted_subject_testing_block }}
             <section aria-labelledby="targeted-subjects-heading" class="mt-targeted-subjects">

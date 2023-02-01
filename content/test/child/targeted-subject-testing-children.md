@@ -19,7 +19,7 @@ hero:
     Test for dyslexia, dysgraphia or dyscalculia with a targeted
     psychoeducational assessment.
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
-  image_alt:
+  image_alt: Young girl at desk during a remote targeted subject testing session
   mobile_image_url: 
   button:
     enabled: false
@@ -57,7 +57,7 @@ targeted_subject_testing_block:
       image:
         enabled: true
         image_url: /child-reading.jpg
-        image_alt:
+        image_alt: Child pointing to words in a book during reading assessment
       button:
         enabled: true
         button_url: /get-started/
@@ -81,7 +81,7 @@ targeted_subject_testing_block:
       image:
         enabled: true
         image_url: /two-young-girls-working-on-assignments.jpg
-        image_alt:
+        image_alt: two young girls doing homework together at a desk
       button:
         enabled: true
         button_url: /get-started/
@@ -101,7 +101,7 @@ targeted_subject_testing_block:
       image:
         enabled: true
         image_url: /child-doing-math-2.jpg
-        image_alt:
+        image_alt: Young girl and mom practicing math problems and counting with their hands
       button:
         enabled: true
         button_url: /get-started/

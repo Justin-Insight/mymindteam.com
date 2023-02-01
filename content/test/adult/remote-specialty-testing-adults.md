@@ -16,7 +16,7 @@ hero:
     for adults
   body: Inquire for pricing.
   image_url: /mind-team-clinician-23.jpg
-  image_alt:
+  image_alt: Stacy Stefaniak Luther working on computer at desk
   mobile_image_url: 
   button:
     enabled: false
@@ -47,7 +47,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /college-exams.jpg
-      image_alt:
+      image_alt: Young woman taking a college exam at desk
     background_color: white
 cta_block:
   enabled: true

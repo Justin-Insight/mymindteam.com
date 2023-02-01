@@ -17,7 +17,7 @@ hero:
   body: >-
     Mind Team executive function interventions help children and adults develop executive function skills that work with their unique mind and learning style.
   image_url: /young-boy-studying.jpg
-  image_alt:
+  image_alt: Young boy laying on floor studying with books spread out around him
   mobile_image_url: 
   button:
     enabled: false
@@ -81,7 +81,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /young-girl-writing-down-goals.jpg
-      image_alt:
+      image_alt: Young girl writing in notebook
     background_color: gray
 benefits_block:
   enabled: true
@@ -188,7 +188,7 @@ stand_alone_services_block:
   image:
     enabled: true
     image_url: /young-girl-working-on-computer.jpg
-    image_alt:
+    image_alt: Young girl working on a computer
   background_color: white
 faq_block:
   enabled: true

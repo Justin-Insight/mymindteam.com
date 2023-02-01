@@ -17,7 +17,7 @@ hero:
     Professional adult testing for autism, ADHD, dyslexia and other
     neurodivergent conditions—100% remote and conducted by licensed clinicians.
   image_url: /mind-team-counselor-during-treatment-session-15.jpg
-  image_alt:
+  image_alt: A mind team counselor on a tablet during remote treatment session
   mobile_image_url: 
   button:
     enabled: false

@@ -14,7 +14,7 @@ hero:
   heading: Does your child have <span class="underline underline--accent">ADHD</span>?
   body: Get the answers you need with a comprehensive ADHD assessment.
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
-  image_alt:
+  image_alt: Young girl taking Mind Team assessment at desk while on video call
   mobile_image_url: 
   button:
     enabled: false
@@ -50,7 +50,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /child-daydreaming-2.jpeg
-      image_alt:
+      image_alt: Distracted young girl looking off into the distance during class
     background_color: white
 adhd_testing_block:
   enabled: true

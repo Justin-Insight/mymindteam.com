@@ -18,7 +18,7 @@ hero:
     dyscalculia and executive functioning concerns commonly experienced with
     autism and ADHD.
   image_url: /mind-team-clinician-during-one-on-one-remote-counseling-session-2.jpg
-  image_alt:
+  image_alt: Mind Team clinician Jessa Voelker on video call with young boy during remote reading assessment
   mobile_image_url: 
   button:
     enabled: true

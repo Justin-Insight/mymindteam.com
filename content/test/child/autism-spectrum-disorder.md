@@ -18,7 +18,7 @@ hero:
     underline--accent">autism</span>?
   body: Get the answers you need with a comprehensive autism assessment.
   image_url: /young-girl-during-autism-spectrum-disorder-testing-7.jpg
-  image_alt:
+  image_alt: Young girl on couch during a remote Mind Team autism spectrum disorder testing
   mobile_image_url: 
   button:
     enabled: false
@@ -53,7 +53,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /child-sitting-alone-at-playground.jpg
-      image_alt:
+      image_alt: Yound girl sitting by herself watching other kids play in a sandbox
     background_color: white
 adhd_testing_block:
   enabled: true

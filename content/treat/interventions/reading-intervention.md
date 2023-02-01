@@ -16,7 +16,7 @@ hero:
   body: >-
     Mind Team reading interventions help students build **reading** and **spelling** skills through one-on-one **phonics instruction** and hands-on learning.
   image_url: /mind-team-clinician-during-one-on-one-remote-counseling-session-2.jpg
-  image_alt:
+  image_alt: Mind Team clinician Jessa Voelker on video call with young boy during remote reading assessment
   mobile_image_url: 
   button:
     enabled: false
@@ -133,7 +133,7 @@ stand_alone_services_block:
   image:
     enabled: true
     image_url: /young-boy-reading-book-at-table.jpg
-    image_alt:
+    image_alt: Young boy sitting at table and reading a book
   background_color: white
 faq_block:
   enabled: true

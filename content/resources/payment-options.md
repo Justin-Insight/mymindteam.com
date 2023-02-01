@@ -18,7 +18,7 @@ hero:
     View our testing and treatment service pricing with convenient online
     self-pay options and learn about everything included in your investment.
   image_url: /mind-team-clinician-20.jpg
-  image_alt:
+  image_alt: Dr. Weiland smiling at computer while on a remote one-on-one assessment call
   mobile_image_url: 
   button:
     enabled: false
@@ -137,7 +137,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /young-girl-on-video-call-with-dr-weiland.jpg
-      image_alt:
+      image_alt: Young girl taking a Mind Team assessment while on remote video call with Dr. Weiland
     background_color: gray
   - heading: Accepted payment methods
     body: >-
@@ -158,7 +158,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /mind-team-clinician-15.jpg
-      image_alt:
+      image_alt: Mind Team counselor Emily Werely working on computer at desk
     background_color: white
 faq_block:
   enabled: true

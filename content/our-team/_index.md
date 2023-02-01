@@ -17,7 +17,7 @@ hero:
     Our diverse team of licensed psychologists, counselors, interventionists and
     expert clinicians are specially chosen to help you thrive.
   image_url: /mind-team-group-in-conference-room.jpg
-  image_alt:
+  image_alt: The Mind Team group sitting together in a conference room
   mobile_image_url: 
   button:
     enabled: false
@@ -58,7 +58,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /mind-team-group.jpg
-      image_alt:
+      image_alt: The Mind Team leadership team
     background_color: white
 mind_team:
   enabled: true

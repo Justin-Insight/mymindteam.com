@@ -17,7 +17,7 @@ hero:
     What can you expect to gain from Mind Team neurodivergent testing and
     treatment services?
   image_url: /young-girl-at-desk-during-video-call.jpg
-  image_alt:
+  image_alt: Young girl at a desk taking Mind Team assessment with Dr. Weiland
   mobile_image_url: 
   button:
     enabled: false
@@ -52,7 +52,7 @@ thrive_block:
       image:
         enabled: true
         image_url: /children-at-school.jpg
-        image_alt:
+        image_alt: Children in classroom raising hands to answer a question
     - heading: At <span class="underline underline--accent">work</span>
       body: >-
         * Know the best working styles and tactics for your mind.
@@ -68,7 +68,7 @@ thrive_block:
       image:
         enabled: true
         image_url: /two-people-collaborating-at-work.jpg
-        image_alt:
+        image_alt: Two adults collaborating around a computer at work
 ongoing_support_block:
   enabled: true
   heading: >-

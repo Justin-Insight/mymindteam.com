@@ -12,7 +12,7 @@ hero:
   body: >-
 
   image_url: /mind-team-clinician-20.jpg
-  image_alt:
+  image_alt: Dr. Weiland smiling while in remote one-on-one support session
   mobile_image_url: 
   button:
     enabled: false

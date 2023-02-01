@@ -13,7 +13,7 @@ hero:
   heading: Resources for <span class="underline underline--accent">every mind</span>.
   body:
   image_url: /books-on-desk-2.jpg
-  image_alt:
+  image_alt: Autism related books stacked on a desk
   mobile_image_url: 
   button:
     enabled: false

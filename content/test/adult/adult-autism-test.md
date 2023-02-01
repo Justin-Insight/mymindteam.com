@@ -17,7 +17,7 @@ hero:
     underline--accent">autism</span>?
   body: Get the answers you need with a comprehensive autism assessment.
   image_url: /mind-team-counselor-during-treatment-session-11.jpg
-  image_alt:
+  image_alt: Mind team counselor on tablet during treatment session
   mobile_image_url: 
   button:
     enabled: false
@@ -52,7 +52,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /woman-overwhelmed.jpg
-      image_alt:
+      image_alt: Woman at desk with head in hands from being overwhelmed with stress
     background_color: white
 adhd_testing_block:
   enabled: true

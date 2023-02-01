@@ -16,7 +16,7 @@ hero:
     mind.
   body: Test for autism, ADHD, dyslexia and other neurodivergent conditions.
   image_url: /young-girl-at-desk-during-video-call.jpg
-  image_alt:
+  image_alt: Young girl taking Mind Team assessment at her desk while on a video call with Dr. Weiland
   mobile_image_url: 
   button:
     enabled: false
@@ -159,7 +159,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
-      image_alt:
+      image_alt: Young boy during a reading assessment with Jessa Voelker
     background_color: white
 benefits_block:
   enabled: true
