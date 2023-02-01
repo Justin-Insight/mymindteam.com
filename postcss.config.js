@@ -12,6 +12,7 @@ module.exports = {
       ],
       safelist: [
         'is-active',
+        'active',
         'nav-open',
         'nav-collapse',
         'nav-expand',
