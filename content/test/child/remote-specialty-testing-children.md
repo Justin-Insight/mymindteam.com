@@ -5,7 +5,7 @@ menu:
     parent: Child Testing
     identifier: Child Specialty Testing
 seo:
-  page_title: 'Remote Specialty Testing for Children '
+  page_title: Child Specialty Testing
   meta_description: >-
     Get the accommodated testing or professional proctoring your child needs for
     a variety of exams and specialty school evaluations.
@@ -13,10 +13,11 @@ seo:
 hero:
   heading: >-
     Remote <span class="underline underline--accent">specialty</span> testing
-    for children.
+    for children
   body: Inquire for pricing.
   image_url: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
-  image_alt:
+  image_alt: Young girl arranging red and white blocks on desk during specialty testing assessment
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -50,14 +51,14 @@ page_blocks:
     image:
       enabled: true
       image_url: /young-girl-specialty-testing.jpg
-      image_alt:
+      image_alt: Young girl at desk while taking a Mind Team specialty testing assessment
     background_color: white
 cta_block:
   enabled: true
   heading: >-
     Schedule your child’s <span class="underline
     underline--primary">specialty</span> test.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

@@ -5,42 +5,42 @@ menu:
     parent: Child Testing
     identifier: Child ADHD Testing
 seo:
-  page_title: "Child ADHD Test - Get the Answers You Need with Mind Team  "
+  page_title: 'Child ADHD Test - Get the Answers You Need with Mind Team  '
   meta_description: >
     Does your child have ADHD? Schedule their professional, remote ADHD test
     with Mind Team to get the answers you need to help them thrive.
   featured_image: /young-girl-during-a-child-adhd-testing-session-8.jpg
 hero:
   heading: Does your child have <span class="underline underline--accent">ADHD</span>?
-  body: >-
-    Get the professional answers and support you need to work *with* your
-    child’s mind, all from the comfort of home.
+  body: Get the answers you need with a comprehensive ADHD assessment.
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
-  image_alt:
+  image_alt: Young girl taking Mind Team assessment at desk while on video call
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
     button_text: Get Started Now
 page_blocks:
-  - heading: >-
-      Signs of <span class="underline underline--accent">ADHD</span> in
-      children.
+  - heading: Signs of <span class="underline underline--accent">ADHD</span> in children
     body: >-
       Your child may be struggling with ADHD and could benefit from a diagnosis
       if they:
 
 
-      * Fidget frequently and have a hard time sitting still.
+      * Often fidget when remaining seated is expected.
 
       * Have trouble concentrating on speakers or tasks for long periods of
       time.
 
       * Interrupt conversations often and have trouble waiting their turn.
 
-      * Act impulsively, especially when upset.
+      * Act impulsively.
 
       * Frequently lose important items, forget their school assignments and
       more.
+
+      * Experience strong emotions when expected to engage in tasks that require
+      sustained effort (i.e. homework).
     button:
       enabled: false
       button_url:
@@ -50,13 +50,13 @@ page_blocks:
     image:
       enabled: true
       image_url: /child-daydreaming-2.jpeg
-      image_alt:
+      image_alt: Distracted young girl looking off into the distance during class
     background_color: white
 adhd_testing_block:
   enabled: true
   heading: >-
     Mind Team child <span class="underline underline--accent">ADHD</span>
-    testing.
+    testing
   subheading: $2,300
   body: >-
     Conducted by licensed clinicians specializing in ADHD via our secure, remote
@@ -64,11 +64,11 @@ adhd_testing_block:
   button:
     enabled: true
     button_url: /get-started/
-    button_text: Schedule Your Remote ADHD Test
+    button_text: Schedule Your Child's ADHD Test
 benefits_block:
   enabled: true
   heading: >-
-    The ADHD testing your child <span class="underline
+    The ADHD assessment your child <span class="underline
     underline--primary">deserves</span>.
   body:
   benefits:
@@ -86,10 +86,10 @@ benefits_block:
         differences to guide them on the best path to work <em>with</em> their
         mind.
       icon: /orange-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
         Complete your child’s ADHD test from the comfort of your own home—no
-        referral, wait-time or commute necessary.
+        referral, wait time or commute necessary.
       icon: /orange-block.svg
 faq_block:
   enabled: true
@@ -127,7 +127,8 @@ cta_block:
   heading: >-
     Find out if your child has <span class="underline
     underline--primary">ADHD</span>.
-  body: The process couldn’t be easier! Get started with our brief questionnaire.
+  body: |-
+    Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

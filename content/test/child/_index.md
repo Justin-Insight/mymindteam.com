@@ -5,7 +5,7 @@ menu:
   main:
     parent: Test
 seo:
-  page_title: Remote Child Tests - Understand Their Unique Mind
+  page_title: Testing for Children | ADHD Test | Autism Test
   meta_description: >
     If your child is struggling, get the answers you need to work with their
     mind with Mind Team professional tests for autism, ADHD, dyslexia and more.
@@ -14,12 +14,10 @@ hero:
   heading: >-
     Work <span class="underline underline--accent">with</span> your child’s
     mind.
-  body: >-
-    Get the answers you need to best support your child with Mind Team
-    professional testing for autism, ADHD, dyslexia and other neurodivergent
-    conditions.
+  body: Test for autism, ADHD, dyslexia and other neurodivergent conditions.
   image_url: /young-girl-at-desk-during-video-call.jpg
-  image_alt:
+  image_alt: Young girl taking Mind Team assessment at her desk while on a video call with Dr. Weiland
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -81,29 +79,29 @@ testing_options_block:
         enabled: true
         button_url: /test/child/targeted-subject-testing-children/
         button_text: Learn More
-    - heading: Comprehensive subject test
+    - heading: Comprehensive psychoeducational
       subheading: >-
         Test your child for dyslexia, dysgraphia and dyscalculia all in one
         comprehensive test with a school psychologist assessing:
       body: |-
-        - Reading, writing and math achievement
-        - Cognitive IQ
-        - Detailed personal and academic history
+        * Reading, writing and math achievement
+        * Cognitive IQ
+        * Detailed personal and academic history
       price: $2,000
       button:
         enabled: true
         button_url: /test/child/comprehensive-child-testing/
         button_text: Learn More
-    - heading: Comprehensive battery
+    - heading: 'Comprehensive neuropsychological '
       subheading: >-
         Test your child for autism, ADHD, dyslexia, dysgraphia and dyscalculia
         all in one comprehensive diagnostic interview assessing:
       body: |-
-        - Attention
-        - Executive functioning
-        - Broad reading, writing and math achievement
-        - Cognitive IQ
-        - Personal, medical and academic history
+        * Attention
+        * Executive functioning
+        * Broad reading, writing and math achievement
+        * Cognitive IQ
+        * Personal, medical and academic history
       price: $3,900
       button:
         enabled: true
@@ -161,7 +159,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /young-boy-on-video-call-with-mind-team-clinician-2.jpg
-      image_alt:
+      image_alt: Young boy during a reading assessment with Jessa Voelker
     background_color: white
 benefits_block:
   enabled: true
@@ -213,11 +211,14 @@ single_column_block:
     Pricing for <span class="underline underline--secondary">immediate
     support</span>.
   body: >-
-    No child deserves to struggle for months, but that’s what insurance
-    providers typically require when covering educational testing services. To
-    provide the immediate support you and your child deserve, Mind Team testing
-    services must be paid out-of-pocket. Visit our payment page to learn more
-    about your options.
+    No child deserves to struggle for months, caught between limited school
+    resources, insurance barriers or other red tape. Mind Team offers assessment
+    and treatment on demand through self-pay options.
+
+
+    For individuals with out-of-network neuropsychological and psychological
+    testing benefits, we partner with companies that help you recoup your costs
+    from your insurance.
   button:
     enabled: true
     button_url: /resources/payment-options/
@@ -227,9 +228,7 @@ cta_block:
   heading: >-
     Ready to help your child <span class="underline
     underline--primary">thrive</span>?
-  body: >-
-    It couldn’t be easier to get started. Fill out our short questionnaire and
-    we’ll take care of the rest.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

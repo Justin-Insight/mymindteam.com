@@ -5,7 +5,7 @@ menu:
   main:
     parent: Test
 seo:
-  page_title: Remote Adult Tests - Get the Answers You Need
+  page_title: Remote Testing for Adults | ADHD Test | Autism Test
   meta_description: >-
     Test for autism, ADHD, dyslexia, dysgraphia, dyscalculia and other
     neurodivergent conditions from the comfort of home with Mind Team adult
@@ -17,7 +17,8 @@ hero:
     Professional adult testing for autism, ADHD, dyslexia and other
     neurodivergent conditions—100% remote and conducted by licensed clinicians.
   image_url: /mind-team-counselor-during-treatment-session-15.jpg
-  image_alt:
+  image_alt: A mind team counselor on a tablet during remote treatment session
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -120,7 +121,7 @@ benefits_block:
         exhaustive list of conditions to ensure you get the most accurate
         results and diagnoses.
       icon: /blue-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
         No need to commute or test in an unfamiliar location with our secure,
         face-to-face remote testing.
@@ -128,14 +129,13 @@ benefits_block:
     - heading: Empowering
       body: >-
         Rather than trying to “fix” your mind, we’ll help you learn to work with
-        your unique abilities and differences to conquer your challenges and
+        your unique abilities and differences to overcome your challenges and
         thrive.
       icon: /orange-block.svg
     - heading: Integrated
       body: >-
-        Get the combined expertise of our entire multidisciplinary team and
-        never worry about relaying your background and test results from one
-        provider to another.
+        Get the combined expertise of our entire team and never worry about
+        relaying your background and test results from one provider to another.
       icon: /yellow-block.svg
 single_column_block:
   enabled: true
@@ -194,7 +194,7 @@ cta_block:
   heading: >-
     Schedule your <span class="underline underline--primary">remote</span>
     neurodivergent test.
-  body: The process is easy! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

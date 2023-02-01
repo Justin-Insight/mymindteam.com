@@ -1,10 +1,6 @@
 .home-hero {
   position: relative;
-  height: 70vh;
-
-  @include breakpoint(md) {
-    height: 100%;
-  }
+  height: 100%;
 
   .hero__image {
     position: absolute;
@@ -25,11 +21,12 @@
     position: absolute;
     bottom: -100px;
     left: 0;
-    padding: $ic-900 $ic-600;
+    padding: $ic-200 $ic-400;
 
     @include breakpoint (md) {
       position: relative;
       bottom: 0;
+      padding: $ic-900 $ic-600;
     }
   }
 }

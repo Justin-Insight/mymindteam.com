@@ -11,8 +11,9 @@ hero:
     Live and learn <span class="underline underline--accent">without
     limitation</span>.
   body:
-  image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg
-  image_alt:
+  image_url: /young-girl-during-remote-mind-team-session.jpg
+  image_alt: Young girl during remote support session with Heather Meggers-Wright
+  mobile_image_url:
   button:
     enabled: true
     button_url: /get-started/
@@ -78,11 +79,11 @@ our_services_block:
     - heading: >-
         I’m looking for <span class="underline
         underline--accent">answers</span>.
-      body: Our neurodivergent tests provide all the answers you need.
+      body: Our remote neurodivergent tests provide all the answers you need.
       service_points: |-
-        - Identify your differences.
-        - Discover your strengths.
-        - Get ready to tackle your challenges.
+        * Identify your differences.
+        * Discover your strengths.
+        * Get ready to tackle your challenges.
       button:
         enabled: true
         button_url: /test/
@@ -91,15 +92,15 @@ our_services_block:
         I know my challenges and need <span class="underline
         underline--secondary">support</span>.
       body: >-
-        Our multidisciplinary team is here to provide the personalized
-        neurodivergent support you deserve.
+        Our empowering team is here to provide the professional support you
+        deserve.
       service_points: |-
-        - Find learning styles that work for you. 
-        - Set up the accommodations you need.
-        - Say goodbye to limitations.
+        * Find learning styles that work for you.
+        * Set up the accommodations you need.
+        * Say goodbye to limitations.
       button:
         enabled: true
-        button_url: /remote-neurodivergent-treatment/
+        button_url: /treat/
         button_text: Get Treatment
 page_blocks:
   - heading: >-
@@ -116,8 +117,8 @@ page_blocks:
     text_column_right: true
     image:
       enabled: true
-      image_url: /mind-team-clinician-11-flipped.jpg
-      image_alt:
+      image_url: /young-girl-on-video-call-with-dr-weiland.jpg
+      image_alt: Young girl on a video call with Dr. Weiland receiving one-on-one remote support
     background_color: white
 benefits_block:
   enabled: true
@@ -165,10 +166,8 @@ pricing_block:
   enabled: true
   heading: Pricing
   body: >-
-    To get the immediate support you deserve, Mind Team neurodivergent services
-    must be paid out of pocket. With transparent, all-inclusive pricing and no
-    hidden fees, you can trust your investment will cover all the answers and
-    support you need.
+    With transparent, all-inclusive pricing and no hidden fees, you can trust
+    your Mind Team investment will cover all the answers and support you need.
   button:
     enabled: true
     button_url: /resources/payment-options/
@@ -219,9 +218,7 @@ cta_block:
   heading: >-
     Ready to <span class="underline underline--primary">transform</span> your
     life?
-  body: >-
-    It couldn’t be easier to get started. Fill out our short questionnaire and
-    we’ll handle the rest.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

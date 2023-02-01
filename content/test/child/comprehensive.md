@@ -21,7 +21,8 @@ hero:
     Team comprehensive tests for children make it easy to get the answers you
     need.
   image_url: /young-boy-during-one-on-one-remote-counseling-session-7.jpg
-  image_alt:
+  image_alt: Young boy sitting on couch while on a remote Mind Team assessment
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -30,7 +31,7 @@ testing_options_block:
   enabled: true
   heading: >-
     Mind Team <span class="underline underline--secondary">comprehensive</span>
-    testing options for children.
+    testing options for children
   pre_options_body: >-
     Assess your child’s achievement in reading, writing and math and diagnose or
     rule out common learning disorders that could be affecting their learning
@@ -50,15 +51,15 @@ testing_options_block:
         enabled: false
         button_url: /get-started/
         button_text: Get Started Now
-    - heading: Comprehensive battery
+    - heading: 'Comprehensive neuropsychological '
       subheading: >-
         When you need it all—broad subject area testing, learning disorder
         screening and more.
       body: |-
-        - Detailed history questionnaire
-        - Full battery autism screen
-        - Full battery ADHD screen
-        - Broad reading, writing and math achievement
+        * Detailed history questionnaire
+        * Full battery autism screen
+        * Full battery ADHD screen
+        * Broad reading, writing and math achievement
       price: $3,900
       button:
         enabled: false
@@ -67,8 +68,8 @@ testing_options_block:
 benefits_block:
   enabled: true
   heading: >-
-    The comprehensive testing <span class="underline underline--primary">you
-    deserve</span>.
+    The comprehensive assessment your child <span class="underline
+    underline--primary">deserves</span>.
   body:
   benefits:
     - heading: Personalized
@@ -85,10 +86,10 @@ benefits_block:
         differences and guide you on the best path to work <em>with</em> their
         mind.
       icon: /orange-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
         Schedule and complete your child’s comprehensive test from the comfort
-        of home; no referral, wait-time or commute necessary.
+        of home; no referral, wait time or commute necessary.
       icon: /orange-block.svg
 faq_block:
   enabled: true
@@ -98,7 +99,7 @@ faq_block:
   questions:
     - question: Who will conduct my child’s comprehensive test?
       answer: >-
-        You and your child will be matched with the licensed Mind Team clinician
+        You and your child will be matched with the licensed [Mind Team clinician](/our-team/)
         who best fits their needs, according to the information you provide
         during intake.
     - question: How long does comprehensive child testing take?
@@ -133,7 +134,7 @@ cta_block:
   heading: >-
     Schedule your child’s <span class="underline
     underline--primary">comprehensive</span> test.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

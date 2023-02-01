@@ -1,9 +1,10 @@
 ---
-title: Targeted Subject Testing
+title: Targeted subject testing
 menu:
   main:
     parent: Adult Testing
     identifier: Adult Targeted Subject Testing
+    name: Targeted Subject Testing
 seo:
   page_title: Remote Targeted Subject Tests for Adults
   meta_description: >
@@ -16,10 +17,11 @@ hero:
     <span class="underline underline--accent">Struggling</span> with reading,
     writing or math?
   body: >-
-    Test for dyslexia, dysgraphia, dyscalculia and other conditions that may be
-    getting in the way of your learning and living.
+    Test for dyxlexia, dysgraphia or dyscalculia with a targeted
+    psychoeducational assessment.
   image_url: /mind-team-clinicians-looking-at-book-2.jpg
-  image_alt:
+  image_alt: Two Mind Team clinicians looking at a book together
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -39,13 +41,13 @@ targeted_subject_testing_block:
         * Get anxiety reading aloud in front of others.
         * Have difficulty with spelling.
         * Sometimes confuse left and right.
-        * Mix up similar looking words (i.e. bat and bot).
+        * Mix up similar-looking words (i.e. bat and bot).
       text_column_left: false
       text_column_right: true
       image:
         enabled: true
         image_url: /adult-reading-book.jpg
-        image_alt:
+        image_alt: Adult woman in sweater reading book while drinking coffee
       button:
         enabled: true
         button_url: /get-started/
@@ -56,16 +58,20 @@ targeted_subject_testing_block:
         Dysgraphia can cause issues with writing. You may be struggling with
         dysgraphia if you:
       body: |-
-        * Struggle to write by hand.
         * Make frequent spelling errors.
         * Have trouble taking notes and listening to information simultaneously.
-        * Find fine-motor activities difficult (i.e. buttoning a shirt).
+        * Strongly dislike writing and/or drawing.
+        * Experience problems with grammar.
+        * Struggle to write down thoughts and ideas in a logical sequence.
+        * Often lose energy or interest as soon as you start writing.
+        * Often say words out loud while writing.
+        * Leave words unfinished or omit them when writing sentences.
       text_column_left: true
       text_column_right: false
       image:
         enabled: true
         image_url: /writing.jpg
-        image_alt:
+        image_alt: Man at computer writing on paper
       button:
         enabled: true
         button_url: /get-started/
@@ -91,7 +97,7 @@ targeted_subject_testing_block:
       image:
         enabled: true
         image_url: /calculator.jpg
-        image_alt:
+        image_alt: A person entering numbers into a calculator
       button:
         enabled: true
         button_url: /get-started/
@@ -119,10 +125,10 @@ benefits_block:
         Designed to identify your unique neural strengths and differences and
         guide you on the best path to work <em>with</em> your mind.
       icon: /orange-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
         Schedule and complete your targeted subject test online, no referral,
-        wait-time or commute necessary.
+        wait time or commute necessary.
       icon: /orange-block.svg
 faq_block:
   enabled: true
@@ -132,7 +138,7 @@ faq_block:
   questions:
     - question: Who will conduct my targeted subject test?
       answer: >-
-        You’ll be matched with the licensed Mind Team clinician who best fits
+        You’ll be matched with the licensed [Mind Team clinician](/our-team/) who best fits
         your needs based on your intake interview.
     - question: How long does adult targeted subject testing take?
       answer: >-
@@ -165,7 +171,7 @@ cta_block:
   heading: >-
     <span class="underline underline--primary">Assess</span> your reading,
     writing or math skills.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

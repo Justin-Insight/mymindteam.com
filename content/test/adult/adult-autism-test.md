@@ -1,9 +1,10 @@
 ---
-title: Autism Spectrum Disorder
+title: Autism spectrum disorder
 menu:
   main:
     parent: Adult Testing
     identifier: Adult Autism Testing
+    name: Autism Spectrum Disorder
 seo:
   page_title: 'Adult Autism Test - Get the Answers You Need '
   meta_description: >-
@@ -14,11 +15,10 @@ hero:
   heading: >-
     Think you might have <span class="underline
     underline--accent">autism</span>?
-  body: >-
-    Get the professional autism testing and diagnosis you need to work
-    <em>with</em> your mind, all from the comfort of home.
+  body: Get the answers you need with a comprehensive autism assessment.
   image_url: /mind-team-counselor-during-treatment-session-11.jpg
-  image_alt:
+  image_alt: Mind team counselor on tablet during treatment session
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -29,18 +29,20 @@ page_blocks:
       You may be struggling with autism and could benefit from a diagnosis if
       you:
 
-      - Get overwhelmed/frustrated while in loud, bright or crowded
-      environments. 
 
-      - Often get so hyper-focused on projects of interest that you lose track
-      of time. 
+      * Often get so hyper-focused on projects of interest that you lose track
+      of time.
 
-      - Struggle to relate to and/or make small talk with coworkers and peers. 
+      * Have difficulty self-regulating while experiencing discomfort due to
+      strong sounds, smells, textures and more.
 
-      - Tend to feel uncomfortable or distracted while making eye contact. 
-
-      - Often rehearse conversations well in advance to avoid saying the “wrong”
+      * Often rehearse conversations well in advance to avoid saying the “wrong”
       thing.
+
+      * Experience difficulties and differences in understanding and engaging in
+      social behavior.
+
+      * Often feel like you’re wearing a mask or acting when around others.
     button:
       enabled: false
       button_url:
@@ -50,7 +52,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /woman-overwhelmed.jpg
-      image_alt:
+      image_alt: Woman at desk with head in hands from being overwhelmed with stress
     background_color: white
 adhd_testing_block:
   enabled: true
@@ -68,7 +70,7 @@ adhd_testing_block:
 benefits_block:
   enabled: true
   heading: >-
-    The autism testing <span class="underline underline--primary">you
+    The autism assessment <span class="underline underline--primary">you
     deserve</span>.
   body:
   benefits:
@@ -87,9 +89,9 @@ benefits_block:
         Designed to identify your unique neural strengths and differences and
         guide you on the best path to work <em>with</em> your mind.
       icon: /orange-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
-        Schedule and complete your autism test online—no referral, wait-time or
+        Schedule and complete your autism test online—no referral, wait time or
         commute necessary.
       icon: /orange-block.svg
 faq_block:
@@ -98,7 +100,7 @@ faq_block:
     Frequently asked <span class="underline underline--secondary">adult autism
     testing</span> questions
   questions:
-    - question: Who will conduct my autism test?
+    - question: Who will conduct my autism assessment?
       answer: >-
         You’ll be matched with the licensed Mind Team clinician who best fits
         your needs, like those on [our team](/our-team/) specializing in autism.
@@ -133,7 +135,7 @@ cta_block:
   heading: >-
     Find out if you have <span class="underline
     underline--primary">autism</span>.
-  body: The process couldn’t be easier! Get started with our brief questionnaire.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

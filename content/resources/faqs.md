@@ -16,7 +16,8 @@ hero:
   heading: Frequently asked <span class="underline underline--accent">questions</span>
   body: You’ve got questions, we’ve got answers.
   image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg
-  image_alt:
+  image_alt: Young girl on a video call with Mind Team clinician
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -27,42 +28,42 @@ terminology_faq_block:
   questions:
     - question: ADHD
       answer: >-
-        a neurodivergent condition that affects many executive functions. An
+        A neurodivergent condition that affects many executive functions. An
         inability to concentrate and/or remain still, forgetfulness and poor
         time management are all common symptoms of ADHD.
     - question: Autism
       answer: >-
-        a neurodivergent condition that affects sensory processing,
+        A neurodivergent condition that affects sensory processing,
         communication, and other cognitive/behavioral functions.
     - question: Dyscalculia
       answer: >-
-        a neurodivergent condition that affects one’s ability to understand and
+        A neurodivergent condition that affects one’s ability to understand and
         perform various math-related functions. Individuals with dyscalculia may
         struggle to read numbers and mathematical symbols (i.e. +, -, x),
         perform math equations and/or understand maps and other spatial layouts.
     - question: Dyslexia
       answer: >-
-        a neurodivergent condition that affects one’s ability to understand and
+        A neurodivergent condition that affects one’s ability to understand and
         perform various reading-related functions. Individuals with dyslexia may
         mix up similarly-spelled words (i.e. bot vs. bat), struggle with reading
         and/or have to read sections of text multiple times before understanding
         them.
     - question: Dysgraphia
       answer: >-
-        a neurodivergent condition that affects one’s ability to understand and
+        A neurodivergent condition that affects one’s ability to understand and
         perform various writing-related functions. Individuals with dysgraphia
         tend to struggle with physical writing, forming letters and numbers,
         spelling and other fine-motor skills.
     - question: Neurodivergent
       answer: >-
-        a mind with neural differences (in comparison to what is considered
+        A mind with neural differences (in comparison to what is considered
         “typical”) that impact various cognitive functions, behaviors and
-        emotions. 
+        emotions.
 
 
         Neurodivergent individuals may experience difficulties communicating,
         learning and thriving in typical home, school and work environments
-        because of these neural differences. 
+        because of these neural differences.
 
 
         Diagnosable neurodivergent conditions include autism, ADHD, dyslexia,
@@ -71,6 +72,15 @@ terminology_faq_block:
         may not meet the full symptomatic requirements for an official condition
         diagnosis but may still struggle with various cognitive functions, which
         Mind Team treatment can help to support.
+    - question: Executive Dysfunction
+      answer: >-
+        A neurodivergent condition that affects key cognitive functions,
+        including working memory, mental flexibility and self-control.
+
+
+        Individuals with executive dysfunction may have trouble with
+        organization, time management, memory, self-regulation and other
+        executive functions.
 testing_faq_block:
   enabled: true
   heading: Testing FAQs
@@ -242,9 +252,9 @@ miscellaneous_faq_block:
 cta_block:
   enabled: true
   heading: Still have <span class="underline underline--primary">questions</span>?
-  body: We’re here to help. Fill out our short questionnaire and we'll be in touch.
+  body: We’re here to help.
   button:
     enabled: true
-    button_url:
-    button_text: Get in Touch
+    button_url: /contact/
+    button_text: Contact Us
 ---

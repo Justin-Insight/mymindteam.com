@@ -3,7 +3,7 @@
     <div class="wrapper-md">
         <div class="flex flex-column flex-row-m">
             <div class="w-100 w-30-m">
-                <h2 class="text-primary">Pages</h2>
+                <h2>Pages</h2>
                 <ul class="sitemap-nav-list no-padding">
                     {{ $pages := where .Site.Pages "Type" "not in" (slice "blog" "tags" "categories" "thank-you" "sitemap") }}
                     {{ range $pages }}
@@ -15,7 +15,7 @@
                 </ul>
             </div>
             <div class="w-100 w-70-m mt-3 mt-0-m ml-3-m">
-                <h2 class="text-primary">Resources</h2>
+                <h2>Resources</h2>
                 <ul class="sitemap-nav-list no-padding">
                     {{ $pages := .Site.RegularPages }}
                     {{ $blog := where $pages "Type" "blog" }}

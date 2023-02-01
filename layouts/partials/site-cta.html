@@ -5,7 +5,7 @@
       <p class="fw-500 fs-300" style="max-width: 1000px; margin: 0 auto;">{{ .body | markdownify }}</p>
       {{ if .button.enabled }}
           {{ with .button }}
-              <a href="{{ .button_url }}" class="btn btn--primary p-absolute btn--centered">{{ .button_text }}</a>
+              <a href="{{ .button_url }}" class="btn btn--primary p-absolute btn--centered" {{ if .opens_in_new_tab }}target="_blank" rel="noopener noreferrer nofollow"{{ end }}>{{ .button_text }}</a>
           {{ end }}
       {{ end }}
     </div>

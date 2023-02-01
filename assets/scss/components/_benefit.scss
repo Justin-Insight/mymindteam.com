@@ -11,14 +11,6 @@
     }
 }
 
-.parent-page-treat .benefit {
-    flex: 1 1 500px;
-
-    @include breakpoint (lg) {
-        flex: 1 1 600px;
-    }
-}
-
 .benefit:nth-of-type(1) {
     border: 8px solid $accent-color;
 
@@ -76,4 +68,15 @@
         right: 25px;
         max-width: 65px;
     }
+}
+
+.page-treat .benefit, 
+.page-interventions .benefit {
+    @include breakpoint (lg) {
+        flex: 1 1 550px;
+    }
+}
+
+.page-interventions .benefit:nth-of-type(4) {
+    border: 8px solid $accent-color-alt;
 }

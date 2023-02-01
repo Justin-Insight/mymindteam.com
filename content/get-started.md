@@ -11,7 +11,8 @@ hero:
     Fill out our brief questionnaire to tell us your needs and we'll handle the
     rest!
   image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg
-  image_alt:
+  image_alt: Young girl on a video call with Mind Team counselor Heather Meggers-Wright
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/

@@ -13,7 +13,8 @@ hero:
   heading: Resources for <span class="underline underline--accent">every mind</span>.
   body:
   image_url: /books-on-desk-2.jpg
-  image_alt:
+  image_alt: Autism related books stacked on a desk
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -33,7 +34,7 @@ goals_block:
 cta_block:
   enabled: true
   heading: Get <span class="underline underline--primary">started</span>.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

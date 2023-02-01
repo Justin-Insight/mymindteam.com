@@ -1,9 +1,10 @@
 ---
-title: Targeted Subject Testing
+title: Targeted subject testing
 menu:
   main:
     parent: Child Testing
     identifier: Child Targeted Subject Testing
+    name: Targeted Subject Testing
 seo:
   page_title: Remote Targeted Subject Tests for Children
   meta_description: >-
@@ -15,10 +16,11 @@ hero:
     Is your child <span class="underline underline--accent">struggling</span>
     with reading, writing or math?
   body: >-
-    Test for dyslexia, dysgraphia, dyscalculia and other conditions that may be
-    getting in the way of their learning and life.
+    Test for dyslexia, dysgraphia or dyscalculia with a targeted
+    psychoeducational assessment.
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg
-  image_alt:
+  image_alt: Young girl at desk during a remote targeted subject testing session
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -26,10 +28,14 @@ hero:
 targeted_subject_testing_block:
   enabled: true
   heading: Mind Team child targeted subject tests
-  body: |-
-    $1,000
+  body: >-
+    ### $1,000
 
-    Conducted by licensed school psychologists.
+
+    The pricing above covers testing in one targeted subject area (reading,
+    writing or math). To test for all three areas in one assessment, view our
+    [comprehensive
+    options](https://www.mymindteam.com/test/child/comprehensive-child-testing/).
   options:
     - heading: Test for <span class="underline underline--primary">dyslexia</span>.
       subheading: >-
@@ -51,7 +57,7 @@ targeted_subject_testing_block:
       image:
         enabled: true
         image_url: /child-reading.jpg
-        image_alt:
+        image_alt: Child pointing to words in a book during reading assessment
       button:
         enabled: true
         button_url: /get-started/
@@ -61,21 +67,21 @@ targeted_subject_testing_block:
       subheading: >-
         Dysgraphia can cause issues with writing. Your child may be struggling
         with dysgraphia if they:
-      body: >-
-        * Struggle to form letters, shapes and numbers by hand.
-
-        * Find it difficult to color within the lines.
-
-        * Have a hard time holding pencils and writing utensils correctly.
-
-        * Struggle with fine motor skills (i.e. tying shoes or buttoning
-        shirts).
+      body: |-
+        * Make frequent spelling errors.
+        * Have trouble taking notes and listening to information simultaneously.
+        * Strongly dislike writing and/or drawing.
+        * Experience problems with grammar.
+        * Struggle to write down thoughts and ideas in a logical sequence.
+        * Often lose energy or interest as soon as they start writing.
+        * Often say words out loud while writing.
+        * Leave words unfinished or omit them when writing sentences.
       text_column_left: true
       text_column_right: false
       image:
         enabled: true
         image_url: /two-young-girls-working-on-assignments.jpg
-        image_alt:
+        image_alt: two young girls doing homework together at a desk
       button:
         enabled: true
         button_url: /get-started/
@@ -83,8 +89,8 @@ targeted_subject_testing_block:
       background_color: white
     - heading: Test for <span class="underline underline--accent">dyscalculia</span>.
       subheading: >-
-        Dyscalculia can cause issues with math. You may be struggling with
-        dyscalculia if they:
+        Dyscalculia can cause issues with math. Your child may be struggling
+        with dyscalculia if they:
       body: |-
         * Struggle to count, especially in their heads.
         * Confuse common mathematical symbols (i.e. +,-, x).
@@ -95,7 +101,7 @@ targeted_subject_testing_block:
       image:
         enabled: true
         image_url: /child-doing-math-2.jpg
-        image_alt:
+        image_alt: Young girl and mom practicing math problems and counting with their hands
       button:
         enabled: true
         button_url: /get-started/
@@ -104,7 +110,7 @@ targeted_subject_testing_block:
 benefits_block:
   enabled: true
   heading: >-
-    The subject testing your child <span class="underline
+    The targeted subject testing your child <span class="underline
     underline--primary">deserves</span>.
   body:
   benefits:
@@ -124,10 +130,10 @@ benefits_block:
         differences and guide you on the best path to help them work
         <em>with</em> their minds.
       icon: /orange-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
         Schedule and complete your child's targeted subject test online—no
-        referral, wait-time or commute necessary.
+        referral, wait time or commute necessary.
       icon: /orange-block.svg
 faq_block:
   enabled: true
@@ -137,7 +143,7 @@ faq_block:
   questions:
     - question: Who will conduct my child’s targeted subject test?
       answer: >-
-        Your child will be matched with the licensed school psychologist who
+        Your child will be matched with the [licensed school psychologist](/our-team/) who
         best fits their unique needs, based on your intake interview.
     - question: How long will my child’s targeted subject test take?
       answer: >-
@@ -173,7 +179,7 @@ cta_block:
   heading: >-
     <span class="underline underline--primary">Assess</span> your child’s
     reading, writing or math skills.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

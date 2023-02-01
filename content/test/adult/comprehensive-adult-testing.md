@@ -12,14 +12,14 @@ seo:
   featured_image: /mind-team-counselor-during-treatment-session-13.jpg
 hero:
   heading: >-
-    All the <span class="underline underline--accent">answers you need</span>
-    ...
+    Get <span class="underline underline--accent">all</span> the answers you
+    need.
   body: >-
-    Get a full understanding of your mind and test for various conditions
-    including autism, ADHD, dyslexia and more, all in one comprehensive
-    assessment.
+    Test for various conditions including autism, ADHD, dyslexia and more, all
+    in one comprehensive assessment.
   image_url: /mind-team-counselor-during-treatment-session-13.jpg
-  image_alt:
+  image_alt: Two Mind Team counselors on video call together
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -28,7 +28,7 @@ testing_options_block:
   enabled: true
   heading: >-
     Mind Team <span class="underline underline--secondary">comprehensive</span>
-    adult testing options.
+    adult testing options
   pre_options_body:
   options:
     - heading: Comprehensive psychoeducational
@@ -45,15 +45,15 @@ testing_options_block:
         enabled: false
         button_url: /get-started/
         button_text: Get Started Now
-    - heading: Comprehensive battery
+    - heading: 'Comprehensive neuropsychological '
       subheading: >-
         When you need it all—broad subject area testing, learning disorder
         screening and more.
       body: |-
-        - Detailed history questionnaire
-        - Full battery autism screen
-        - Full battery ADHD screen
-        - Broad reading, writing and math achievement
+        * Detailed history questionnaire
+        * Full battery autism screen
+        * Full battery ADHD screen
+        * Broad reading, writing and math achievement
       price: $3,900
   post_options_body:
   button:
@@ -63,7 +63,7 @@ testing_options_block:
 benefits_block:
   enabled: true
   heading: >-
-    The comprehensive testing <span class="underline underline--primary">you
+    The comprehensive assessment <span class="underline underline--primary">you
     deserve</span>.
   body:
   benefits:
@@ -82,7 +82,7 @@ benefits_block:
         Designed to identify your unique neural strengths and differences and
         guide you on the best path to work <em>with</em> your mind.
       icon: /orange-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
         Schedule and complete your comprehensive test online—no referral, wait
         time or commute necessary.
@@ -93,9 +93,9 @@ faq_block:
     Frequently asked <span class="underline
     underline--secondary">questions</span>
   questions:
-    - question: Who will conduct my comprehensive test?
+    - question: Who will conduct my comprehensive assessment?
       answer: >-
-        You will be matched with the licensed Mind Team clinician who best fits
+        You will be matched with the licensed [Mind Team clinician](/our-team/) who best fits
         your needs, according to the information you provide in your intake
         interview.
     - question: How long does comprehensive adult testing take?
@@ -129,7 +129,7 @@ cta_block:
   heading: >-
     Schedule your <span class="underline
     underline--primary">comprehensive</span> test.
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

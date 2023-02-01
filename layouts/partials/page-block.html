@@ -11,7 +11,7 @@
       <div class="page-block__content w-100 w-50-m mt-3 mt-0-m {{ if .text_column_right }}ml-6-m{{ else }}mr-6-m{{ end }}">
         <div class="text-block flow">
           <h2 id="{{ .heading | plainify | urlize }}">{{ .heading | safeHTML }}</h2>
-          <p style="max-width: 500px;margin: 1.25rem auto 0 auto;">{{ .body | markdownify }}</p>
+          {{ .body | markdownify }}
           {{ if .button.enabled }}
             {{ with .button }}
                 <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>

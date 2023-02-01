@@ -108,7 +108,7 @@
     }
   }
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     display: none;
   }
 
@@ -344,6 +344,12 @@
 }
 
 .resources-sub-menu {
+  .sub-menu__menu {
+    columns: 1;
+  }
+}
+
+.nav-list__item:nth-of-type(2) {
   .sub-menu__menu {
     columns: 1;
   }

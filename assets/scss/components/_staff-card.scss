@@ -1,0 +1,19 @@
+.staff-card {
+    &__headshot {
+        transition: $transition;
+    }
+
+    &__body {
+        a {
+            text-decoration: none;
+            color: $black;
+        }
+    }
+
+    &:hover, 
+    &:focus {
+        .staff-card__headshot {
+            transform: scale(1.05);
+        }
+    }
+}

@@ -6,18 +6,19 @@ menu:
   footer_primary:
     weight: 1
 seo:
-  page_title: 'Professional Remote Tests - Get the Answers You Need '
+  page_title: 'Test - Remote neurodivergent tests '
   meta_description: >-
     Test for autism, ADHD, dyslexia and other conditions with Mind Team
     neurodivergent testing—100% remote, comprehensive and professional.
-  featured_image: /adhd-testing-on-desk.jpg
+  featured_image: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
 hero:
   heading: Get the answers <span class="underline underline--accent">you need</span>.
   body: >-
     Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and
     dyscalculia in children and adults.
-  image_url: /adhd-testing-on-desk.jpg
-  image_alt:
+  image_url: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
+  image_alt: Young girl playing with red and white blocks during remote testing session
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -43,13 +44,13 @@ testing_block:
     Team testing options and to get the most accurate pricing information.
   image_cards:
     - image_url: /child-adhd-testing-autism-testing.jpg
-      image_alt:
+      image_alt: Young girl playing with red and white blocks during remote testing session with Heather Meggers-Wright
       button:
         enabled: true
         button_url: /test/child-neurodivergent-test/
         button_text: Child testing
     - image_url: /two-clinicians-on-video-call-together-2-reversed.jpg
-      image_alt:
+      image_alt: Two mind team clinician on a video call together
       button:
         enabled: true
         button_url: /test/adult-neurodivergent-test/
@@ -67,14 +68,14 @@ process_block:
     - heading: 'Step 1: questionnaire'
       time: 5-10 minutes
       body: >-
-        Get started by filling out our brief questionnaire and we’ll help
-        identify and schedule the test that best suits your needs.
+        Tell us your needs and we’ll help identify and schedule the right test
+        for you.
       icon: /1-blue-block.svg
     - heading: 'Step 2: diagnostic interview'
       time: 1 hour
       body: >-
-        Get comfortable with our secure, virtual appointment portal and review
-        your history, background and concerns with your Mind Team clinician.
+        Get comfortable with our virtual appointment portal to review your
+        history, background and concerns with your Mind Team clinician.
       icon: /2-orange-block.svg
     - heading: 'Step 3: online assessment'
       time: 1-5 hours
@@ -85,9 +86,8 @@ process_block:
     - heading: 'Step 4: post-assessment feedback'
       time: 1 hour
       body: >-
-        Meet remotely with your Mind Team clinician to review your test results
-        and get recommendations for which steps to take next and how to begin
-        treatment.
+        Meet for a final review of your test results and get recommendations for
+        which steps to take next.
       icon: /4-blue-block.svg
   button:
     enabled: true
@@ -119,17 +119,17 @@ faq_block:
         Mind Team tests can re-confirm or contest diagnosis for a variety of
         conditions. If you are confident in your diagnosis and simply need
         guidance and support, Mind Team [treatment
-        services](/remote-neurodivergent-treatment/) are here to help.
+        services](/treat/) are here to help.
     - question: What if you can’t diagnose me?
       answer: >-
         It’s completely possible (and normal) to be neurodivergent without
-        meeting the full symptomatic requirements for an official condition
-        diagnosis. 
+        meeting the DSM-5 requirements for a medical diagnosis.
 
 
         Ruling conditions out is still a vital step in the process and will help
         us get the information we need to successfully transition into the
-        treatment phase.
+        treatment phase. Treatment options can be effective in helping people
+        with or without a narrowly-defined diagnosis.
   subheading: Have a different question?
   button:
     enabled: true
@@ -138,9 +138,7 @@ faq_block:
 cta_block:
   enabled: true
   heading: Get the answers <span class="underline underline--primary">you need</span>.
-  body: >-
-    It couldn’t be easier to get started. Fill out our short questionnaire and
-    we’ll handle the rest.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

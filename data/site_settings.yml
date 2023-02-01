@@ -1,23 +1,25 @@
 logo: /Mind-Team-Logo-Tag-Long.svg
 footer_logo: /Mind-Team-Logo-Tag-Long.svg
 business_name: Mind Team
-phone:
+phone: 715-301-0302
 fax:
 email:
 address:
-  city: "Wausau"
+  city: "Stevens Point"
   state: "WI"
-  street: "630 S 36th Ave"
-  zip: "54401"
+  street: "2417 Post Road, Bldg A"
+  zip: "54481"
 google_maps_url: https://goo.gl/maps/hrfQ1jzCLLgnMY1s8
 social_media:
   - title: Facebook
-    link: https://www.facebook.com/mymindteamwi
+    link: https://www.facebook.com/mymindteamus
   - title: LinkedIn
     link: https://www.linkedin.com/company/mindteamwi/about/?viewAsMember=true
   - title: YouTube
     link:
   - title: Instagram
-    link: https://www.instagram.com/mymindteamwi/
+    link: https://www.instagram.com/my_mind_team/
   - title: Twitter
     link:
+  - title: TikTok
+    link: https://www.tiktok.com/@my_mind_team?lang=en

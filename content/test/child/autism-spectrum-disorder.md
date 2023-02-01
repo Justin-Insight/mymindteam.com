@@ -1,12 +1,13 @@
 ---
-title: Autism Spectrum Disorder
+title: Autism spectrum disorder
 url: /test/child/child-autism-test/
 menu:
   main:
     parent: Child Testing
     identifier: Child Autism Testing
+    name: Autism Spectrum Disorder
 seo:
-  page_title: "Child Autism Test - Get the Answers You Need with Mind Team "
+  page_title: 'Child Autism Test - Get the Answers You Need with Mind Team '
   meta_description: >-
     Does your child have autism? Schedule their professional, remote autism test
     with Mind Team to get the answers you need to help them thrive.
@@ -15,11 +16,10 @@ hero:
   heading: >-
     Does your child have <span class="underline
     underline--accent">autism</span>?
-  body: >-
-    Get the professional answers and support you need to work *with* your
-    child’s mind, all from the comfort of home.
+  body: Get the answers you need with a comprehensive autism assessment.
   image_url: /young-girl-during-autism-spectrum-disorder-testing-7.jpg
-  image_alt:
+  image_alt: Young girl on couch during a remote Mind Team autism spectrum disorder testing
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -27,23 +27,23 @@ hero:
 page_blocks:
   - heading: >-
       Signs of <span class="underline underline--accent">autism</span> in
-      children.
+      children
     body: >-
       Your child may be struggling with autism and could benefit from a
       diagnosis if they:
 
 
-      * Tend to get very upset by tastes, smells, sounds and textures they don’t
-      like.
+      * Experience difficulties adapting to and adjusting to changes.
+
+      * Exhibit rigid thinking and behavioral patterns.
 
       * Struggle to relate to and interact with other children their age.
 
-      * Avoid making/keeping eye contact.
+      * Exhibit repetitive movements when experiencing strong emotions or high
+      sensory experiences.
 
-      * Frequently repeat motions like hand flapping and rocking back and forth.
-
-      * Break down, lash out and/or have trouble controlling their actions when
-      upset.
+      * Have difficulties with regulation when experiencing distress related to
+      strong sounds, scents and textures.
     button:
       enabled: false
       button_url:
@@ -53,14 +53,14 @@ page_blocks:
     image:
       enabled: true
       image_url: /child-sitting-alone-at-playground.jpg
-      image_alt:
+      image_alt: Yound girl sitting by herself watching other kids play in a sandbox
     background_color: white
 adhd_testing_block:
   enabled: true
   heading: >-
-    Mind Team <span class="underline underline--accent">autism testing</span>
-    for children.
-  subheading: $2,300
+    Mind Team <span class="underline underline--accent">autism assessment</span>
+    for children
+  subheading: $3,300
   body: >-
     Conducted by licensed clinicians specializing in autism via our secure,
     remote platform.
@@ -71,7 +71,7 @@ adhd_testing_block:
 benefits_block:
   enabled: true
   heading: >-
-    The autism testing your child <span class="underline
+    The autism assessment your child <span class="underline
     underline--primary">deserves</span>.
   body:
   benefits:
@@ -89,10 +89,10 @@ benefits_block:
         differences to guide them on the best path to work <em>with</em> their
         mind.
       icon: /orange-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
         Complete your child’s autism test from the comfort of your own home—no
-        referral, wait-time or commute necessary.
+        referral, wait time or commute necessary.
       icon: /orange-block.svg
 faq_block:
   enabled: true
@@ -100,12 +100,12 @@ faq_block:
     Frequently asked <span class="underline
     underline--secondary">questions</span>
   questions:
-    - question: Who will conduct my child’s autism test?
+    - question: Who will conduct my child’s autism assessment?
       answer: >-
         You will be matched with the licensed Mind Team clinician who best fits
-        your child’s unique needs, like those on our team specializing in
+        your child’s unique needs, like those on [our team](/our-team/) specializing in
         autism.
-    - question: How long will my child’s autism test take?
+    - question: How long will my child’s autism assessment take?
       answer: >-
         It depends. Mind Team remote child autism tests vary in length, as they
         are tailored to your child’s needs, challenges and more. We’ll prepare
@@ -130,7 +130,7 @@ cta_block:
   heading: >-
     Find out if your child has <span class="underline
     underline--primary">autism</span>.
-  body: The process couldn’t be easier! Get started with our brief questionnaire.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

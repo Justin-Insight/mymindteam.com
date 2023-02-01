@@ -11,12 +11,11 @@ seo:
     professional, remote assessment.
   featured_image: /books-on-desk-8.jpg
 hero:
-  heading: <span class="underline underline--accent">Adult</span> ADHD Tests
-  body: >-
-    Get the professional ADHD testing and diagnosis you need to work *with* your
-    mind, all from the comfort of home.
+  heading: <span class="underline underline--accent">Adult</span> ADHD tests
+  body: Get the answers you need with a comprehensive ADHD assessment.
   image_url: /books-on-desk-8.jpg
-  image_alt:
+  image_alt: ADHD and autism books stacked on a desk
+  mobile_image_url: 
   button:
     enabled: false
     button_url: /get-started/
@@ -50,7 +49,7 @@ page_blocks:
     image:
       enabled: true
       image_url: /woman-looking-out-window-at-desk.jpg
-      image_alt:
+      image_alt: Distracted woman looking out office window
     background_color: white
 adhd_testing_block:
   enabled: true
@@ -87,10 +86,10 @@ benefits_block:
         Designed to identify your unique neural strengths and differences and
         guide you on the best path to work <em>with</em> your mind.
       icon: /orange-block.svg
-    - heading: Stress-free
+    - heading: Stress free
       body: >-
-        Schedule and complete your remote ADHD test online—no referral,
-        wait-time or commute necessary.
+        Schedule and complete your remote ADHD test online—no referral, wait
+        time or commute necessary.
       icon: /orange-block.svg
 faq_block:
   enabled: true
@@ -119,7 +118,7 @@ faq_block:
 
         If you are confident in your diagnosis and simply need guidance and
         support, Mind Team [treatment
-        services](/remote-neurodivergent-treatment/) are here to help.
+        services](/treat/) are here to help.
     - question: What if you can’t diagnose me with ADHD?
       answer: >-
         It’s completely possible (and normal) to struggle with attention,
@@ -140,9 +139,7 @@ faq_block:
 cta_block:
   enabled: true
   heading: Find out if you have <span class="underline underline--primary">ADHD</span>.
-  body: >-
-    The process couldn’t be easier! Fill out our brief questionnaire to get
-    started.
+  body: Complete our brief questionnaire, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/
