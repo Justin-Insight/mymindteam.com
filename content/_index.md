@@ -13,7 +13,7 @@ hero:
   body:
   image_url: /young-girl-during-remote-mind-team-session.jpg
   image_alt:
-  mobile_image_url: /young-girl-during-remote-mind-team-session-cropped.jpg
+  mobile_image_url:
   button:
     enabled: true
     button_url: /get-started/

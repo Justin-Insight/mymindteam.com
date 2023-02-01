@@ -72,10 +72,8 @@
 
 .page-treat .benefit, 
 .page-interventions .benefit {
-    flex: 1 1 500px;
-
     @include breakpoint (lg) {
-        flex: 1 1 600px;
+        flex: 1 1 550px;
     }
 }
 
