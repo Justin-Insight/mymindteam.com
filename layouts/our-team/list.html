@@ -20,9 +20,9 @@
                         <div class="staff-card__headshot">
                             <a href="{{ .Permalink }}">
                                 {{ if .Params.headshot }}
-                                    <img src="https://ik.imagekit.io/insightcreative/mind-team/{{ .Params.headshot }}?tr=f-auto,q-80" alt="">
+                                    <img src="https://ik.imagekit.io/insightcreative/mind-team/{{ .Params.headshot }}?tr=f-auto,q-80" alt="Headshot of {{ .Title }}" width="600" height="400">
                                 {{ else }}
-                                    <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-placeholder-headshot.jpg?tr=f-auto,q-80" alt="">
+                                    <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-placeholder-headshot.jpg?tr=f-auto,q-80" alt="The Mind Team logo mark" width="600" height="400">
                                 {{ end }}
                             </a>
                         </div>

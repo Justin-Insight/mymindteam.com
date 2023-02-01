@@ -4,9 +4,9 @@
         <div class="flex flex-column flex-row-m">
             <div class="w-100 flow">
                 {{ if .Params.headshot }}
-                    <img src="https://ik.imagekit.io/insightcreative/mind-team{{ .Params.headshot }}?tr=f-auto,q-80" alt="" style="max-width: 500px; margin: 0 auto;">
+                    <img src="https://ik.imagekit.io/insightcreative/mind-team{{ .Params.headshot }}?tr=f-auto,q-80" alt="Headshot of {{ .Title }}" style="max-width: 500px; margin: 0 auto;" width="600" height="400">
                 {{ else }}
-                    <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-placeholder-headshot.jpg?tr=f-auto,q-80" alt="" style="max-width: 500px; margin: 0 auto;">
+                    <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-placeholder-headshot.jpg?tr=f-auto,q-80" alt="The Mind Team logo mark" style="max-width: 500px; margin: 0 auto;" width="600" height="400">
                 {{ end }}
                 <h1>{{ .Title }}</h1>
                 <p class="fs-300 fw-500 max-width-none">{{ .Params.job_title }}</p>

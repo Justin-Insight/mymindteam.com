@@ -1,0 +1,16 @@
+<section class="block">
+    <div class="wrapper-lg">
+        <div class="grid-3">
+            {{ $pages := .Site.RegularPages }}
+            {{ $recentPosts := where $pages "Type" "blog" }}
+            {{ range first 3 $recentPosts }}
+            {{ .Render "blog-card" }}
+            {{ end }}
+        </div>
+    </div>
+    {{ if .Site.Data.global_partials.blog_feed_block.button }}
+    <div class="text-center mt-6">
+        <a href="{{ .Site.Data.global_partials.blog_feed_block.button_url }}" class="btn btn-primary">{{ .Site.Data.global_partials.blog_feed_block.button_text }}</a>
+    </div>
+    {{ end }}
+</section>
