@@ -1,6 +1,6 @@
 console.log('%c Crafted by Insight Creative, Inc. Designed by Sam Rowe and Developed by Justin Parsons', 'background: #1d1d1d; color: white; padding: 5px 10px;')
 
-import { toggleMobileMenu, toggleMobileDropdowns, filterPosts, openSearchModal, closeSearchModal } from "./partials";
+import { toggleMobileMenu, toggleMobileDropdowns, filterPosts, openSearchModal, closeSearchModal, updateBlogPostImagePaths } from "./partials";
 
 const siteHeader = document.querySelector(".site-header")
 const hasSubMenu = document.querySelectorAll(".has-sub-menu")
@@ -62,3 +62,5 @@ function expandNav() {
 window.addEventListener("scroll", function() {
   scrollDetect(collapseNav, expandNav)
 })
+
+updateBlogPostImagePaths()

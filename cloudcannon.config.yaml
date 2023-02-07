@@ -19,19 +19,29 @@ collections_config:
     _enabled_editors:
       - visual
   blog:
+    _inputs:
+      categories:
+        type: array
+      categories[*]:
+        type: text
     schemas:
       default:
         path: schemas/blog.md
-    documentation:
-      url: https://client-training.insightcreative.info/my-mind-team/#adding-new-blog-posts
-      text: Read the documentation.
   our-team:
+    add_options:
+      - name: Add New Staff
     schemas:
       default:
         path: schemas/our-team.md
-    documentation:
-      url: https://client-training.insightcreative.info/my-mind-team/#adding-new-staff-pages
-      text: Read the documentation.
+  authors:
+    add_options:
+      - name: Add New Author
+    schemas:
+      default:
+        path: schemas/authors.md
+
+editor:
+  default_path: /our-team/
 
 data_config:
   authors: true
@@ -45,7 +55,7 @@ _inputs:
     hidden: true
   layout:
     hidden: true
-  featured_image:
+  seo.featured_image:
     type: image
     comment: Set your featured image. Featured images are used as your SEO preview image when shared on social media or when your page is found in organic search results.
   hero.image_url:
@@ -77,10 +87,6 @@ _inputs:
       accepts_mime_types:
         - image/jpeg
         - image/svg+xml
-  logo:
-    type: image
-  footer_logo:
-    type: image
   heading:
     type: text
   time:

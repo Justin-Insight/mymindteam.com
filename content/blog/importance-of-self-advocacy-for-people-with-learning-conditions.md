@@ -37,7 +37,7 @@ Speak to your instructors about your learning disorder and what help you may nee
 
 ## The Help of Teachers and Parents in Self-Advocating for Students:
 
-![parent helping a young person at a computer](/uploads/parent-helping-young-person-at-computer.jpg)
+![parent helping a young person at a computer](/parent-helping-young-person-at-computer.jpg)
 
 Encourage your child to speak up and reach out to your child’s teachers to begin problem solving.
 

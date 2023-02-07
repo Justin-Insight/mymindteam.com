@@ -10,5 +10,5 @@ headshot:
 job_title:
 zoom_room_url:
 weight: 
-draft: false
+draft: true
 ---
