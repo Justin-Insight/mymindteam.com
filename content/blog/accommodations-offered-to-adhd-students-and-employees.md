@@ -53,7 +53,7 @@ Let's see what these tips are.
 
 ## Accommodations Offered to Workers:
 
-![Woman working at computer with tea and notebook on desk](/woman-working-at-computer.jpg)
+<img src="/woman-working-at-computer.jpg" width="1600" height="1067" />
 
 The Federal Government passed the Americans with Disability Act (ADA) of 1990 to create accommodations for people with different neuropsychological disorders.
 

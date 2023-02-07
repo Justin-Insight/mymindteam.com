@@ -1,15 +1,16 @@
 ---
-title: "Importance of Self-Advocacy for People with Learning Conditions"
+_schema: default
+title: Importance of Self-Advocacy for People with Learning Conditions
+draft: false
+url:
 seo:
   page_title:
   meta_description:
   featured_image: /woman-at-computer-with-tacky-kids-learning-scene.jpg
-draft: false
-author: 
 date: 2023-01-16T00:00:00Z
+author:
 categories:
 ---
-
 Self-advocacy encourages you to speak up for your rights and remain confident in your school or workplace.
 
 Self-advocacy involves the following aspects:
@@ -17,11 +18,11 @@ Self-advocacy involves the following aspects:
 * Identifying your weaknesses
 * Identifying your strengths
 * Identifying strategies to overcome your weaknesses
-* Communicating your needs 
+* Communicating your needs
 
 ## Some Tips for Self-Advocacy:
 
-* Know your rights and the accommodations available to you. There are specific laws such as [ADAA](https://ldaamerica.org/lda_today/section-504-the-tool-that-should-be-in-every-advocates-toolkit/) and [IDEA](https://ldaamerica.org/lda_today/section-504-the-tool-that-should-be-in-every-advocates-toolkit/) that can help you. 
+* Know your rights and the accommodations available to you. There are specific laws such as [ADAA](https://ldaamerica.org/lda_today/section-504-the-tool-that-should-be-in-every-advocates-toolkit/) and [IDEA](https://ldaamerica.org/lda_today/section-504-the-tool-that-should-be-in-every-advocates-toolkit/) that can help you.
 * Ask for support and help from others if needed. There is nothing to be ashamed of.
 * You don't need to reveal your diagnosis to other people. This article by [Shelia Graham and Ronald English](https://www.ldonline.org/ld-topics/college-college-prep/requesting-academic-accommodations) has some practice scenarios to disclose learning conditions/challenges.
 
@@ -33,11 +34,11 @@ Self-Advocacy can help you in finding and embracing your unique abilities. It ca
 
 If you are in school and are experiencing certain difficulties (such as being easily distracted, experiencing anxiety, finding yourself being impulsive, have difficulty in managing the tasks or are unable to understand assignments), you may benefit from self-advocacy!
 
-Speak to your instructors about your learning disorder and what help you may need from them.  
+Speak to your instructors about your learning disorder and what help you may need from them.
 
 ## The Help of Teachers and Parents in Self-Advocating for Students:
 
-![parent helping a young person at a computer](/parent-helping-young-person-at-computer.jpg)
+<img src="/parent-helping-young-person-at-computer.jpg" width="1280" height="854" />
 
 Encourage your child to speak up and reach out to your child’s teachers to begin problem solving.
 

@@ -1,22 +1,23 @@
 ---
-title: "Importance of Diagnosis in Neuropsychological Evaluation"
+_schema: default
+title: Importance of Diagnosis in Neuropsychological Evaluation
+draft: false
+url:
 seo:
   page_title:
   meta_description:
   featured_image: /parent-helping-young-person-at-computer.jpg
-draft: false
-author:
 date: 2023-01-14T00:00:00Z
+author:
 categories:
 ---
-
 Diagnosis is the first and critical part of neuropsychological evaluation. It can be a daunting time when seeking out testing and being diagnosed with any learning disabilities, but there is no need to get anxious. Believe us, it is beneficial for you!
 
-We have seen that people before being diagnosed with neuropsychological conditions feel depressed, frustrated, and alone. After diagnosis, they feel well-informed, secure, and comfortable. They now know more about themselves and can adjust their lives according to what they’ve learned. 
+We have seen that people before being diagnosed with neuropsychological conditions feel depressed, frustrated, and alone. After diagnosis, they feel well-informed, secure, and comfortable. They now know more about themselves and can adjust their lives according to what they’ve learned.
 
 Don't think of diagnosis as a label, but a path that can lead you toward a secure and bright future.
 
-Let's see the idea behind this whole diagnosis purpose: 
+Let's see the idea behind this whole diagnosis purpose:
 
 * Any atypical or unique pattern of behavior is occurring in an individual.
 
