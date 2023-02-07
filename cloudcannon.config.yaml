@@ -2,8 +2,7 @@ collection_groups:
   - heading: Blogging
     collections:
       - blog
-      - drafts
-  - heading: Other
+  - heading: All Pages
     collections:
       - pages
       - our-team
