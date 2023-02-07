@@ -1,20 +1,21 @@
 ---
-title: "Accommodations Offered to ADHD Students and Employees"
+_schema: default
+title: Accommodations Offered to ADHD Students and Employees
+draft: true
+url:
 seo:
   page_title:
   meta_description:
   featured_image: /woman-at-computer-with-pencil-in-mouth.jpg
-draft: false
-author:
 date: 2023-01-15T00:00:00Z
+author:
 categories:
 ---
-
 Children and adults with unique behavior such as social anxiety, inability to pay attention and difficulty controlling impulses can face issues in their schools and workplaces. It may indicate that they are being affected by ADHD or other learning disorders or differences.
 
 If you or your child is facing such issues, don't worry. We can help you in diagnosing your neural differences and can help you in providing the accommodations you need.
 
-In compliance with the [Americans with Disability Act](https://adata.org/factsheet/ADA-overview), Mind Team provides academic and cognitive achievement testing for possible ADHD, learning disabilities, learning differences and other neuropsychological deficits. 
+In compliance with the [Americans with Disability Act](https://adata.org/factsheet/ADA-overview), Mind Team provides academic and cognitive achievement testing for possible ADHD, learning disabilities, learning differences and other neuropsychological deficits.
 
 We use only nationally-recognized, well-validated testing methods to ensure our evaluations are objective and accurate. Our evaluations may indicate the need for testing accommodations in the classroom, workplace, or in standardized testing (such as SAT, MCAT, LSAT, EPPP and Bar Exams).
 
@@ -26,7 +27,7 @@ Let's see what accommodations you or your child can gain in school or at workpla
 
 ![woman and young girl doing an activity at desk](/uploads/woman-and-young-girl-together-at-desk.jpg)
 
-Your child can get accommodation in the school community under the section 504 plan. 
+Your child can get accommodation in the school community under the section 504 plan.
 
 Let's see what type of accommodations the section 504 plan offers to students:
 
@@ -39,7 +40,7 @@ Let's see what type of accommodations the section 504 plan offers to students:
 
 ## How Can Teachers Help ADHD Students?
 
-Under the 504 plan, there are some pieces of advice and tips for teachers to accommodate ADHD or other conditions and learning differences. 
+Under the 504 plan, there are some pieces of advice and tips for teachers to accommodate ADHD or other conditions and learning differences.
 
 Let's see what these tips are.
 
@@ -47,7 +48,7 @@ Let's see what these tips are.
 * Provide extra warnings before changing the routine
 * Change the test type (for example written from oral) according to the child's needs
 * Talk to the students about their feelings
-* Use different organizational tools for students 
+* Use different organizational tools for students
 * Communicate with parents or school counselors on a frequent basis
 
 ## Accommodations Offered to Workers:
@@ -64,4 +65,3 @@ Workers can ask for special accommodation in the workplace.
 * Workers with symptoms can discuss their issues with their HR department and can come up with realistic solutions
 
 Our multidisciplinary team can help you in identifying what type of accommodation you need and can set them up for you to let you flourish and tackle the challenges you face.
-
