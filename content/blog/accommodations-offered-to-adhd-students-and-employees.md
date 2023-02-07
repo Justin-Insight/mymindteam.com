@@ -6,7 +6,7 @@ url:
 seo:
   page_title:
   meta_description:
-  featured_image: /woman-at-computer-with-pencil-in-mouth.jpg
+  featured_image: /trek-bike-fitting.jpeg
 date: 2023-01-15T00:00:00Z
 author:
 categories:

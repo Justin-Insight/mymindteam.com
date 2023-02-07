@@ -6,7 +6,7 @@ url:
 seo:
   page_title:
   meta_description:
-  featured_image:
+  featured_image: /trek-bike-fitting-1.jpeg
 date: 2006-01-02T00:00:00Z
 author:
 categories:
