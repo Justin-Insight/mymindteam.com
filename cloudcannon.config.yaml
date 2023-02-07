@@ -9,6 +9,13 @@ collections_config:
     documentation:
       url: https://client-training.insightcreative.info/my-mind-team/#adding-new-blog-posts
       text: Read the documentation.
+  our-team:
+    schemas:
+      default:
+        path: schemas/our-team.md
+    documentation:
+      url: https://client-training.insightcreative.info/my-mind-team/#adding-new-staff-pages
+      text: Read the documentation.
 
 data_config:
   authors: true
