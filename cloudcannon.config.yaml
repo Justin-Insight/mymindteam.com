@@ -1,8 +1,33 @@
+collection_groups:
+  - heading: Blogging
+    collections:
+      - posts
+      - drafts
+  - heading: Other
+    collections:
+      - pages
+      - our-team
+
 collections_config:
   blog:
     schemas:
       default:
         path: schemas/blog.md
+  our-team:
+    add_options:
+      - name: Add New Staff
+    schemas:
+      default:
+        path: schemas/our-team.md
+  authors:
+    add_options:
+      - name: Add New Author
+    schemas:
+      default:
+        path: schemas/authors.md
+
+editor:
+  default_path: /our-team/
 
 data_config:
   authors: true
