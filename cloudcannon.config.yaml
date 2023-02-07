@@ -1,3 +1,19 @@
+collection_groups:
+  - heading: Blogging
+    collections:
+      - blog
+  - heading: All Pages
+    collections:
+      - pages
+      - our-team
+      - test
+      - treat
+      - transform
+      - resources
+  - heading: Data
+    collections:
+      - data
+
 collections_config:
   pages:
     _enabled_editors:
