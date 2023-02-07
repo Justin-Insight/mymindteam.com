@@ -1,12 +1,15 @@
 collection_groups:
   - heading: Blogging
     collections:
-      - posts
+      - blog
       - drafts
   - heading: Other
     collections:
       - pages
       - our-team
+  - heading: Data
+    collections:
+      - data
 
 collections_config:
   blog:
