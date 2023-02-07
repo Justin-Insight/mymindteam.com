@@ -7,6 +7,10 @@ collection_groups:
     collections:
       - pages
       - our-team
+      - test
+      - treat
+      - transform
+      - resources
   - heading: Data
     collections:
       - data
