@@ -15,7 +15,15 @@ collection_groups:
       - data
 
 collections_config:
+  pages:
+    _enabled_editors:
+      - visual
   blog:
+    _inputs:
+      categories:
+        type: array
+      categories[*]:
+        type: text
     schemas:
       default:
         path: schemas/blog.md
