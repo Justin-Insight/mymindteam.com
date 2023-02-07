@@ -47,7 +47,7 @@ _inputs:
     hidden: true
   layout:
     hidden: true
-  featured_image:
+  seo.featured_image:
     type: image
     comment: Set your featured image. Featured images are used as your SEO preview image when shared on social media or when your page is found in organic search results.
   hero.image_url:
