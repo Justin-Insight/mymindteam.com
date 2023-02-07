@@ -11,6 +11,8 @@ date: 2006-01-02T00:00:00Z
 author:
 categories:
 ---
+<img src="/adult-reading-book.jpg" width="1600" height="1067" />
+
 Diagnosis is the first and critical part of neuropsychological evaluation. It can be a daunting time when seeking out testing and being diagnosed with any learning disabilities, but there is no need to get anxious. Believe us, it is beneficial for you!
 
 We have seen that people before being diagnosed with neuropsychological conditions feel depressed, frustrated, and alone. After diagnosis, they feel well-informed, secure, and comfortable. They now know more about themselves and can adjust their lives according to what they’ve learned.&nbsp;
@@ -22,10 +24,6 @@ Let's see the idea behind this whole diagnosis purpose:&nbsp;
 * Any atypical or unique pattern of behavior is occurring in an individual.
 * This pattern has been observed in <a target="_blank" rel="noopener noreferrer" href="https://www.adhdawarenessmonth.org/children-do-not-grow-out-of-adhd/">a lot of other humans</a> too.
 * Over time, scientists became alert and based on their observations, they gave a name and solution to this behavior.
-
-We can help you in understanding your behavioral patterns and can guide you on how to deal with them. See, it was simple and helpful! If you are afraid that people will think negatively of you, do know that there are a lot of people in society who have been diagnosed with different neuropsychological conditions.
-
-Let us tell you some statistics.
 
 According to a comprehensive study, ADHD is one of the most common learning disorders diagnosed in children. Another study shows that 1 in 68 children in the UK has been affected by autism.
 
