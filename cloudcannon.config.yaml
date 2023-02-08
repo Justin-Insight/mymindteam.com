@@ -19,11 +19,6 @@ collections_config:
     _enabled_editors:
       - visual
   blog:
-    _inputs:
-      categories:
-        type: array
-      categories[*]:
-        type: text
     schemas:
       default:
         path: schemas/blog.md
@@ -45,6 +40,7 @@ editor:
 
 data_config:
   authors: true
+  categories: true
 
 paths:
   static: static/uploads
@@ -118,4 +114,9 @@ _inputs:
     type: select
     options:
       values: data.authors
+      value_key: title
+  author:
+    type: multiselect
+    options:
+      values: data.categories
       value_key: title
