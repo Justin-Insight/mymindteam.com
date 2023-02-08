@@ -66,5 +66,3 @@ Workers can ask for special accommodation in the workplace.
 * Workers with symptoms can discuss their issues with their HR department and can come up with realistic solutions
 
 Our multidisciplinary team can help you in identifying what type of accommodation you need and can set them up for you to let you flourish and tackle the challenges you face.
-
-<img src="/adult-reading-book.jpg" width="1600" height="1067" />
