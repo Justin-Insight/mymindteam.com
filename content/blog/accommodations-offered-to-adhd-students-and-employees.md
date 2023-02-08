@@ -10,7 +10,6 @@ seo:
 date: 2023-01-15T00:00:00Z
 author:
 categories:
-  - Uncategorized
 ---
 Children and adults with unique behavior such as social anxiety, inability to pay attention and difficulty controlling impulses can face issues in their schools and workplaces. It may indicate that they are being affected by ADHD or other learning disorders or differences.
 
