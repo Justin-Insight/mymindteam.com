@@ -115,7 +115,7 @@ _inputs:
     options:
       values: data.authors
       value_key: title
-  author:
+  categories:
     type: multiselect
     options:
       values: data.categories
