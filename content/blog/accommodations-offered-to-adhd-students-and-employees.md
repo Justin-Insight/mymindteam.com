@@ -10,6 +10,7 @@ seo:
 date: 2023-01-15T00:00:00Z
 author:
 categories:
+  - Uncategorized
 ---
 Children and adults with unique behavior such as social anxiety, inability to pay attention and difficulty controlling impulses can face issues in their schools and workplaces. It may indicate that they are being affected by ADHD or other learning disorders or differences.
 
@@ -24,8 +25,7 @@ After being properly diagnosed, the next step you have to take is to work with a
 Let's see what accommodations you or your child can gain in school or at workplaces.
 
 ## Accommodations Offered to Students with ADHD or Other Learning Differences:
-
-<img width="1280" height="853" src="/woman-and-young-girl-together-at-desk.jpg" />
+{{< responsive-image image_url="/woman-and-young-girl-together-at-desk.jpg" image_alt="Woman and young girl working together at desk" >}}
 
 Your child can get accommodation in the school community under the section 504 plan.
 
@@ -52,8 +52,7 @@ Let's see what these tips are.
 * Communicate with parents or school counselors on a frequent basis
 
 ## Accommodations Offered to Workers:
-
-<img width="1600" height="1067" src="/woman-working-at-computer.jpg" />
+{{< responsive-image image_url="/woman-working-at-computer.jpg" image_alt="Woman working at computer" >}}
 
 The Federal Government passed the Americans with Disability Act (ADA) of 1990 to create accommodations for people with different neuropsychological disorders.
 
