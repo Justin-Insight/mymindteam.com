@@ -19,11 +19,9 @@ collections_config:
     _enabled_editors:
       - visual
   blog:
-    _inputs:
-      categories:
-        type: array
-      categories[*]:
-        type: text
+    paths:
+      static: static
+      uploads: static/uploads
     schemas:
       default:
         path: schemas/blog.md
