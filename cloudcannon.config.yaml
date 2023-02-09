@@ -128,9 +128,9 @@ _snippets:
       shortcode_name: responsive-image
       named_args:
         - editor_key: image_url
-          type: image
+          type: string
         - editor_key: image_alt
-          type: text
+          type: string
     _inputs:
       image_url:
         type: image
