@@ -10,6 +10,7 @@ seo:
 date: 2023-01-14T00:00:00Z
 author:
 categories:
+  - Uncategorized
 ---
 Diagnosis is the first and critical part of neuropsychological evaluation. It can be a daunting time when seeking out testing and being diagnosed with any learning disabilities, but there is no need to get anxious. Believe us, it is beneficial for you!
 

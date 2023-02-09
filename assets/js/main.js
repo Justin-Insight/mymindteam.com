@@ -62,5 +62,3 @@ function expandNav() {
 window.addEventListener("scroll", function() {
   scrollDetect(collapseNav, expandNav)
 })
-
-updateBlogPostImagePaths()
