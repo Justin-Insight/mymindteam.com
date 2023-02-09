@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Accommodations Offered to ADHD Students and Employees
-draft: true
+draft: false
 url:
 seo:
   page_title:
@@ -13,7 +13,8 @@ categories:
   - Mental Health
   - Self Care
 ---
-{{< tint "#a92f2f" >}}Some tint text{{< /tint >}}Children and adults with unique behavior such as social anxiety, inability to pay attention and difficulty controlling impulses can face issues in their schools and workplaces. It may indicate that they are being affected by ADHD or other learning disorders or differences.
+
+Children and adults with unique behavior such as social anxiety, inability to pay attention and difficulty controlling impulses can face issues in their schools and workplaces. It may indicate that they are being affected by ADHD or other learning disorders or differences.
 
 If you or your child is facing such issues, don't worry. We can help you in diagnosing your neural differences and can help you in providing the accommodations you need.
 
@@ -27,7 +28,7 @@ Let's see what accommodations you or your child can gain in school or at workpla
 
 ## Accommodations Offered to Students with ADHD or Other Learning Differences:
 
-![woman and young girl doing an activity at desk](/uploads/woman-and-young-girl-together-at-desk.jpg)
+{{< responsive-image image_url="/woman-and-young-girl-together-at-desk.jpg" image_alt="woman and young girl doing an activity at desk" >}}
 
 Your child can get accommodation in the school community under the section 504 plan.
 
