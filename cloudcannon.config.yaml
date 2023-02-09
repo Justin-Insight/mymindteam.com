@@ -31,12 +31,6 @@ collections_config:
     schemas:
       default:
         path: schemas/our-team.md
-  authors:
-    add_options:
-      - name: Add New Author
-    schemas:
-      default:
-        path: schemas/authors.md
 
 editor:
   default_path: /our-team/
@@ -125,9 +119,6 @@ _snippets:
     preview:
       text: Responsive Image
       subtext: Full-width image with optimized srcset
-      image: image_url
-      gallery:
-        image: image_url
     definitions:
       shortcode_name: responsive-image
       named_args:
@@ -140,3 +131,41 @@ _snippets:
         type: image
       image_alt:
         type: text
+
+_editables:
+  text:
+    italic: true
+  block:
+    format: p h3
+    undo: true
+    redo: true
+  content:
+    blockquote: true
+    bold: true
+    format: p h1 h2 h3 h4 h5 h6 pre address div
+    italic: true
+    strike: true
+    subscript: true
+    superscript: true
+    underline: true
+    link: true
+    bulletedlist: true
+    indent: true
+    numberedlist: true
+    outdent: true
+    code: true
+    embed: true
+    horizontalrule: true
+    image: false
+    table: true
+    undo: true
+    redo: true
+    removeformat: true
+    copyformatting: true
+    styles: /css/editor.css
+    left: align-left
+    center: align-center
+    right: align-right
+    justify: align-justify
+    image_size_attributes: true
+    snippet: true
