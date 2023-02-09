@@ -13,7 +13,7 @@ categories:
   - Mental Health
   - Self Care
 ---
-Children and adults with unique behavior such as social anxiety, inability to pay attention and difficulty controlling impulses can face issues in their schools and workplaces. It may indicate that they are being affected by ADHD or other learning disorders or differences.
+{{< tint "#a92f2f" >}}Some tint text{{< /tint >}}Children and adults with unique behavior such as social anxiety, inability to pay attention and difficulty controlling impulses can face issues in their schools and workplaces. It may indicate that they are being affected by ADHD or other learning disorders or differences.
 
 If you or your child is facing such issues, don't worry. We can help you in diagnosing your neural differences and can help you in providing the accommodations you need.
 
@@ -68,4 +68,4 @@ Workers can ask for special accommodation in the workplace.
 
 Our multidisciplinary team can help you in identifying what type of accommodation you need and can set them up for you to let you flourish and tackle the challenges you face.
 
-<img src="/adhd-testing-on-desk.jpg" width="2000" height="800" />
+<img width="2000" height="800" src="/adhd-testing-on-desk.jpg" />
