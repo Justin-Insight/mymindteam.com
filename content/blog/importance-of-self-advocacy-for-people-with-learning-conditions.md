@@ -10,6 +10,7 @@ seo:
 date: 2023-01-16T00:00:00Z
 author:
 categories:
+  - Uncategorized
 ---
 Self-advocacy encourages you to speak up for your rights and remain confident in your school or workplace.
 
@@ -37,8 +38,7 @@ If you are in school and are experiencing certain difficulties (such as being ea
 Speak to your instructors about your learning disorder and what help you may need from them.
 
 ## The Help of Teachers and Parents in Self-Advocating for Students:
-
-<img src="/parent-helping-young-person-at-computer.jpg" width="1280" height="854" />
+{{< responsive-image image_url="/parent-helping-young-person-at-computer.jpg" image_alt="Parent helping child on computer" >}}
 
 Encourage your child to speak up and reach out to your child’s teachers to begin problem solving.
 
