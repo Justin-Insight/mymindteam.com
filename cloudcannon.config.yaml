@@ -117,3 +117,21 @@ _inputs:
     options:
       values: data.authors
       value_key: title
+
+_snippets:
+  hugo_tint:
+    template: hugo_paired_shortcode_positional_args
+    inline: true
+    preview:
+      text: Tint
+    definitions:
+      shortcode_name: tint
+      content_key: inner_text
+      positional_args:
+        - editor_key: tint_color
+          type: string
+    _inputs:
+      tint_color:
+        type: color
+      inner_text:
+        comment: This text will be tinted
