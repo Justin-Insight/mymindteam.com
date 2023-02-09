@@ -130,9 +130,9 @@ _snippets:
         - editor_key: image_url
           type: image
         - editor_key: image_alt
-          type: string
+          type: text
     _inputs:
       image_url:
         type: image
       image_alt:
-        type: string
+        type: text
