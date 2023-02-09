@@ -19,6 +19,9 @@ collections_config:
     _enabled_editors:
       - visual
   blog:
+    paths:
+      static: static
+      uploads: static/uploads
     schemas:
       default:
         path: schemas/blog.md
@@ -28,19 +31,12 @@ collections_config:
     schemas:
       default:
         path: schemas/our-team.md
-  authors:
-    add_options:
-      - name: Add New Author
-    schemas:
-      default:
-        path: schemas/authors.md
 
 editor:
   default_path: /our-team/
 
 data_config:
   authors: true
-  categories: true
 
 paths:
   static: static/uploads
@@ -115,8 +111,55 @@ _inputs:
     options:
       values: data.authors
       value_key: title
-  categories:
-    type: multiselect
-    options:
-      values: data.categories
-      value_key: title
+
+_snippets:
+  hugo_tint:
+    template: hugo_shortcode_named_args
+    inline: false
+    preview:
+      text: Responsive Image
+      subtext: Full-width image with optimized srcset
+    definitions:
+      shortcode_name: responsive-image
+      named_args:
+        - editor_key: image_url
+          type: string
+        - editor_key: image_alt
+          type: string
+    _inputs:
+      image_url:
+        type: image
+      image_alt:
+        type: text
+
+_editables:
+  text:
+    italic: true
+  block:
+    format: p h3
+    undo: true
+    redo: true
+  content:
+    blockquote: true
+    bold: true
+    format: p h1 h2 h3 h4 h5 h6 pre address div
+    italic: true
+    strike: true
+    subscript: true
+    superscript: true
+    underline: true
+    link: true
+    bulletedlist: true
+    indent: true
+    numberedlist: true
+    outdent: true
+    code: true
+    embed: true
+    horizontalrule: true
+    image: false
+    table: true
+    undo: true
+    redo: true
+    removeformat: true
+    copyformatting: true
+    snippet: true
