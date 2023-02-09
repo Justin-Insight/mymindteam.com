@@ -124,6 +124,7 @@ _snippets:
     inline: false
     preview:
       text: Responsive Image
+      subtext: Full-width responsive image with optimized srcset
     definitions:
       shortcode_name: responsive-image
       named_args:
