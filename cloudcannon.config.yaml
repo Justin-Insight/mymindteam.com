@@ -123,6 +123,7 @@ _snippets:
       gallery:
         image:
           - key: image_url
+        fit: cover
     definitions:
       shortcode_name: responsive-image
       named_args:
