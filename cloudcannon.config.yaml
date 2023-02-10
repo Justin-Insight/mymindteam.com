@@ -117,6 +117,7 @@ _snippets:
     template: hugo_shortcode_named_args
     inline: false
     preview:
+      view: gallery
       text: Responsive Image
       subtext: Full-width image with optimized srcset
       gallery:
