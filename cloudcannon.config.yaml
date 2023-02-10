@@ -119,7 +119,9 @@ _snippets:
     preview:
       text: Responsive Image
       subtext: Full-width image with optimized srcset
-      image: image_url
+      metadata:
+        text: metadata test here
+        image: image_url
       gallery:
         image:
           - key: image_url
