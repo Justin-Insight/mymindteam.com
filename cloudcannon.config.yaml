@@ -113,7 +113,7 @@ _inputs:
       value_key: title
 
 _snippets:
-  hugo_tint:
+  responsive_image:
     template: hugo_shortcode_named_args
     inline: false
     preview:

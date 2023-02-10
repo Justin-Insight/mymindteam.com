@@ -26,6 +26,8 @@ Let's see what accommodations you or your child can gain in school or at workpla
 
 ## Accommodations Offered to Students with ADHD or Other Learning Differences:
 
+{{< responsive-image image_url="/uploads/woman-and-young-girl-together-at-desk.jpg" image_alt="Woman and young girl working together at desk" >}}
+
 Your child can get accommodation in the school community under the section 504 plan.
 
 Let's see what type of accommodations the section 504 plan offers to students:
@@ -52,7 +54,7 @@ Let's see what these tips are.
 
 ## Accommodations Offered to Workers:
 
-{{< responsive_image image_url="/woman-working-at-computer.jpg" image_alt="Woman working at computer with tea and notebook on desk" >}}
+{{< responsive-image image_url="/woman-working-at-computer.jpg" image_alt="Woman working at computer with tea and notebook on desk" >}}
 
 The Federal Government passed the Americans with Disability Act (ADA) of 1990 to create accommodations for people with different neuropsychological disorders.
 
