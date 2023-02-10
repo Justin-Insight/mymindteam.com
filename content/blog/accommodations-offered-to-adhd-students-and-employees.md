@@ -25,7 +25,8 @@ After being properly diagnosed, the next step you have to take is to work with a
 Let's see what accommodations you or your child can gain in school or at workplaces.
 
 ## Accommodations Offered to Students with ADHD or Other Learning Differences:
-{{< responsive-image image_url="/woman-and-young-girl-together-at-desk.jpg" image_alt="Woman and young girl working together at desk" >}}
+
+{{< responsive_image image_url="/woman-and-young-girl-together-at-desk.jpg" image_alt="woman and young girl doing an activity at desk" >}}
 
 Your child can get accommodation in the school community under the section 504 plan.
 
@@ -52,7 +53,8 @@ Let's see what these tips are.
 * Communicate with parents or school counselors on a frequent basis
 
 ## Accommodations Offered to Workers:
-{{< responsive-image image_url="/woman-working-at-computer.jpg" image_alt="Woman working at computer" >}}
+
+{{< responsive_image image_url="/woman-working-at-computer.jpg" image_alt="Woman working at computer with tea and notebook on desk" >}}
 
 The Federal Government passed the Americans with Disability Act (ADA) of 1990 to create accommodations for people with different neuropsychological disorders.
 
