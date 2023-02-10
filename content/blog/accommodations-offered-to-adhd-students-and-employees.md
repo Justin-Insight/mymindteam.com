@@ -27,6 +27,7 @@ Let's see what accommodations you or your child can gain in school or at workpla
 ## Accommodations Offered to Students with ADHD or Other Learning Differences:
 
 {{< responsive_image image_url="/woman-and-young-girl-together-at-desk.jpg" image_alt="woman and young girl doing an activity at desk" >}}
+{{< responsive_image image_url="/woman-and-young-girl-together-at-desk.jpg" image_alt="woman and young girl doing an activity at desk" >}}
 
 Your child can get accommodation in the school community under the section 504 plan.
 
