@@ -118,7 +118,6 @@ _snippets:
     inline: false
     preview:
       text: Responsive Image
-      subtext: Full-width image with optimized srcset
       metadata:
         text: metadata test here
         image: image_url
