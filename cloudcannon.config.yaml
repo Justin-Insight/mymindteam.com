@@ -118,14 +118,12 @@ _snippets:
     inline: false
     preview:
       text: Responsive Image
-      metadata:
-        text: metadata test here
-        image: image_url
+      subtext: Full-width image with optimized srcset
       gallery:
         image:
           - key: image_url
     definitions:
-      shortcode_name: responsive_image
+      shortcode_name: responsive-image
       named_args:
         - editor_key: image_url
           type: string
