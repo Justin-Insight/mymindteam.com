@@ -113,7 +113,7 @@ _inputs:
       value_key: title
 
 _snippets:
-  hugo_tint:
+  responsive_image:
     template: hugo_shortcode_named_args
     inline: false
     preview:
@@ -123,7 +123,7 @@ _snippets:
         image:
           - key: image_url
     definitions:
-      shortcode_name: responsive-image
+      shortcode_name: responsive_image
       named_args:
         - editor_key: image_url
           type: string
