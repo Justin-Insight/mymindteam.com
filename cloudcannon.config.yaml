@@ -119,6 +119,9 @@ _snippets:
     preview:
       text: Responsive Image
       subtext: Full-width image with optimized srcset
+      gallery:
+        image:
+          - key: image_url
     definitions:
       shortcode_name: responsive-image
       named_args:
