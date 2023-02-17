@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Mind Team - Aiming to Test, Treat, and Transform
-draft: true
+draft: false
 url:
 seo:
   page_title: Mind Team
@@ -11,7 +11,7 @@ seo:
     assessment services and interventions for individuals with learning or
     social-emotional differences.
   featured_image: /mind-team-clinicians-looking-at-book-2.jpg
-date:
+date: 2023-02-17T12:25:00Z
 author: default
 categories:
   - Mind Team
