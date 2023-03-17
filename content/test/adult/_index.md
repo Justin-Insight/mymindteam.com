@@ -18,7 +18,7 @@ hero:
     neurodivergent conditions—100% remote and conducted by licensed clinicians.
   image_url: /mind-team-counselor-during-treatment-session-15.jpg
   image_alt: A mind team counselor on a tablet during remote treatment session
-  mobile_image_url: 
+  mobile_image_url:
   button:
     enabled: false
     button_url: /get-started/
@@ -44,11 +44,11 @@ testing_options_block:
     - heading: Adult autism test
       subheading: 'Test for autism in a structured interview assessing:'
       body: |-
-        - Executive functioning
-        - Feedback from friends, relatives or coworkers
-        - Emotional/behavioral conditions
-        - Personal history and medical records
-      price: $2,400
+        * Executive functioning
+        * Feedback from friends, relatives or coworkers
+        * Emotional/behavioral conditions
+        * Personal history and medical records
+      price: $1,800
       button:
         enabled: true
         button_url: /test/adult/adult-autism-test/
@@ -56,12 +56,12 @@ testing_options_block:
     - heading: Adult ADHD test
       subheading: 'Test for ADHD in a diagnostic interview assessing:'
       body: |-
-        - Attention
-        - Executive functioning
-        - Memory screen
-        - Emotional/behavioral conditions
-        - Personal history and medical records
-      price: $1,600
+        * Attention
+        * Executive functioning
+        * Memory screen
+        * Emotional/behavioral conditions
+        * Personal history and medical records
+      price: $1,200
       button:
         enabled: true
         button_url: /test/adult/online-adhd-test/
@@ -71,12 +71,12 @@ testing_options_block:
         Test for autism, ADHD, dyslexia, dysgraphia and dyscalculia all in one
         comprehensive diagnostic interview assessing:
       body: |-
-        - Attention
-        - Executive functioning
-        - Broad reading, writing and math achievement
-        - Cognitive IQ
-        - Personal history and medical records
-      price: $3,900
+        * Attention
+        * Executive functioning
+        * Broad reading, writing and math achievement
+        * Cognitive IQ
+        * Personal history and medical records
+      price: $2,925
       button:
         enabled: true
         button_url: /test/adult/comprehensive-adult-testing/
