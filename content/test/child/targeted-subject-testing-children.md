@@ -12,6 +12,7 @@ seo:
     dysgraphia and/or dyscalculia with a licensed school psychologist.
   featured_image: /young-girl-during-a-child-adhd-testing-session-8.jpg
 hero:
+  enabled: true
   heading: >-
     Is your child <span class="underline underline--accent">struggling</span>
     with reading, writing or math?

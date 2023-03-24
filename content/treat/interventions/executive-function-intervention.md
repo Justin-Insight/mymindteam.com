@@ -13,6 +13,7 @@ seo:
   featured_image: /young-boy-reading.jpg
 short_description: For students and adults.
 hero:
+  enabled: true
   heading: <span class="underline underline--accent">Overcome</span> executive function challenges.
   body: >-
     Mind Team executive function interventions help children and adults develop executive function skills that work with their unique mind and learning style.

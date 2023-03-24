@@ -7,6 +7,7 @@ seo:
     testing and treatment for autism, ADHD, dyslexia and other conditions.
   featured_image: /mind-team-generic-social-preview-image.jpg
 hero:
+  enabled: true
   heading: >-
     Live and learn <span class="underline underline--accent">without
     limitation</span>.
@@ -109,10 +110,17 @@ page_blocks:
     body: >-
       Our 100% remote tests and treatment services are always conducted by
       licensed Mind Team clinicians specially chosen to fit your unique needs.
+
+
+      Our remote tests and interventions are available in every <a href="https://psypact.org/mpage/psypactmap" target="_blank" rel="noopener noreferrer nofollower">PSYPACT state</a> across the country. Click the button below to view the full list of eligible states.
     button:
       enabled: true
       button_url: /our-team/
       button_text: Meet Our Team
+    button_2:
+      enabled: true
+      button_url: /participating-states/
+      button_text: Participating States
     text_column_left: false
     text_column_right: true
     image:

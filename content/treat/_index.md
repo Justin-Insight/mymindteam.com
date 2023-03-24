@@ -12,6 +12,7 @@ seo:
     to work with your mind to live and learn without limitation. 
   featured_image: /mind-team-clinician-during-one-on-one-remote-counseling-session-2.jpg
 hero:
+  enabled: true
   heading: Every mind can <span class="underline underline--accent">thrive</span>.
   body: >-
     Mind Team provides individualized and evidence-based treatment for dyslexia,

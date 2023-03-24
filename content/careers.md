@@ -13,6 +13,7 @@ seo:
     clinicians helping children and adults live and learn without limitation.
   featured_image: /mind-team-clinicians-looking-at-book-2.jpg
 hero:
+  enabled: true
   heading: Mind Team <span class="underline underline--accent">Careers</span>
   body: >-
     Join a passionate, remote team of psychologists, interventionists and

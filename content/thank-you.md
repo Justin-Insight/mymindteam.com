@@ -7,6 +7,7 @@ seo:
   featured_image: 
   featured_image_alt:
 hero:
+  enabled: true
   heading: Thank You!
   body: 
   image_url:

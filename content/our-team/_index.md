@@ -12,6 +12,7 @@ seo:
     chosen to help you thrive with ADHD, autism and other conditions.
   featured_image: /mind-team-group-in-conference-room.jpg
 hero:
+  enabled: true
   heading: Meet <span class="underline underline--accent">your</span> Mind Team.
   body: >-
     Our diverse team of licensed psychologists, counselors, interventionists and

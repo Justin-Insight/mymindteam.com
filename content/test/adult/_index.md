@@ -12,6 +12,7 @@ seo:
     testing.
   featured_image: /mind-team-counselor-during-treatment-session-15.jpg
 hero:
+  enabled: true
   heading: Get the answers <span class="underline underline--accent">you need</span>.
   body: >-
     Professional adult testing for autism, ADHD, dyslexia and other

@@ -11,6 +11,7 @@ seo:
     need to take? Schedule a Mind Team remote specialty test.
   featured_image: /mind-team-clinician-23.jpg
 hero:
+  enabled: true
   heading: >-
     Remote <span class="underline underline--accent">specialty</span> testing
     for adults

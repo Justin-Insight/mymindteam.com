@@ -12,6 +12,7 @@ seo:
     for individuals of all ages in any stage of their learning journey.
   featured_image: /mind-team-generic-social-preview-image.jpg
 hero:
+  enabled: true
   heading: Mind Team blog
   body: Neurodivergent tips, guides, news and resources for children and adults.
   image_url:

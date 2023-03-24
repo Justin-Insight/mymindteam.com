@@ -12,6 +12,7 @@ seo:
     neurodivergent conditions all in one comprehensive test. 
   featured_image: /young-boy-during-one-on-one-remote-counseling-session-7.jpg
 hero:
+  enabled: true
   heading: >-
     Get a <span class="underline underline--accent">full understanding</span> of
     your child’s mind.

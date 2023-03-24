@@ -13,6 +13,7 @@ seo:
     options and see what’s included in your investment.
   featured_image: /mind-team-clinician-20.jpg
 hero:
+  enabled: true
   heading: Your Mind Team <span class="underline underline--accent">investment</span>
   body: >-
     View our testing and treatment service pricing with convenient online
