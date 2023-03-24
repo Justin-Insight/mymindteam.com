@@ -1,5 +1,8 @@
 ---
 title: Participating States
+menu:
+  resources:
+    weight: 5
 seo:
   page_title: Participating States
   meta_description: >-
