@@ -16,8 +16,10 @@ hero:
     mind.
   body: Test for autism, ADHD, dyslexia and other neurodivergent conditions.
   image_url: /young-girl-at-desk-during-video-call.jpg
-  image_alt: Young girl taking Mind Team assessment at her desk while on a video call with Dr. Weiland
-  mobile_image_url: 
+  image_alt: >-
+    Young girl taking Mind Team assessment at her desk while on a video call
+    with Dr. Weiland
+  mobile_image_url:
   button:
     enabled: false
     button_url: /get-started/
@@ -43,11 +45,11 @@ testing_options_block:
     - heading: Child autism test
       subheading: 'Test your child for autism in a structured interview assessing:'
       body: |-
-        - Executive functioning 
-        - Feedback from friends, relatives and educators
-        - Emotional/behavioral conditions
-        - Personal history and medical records
-      price: $3,300
+        * Executive functioning
+        * Feedback from friends, relatives and educators
+        * Emotional/behavioral conditions
+        * Personal history and medical records
+      price: $2,475
       button:
         enabled: true
         button_url: /test/child/child-autism-test/
@@ -55,12 +57,12 @@ testing_options_block:
     - heading: Child ADHD test
       subheading: 'Test your child for ADHD in a diagnostic interview assessing:'
       body: |-
-        - Attention
-        - Executive functioning
-        - Memory screen
-        - Emotional/behavioral conditions
-        - Personal history and medical records
-      price: $2,300
+        * Attention
+        * Executive functioning
+        * Memory screen
+        * Emotional/behavioral conditions
+        * Personal history and medical records
+      price: $1,725
       button:
         enabled: true
         button_url: /test/child/child-adhd-test/
@@ -70,11 +72,11 @@ testing_options_block:
         Test your child for dyslexia, dysgraphia or dyscalculia with a school
         psychologist assessing:
       body: |-
-        - Reading, writing or math achievement
-        - Cognitive IQ
-        - Anxiety screen
-        - Detailed personal and academic history
-      price: $1,000
+        * Reading, writing or math achievement
+        * Cognitive IQ
+        * Anxiety screen
+        * Detailed personal and academic history
+      price: $750
       button:
         enabled: true
         button_url: /test/child/targeted-subject-testing-children/
@@ -87,7 +89,7 @@ testing_options_block:
         * Reading, writing and math achievement
         * Cognitive IQ
         * Detailed personal and academic history
-      price: $2,000
+      price: $1,500
       button:
         enabled: true
         button_url: /test/child/comprehensive-child-testing/
@@ -102,7 +104,7 @@ testing_options_block:
         * Broad reading, writing and math achievement
         * Cognitive IQ
         * Personal, medical and academic history
-      price: $3,900
+      price: $2,925
       button:
         enabled: true
         button_url: /test/child/comprehensive-child-testing/

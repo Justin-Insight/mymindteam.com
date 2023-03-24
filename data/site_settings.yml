@@ -5,11 +5,11 @@ phone: 715-301-0302
 fax:
 email:
 address:
-  city: "Stevens Point"
-  state: "WI"
-  street: "2417 Post Road, Bldg A"
-  zip: "54481"
-google_maps_url: https://goo.gl/maps/TH1gBnJeC3sgks3P9
+  city: Dallas
+  state: Texas
+  street: 17330 Preston Road Suite 200D
+  zip: '75252'
+google_maps_url: https://goo.gl/maps/8gAkicqBE8WvdD3o9
 social_media:
   - title: Facebook
     link: https://www.facebook.com/mymindteamus
