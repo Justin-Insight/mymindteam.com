@@ -11,6 +11,7 @@ seo:
     professional, remote assessment.
   featured_image: /books-on-desk-8.jpg
 hero:
+  enabled: true
   heading: <span class="underline underline--accent">Adult</span> ADHD tests
   body: Get the answers you need with a comprehensive ADHD assessment.
   image_url: /books-on-desk-8.jpg

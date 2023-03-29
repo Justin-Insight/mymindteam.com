@@ -11,6 +11,7 @@ seo:
     mind with Mind Team professional tests for autism, ADHD, dyslexia and more.
   featured_image: /young-girl-at-desk-during-video-call.jpg
 hero:
+  enabled: true
   heading: >-
     Work <span class="underline underline--accent">with</span> your child’s
     mind.

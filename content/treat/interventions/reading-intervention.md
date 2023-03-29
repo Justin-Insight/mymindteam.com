@@ -12,6 +12,7 @@ seo:
   featured_image: /mind-team-clinician-during-one-on-one-remote-counseling-session-2.jpg
 short_description: For students grades K-12.
 hero:
+  enabled: true
   heading: <span class="underline underline--accent">Overcome</span> challenges in reading.
   body: >-
     Mind Team reading interventions help students build **reading** and **spelling** skills through one-on-one **phonics instruction** and hands-on learning.

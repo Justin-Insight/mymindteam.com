@@ -11,6 +11,7 @@ seo:
     a variety of exams and specialty school evaluations.
   featured_image: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
 hero:
+  enabled: true
   heading: >-
     Remote <span class="underline underline--accent">specialty</span> testing
     for children

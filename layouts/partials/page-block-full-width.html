@@ -1,12 +1,17 @@
 <section class="page-block block">
   <div class="flex flex-column-reverse flex-center p-relative {{ if .text_column_right }}flex-row-reverse-m{{ end }}{{ if .text_column_left }}flex-row-m{{ end }}">
     <div class="page-block__content w-100 w-50-m mt-3 mt-0-m">
-      <div class="block text-center">
+      <div class="block">
         <div class="wrapper-lg flow">
           <h2>{{ .heading | safeHTML }}</h2>
-          <p style="max-width: 500px;margin: 1.25rem auto 0 auto;">{{ .body | markdownify }}</p>
+          <div class="flow">{{ .body | markdownify }}</div>
           {{ if .button.enabled }}
             {{ with .button }}
+                <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
+            {{ end }}
+          {{ end }}
+          {{ if .button_2.enabled }}
+            {{ with .button_2 }}
                 <a href="{{ .button_url }}" class="btn btn--primary">{{ .button_text }}</a>
             {{ end }}
           {{ end }}

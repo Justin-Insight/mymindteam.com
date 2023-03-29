@@ -12,6 +12,7 @@ seo:
     life-changing outcomes of Mind Team neurodivergent testing and treatment.
   featured_image: /young-girl-at-desk-during-video-call.jpg
 hero:
+  enabled: true
   heading: Transform <span class="underline underline--accent">your mind</span>.
   body: >-
     What can you expect to gain from Mind Team neurodivergent testing and

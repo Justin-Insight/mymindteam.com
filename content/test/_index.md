@@ -12,6 +12,7 @@ seo:
     neurodivergent testing—100% remote, comprehensive and professional.
   featured_image: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
 hero:
+  enabled: true
   heading: Get the answers <span class="underline underline--accent">you need</span>.
   body: >-
     Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and

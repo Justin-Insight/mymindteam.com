@@ -11,6 +11,7 @@ seo:
     with Mind Team to get the answers you need to help them thrive.
   featured_image: /young-girl-during-a-child-adhd-testing-session-8.jpg
 hero:
+  enabled: true
   heading: Does your child have <span class="underline underline--accent">ADHD</span>?
   body: Get the answers you need with a comprehensive ADHD assessment.
   image_url: /young-girl-during-a-child-adhd-testing-session-8.jpg

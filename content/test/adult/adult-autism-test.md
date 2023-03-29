@@ -12,6 +12,7 @@ seo:
     autism tests are the professional, stress-free way to get answers.
   featured_image: /mind-team-counselor-during-treatment-session-11.jpg
 hero:
+  enabled: true
   heading: >-
     Think you might have <span class="underline
     underline--accent">autism</span>?

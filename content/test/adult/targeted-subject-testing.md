@@ -13,6 +13,7 @@ seo:
     testing.
   featured_image: /mind-team-clinicians-looking-at-book-2.jpg
 hero:
+  enabled: true
   heading: >-
     <span class="underline underline--accent">Struggling</span> with reading,
     writing or math?

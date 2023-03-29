@@ -10,6 +10,7 @@ seo:
     Mind Team outcomes.
   featured_image: /books-on-desk-2.jpg
 hero:
+  enabled: true
   heading: Resources for <span class="underline underline--accent">every mind</span>.
   body:
   image_url: /books-on-desk-2.jpg

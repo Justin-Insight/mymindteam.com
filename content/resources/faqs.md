@@ -13,6 +13,7 @@ seo:
     else? We’ve got the answers you need.
   featured_image: /young-girl-on-video-call-with-mind-team-clinician.jpg
 hero:
+  enabled: true
   heading: Frequently asked <span class="underline underline--accent">questions</span>
   body: You’ve got questions, we’ve got answers.
   image_url: /young-girl-on-video-call-with-mind-team-clinician.jpg

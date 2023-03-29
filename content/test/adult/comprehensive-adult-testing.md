@@ -11,6 +11,7 @@ seo:
     other neurodivergent conditions with a comprehensive remote test. 
   featured_image: /mind-team-counselor-during-treatment-session-13.jpg
 hero:
+  enabled: true
   heading: >-
     Get <span class="underline underline--accent">all</span> the answers you
     need.

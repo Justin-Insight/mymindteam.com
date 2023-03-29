@@ -9,6 +9,7 @@ seo:
     Get professional support for dyslexia, dyscalculia, executive dysfunction and other learning disorders with Mind Team remote learning interventions.
   featured_image: /mind-team-counselor-during-treatment-session-15.jpg
 hero:
+  enabled: true
   heading: Learn <span class="underline underline--accent">without limitation</span>.
   body: >-
     Overcome learning disabilities and challenges in **reading, math** or **executive function** with Mind Team interventions and treatment services for students and adults.

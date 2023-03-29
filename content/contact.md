@@ -8,6 +8,7 @@ seo:
     neurodivergent testing—100% remote, comprehensive and professional.
   featured_image: /adhd-testing-on-desk.jpg
 hero:
+  enabled: true
   heading: Get the answers <span class="underline underline--accent">you need</span>.
   body: >-
 

@@ -12,6 +12,7 @@ seo:
   featured_image: /young-girl-working-on-math-assignment.jpg
 short_description: For students grades K-12.
 hero:
+  enabled: true
   heading: <span class="underline underline--accent">Overcome</span> challenges in math.
   body: >-
     Mind Team math interventions help students build **math** and **spelling** skills through one-on-one **phonics instruction** and hands-on learning.

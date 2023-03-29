@@ -13,6 +13,7 @@ seo:
     with Mind Team to get the answers you need to help them thrive.
   featured_image: /young-girl-during-autism-spectrum-disorder-testing-7.jpg
 hero:
+  enabled: true
   heading: >-
     Does your child have <span class="underline
     underline--accent">autism</span>?
