@@ -1,16 +1,17 @@
 ---
-title: "Style Guide"
+_schema: default
+title: Style Guide
+draft: true
+url:
 seo:
   page_title:
   meta_description:
   featured_image: /style-guide.jpg
-draft: true
-author:
 date: 2022-01-01T00:00:00Z
+author:
 categories:
   - Self Care
 ---
-
 ## Headings
 
 # Heading 1
@@ -37,12 +38,12 @@ Sed libero enim sed faucibus turpis in eu mi bibendum. Lectus sit amet est place
 
 ### Unordered List
 
-- List item 1
-- List item 2
-- List item 3
-- List item 4
-- List item 5
-- List item 6
+* List item 1
+* List item 2
+* List item 3
+* List item 4
+* List item 5
+* List item 6
 
 ### Ordered List
 
@@ -55,18 +56,18 @@ Sed libero enim sed faucibus turpis in eu mi bibendum. Lectus sit amet est place
 
 ### Unordered Nested List
 
-- List item 1
-- List item 2
-- List item 3
-- List item 4
-  - List item 1
-  - List item 2
-  - List item 3
-  - List item 4
-  - List item 5
-  - List item 6
-- List item 5
-- List item 6
+* List item 1
+* List item 2
+* List item 3
+* List item 4
+  * List item 1
+  * List item 2
+  * List item 3
+  * List item 4
+  * List item 5
+  * List item 6
+* List item 5
+* List item 6
 
 ### Ordered Nested List
 
@@ -86,5 +87,7 @@ Sed libero enim sed faucibus turpis in eu mi bibendum. Lectus sit amet est place
 ---
 
 ## Horizontal Rule
+
+test
 
 ---
