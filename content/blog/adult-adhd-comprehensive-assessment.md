@@ -10,7 +10,7 @@ seo:
     which means it is a result of differences in brain structure and functioning
     that have been present since early childhood.
   featured_image: /adhd-testing-on-desk.jpg
-date: 2006-01-02T00:00:00Z
+date: 2023-04-11T00:00:00Z
 author: default
 categories:
   - ADHD
