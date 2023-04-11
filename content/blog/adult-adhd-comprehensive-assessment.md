@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Adult ADHD Comprehensive Assessment
-draft: true
+draft: false
 url:
 seo:
   page_title: Adult ADHD Comprehensive Assessment
