@@ -6,7 +6,7 @@ url:
 seo:
   page_title: Adult ADHD Comprehensive Assessment
   meta_description: >-
-    DHD can be diagnosed at any age, but this diagnosis is neurodevelopmental–
+    ADHD can be diagnosed at any age, but this diagnosis is neurodevelopmental–
     which means it is a result of differences in brain structure and functioning
     that have been present since early childhood.
   featured_image: /adhd-testing-on-desk.jpg
