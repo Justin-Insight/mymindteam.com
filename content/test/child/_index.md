@@ -128,8 +128,8 @@ testing_options_block:
     help you determine the test that best suits your child’s needs.
   button:
     enabled: true
-    button_url: /get-started/
-    button_text: Get Started Now
+    button_url: /contact/
+    button_text: Contact Us
 page_blocks:
   - heading: >-
       Does your child <span class="underline underline--accent">need</span>
