@@ -24,7 +24,7 @@
                     <div class="sub-menu__inner block-md">
                       <div class="wrapper-md flex w-100">
                         <div class="sub-menu__navigation w-70 flow">
-                          <a href="{{ .URL }}" aria-label="{{ .Name }}" class="sub-menu__heading-link no-decoration flex flex-center fill-white icon-md"><h3 class="h4 text-primary mr-1">{{ .Name }}</h3><span class="icon-cube flex flex-center">{{ partialCached "svg-icons/arrow-right.svg" . }}</span></a>
+                          <a class="sub-menu__heading-link no-decoration flex flex-center fill-white icon-md" href="{{ .URL }}" aria-label="{{ .Name }}"><h3 class="h4 text-primary mr-1">{{ .Name }}</h3><span class="icon-cube flex flex-center">{{ partialCached "svg-icons/arrow-right.svg" . }}</span></a>
                           {{ if eq .Name "Test" }}
                             <p class="fs-100 no-margin">Mind Team assessments test for autism, ADHD, dyslexia, dysgraphia and dyscalculia in children and adults.</p>
                           {{ else if eq .Name "Treat" }}
@@ -40,9 +40,9 @@
                         </div>
                         <div class="sub-menu__sidebar w-30 flow ml-6">
                             <img src="https://ik.imagekit.io/insightcreative/mind-team/mind-team-group.jpg?tr=f-auto,q-80,w-400,h-300" alt="Mind Team group leadership photo" class="border-radius-50 team-group-image" width="360" height="270">
-                            <a href="/our-team/" aria-label="Meet Our Team" class="no-decoration"><h3 class="h4 text-primary">Meet your Mind Team.</h3></a>
+                            <a class="no-decoration" href="/our-team/" aria-label="Meet Our Team"><h3 class="h4 text-primary">Meet your Mind Team.</h3></a>
                             <p class="fs-100">View our diverse, multidisciplinary team of licensed psychologists, counselors, interventionists and other expert clinicians specially chosen to help you thrive.</p>
-                            <a href="/our-team/" class="no-decoration flex flex-center fill-primary icon-sm icon--arrow">Meet our team {{ partialCached "svg-icons/arrow-right.svg" . }}</a>
+                            <a class="no-decoration flex flex-center fill-primary icon-sm icon--arrow" href="/our-team/">Meet our team {{ partialCached "svg-icons/arrow-right.svg" . }}</a>
                         </div>
                       </div>
                     </div>
@@ -60,20 +60,23 @@
               <div class="sub-menu__inner block">
                 <div class="wrapper-md flex w-100">
                   <div class="sub-menu__navigation w-30 flow">
-                    <a href="/resources/" aria-label="Resources" class="sub-menu__heading-link no-decoration flex flex-center fill-white icon-md"><h3 class="h4 text-primary mr-1">Resources</h3><span class="icon-cube flex flex-center">{{ partialCached "svg-icons/arrow-right.svg" . }}</span></a>
+                    <a class="sub-menu__heading-link no-decoration flex flex-center fill-white icon-md" href="/resources/" aria-label="Resources"><h3 class="h4 text-primary mr-1">Resources</h3><span class="icon-cube flex flex-center">{{ partialCached "svg-icons/arrow-right.svg" . }}</span></a>
                     <p class="fs-100 no-margin">Neurodivergent tips, guides, news and resources for children and adults.</p>     
                     <ul class="sub-menu__menu border-top-gray">
                       {{ range .Site.Menus.resources }}
                         <li class="list-style-none">
-                          <a href="{{ .URL }}" class="fw-500 no-decoration transform-x-8" aria-label="{{ .Name }}">{{ .Name }}</a>
+                          <a class="fw-500 no-decoration transform-x-8" href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Name }}</a>
                         </li>
                       {{ end }}
+                      <li class="list-style-none">
+                        <a class="fw-500 no-decoration transform-x-8" href="https://mindteam.intakeq.com/portal" target="_blank" rel="noopener noreferrer nofollower" aria-label="Patient Portal">Patient Portal</a>
+                      </li>
                     </ul>                       
                   </div>
                   <div class="sub-menu__sidebar w-70 flow ml-6">
                     <div class="flex flex-center flex-justify-between">
                       <h3 class="text-primary h6">Recently Posted</h3>
-                      <a href="/blog/" class="fs-100 fw-500 no-decoration">View All</a>
+                      <a class="fs-100 fw-500 no-decoration" href="/blog/">View All</a>
                     </div>
                     <div class="grid-3">
                       {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
@@ -109,19 +112,22 @@
               </li>
               {{ else }}
               <li class="nav-list__item">
-                <a href="{{ .URL }}" class="nav-list__link fw-700" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
+                <a class="nav-list__link fw-700" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
               </li>
             {{ end }}
           {{ end }}
           <li class="nav-list__item nav-item-has-dropdown p-relative">
-            <a href="/resources/" class="nav-list__link parent fw-700" aria-label="{{ .Name }}" title="{{ .Name }}">Resources</a>
+            <a class="nav-list__link parent fw-700" href="/resources/" aria-label="{{ .Name }}" title="{{ .Name }}">Resources</a>
             <button class="toggle-mobile-dropdown" aria-label="open mobile dropdown menu"></button>
             <ul class="nav-list-dropdown">
               {{ range .Site.Menus.resources }}
                 <li class="list-style-none">
-                  <a href="{{ .URL }}" class="nav-list__link" aria-label="{{ .Name }}">{{ .Name }}</a>
+                  <a class="nav-list__link" href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Name }}</a>
                 </li>
               {{ end }}
+              <li class="list-style-none">
+                <a class="fw-500 no-decoration transform-x-8" href="https://mindteam.intakeq.com/portal" target="_blank" rel="noopener noreferrer nofollower" aria-label="Patient Portal">Patient Portal</a>
+              </li>
             </ul>
           </li>
           <li>
@@ -141,14 +147,14 @@
 {{ define "menu-node" }}
   <li class="list-style-none">
     {{ if .HasChildren }}
-      <a href="{{.URL}}" class="fw-500 no-decoration transform-x-8">{{ .Name }}</a>
+      <a class="fw-500 no-decoration transform-x-8" href="{{.URL}}">{{ .Name }}</a>
       <ul class="sub-menu__child-menu">
         {{ range .Children }}
           {{ template "menu-node" .}}
         {{ end }}
       </ul>
     {{else}}
-      <a href="{{.URL}}" class="no-decoration transform-x-8">{{ .Name }}</a>
+      <a class="no-decoration transform-x-8" href="{{.URL}}">{{ .Name }}</a>
     {{end}}
   </li>
 {{ end }}

@@ -23,15 +23,13 @@ intro:
   heading:
   body: >-
     It’s never too early or too late to get the neurodivergent support you or your child deserve. Whether you need to schedule testing or treatment, the process is simple. 
+    
 
-
-    Complete our short questionnaire and begin your transformative Mind Team journey today!
+    Schedule an appointment to begin your transformative Mind Team journey today!
   button:
     enabled: false
     button_url:
     button_text:
-get_started_form: |-
-  <iframe loading="lazy" src="https://forms.monday.com/forms/embed/be48a0dd579b984a1f64bedb7cb3dbd8?r=use1" width="840" height="1000" class="aspect-ratio" style="border: 0;"></iframe>
 faq_block:
   enabled: true
   heading: Frequently asked <span class="underline underline--secondary">questions</span>

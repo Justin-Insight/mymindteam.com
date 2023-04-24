@@ -9,13 +9,11 @@
         </div>
     {{ end }}
 {{ end }}
-{{ if .Params.get_started_form }}
-    <div class="block">
-        <div class="wrapper">
-            {{ .Params.get_started_form | safeHTML }}
-        </div>
+<div class="block">
+    <div class="wrapper">
+        <script>(function (c) {window.intakeq="633f12d482131f157064b28a"; var i = c.createElement("script");i.type = "text/javascript";i.async = true;i.src = "https://intakeq.com/js/widget.min.js?1";document.head.appendChild(i);})(document);</script><div id="intakeq" style="max-width:720px; width: 100%;"></div>
     </div>
-{{ end }}
+</div>
 {{ if .Params.faq_block.enabled }}
     {{ with .Params.faq_block }}
         {{ partial "mt-faqs" . }}
