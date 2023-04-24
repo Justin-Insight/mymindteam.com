@@ -67,7 +67,7 @@ our_services_block:
         I’m just getting <span class="underline
         underline--primary">started</span>.
       body: >-
-        We’ll make it easy for you. Fill out our short questionnaire to start
+        We’ll make it easy for you. Schedule an appointment to start
         your journey.
       service_points: |-
         * Comprehensive neurodivergent tests.
@@ -226,7 +226,7 @@ cta_block:
   heading: >-
     Ready to <span class="underline underline--primary">transform</span> your
     life?
-  body: Complete our brief questionnaire, and we'll handle the rest!
+  body: Schedule an appointment, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

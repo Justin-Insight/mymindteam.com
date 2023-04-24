@@ -25,7 +25,7 @@ cta_block:
   enabled: true
   heading: >-
     Start <span class="underline underline--primary">your journey</span> with Mind Team.
-  body: Fill out our brief questionnaire, and we’ll handle the rest!
+  body: Schedule an appointment, and we’ll handle the rest!
   button:
     enabled: true
     opens_in_new_tab: true

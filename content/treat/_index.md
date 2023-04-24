@@ -89,7 +89,7 @@ pricing_block:
   enabled: true
   heading: Treatment pricing
   body: >-
-    Treatment pricing varies depending on your unique needs. View our [intervention pages](/treat/interventions/) for individual intervention package pricing. For all other treatment services, get started by filling out our brief questionnaire and we will provide you with an accurate quote.
+    Treatment pricing varies depending on your unique needs. View our [intervention pages](/treat/interventions/) for individual intervention package pricing. For all other treatment services, [contact us](/contact/) and we will provide you with an accurate quote.
   pricing_options:
     enabled: false
     options:
@@ -159,7 +159,7 @@ cta_block:
   heading: >-
     Get the treatment <span class="underline underline--primary">you
     deserve</span>.
-  body: Complete our brief questionnaire, and we'll handle the rest!
+  body: Schedule an appointment, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

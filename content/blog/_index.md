@@ -27,7 +27,7 @@ cta_block:
   heading: >-
     Ready to <span class="underline underline--primary">transform</span> your
     life?
-  body: The process is simple! Get started by filling out our brief questionnaire.
+  body: The process is simple! Schedule an appointment to get started.
   button:
     enabled: true
     button_url: /get-started/

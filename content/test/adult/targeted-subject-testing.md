@@ -172,7 +172,7 @@ cta_block:
   heading: >-
     <span class="underline underline--primary">Assess</span> your reading,
     writing or math skills.
-  body: Complete our brief questionnaire, and we'll handle the rest!
+  body: Schedule an appointment, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

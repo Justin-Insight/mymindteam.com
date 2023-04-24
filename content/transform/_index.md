@@ -84,7 +84,7 @@ cta_block:
   heading: <span class="underline underline--primary">Transform</span> your life.
   body: >-
     Ready to overcome challenges and learn how to work *with* your mind?
-    Complete our brief questionnaire, and we'll handle the rest!
+    Schedule an appointment, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

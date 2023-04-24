@@ -135,7 +135,7 @@ cta_block:
   heading: >-
     Schedule your child’s <span class="underline
     underline--primary">comprehensive</span> test.
-  body: Complete our brief questionnaire, and we'll handle the rest!
+  body: Schedule an appointment, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

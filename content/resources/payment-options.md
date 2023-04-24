@@ -59,7 +59,7 @@ testing_options_block:
         button_url: /test/child-neurodivergent-test/
         button_text: Learn More
   post_options_body: >-
-    Get started with our brief questionnaire and the experts at Mind Team will
+    [Contact us](/contact/) and the experts at Mind Team will
     help you determine the test that best suits your child’s needs.
   button:
     enabled: true
@@ -255,7 +255,7 @@ faq_block:
 cta_block:
   enabled: true
   heading: <span class="underline underline--primary">Invest</span> in your mind.
-  body: Complete our brief questionnaire, and we'll handle the rest!
+  body: Schedule an appointment, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

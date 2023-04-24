@@ -1,6 +1,6 @@
 site_cta:
   heading: Ready to transform your life?
-  body: It couldn’t be easier to get started. Fill out our short questionnaire and we’ll handle the rest.
+  body: It couldn’t be easier to get started. Schedule an appointment, and we’ll handle the rest.
   button:
     enabled: true
     button_url: /get-started/

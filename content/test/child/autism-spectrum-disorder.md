@@ -131,7 +131,7 @@ cta_block:
   heading: >-
     Find out if your child has <span class="underline
     underline--primary">autism</span>.
-  body: Complete our brief questionnaire, and we'll handle the rest!
+  body: Schedule an appointment, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

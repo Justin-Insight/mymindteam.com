@@ -189,7 +189,7 @@ treatment_faq_block:
 
 
         However, it is not a requirement to get a Mind Team test before starting
-        treatment. Begin by filling out our short questionnaire and we’ll be in
+        treatment. [Contact us](/contact/) and we’ll be in
         touch to find the best solution for your unique situation and needs.
 pricing_faq_block:
   enabled: true

@@ -77,7 +77,7 @@ cta_block:
     clinician today.
   body: >-
     Whether you need professional neurodivergent testing or treatment, our team
-    is here to help. Complete our brief questionnaire, and we'll handle the
+    is here to help. Schedule an appointment, and we'll handle the
     rest!
   button:
     enabled: true

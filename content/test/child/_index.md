@@ -124,7 +124,7 @@ testing_options_block:
         button_url: /test/child/remote-specialty-testing-children/
         button_text: Learn More
   post_options_body: >-
-    Get started with our brief questionnaire and the experts at Mind Team will
+    [Contact us](/contact/) and the experts at Mind Team will
     help you determine the test that best suits your child’s needs.
   button:
     enabled: true
@@ -231,7 +231,7 @@ cta_block:
   heading: >-
     Ready to help your child <span class="underline
     underline--primary">thrive</span>?
-  body: Complete our brief questionnaire, and we'll handle the rest!
+  body: Schedule an appointment, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

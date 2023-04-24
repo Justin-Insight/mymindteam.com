@@ -166,8 +166,7 @@ faq_block:
     - question: What if you don’t offer the test I’m looking for?
       answer: >-
         We may still be able to offer testing that addresses your concerns and
-        answers the questions you have about your mind. Simply fill out our
-        [brief questionnaire](/get-started/) to let us know what you’re looking
+        answers the questions you have about your mind. [Contact us](/contact/) to let us know what you’re looking
         for and we’ll help you find the solution that best suits your needs.
     - question: Do I have to pay in-full upfront?
       answer: >-
@@ -195,7 +194,7 @@ cta_block:
   heading: >-
     Schedule your <span class="underline underline--primary">remote</span>
     neurodivergent test.
-  body: Complete our brief questionnaire, and we'll handle the rest!
+  body: Schedule an appointment, and we'll handle the rest!
   button:
     enabled: true
     button_url: /get-started/

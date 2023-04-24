@@ -100,7 +100,7 @@ faq_block:
         At this time, Mind Team reading and math interventions are specifically designed for students in grades K-12. However, our licensed interventionists can provide tailored support and instruction in many areas for adults outside of school. 
 
 
-        Fill out our brief questionnaire to tell us your needs and we’ll help create your custom treatment plan.
+        [Contact us](/contact/) to tell us your needs and we’ll help create your custom treatment plan.
     - question: What type of learning disorders do interventions treat?
       answer: >-
         Though Mind Team interventions do not require a formal diagnosis of any learning disorder, disability or other condition, these programs are especially helpful for students and adults struggling with **dyslexia, dysgraphia, dyscalculia, executive dysfunction, autism** and **ADHD**.
@@ -116,7 +116,7 @@ cta_block:
   enabled: true
   heading: >-
     Schedule your <span class="underline underline--primary">intervention</span>.
-  body: Ready to get the professional learning support you deserve? Fill out our brief questionnaire and we’ll help find and set up the intervention program for your needs.
+  body: Ready to get the professional learning support you deserve? Contact us and we’ll help find and set up the intervention program for your needs.
   button:
     enabled: true
     opens_in_new_tab: true
