@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: ASD Comprehensive Testing
-draft: true
+draft: false
 url:
 seo:
   page_title: ASD Comprehensive Testing
