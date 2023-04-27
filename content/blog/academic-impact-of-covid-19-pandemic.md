@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Academic Impact of COVID-19 Pandemic
-draft: true
+draft: false
 url:
 seo:
   page_title: Academic Impact of COVID 19 Pandemic
