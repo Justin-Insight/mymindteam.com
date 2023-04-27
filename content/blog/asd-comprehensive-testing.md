@@ -7,7 +7,7 @@ seo:
   page_title: ASD Comprehensive Testing
   meta_description: "When autism is suspected, individuals deserve high quality, thoughtful, and scientifically-supported assessments (Kaufman, 2020). We at MindTeam are proudly committed to providing you with high quality, individualized care throughout the process.\_"
   featured_image: /young-girl-during-autism-spectrum-disorder-testing-10.jpg
-date:
+date: 2023-04-27T08:35:00Z
 author: stacy-stefaniak-luther-psyd
 categories:
   - ASD
