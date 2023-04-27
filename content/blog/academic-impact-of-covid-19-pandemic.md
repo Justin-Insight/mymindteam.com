@@ -13,7 +13,7 @@ seo:
     we are seeing the significant impact these disruptions have had on academic
     performance.
   featured_image: /young-boy-reading-book-at-table.jpg
-date: 2006-01-02T00:00:00Z
+date: 2006-01-02T08:42:00Z
 author: default
 categories:
   - COVID 19
