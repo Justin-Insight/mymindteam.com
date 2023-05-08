@@ -4,9 +4,13 @@ title: Private Educational Therapy
 draft: false
 url: Private Educational Therapy
 seo:
-  page_title:
-  meta_description:
-  featured_image:
+  page_title: Private Educational Therapy
+  meta_description: >-
+    When it comes to getting help with learning and behavioral issues, many
+    families have a choice between private educational therapy and school-based
+    services. While both have their benefits, there are a number of reasons why
+    private educational therapy can be the better choice for some students.
+  featured_image: /child-doing-math-2.jpg
 date: 2023-05-08T08:00:00Z
 author: stacy-stefaniak-luther-psyd
 categories:
