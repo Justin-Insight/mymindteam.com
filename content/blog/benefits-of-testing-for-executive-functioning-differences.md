@@ -1,12 +1,14 @@
 ---
 _schema: default
-title: Benefits of Testing for Executive Functioning Differences
+title: Benefits of Testing for Executive Function Differences
 draft: false
 url:
 seo:
-  page_title:
-  meta_description:
-  featured_image:
+  page_title: Benefits of Testing for Executive Function Differences
+  meta_description: >-
+    Testing for executive function differences can provide several benefits,
+    including:
+  featured_image: /child-doing-math-2.jpg
 date: 2023-05-16T00:00:00Z
 author: stacy-stefaniak-luther-psyd
 categories:
