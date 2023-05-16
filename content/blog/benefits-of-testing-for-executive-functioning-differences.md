@@ -8,7 +8,7 @@ seo:
   meta_description: >-
     Testing for executive function differences can provide several benefits,
     including:
-  featured_image: /child-doing-math-2.jpg
+  featured_image: /child-reading.jpg
 date: 2023-05-16T00:00:00Z
 author: stacy-stefaniak-luther-psyd
 categories:
