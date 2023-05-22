@@ -15,7 +15,7 @@ date: 2023-05-22T00:00:00Z
 author: stacy-stefaniak-luther-psyd
 categories:
   - BHC Blog
-  -
+  - Online Therapy
 ---
 There are several reasons why autistics might prefer or benefit from online therapy:
 
