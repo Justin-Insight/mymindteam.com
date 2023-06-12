@@ -1,6 +1,5 @@
 ---
 title: 
-url: 
 seo:
   page_title: 
   meta_description: 

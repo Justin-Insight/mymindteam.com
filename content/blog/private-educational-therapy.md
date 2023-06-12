@@ -2,7 +2,6 @@
 _schema: default
 title: Private Educational Therapy
 draft: false
-url: Private Educational Therapy
 seo:
   page_title: Private Educational Therapy
   meta_description: >-
