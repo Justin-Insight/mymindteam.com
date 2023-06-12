@@ -1,9 +1,9 @@
 {
     "routes": [
         {
-            "from": "https://www.mymindteam.com/Private%20Educational%20Therapy/",
+            "from": "https://www.mymindteam.com/blog/Private%20Educational%20Therapy/",
             "status": 301,
-            "to": "https://www.mymindteam.com/private-educational-therapy/"
+            "to": "https://www.mymindteam.com/blog/private-educational-therapy/"
         }
     ]
 }
