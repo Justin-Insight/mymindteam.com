@@ -4,6 +4,11 @@
             "from": "https://www.mymindteam.com/blog/Private%20Educational%20Therapy/",
             "status": 301,
             "to": "https://www.mymindteam.com/blog/private-educational-therapy/"
+        },
+        {
+            "from": "https://www.mymindteam.com/blog/Private Educational Therapy/",
+            "status": 301,
+            "to": "https://www.mymindteam.com/blog/private-educational-therapy/"
         }
     ]
 }
