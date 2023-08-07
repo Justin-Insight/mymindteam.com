@@ -11,7 +11,7 @@
   <div class="blog-card__content flow flex flex-column flex-justify-between">
     <div class="blog-card__category p-absolute">
       {{ if .Params.Categories }}
-      {{ range $index, $elements := first 2 .Params.Categories }}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="categories">{{ if ne $index 0 }}{{ end }}
+      {{ range $index, $elements := first 1 .Params.Categories }}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="categories">{{ if ne $index 0 }}{{ end }}
           {{ . | title }}</a>{{ end}}
       {{ end }}
     </div>
